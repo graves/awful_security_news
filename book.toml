@@ -1,0 +1,15 @@
+[book]
+authors = ["Thomas Graves"]
+language = "en"
+multilingual = false
+src = "src"
+title = "AWFUL SECURITY NEWS"
+
+[output.html]
+theme = "src/theme"
+default-theme = "ayu"
+mathjax-support = true
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
