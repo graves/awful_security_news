@@ -1,8 +1,9 @@
-# Awful Security Static Site Builder
+# Awful Security News
 
 ## Source code for a personal website and blog.
 
-This website is hosted using [Caddy](https://caddyserver.com/) at [Awful Security dot com](https://news.awfulsec.com). 
+This website is hosted at [Awful Security dot com](https://news.awfulsec.com). 
+
 The blog is built using the wonderful [mdBook](https://github.com/rust-lang/mdBook).
 
 > mdBook is a utility to create modern online books from Markdown files.
