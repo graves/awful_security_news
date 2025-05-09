@@ -9,7 +9,3 @@ title = "AWFUL SECURITY NEWS"
 theme = "src/theme"
 default-theme = "ayu"
 mathjax-support = true
-
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
