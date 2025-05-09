@@ -7,7 +7,7 @@ The blog is built using the wonderful [mdBook](https://github.com/rust-lang/mdBo
 
 > mdBook is a utility to create modern online books from Markdown files.
 
-The index page and individual posts are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), compiled using mdBook, and it's output pushed to my [website.git repo](https://github.com/graves/awful_security_news).
+The index page and individual posts are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), compiled using mdBook, and it's output pushed to my [awful_security_news repo](https://github.com/graves/awful_security_news).
 
 The result is a blog in the style of Rust's documentation.
 
