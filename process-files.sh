@@ -57,7 +57,7 @@ write_robots() {
 Disallow: 
 Disallow: /assets
 Disallow: /theme
-Sitemap: https://news/awfulsec.com/sitemap.xml" > "$directory/robots.txt"
+Sitemap: https://news.awfulsec.com/sitemap.xml" > "$directory/robots.txt"
 }
 
 # Check if two directories were provided as arguments
