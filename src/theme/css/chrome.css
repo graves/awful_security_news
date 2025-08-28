@@ -13,6 +13,7 @@ html {
 }
 #searchresults a,
 .content a:link,
+footer a:link,
 a:visited,
 a > .hljs {
     color: var(--links);
@@ -494,3 +495,17 @@ ul#searchresults span.teaser em {
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
 }
+
+footer {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg, #ffffff); /* fallback if variable missing */
+    color: var(--fg, #000000);      /* fallback if variable missing */
+    text-align: center;
+    padding: 0.5em 0.5em 0.75em;
+    border-top: 1px solid #ccc;
+    z-index: 1000;
+  }
