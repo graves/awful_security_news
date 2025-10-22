@@ -509,3 +509,9 @@ footer {
     border-top: 1px solid #ccc;
     z-index: 1000;
   }
+
+footer a {
+    color: inherit;           /* use the footer text color */
+    text-decoration: none;    /* remove underline */
+}
+

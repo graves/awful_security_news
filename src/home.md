@@ -8,4 +8,4 @@ We use the Qwen 2.5 3B LLM Model to summarize the daily news from outlets who pu
 
 ----
 
-[Website](https://news.awfulsec.com) | [Source Code](https://github.com/graves)
+[Website](https://news.awfulsec.com) | [Source Code](https://github.com/graves/awful_security_news/)
