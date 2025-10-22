@@ -82,36 +82,37 @@ log "Generating sitemap..."
 
 # ---------- Deploy atomically ----------
 log "Deploying API to ${API_DEST}..."
-# First, ensure we can write to the destination by fixing permissions
+# First, ensure we can delete files by fixing permissions
 if [[ -d "${API_DEST}" ]]; then
-  find "${API_DEST}" -type d -exec chmod 775 {} + 2>/dev/null || true
-  find "${API_DEST}" -type f -exec chmod 664 {} + 2>/dev/null || true
+  find "${API_DEST}" -type d -exec chmod u+rwx {} + 2>/dev/null || true
+  find "${API_DEST}" -type f -exec chmod u+rw {} + 2>/dev/null || true
 fi
 
-# -rlpt : recurse, preserve symlinks, perms, times
+# -rl : recurse, preserve symlinks
 # --omit-dir-times: don't try to set directory mtimes (avoids EPERM)
+# --no-perms/owner/group: don't try to chown/chgrp/chmod (avoids EPERM)
 # --delete: sync deletions safely
-# --chmod: ensure new files/dirs get proper permissions
-rsync -rlpt --delete --omit-dir-times \
-  --chmod=D775,F664 \
+rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
   "${API_OUT}/" "${API_DEST}/"
 
+# Set proper permissions after sync
+find "${API_DEST}" -type d -exec chmod 775 {} + 2>/dev/null || true
+find "${API_DEST}" -type f -exec chmod 664 {} + 2>/dev/null || true
+
 log "Deploying site to ${SITE_DEST}..."
-# First, ensure we can write to the destination by fixing permissions
+# First, ensure we can delete files by fixing permissions
 if [[ -d "${SITE_DEST}" ]]; then
-  find "${SITE_DEST}" -type d ! -path "*/api/*" ! -path "*/api" -exec chmod 775 {} + 2>/dev/null || true
-  find "${SITE_DEST}" -type f ! -path "*/api/*" -exec chmod 664 {} + 2>/dev/null || true
+  find "${SITE_DEST}" -type d ! -path "*/api/*" ! -path "*/api" -exec chmod u+rwx {} + 2>/dev/null || true
+  find "${SITE_DEST}" -type f ! -path "*/api/*" -exec chmod u+rw {} + 2>/dev/null || true
 fi
 
-rsync -rlpt --delete --omit-dir-times \
-  --chmod=D775,F664 \
+rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
   --exclude '/api/' \
   "${SITE_BUILD}/" "${SITE_DEST}/"
 
-# Final permission fix to ensure group writeability
-log "Setting final permissions..."
-find "${DEPLOY_ROOT}" -type d -exec chmod 775 {} + 2>/dev/null || true
-find "${DEPLOY_ROOT}" -type f -exec chmod 664 {} + 2>/dev/null || true
+# Set proper permissions after sync
+find "${SITE_DEST}" -type d ! -path "*/api/*" ! -path "*/api" -exec chmod 775 {} + 2>/dev/null || true
+find "${SITE_DEST}" -type f ! -path "*/api/*" -exec chmod 664 {} + 2>/dev/null || true
 
 # ---------- Cleanup ----------
 #log "Cleaning project API_OUT..."
