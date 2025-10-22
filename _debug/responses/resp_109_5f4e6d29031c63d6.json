@@ -1,0 +1,121 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-03-01",
+      "descriptionOfWhyDateIsRelevant": "Anthropic CEO Dario Amodei made a prediction about AI writing 90% of code within three to six months, marking a pivotal moment in AI's integration into software development."
+    },
+    {
+      "dateMentionedInArticle": "2025-04-01",
+      "descriptionOfWhyDateIsRelevant": "Meta CEO Mark Zuckerberg predicted that in one project within the next year, half of software development would be done by AI, signaling a major industry shift in development workflows."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-21",
+      "approximateTimeFrameStart": "2025-03-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "This period marks the rise of AI coding claims from major tech CEOs, setting the stage for widespread discussion about automation in software engineering."
+    }
+  ],
+  "keyTakeAways": [
+    "AI tools are being adopted across major tech companies (Amazon, Google, Microsoft, Meta, Anthropic), but their real-world impact on productivity is mixed.",
+    "While AI can generate code quickly for prototyping and repetitive tasks, it still requires human oversight and review — especially for safety, accuracy, and problem-solving.",
+    "Many engineers report that AI does not significantly boost overall productivity, with some studies showing actual task completion times increased by 19% due to errors or inefficiencies.",
+    "The use of AI is often driven by management pressure rather than need, leading to what engineers call 'workslaps' — where AI is used unnecessarily, creating messy, unreviewable code.",
+    "A significant portion of software engineers (30% or more) do not trust AI-generated code, citing concerns about long-term job displacement, high energy consumption, and lack of true problem-solving capability.",
+    "AI tools are most effective in low-stakes, rapid prototyping tasks, not in complex, high-level system design or innovation.",
+    "Ethical and practical concerns persist over the environmental cost of training large language models and the potential for job loss among junior engineers."
+  ],
+  "namedEntities": [
+    {
+      "name": "Dario Amodei",
+      "whatIsThisEntity": "CEO of Anthropic",
+      "whyIsThisEntityRelevantToTheArticle": "Amodei made one of the earliest and most bold claims about AI writing 90% of code within months, setting the tone for the AI coding debate."
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "whatIsThisEntity": "CEO of Meta",
+      "whyIsThisEntityRelevantToTheArticle": "Zuckerberg predicted that AI would contribute to half of a project’s development within a year, showing high-level executive optimism about AI's role in software."
+    },
+    {
+      "name": "Amazon",
+      "whatIsThisEntity": "Tech company",
+      "whyIsThisEntityRelevantToTheArticle": "Amazon encourages AI use across teams and claims AI helps engineers work faster and produce more secure code, even though misuse leads to inefficiencies and poor code quality."
+    },
+    {
+      "name": "Google",
+      "whatIsThisEntity": "Tech company",
+      "whyIsThisEntityRelevantToTheArticle": "Google engineers show mixed trust in AI tools, with a survey indicating only half 'somewhat' trust AI responses, highlighting skepticism in the developer community."
+    },
+    {
+      "name": "Microsoft",
+      "whatIsThisEntity": "Tech company",
+      "whyIsThisEntityRelevantToTheArticle": "Microsoft is involved in AI-driven code generation, contributing to the broader industry trend of AI integration in software engineering."
+    },
+    {
+      "name": "Anthropic",
+      "whatIsThisEntity": "AI company",
+      "whyIsThisEntityRelevantToTheArticle": "Anthropic developed Claude Code, an AI tool capable of generating and testing code autonomously, which has sparked both excitement and concern among developers."
+    },
+    {
+      "name": "Claude Code",
+      "whatIsThisEntity": "AI tool developed by Anthropic",
+      "whyIsThisEntityRelevantToTheArticle": "Claude Code is presented as a semi-autonomous agent that can write and test code, though engineers warn it often fails or produces unreviewable, chaotic outputs."
+    },
+    {
+      "name": "OpenAI",
+      "whatIsThisEntity": "AI company",
+      "whyIsThisEntityRelevantToTheArticle": "OpenAI's latest model was previewed by AI researcher Simon Willison, who notes AI still lacks human-level problem-solving and requires human oversight."
+    },
+    {
+      "name": "Simon Willison",
+      "whatIsThisEntity": "Independent AI researcher",
+      "whyIsThisEntityRelevantToTheArticle": "Willison provides a critical perspective on AI's capabilities, emphasizing that AI cannot replace human problem-solving in software engineering."
+    },
+    {
+      "name": "Boris Cherny",
+      "whatIsThisEntity": "Head of Anthropic's Claude Code unit",
+      "whyIsThisEntityRelevantToTheArticle": "Cherny explicitly states that every line of AI-generated code must be reviewed by a human engineer, reinforcing the need for human involvement despite AI advancements."
+    },
+    {
+      "name": "Colton Voege",
+      "whatIsThisEntity": "Software engineer",
+      "whyIsThisEntityRelevantToTheArticle": "Voege is a firsthand witness to AI tool adoption, expressing skepticism about real-world productivity gains and criticizing misuse of AI in development."
+    },
+    {
+      "name": "Y Combinator",
+      "whatIsThisEntity": "Tech startup incubator",
+      "whyIsThisEntityRelevantToTheArticle": "Y Combinator previously supported diverse tech startups, but now exclusively promotes AI-focused ventures, showing a shift in tech investment priorities."
+    },
+    {
+      "name": "Thomas Ptacek",
+      "whatIsThisEntity": "Software developer at fly.io",
+      "whyIsThisEntityRelevantToTheArticle": "Ptacek describes how AI helps reduce repetitive coding tasks, showing a practical, positive use case in routine development work."
+    },
+    {
+      "name": "Anders Humlum",
+      "whatIsThisEntity": "Co-author of a Denmark study on AI and productivity",
+      "whyIsThisEntityRelevantToTheArticle": "Humlum's research shows that AI offers modest time savings (6.5%) in real-world engineering tasks, underlining limited productivity gains."
+    },
+    {
+      "name": "METR",
+      "whatIsThisEntity": "AI evaluation nonprofit",
+      "whyIsThisEntityRelevantToTheArticle": "METR conducted a study showing experienced engineers using LLMs took 19% longer to complete tasks, contradicting optimistic AI claims."
+    }
+  ],
+  "summaryOfNewsArticle": "Tech CEOs from major companies like Anthropic, Meta, Amazon, Google, and Microsoft are promoting AI's ability to write a significant portion of software code, claiming it will revolutionize development. However, software engineers remain skeptical, citing mixed results in productivity, frequent AI-generated code errors, and unproductive misuse — such as 'workslaps' where AI is used unnecessarily. While AI excels at rapid prototyping and repetitive tasks, experts like Simon Willison and Boris Cherny emphasize that human review and oversight are essential, especially for complex problem-solving. Studies from METR and Denmark show AI delivers only modest, sometimes negative, productivity gains. Additionally, concerns about job displacement for junior engineers, environmental impact, and lack of trust in AI outputs persist. Despite aggressive corporate rhetoric, AI remains a tool that supports, not replaces, human software engineering expertise.",
+  "tags": [
+    "AI in software engineering",
+    "code generation",
+    "productivity",
+    "software engineering",
+    "AI ethics",
+    "automation",
+    "tech industry trends",
+    "human-AI collaboration"
+  ]
+  ,
+  "timeOfPublication": "09:17:00-04:00",
+  "title": "Tech CEOs Say the Era of 'Code by AI' Is Here — But Engineers Remain Skeptical"
+}

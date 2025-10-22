@@ -1,0 +1,70 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the CVS system outage announcement, when customers reported inability to fill prescriptions or receive flu shots due to technical issues."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The day before the CVS outage, Amazon Web Services (AWS) experienced its own major outage, which highlights the broader societal vulnerability to cloud-based system failures."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "4:01 PM EDT",
+      "approximateTimeFrameStart": "4:01 PM EDT",
+      "descriptionOfWhyTimeFrameIsRelevant": "The time of the CNN update when the CVS system outage was reported and acknowledged as resolved."
+    }
+  ],
+  "keyTakeAways": [
+    "CVS resolved a network connection issue that prevented some of its pharmacies from delivering prescriptions to customers.",
+    "The outage occurred on Tuesday, October 21, 2025, affecting some but not all of CVS’s over 9,000 U.S. locations.",
+    "Many customers reported being turned away for prescriptions and flu shots, leading to social media complaints.",
+    "CVS acknowledged the outage as a 'known system outage' and apologized for the inconvenience.",
+    "The incident occurred in the context of a broader global concern over cloud-based system reliability, highlighted by a previous AWS outage that affected critical services such as healthcare, banking, and smart home devices.",
+    "The CVS outage underscores how reliance on digital systems in healthcare can create vulnerabilities when infrastructure fails."
+  ],
+  "namedEntities": [
+    {
+      "name": "CVS",
+      "whatIsThisEntity": "A major U.S. pharmacy chain with over 9,000 locations, which experienced a system outage preventing prescriptions from being filled or picked up.",
+      "whyIsThisEntityRelevantToTheArticle": "CVS is a key player in the U.S. healthcare supply chain, and its outage disrupted access to essential medications and preventive care services for many patients."
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A major cloud computing service provider that experienced a global outage one day prior to the CVS incident.",
+      "whyIsThisEntityRelevantToTheArticle": "The AWS outage served as a contextual example of how widespread digital infrastructure failures can impact daily life and critical services, emphasizing the vulnerability of society to systemic technical failures."
+    },
+    {
+      "name": "Rite Aid",
+      "whatIsThisEntity": "A former pharmacy chain that CVS acquired approximately 60 locations of in a previous transaction, though no direct link to the outage is established.",
+      "whyIsThisEntityRelevantToTheArticle": "The acquisition of Rite Aid locations shows CVS’s strategic expansion in pharmacy services and may indicate broader market shifts in the retail healthcare sector."
+    },
+    {
+      "name": "X (formerly Twitter)",
+      "whatIsThisEntity": "A social media platform where CVS addressed customer complaints directly.",
+      "whyIsThisEntityRelevantToTheArticle": "CVS used X to communicate with frustrated customers, demonstrating the role of social media in real-time crisis management and public relations during service outages."
+    },
+    {
+      "name": "cloud-based systems",
+      "whatIsThisEntity": "A category of digital infrastructure that supports critical services like healthcare, banking, and smart home devices.",
+      "whyIsThisEntityRelevantToTheArticle": "The article highlights how reliance on cloud-based systems makes society vulnerable when such systems fail, both in healthcare (CVS) and other essential domains (AWS, banking, hospitals)."
+    }
+  ],
+  "summaryOfNewsArticle": "On October 21, 2025, CVS reported a network connection issue that prevented some of its over 9,000 U.S. pharmacies from filling prescriptions or providing flu shots, causing customer frustration and social media backlash. The company acknowledged the issue as a 'known system outage' and confirmed that service had been restored. The incident occurred just one day after a major AWS cloud outage that disrupted critical services globally, illustrating a broader societal vulnerability to digital infrastructure failures. While the CVS outage was not directly linked to the AWS event, both highlight the growing dependence on digital systems and the risks associated with their failure in essential services such as healthcare and communication.",
+  "tags": [
+    "pharmacy outage",
+    "system failure",
+    "CVS",
+    "Amazon Web Services",
+    "cloud computing",
+    "digital infrastructure",
+    "healthcare technology",
+    "public service disruption"
+  ],
+  "timeOfPublication": "16:01:00-04:00"
+  ,
+  "title": "CVS Says Pharmacy System Outage That Prevented Prescription Fills Is Over"
+}

@@ -1,0 +1,90 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1206-01-01",
+      "descriptionOfWhyDateIsRelevant": "The incident occurred on October 22, 2025, and the timeline of the event, including the emergency landing and subsequent investigation, is central to understanding the sequence of events."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "1200",
+      "approximateTimeFrameStart": "0000",
+      "descriptionOfWhyTimeFrameIsRelevant": "The incident unfolded during a flight from Denver to Los Angeles, with the aircraft at altitudes between 30,000 and 40,000 feet, which is a critical operational zone where such an object could have been encountered."
+    }
+  ],
+  "keyTakeAways": [
+    "A weather balloon, possibly from WindBorne, may have struck the cockpit window of United Flight 1093, causing a crack and injuring the first officer.",
+    "United Flight 1093, a Boeing 737, made a safe emergency landing in Salt Lake City after the incident, with no fatalities reported.",
+    "The first officer sustained minor injuries and was treated upon landing.",
+    "WindBorne, a California-based startup, has acknowledged the incident and is cooperating with the NTSB and FAA.",
+    "WindBorne has implemented immediate operational changes to reduce exposure time at vulnerable altitudes and is developing autonomous flight avoidance and improved hardware to reduce impact forces.",
+    "The plane was later transported to Rockford, Illinois, for maintenance."
+  ],
+  "namedEntities": [
+    {
+      "name": "WindBorne",
+      "whatIsThisEntity": "A California-based startup focused on advanced weather forecasting and atmospheric data collection",
+      "whyIsThisEntityRelevantToTheArticle": "WindBorne is relevant to the world outside the article because it represents innovation in weather monitoring technology and is a leader in using weather balloons for environmental data gathering, which is critical for climate science and public safety systems worldwide."
+    },
+    {
+      "name": "United Airlines",
+      "whatIsThisEntity": "A major U.S. airline operating commercial flights",
+      "whyIsThisEntityRelevantToTheArticle": "United Airlines is relevant because it is directly involved in the incident, with a flight being injured and diverting due to a potential weather balloon impact, raising safety concerns in commercial aviation."
+    },
+    {
+      "name": "United Flight 1093",
+      "whatIsThisEntity": "A specific flight operated by United Airlines from Denver to Los Angeles",
+      "whyIsThisEntityRelevantToTheArticle": "United Flight 1093 is relevant because it is the flight directly involved in the incident, serving as the central event in the article."
+    },
+    {
+      "name": "Boeing 737",
+      "whatIsThisEntity": "A commercial jet aircraft model manufactured by Boeing",
+      "whyIsThisEntityRelevantToTheArticle": "The Boeing 737 is relevant because it is the specific aircraft involved in the incident, highlighting concerns about aircraft integrity and safety at high altitudes."
+    },
+    {
+      "name": "Salt Lake City",
+      "whatIsThisEntity": "A city in Utah where United Flight 1093 made an emergency landing",
+      "whyIsThisEntityRelevantToTheArticle": "Salt Lake City is relevant because it is the location of the emergency landing, indicating the geographical context of the incident and emergency response."
+    },
+    {
+      "name": "Rockford, Illinois",
+      "whatIsThisEntity": "A city in Illinois where United Airlines conducts maintenance for its 737s",
+      "whyIsThisEntityRelevantToTheArticle": "Rockford is relevant because it marks the next step in the flight’s post-incident journey, reflecting the maintenance and logistical chain of commercial aviation."
+    },
+    {
+      "name": "NTSB",
+      "whatIsThisEntity": "The National Transportation Safety Board, a U.S. agency investigating aviation accidents",
+      "whyIsThisEntityRelevantToTheArticle": "The NTSB is relevant because it is actively involved in investigating the cause of the incident, which underscores the importance of regulatory oversight in aviation safety."
+    },
+    {
+      "name": "FAA",
+      "whatIsThisEntity": "The Federal Aviation Administration, which regulates U.S. aviation operations",
+      "whyIsThisEntityRelevantToTheArticle": "The FAA is relevant because it is part of the official investigation into the incident, indicating coordination between regulatory bodies and commercial entities."
+    },
+    {
+      "name": "LiveATC.net",
+      "whatIsThisEntity": "A public air traffic control audio platform",
+      "whyIsThisEntityRelevantToTheArticle": "LiveATC.net is relevant because it provided audio evidence of the pilots declaring an emergency, offering transparent insight into the flight crew’s response."
+    },
+    {
+      "name": "FlightAware",
+      "whatIsThisEntity": "A flight tracking and data service",
+      "whyIsThisEntityRelevantToTheArticle": "FlightAware is relevant because it confirmed the flight’s route and maintenance location, adding data credibility to the incident timeline."
+    }
+  ],
+  "summaryOfNewsArticle": "A United Airlines Boeing 737 flight (Flight 1093) traveling from Denver to Los Angeles experienced a cockpit window crack, injuring the first officer, which may have been caused by a weather balloon from California-based startup WindBorne. The flight made a safe emergency landing in Salt Lake City, with the crew and passengers unharmed. WindBorne has acknowledged the incident, is cooperating with the NTSB and FAA, and has implemented immediate operational changes, including reducing flight time at vulnerable altitudes and developing autonomous avoidance and improved balloon hardware. The aircraft was later flown to Rockford, Illinois, for maintenance.",
+  "tags": [
+    "aviation safety",
+    "weather balloon incident",
+    "United Airlines",
+    "WindBorne",
+    "commercial flight emergency",
+    "NTSB investigation",
+    "aircraft safety",
+    "climate technology"
+  ],
+  "timeOfPublication": "12:06:00-04:00",
+  "title": "United flight’s cockpit window may have been struck by weather balloon, company says"
+}

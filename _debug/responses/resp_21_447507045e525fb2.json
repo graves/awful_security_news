@@ -1,0 +1,122 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2018-12-22",
+      "descriptionOfWhyDateIsRelevant": "The start date of the previous longest government shutdown, which lasted 35 days and ended on January 25, 2019."
+    },
+    {
+      "dateMentionedInArticle": "2019-01-25",
+      "descriptionOfWhyDateIsRelevant": "The end date of the longest government shutdown in U.S. history, marking a significant event in fiscal policy and political negotiation."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's update, indicating the current government shutdown is ongoing and still unresolved as of that time."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2019-01-25",
+      "approximateTimeFrameStart": "2018-12-22",
+      "descriptionOfWhyTimeFrameIsRelevant": "The 35-day shutdown in 2018–2019 was the longest in history, with major economic and societal impacts."
+    },
+    {
+      "approximateTimeFrameEnd": "ongoing",
+      "approximateTimeFrameStart": "2025-10-21",
+      "descriptionOfWhyTimeFrameIsRelevant": "The current shutdown, due to lack of appropriations bills, represents a prolonged disruption in federal operations."
+    }
+  ],
+  "keyTakeAways": [
+    "The last government shutdown (Dec 2018 – Jan 2019) was the longest in nearly 50 years, lasting 35 days.",
+    "It cost the U.S. an estimated $3 billion in lost GDP according to the Congressional Budget Office.",
+    "The current shutdown is a full government shutdown, unlike the 2018 event, which was partial.",
+    "In the 2018 shutdown, about 800,000 people were employed at shuttered agencies, with 300,000 furloughed and 300,000 exempt from pay.",
+    "The current Congress has failed to pass any of the 12 required appropriations bills to fund the government.",
+    "Government shutdowns have become less frequent since 1990, but political partisanship has prolonged negotiations.",
+    "Republican Speaker Mike Johnson leads a narrow House majority, and the GOP lacks 60 votes to end a Senate filibuster, making bipartisan solutions difficult.",
+    "Federal agencies are either fully shut down or operating under partial funding, depending on the legislation passed."
+  ],
+  "namedEntities": [
+    {
+      "name": "United States federal government",
+      "whatIsThisEntity": "The national government of the United States, which experienced a shutdown due to lack of funding appropriations."
+    ,
+    "whyIsThisEntityRelevantToTheArticle": "The entity is central to the article, as it directly experiences and is affected by the shutdowns, particularly in terms of operations, employment, and economic loss."
+    },
+    {
+      "name": "Congressional Budget Office (CBO)",
+      "whatIsThisEntity": "A nonpartisan agency that provides economic and fiscal analysis to Congress.",
+      "whyIsThisEntityRelevantToTheArticle": "The CBO estimated the $3 billion GDP loss from the 2018 shutdown, providing authoritative data on economic consequences."
+    },
+    {
+      "name": "Mike Johnson",
+      "whatIsThisEntity": "Republican Speaker of the U.S. House of Representatives, overseeing the current congressional session.",
+      "whyIsThisEntityRelevantToTheArticle": "His narrow majority and inability to overcome a Senate filibuster contribute to the political deadlock that leads to the current shutdown."
+    },
+    {
+      "name": "Senate filibuster",
+      "whatIsThisEntity": "A procedural rule in the U.S. Senate allowing extended debate to block legislation.",
+      "whyIsThisEntityRelevantToTheArticle": "It creates a barrier to passing spending bills, contributing to the prolonged shutdown due to lack of legislative consensus."
+    },
+    {
+      "name": "Capitol Hill",
+      "whatIsThisEntity": "The legislative district in Washington, D.C., where Congress meets.",
+      "whyIsThisEntityRelevantToTheArticle": "It is the site of negotiations and legislative action, where the failure to reach a funding deal results in a shutdown."
+    },
+    {
+      "name": "CNN",
+      "whatIsThisEntity": "A major American news network that reported on the shutdowns.",
+      "whyIsThisEntityRelevantToTheArticle": "CNN provides context, updates, and analysis on the current and historical government shutdowns, offering public information."
+    },
+    {
+      "name": "11th hour",
+      "whatIsThisEntity": "A term referring to the final moment before a critical decision or event.",
+      "whyIsThisEntityRelevantToTheArticle": "It highlights the urgency and finality of negotiations failing just before a funding agreement was expected to be reached."
+    },
+    {
+      "name": "1981",
+      "whatIsThisEntity": "A year when the U.S. government began instructing agencies to halt operations during funding lapses.",
+      "whyIsThisEntityRelevantToTheArticle": "Marks the beginning of formalized shutdown protocols, showing a long-standing pattern of fiscal instability."
+    },
+    {
+      "name": "1976",
+      "whatIsThisEntity": "The year of the first known federal government shutdown, according to CNN research.",
+      "whyIsThisEntityRelevantToTheArticle": "Establishes historical precedent for government shutdowns, showing their long-term existence."
+    },
+    {
+      "name": "Appropriations bills",
+      "whatIsThisEntity": "Legislative bills that authorize federal spending.",
+      "whyIsThisEntityRelevantToTheArticle": "The failure to pass 12 such bills is the direct cause of the current full government shutdown."
+    },
+    {
+      "name": "Furloughed employees",
+      "whatIsThisEntity": "Federal workers who are not paid and not required to report to work during a shutdown.",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights human impact, with 300,000 people affected during the 2018 shutdown and possibly more currently."
+    },
+    {
+      "name": "Exempted employees",
+      "whatIsThisEntity": "Federal workers required to report to work but not paid during a shutdown.",
+      "whyIsThisEntityRelevantToTheArticle": "Shows a different tier of employee impact, with both furloughed and exempted workers receiving backpay after reopening."
+    }
+  ],
+  "summaryOfNewsArticle": "The U.S. federal government is currently in a full shutdown due to the failure to pass any of the 12 required appropriations bills, marking a continuation of political deadlock. This is distinct from the 2018–2019 partial shutdown, which lasted 35 days—the longest in nearly 50 years—and cost the economy an estimated $3 billion in lost GDP. The 2018 shutdown affected about 800,000 federal workers, with 300,000 furloughed and 300,000 exempt. Political obstacles, including Republican Speaker Mike Johnson's narrow House majority and the Senate filibuster rule, have made bipartisan compromise difficult. The current shutdown underscores broader challenges in U.S. legislative politics, where partisan divisions prevent timely funding decisions, impacting public services and economic stability.",
+  "tags": [
+    "government shutdown",
+    "federal funding",
+    "Congressional Budget Office",
+    "political partisanship",
+    "fiscal policy",
+    "economic impact",
+    "Capitol Hill",
+    "House of Representatives",
+    "Senate filibuster",
+    "appropriations bills",
+    "2018 shutdown",
+    "2025 shutdown",
+    "public services",
+    "furlough"
+  ],
+  "timeOfPublication": "09:58:00-04:00",
+  "title": "The last government shutdown was the longest in nearly 50 years. Here are all the recent shutdowns in one chart"
+}

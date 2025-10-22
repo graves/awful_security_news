@@ -1,0 +1,52 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the article indicates when the AWS outage occurred, providing context for when global tech services were affected."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "09:31:43",
+      "approximateTimeFrameStart": "09:31:43",
+      "descriptionOfWhyTimeFrameIsRelevant": "The time of the article's publication reflects the moment when the outage was reported, indicating when the disruption was first widely observed."
+    }
+  ],
+  "keyTakeAways": [
+    "A major outage on Amazon Web Services (AWS) disrupted connectivity for numerous global tech platforms, including Snapchat.",
+    "The outage highlights the critical role AWS plays as a foundational cloud infrastructure provider for many digital services.",
+    "Snapchat and other major apps experienced downtime due to AWS’s failure, demonstrating how interdependence among cloud services can amplify the impact of infrastructure failures."
+  ],
+  "namedEntities": [
+    {
+      "name": "Snapchat",
+      "whatIsThisEntity": "A popular social media platform",
+      "whyIsThisEntityRelevantToTheArticle": "Snapchat is one of the apps that experienced outages during the AWS service disruption, illustrating the cascading effects of cloud infrastructure failure."
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A leading cloud computing platform and infrastructure provider",
+      "whyIsThisEntityRelevantToTheArticle": "AWS was the source of the outage, affecting multiple major apps and websites that rely on its services for hosting and processing."
+    },
+    {
+      "name": "Faisal Ali",
+      "whatIsThisEntity": "A journalist reporting on the event",
+      "whyIsThisEntityRelevantToTheArticle": "Faisal Ali is the author of the article, providing context and credibility to the reporting of the incident."
+    }
+  ],
+  "summaryOfNewsArticle": "A widespread outage on Amazon Web Services (AWS) on October 20, 2025, caused significant disruptions to major digital platforms, including Snapchat, affecting global connectivity and service availability. This incident underscores the critical role AWS plays as the backbone of cloud infrastructure for many internet-based services and demonstrates how failures in central infrastructure can have cascading effects across the tech ecosystem.",
+  "tags": [
+    "outage",
+    "cloud computing",
+    "Amazon Web Services",
+    "Snapchat",
+    "digital services",
+    "technology disruption"
+  ]
+  ,
+  "timeOfPublication": "09:31:43+00:00"
+  ,
+  "title": "Snapchat, other major apps, sites down as outage hits Amazon Web Services"
+}

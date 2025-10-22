@@ -1,0 +1,158 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-13",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-09",
+      "descriptionOfWhyDateIsRelevant": "China expanded export controls on 12 out of 17 rare-earth metals and certain refining equipment, effective December 1, in response to U.S. trade restrictions."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-10",
+      "descriptionOfWhyDateIsRelevant": "President Donald Trump announced a 100% tariff on Chinese goods, effective from November 1, in response to China’s rare earth export controls."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-31",
+      "descriptionOfWhyDateIsRelevant": "Trump and Xi are expected to meet in South Korea during the Asia-Pacific Economic Cooperation (APEC) summit, amid ongoing trade tensions."
+    },
+    {
+      "dateMentionedInArticle": "2024-12-01",
+      "descriptionOfWhyDateIsRelevant": "Former President Joe Biden tightened export controls on microchips and restricted access to advanced chip-making equipment for Chinese entities."
+    },
+    {
+      "dateMentionedInArticle": "2023-09-01",
+      "descriptionOfWhyDateIsRelevant": "Biden restricted U.S. exports of advanced computer chips to China and other countries to limit military and AI technological development."
+    },
+    {
+      "dateMentionedInArticle": "2022-10-01",
+      "descriptionOfWhyDateIsRelevant": "Biden imposed restrictions on China’s access to U.S. semiconductors and expanded controls on chipmaking tools and supply chain components."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-13",
+      "approximateTimeFrameStart": "2024-08-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "A 90-day truce in U.S.-China trade talks was initially agreed upon in August 2024 and extended twice, marking a period of reduced tariff escalation before the current dispute."
+    },
+    {
+      "approximateTimeFrameEnd": "2025-10-01",
+      "approximateTimeFrameStart": "2024-05-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "Tariffs between the U.S. and China were cut to 30% and 10% in May 2024, following a previous cycle of tit-for-tat tariffs that peaked at 145% and 125%."
+    },
+    {
+      "approximateTimeFrameEnd": "2025-01-01",
+      "approximateTimeFrameStart": "2020-05-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "Since 2020, U.S. measures have increasingly targeted Chinese tech firms like Huawei, restricting their access to U.S. technology and software."
+    }
+  ],
+  "keyTakeAways": [
+    "The U.S. has repeatedly imposed escalating tariffs on Chinese goods, including a 100% tariff threat announced by Donald Trump on October 10, 2025.",
+    "China responded by tightening export controls on rare earth minerals—critical for electric vehicles, smartphones, semiconductors, and military technology—effective December 1, 2025.",
+    "China accused the U.S. of adopting discriminatory practices and overextending national security justifications in targeting Chinese firms, especially in technology and defense sectors.",
+    "The trade dispute has been described as a form of 'pre-meeting choreography' aimed at gaining leverage during the upcoming U.S.-China meeting in South Korea in October 2025.",
+    "Experts argue that both nations are using economic tools as instruments of power, with China asserting control over critical resources and the U.S. leveraging tariffs and export controls to pressure Beijing.",
+    "The conflict reflects a broader trend of 'security-economics' integration, where economic interdependence is weaponized to achieve strategic and national security goals.",
+    "Despite the escalation, both sides have shown some restraint, with the U.S. pausing tariffs and China signaling flexibility through gradual export restrictions.",
+    "Market stability and global supply chains are at risk, particularly in high-tech and defense sectors relying on rare earths and semiconductors.",
+    "The upcoming meeting in South Korea may determine whether de-escalation or further escalation occurs, with both sides maintaining tools of economic coercion in reserve.",
+    "Experts believe that China’s broader national security framework, introduced in 2014, gives it strategic advantage in framing its actions as justified by internal security concerns."
+  ],
+  "namedEntities": [
+    {
+      "name": "Donald Trump",
+      "whatIsThisEntity": "Former and current U.S. President",
+      "whyIsThisEntityRelevantToTheArticle": "Trump is the central figure in the current trade dispute, having announced a 100% tariff threat on Chinese goods and accused China of trade hostility, directly escalating the trade war."
+    },
+    {
+      "name": "Xi Jinping",
+      "whatIsThisEntity": "President of the People's Republic of China",
+      "whyIsThisEntityRelevantToTheArticle": "Xi Jinping is the Chinese counterpart to Trump, and their upcoming meeting in South Korea is a critical diplomatic event where the trade conflict may be resolved or further escalated."
+    },
+    {
+      "name": "China",
+      "whatIsThisEntity": "Nation-state",
+      "whyIsThisEntityRelevantToTheArticle": "China is the primary target of U.S. tariffs and has responded with export controls on rare earth minerals, demonstrating its strategic use of economic tools to protect its national interests."
+    },
+    {
+      "name": "United States",
+      "whatIsThisEntity": "Nation-state",
+      "whyIsThisEntityRelevantToTheArticle": "The U.S. is actively using tariffs and export controls as economic leverage, reflecting a long-standing trade conflict with China over technology, rare earths, and national security."
+    },
+    {
+      "name": "Rare Earth Minerals",
+      "whatIsThisEntity": "Critical raw materials",
+      "whyIsThisEntityRelevantToTheArticle": "China holds a near-monopoly over rare earth minerals, which are essential for electric vehicles, semiconductors, and defense technologies, making them a strategic focus of both nations."
+    },
+    {
+      "name": "TikTok",
+      "whatIsThisEntity": "Global social media platform",
+      "whyIsThisEntityRelevantToTheArticle": "The U.S. has sought to ban TikTok due to concerns about Chinese national security and data privacy, reflecting broader U.S. efforts to restrict Chinese technological influence."
+    },
+    {
+      "name": "Huawei",
+      "whatIsThisEntity": "Chinese tech company",
+      "whyIsThisEntityRelevantToTheArticle": "Huawei was targeted by U.S. sanctions under Trump and Biden administrations, restricting access to U.S. technology and software to prevent military and AI advancements."
+    },
+    {
+      "name": "Nvidia",
+      "whatIsThisEntity": "U.S. semiconductor company",
+      "whyIsThisEntityRelevantToTheArticle": "Nvidia’s advanced chips have been restricted in exports to China, aimed at limiting China’s access to artificial intelligence and military technology development."
+    },
+    {
+      "name": "World Trade Organization (WTO)",
+      "whatIsThisEntity": "International trade body",
+      "whyIsThisEntityRelevantToTheArticle": "In 2012, the WTO ruled that China’s export restraints on rare earths breached international trade rules, highlighting historical tensions over trade fairness and national security."
+    },
+    {
+      "name": "Asia-Pacific Economic Cooperation (APEC)",
+      "whatIsThisEntity": "Regional economic forum",
+      "whyIsThisEntityRelevantToTheArticle": "The APEC summit in October 2025 serves as the setting for the U.S.-China meeting, providing a diplomatic context for resolving or escalating trade tensions."
+    },
+    {
+      "name": "Gina Raimondo",
+      "whatIsThisEntity": "Former U.S. Secretary of Commerce",
+      "whyIsThisEntityRelevantToTheArticle": "Raimondo stated the U.S. goal of restricting China’s access to advanced semiconductors to prevent military and AI technological advancements."
+    },
+    {
+      "name": "Kristin Vekasi",
+      "whatIsThisEntity": "Academic and expert on Indo-Pacific affairs",
+      "whyIsThisEntityRelevantToTheArticle": "Vekasi provides expert analysis on how China’s actions are a form of pre-meeting strategy and how U.S. policy lacks strategic coherence."
+    },
+    {
+      "name": "Manoj Kewalramani",
+      "whatIsThisEntity": "Expert on Indo-Pacific studies",
+      "whyIsThisEntityRelevantToTheArticle": "Kewalramani comments on China’s early adoption of a 'comprehensive national security concept' and the mutual weaponization of economic interdependence."
+    },
+    {
+      "name": "JD Vance",
+      "whatIsThisEntity": "U.S. Vice President",
+      "whyIsThisEntityRelevantToTheArticle": "Vance stated that the U.S. has more leverage than China and emphasized the importance of diplomatic engagement in resolving trade disputes."
+    },
+    {
+      "name": "Scott Bessent",
+      "whatIsThisEntity": "U.S. Treasury Secretary",
+      "whyIsThisEntityRelevantToTheArticle": "Bessent confirmed that Trump’s tariffs would not go into effect until November 1 and affirmed that the meeting with Xi Jinping would still take place."
+    }
+  ],
+  "summaryOfNewsArticle": "The article outlines the escalating trade tensions between the United States and China, centered on a 100% tariff threat by President Donald Trump against Chinese goods, in response to China’s expanded export controls on rare earth minerals. This move follows a history of tit-for-tat tariffs and export restrictions dating back to 2018, with earlier actions by both leaders—including Trump’s 25% tariffs and Biden’s restrictions on semiconductors and Huawei—highlighting a long-standing economic and strategic rivalry. China justifies its actions as a defense of national security, accusing the U.S. of discriminatory practices and overreach. Experts note that both sides are using economic tools as instruments of power, with China leveraging rare earths and the U.S. using tariffs and export controls. The conflict is expected to be resolved or further escalated during an upcoming meeting between Trump and Xi Jinping in South Korea, with the outcome depending on global market reactions and the willingness of each side to de-escalate. The article emphasizes that the trade war reflects a deeper pattern of security-economic interdependence, where both nations are strategically constraining each other’s technological and industrial capabilities.",
+  "tags": [
+    "U.S.-China trade war",
+    "Tariff escalation",
+    "Rare earth minerals",
+    "National security",
+    "Economic competition",
+    "Global supply chains",
+    "Semiconductors",
+    "TikTok",
+    "Huawei",
+    "Trade negotiations",
+    "APEC summit",
+    "Geopolitical conflict",
+    "Export controls",
+    "Rare earths",
+    "Technology competition"
+  ]
+  ,
+  "timeOfPublication": "14:52:29+00:00"
+  ,
+  "title": "Trump’s 100% tariff threat: History of US trade measures against China"
+}

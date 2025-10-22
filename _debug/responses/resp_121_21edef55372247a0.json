@@ -1,0 +1,108 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2022-01-20",
+      "descriptionOfWhyDateIsRelevant": "The first reported customer incident related to the rearview camera issue occurred on this date, marking the beginning of the data collection period for the recall."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "Ford plans to send interim letters to affected vehicle owners on this date, informing them of the recall and the upcoming software update."
+    },
+    {
+      "dateMentionedInArticle": "2026-03-20",
+      "descriptionOfWhyDateIsRelevant": "The final remedy for the recall—complete software update—is expected to be available by this date, ensuring full resolution of the issue."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2022-09-20",
+      "approximateTimeFrameStart": "2022-01-20",
+      "descriptionOfWhyTimeFrameIsRelevant": "Between January 2022 and September 2022, Ford reviewed customer complaints and warranty data, identifying the onset of reported issues with the rearview camera system."
+    },
+    {
+      "approximateTimeFrameEnd": "2026-03-20",
+      "approximateTimeFrameStart": "2025-10-20",
+      "descriptionOfWhyTimeFrameIsRelevant": "This timeframe covers the implementation of interim fixes and the eventual rollout of the final software update, indicating a multi-year resolution process."
+    }
+  ],
+  "keyTakeAways": [
+    "Ford is recalling over 290,000 U.S. vehicles from the 2020–2022 F-250 SD, F-350 SD, and F-450 SD models due to potential rearview camera image display failures in certain lighting conditions, which could increase crash risk.",
+    "The recall is based on 10 customer reports reviewed by Ford and the NHTSA, with no known accidents or injuries linked to the issue.",
+    "Ford will provide a free software update to fix the image processing module issue at dealerships.",
+    "Interim letters to owners are scheduled for October 20, 2025, with final letters expected in March 2026.",
+    "Vehicle owners can contact Ford customer service at 1-866-436-7332 or the NHTSA hotline at 1-888-327-4236, or visit www.nhtsa.gov for more information.",
+    "This recall is relevant to public safety because it addresses a potentially hazardous flaw in a critical safety feature of commercial trucks, which may affect driver visibility and lead to accidents."
+  ],
+  "namedEntities": [
+    {
+      "name": "Ford",
+      "whatIsThisEntity": "An American multinational automaker",
+      "whyIsThisEntityRelevantToTheArticle": "Ford is the manufacturer of the vehicles involved in the recall and is responsible for addressing the safety defect through software updates and public communication."
+    },
+    {
+      "name": "National Highway Traffic Safety Administration (NHTSA)",
+      "whatIsThisEntity": "A U.S. federal agency responsible for vehicle safety standards and recalls",
+      "whyIsThisEntityRelevantToTheArticle": "The NHTSA oversees and verifies the recall process, ensuring it meets federal safety requirements and provides public access to safety information."
+    },
+    {
+      "name": "F-250 SD",
+      "whatIsThisEntity": "A model of Ford's heavy-duty pickup truck",
+      "whyIsThisEntityRelevantToTheArticle": "This specific model is included in the recall due to issues with the rearview camera system in certain lighting conditions."
+    },
+    {
+      "name": "F-350 SD",
+      "whatIsThisEntity": "A model of Ford's heavy-duty pickup truck",
+      "whyIsThisEntityRelevantToTheArticle": "This model is included in the recall due to potential rearview camera image display failures."
+    },
+    {
+      "name": "F-450 SD",
+      "whatIsThisEntity": "A model of Ford's heavy-duty pickup truck",
+      "whyIsThisEntityRelevantToTheArticle": "This model is included in the recall due to the same rearview camera malfunction affecting visibility."
+    },
+    {
+      "name": "2020–2022",
+      "whatIsThisEntity": "A vehicle model year range",
+      "whyIsThisEntityRelevantToTheArticle": "The recall applies only to vehicles manufactured between 2020 and 2022, indicating a targeted repair effort for a specific production period."
+    },
+    {
+      "name": "Rearview camera system",
+      "whatIsThisEntity": "A vehicle safety feature used to assist drivers in monitoring the surroundings",
+      "whyIsThisEntityRelevantToTheArticle": "A malfunction in this system could impair driver visibility, especially in low-light or adverse conditions, increasing crash risk."
+    },
+    {
+      "name": "Image processing module software",
+      "whatIsThisEntity": "A software component responsible for processing and displaying camera images",
+      "whyIsThisEntityRelevantToTheArticle": "The software update addresses a defect in image rendering, which is the root cause of the visibility issue in certain lighting."
+    },
+    {
+      "name": "10 reports",
+      "whatIsThisEntity": "Number of customer-reported incidents",
+      "whyIsThisEntityRelevantToTheArticle": "The number of reported issues is used to justify the recall and assess the scope of the problem."
+    },
+    {
+      "name": "Interim letters",
+      "whatIsThisEntity": "Official communications sent to vehicle owners",
+      "whyIsThisEntityRelevantToTheArticle": "These letters inform owners of the recall and provide initial information about the corrective action."
+    },
+    {
+      "name": "Final remedy",
+      "whatIsThisEntity": "The ultimate solution to the safety issue",
+      "whyIsThisEntityRelevantToTheArticle": "The final software update will fully resolve the image display defect and ensure long-term safety."
+    }
+  ],
+  "summaryOfNewsArticle": "Ford is recalling over 290,000 U.S.-sold 2020–2022 F-250 SD, F-350 SD, and F-450 SD trucks due to a potential failure in the rearview camera system’s image display under certain lighting conditions, which could increase crash risk. The recall is based on 10 customer reports reviewed by Ford and the NHTSA, with no known accidents or injuries reported. Ford will provide a free software update to fix the image processing module defect at dealerships. Interim letters to owners are expected on October 20, 2025, with final letters to be issued in March 2026. The issue highlights a critical safety vulnerability in commercial trucks, impacting driver visibility and public road safety.",
+  "tags": [
+    "automotive recall",
+    "safety defect",
+    "rearview camera",
+    "Ford",
+    "NHTSA",
+    "vehicle safety",
+    "software update",
+    "commercial trucks"
+  ],
+  "timeOfPublication": "12:40:06+00:00",
+  "title": "Ford Recalls Over 290,000 Trucks Due to Rearview Camera Display Issues"
+}

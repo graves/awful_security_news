@@ -1,0 +1,84 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2110-10-21",
+  "importantDates": [],
+  "importantTimeframes": [],
+  "keyTakeAways": [
+    "Amazon Web Services, a cloud platform that supports a portion of the internet, experienced a massive outage on Monday.",
+    "In recent history, the US has made moves restricting China’s access to semiconductor technology.",
+    "A three-part series on the realities of climate change – but with innovative solutions to safeguard our future.",
+    "No it did not, but social media ‘influencers’ misused its results to spread misinformation far and wide.",
+    "While experts applaud the new law, a first in the US, for bringing in transparency, it is ‘light touch regulation’.",
+    "It is a strategic move in advance of new round of tricky trade talks with the US.",
+    "Omar M. Yaghi, a chemist born to Palestinian refugee parents in Jordan, has been awarded a Nobel Prize.",
+    "The electric carmaker’s new model comes as part of efforts to address slumping sales.",
+    "The deal also gives the ChatGPT creator the option to buy up to 10 percent of AMD.",
+    "Advances in AI-generated deepfake audio could spell a boom in phone call fraud.",
+    "Nobel Prize for medicine announced on Monday, followed by five other prizes to be declared over the next week."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services",
+      "whatIsThisEntity": "a cloud platform that supports a portion of the internet",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because it is a foundational technology infrastructure for global internet operations, impacting businesses and services worldwide, especially during outages that disrupt digital services globally, affecting billions of users and operations across sectors like e-commerce, streaming, and cloud computing.  The entity is relevant to the article because it experienced a massive outage on Monday, which disrupted critical online services and highlighted vulnerabilities in large-scale cloud systems."
+    },
+    {
+      "name": "United States",
+      "whatIsThisEntity": "a nation that has made moves restricting China’s access to semiconductor technology",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because its policies on semiconductor technology directly influence global technological competition and supply chains, affecting innovation, trade, and national security across Asia, Europe, and the Americas.  The entity is relevant to the article because it has made recent moves restricting China’s access to semiconductor technology, indicating strategic geopolitical and economic tensions in the global tech landscape, especially impacting high-tech industries and manufacturing."
+    },
+    {
+      "name": "China",
+      "whatIsThisEntity": "a nation restricted by US access to semiconductor technology",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because China’s technological development, particularly in semiconductors, is critical to global manufacturing and innovation, and restrictions could shift power dynamics in tech and defense industries.  The entity is relevant to the article because it is specifically mentioned in the context of US restrictions on semiconductor access, signaling a major geopolitical and economic shift in the global tech sector."
+    },
+    {
+      "name": "Omar M. Yaghi",
+      "whatIsThisEntity": "a chemist born to Palestinian refugee parents in Jordan",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because he is a Nobel Prize winner, representing a breakthrough in chemistry and inspiring global scientific communities and underrepresented groups in STEM.  The entity is relevant to the article because he has been awarded a Nobel Prize, highlighting achievements in science and the recognition of diverse backgrounds in high-level scientific accomplishments."
+    },
+    {
+      "name": "ChatGPT creator",
+      "whatIsThisEntity": "an individual or entity behind the development of ChatGPT",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because ChatGPT is a major AI product influencing digital communication, education, and business automation globally.  The entity is relevant to the article because it is mentioned in a deal that grants the creator the option to buy up to 10 percent of AMD, indicating strategic AI tech investment and potential cross-sector collaboration between AI and hardware development."
+    },
+    {
+      "name": "AMD",
+      "whatIsThisEntity": "a semiconductor company",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because AMD is a leading player in the semiconductor industry, affecting computing power, gaming, and data centers globally.  The entity is relevant to the article because it is involved in a deal where the ChatGPT creator can buy up to 10 percent of AMD, reflecting a strategic move in AI and hardware integration."
+    },
+    {
+      "name": "electric carmaker",
+      "whatIsThisEntity": "a company developing electric vehicles",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because electric vehicles are central to the global shift toward sustainable transportation and climate goals.  The entity is relevant to the article because it is launching a new model to address slumping sales, indicating a strategic response to market challenges in the EV sector."
+    },
+    {
+      "name": "AI-generated deepfake audio",
+      "whatIsThisEntity": "a technology that generates realistic fake audio conversations",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because it poses a significant threat to privacy, trust, and security in digital communication.  The entity is relevant to the article because advances in AI-generated deepfake audio could spell a boom in phone call fraud, indicating a growing risk in cybersecurity and consumer protection."
+    },
+    {
+      "name": "Nobel Prize",
+      "whatIsThisEntity": "a prestigious scientific award",
+      "whyIsThisEntityRelevantToTheArticle": "The entity is relevant to the world outside of the article because it is a symbol of global scientific excellence and innovation, motivating young researchers and shaping scientific advancement.  The entity is relevant to the article because a Nobel Prize in medicine was announced on Monday, followed by five other prizes, indicating a major recognition of scientific achievements across disciplines."
+    }
+  ],
+  "summaryOfNewsArticle": "The article covers a range of critical developments in science and technology, including a massive AWS cloud outage affecting internet services, US-China tensions over semiconductor access, a three-part climate change series with solutions, the misuse of social media to spread misinformation, a new US law on transparency that experts view as light touch, strategic trade moves ahead of US negotiations, the Nobel Prize awarded to chemist Omar M. Yaghi, an electric carmaker launching a new model to reverse slumping sales, a deal allowing the ChatGPT creator to purchase up to 10% of AMD, and rising risks from AI-generated deepfake audio. These developments highlight both technological challenges and breakthroughs, emphasizing global concerns over digital infrastructure, climate change, AI ethics, geopolitical competition, and scientific innovation."
+  ,
+  "tags": [
+    "technology",
+    "cloud computing",
+    "semiconductor technology",
+    "climate change",
+    "artificial intelligence",
+    "deepfakes",
+    "Nobel Prize",
+    "geopolitical tensions",
+    "innovation",
+    "digital infrastructure"
+  ]
+  ,
+  "timeOfPublication": "21:00:00Z"
+  ,
+  "title": "Science and Technology | Today's latest from Al Jazeera"
+}

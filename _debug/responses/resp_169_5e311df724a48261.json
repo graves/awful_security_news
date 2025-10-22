@@ -1,0 +1,207 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication reflects the recent occurrence of the AWS outage, indicating the timeliness and relevance of the event to current technological infrastructure issues."
+    },
+    {
+      "dateMentionedInArticle": "0711-10-20",
+      "descriptionOfWhyDateIsRelevant": "The exact time of the outage (07:11 GMT on October 20, 2025) marks when the AWS system failure began, establishing a clear timeline for the incident and enabling tracking of recovery efforts."
+    },
+    {
+      "dateMentionedInArticle": "1011-10-20",
+      "descriptionOfWhyDateIsRelevant": "By 10:11 GMT, AWS confirmed recovery of services, showing the duration and resolution timeline of the outage, which is critical for understanding system resilience."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "10:11 GMT",
+      "approximateTimeFrameStart": "07:11 GMT",
+      "descriptionOfWhyTimeFrameIsRelevant": "The outage lasted approximately three hours, during which critical services were disrupted, highlighting the vulnerability of global digital infrastructure to technical failures."
+    }
+  ],
+  "keyTakeAways": [
+    "The AWS outage stemmed from a human error during a technical update to DynamoDB's API, which caused a DNS failure and disrupted connectivity across 113 services.",
+    "The outage affected major global platforms including banks, gaming services (like Fortnite and Roblox), communication apps (such as WhatsApp and Zoom), media companies (like The New York Times), and smart home devices (like Ring and Alexa).",
+    "While the root cause was human error rather than a cyberattack, the scale of impact demonstrated how deeply dependent modern digital services are on cloud infrastructure.",
+    "AWS, as the world’s largest cloud provider, plays a foundational role in powering internet services, making even minor technical errors potentially systemic and widespread.",
+    "Despite the disruption, AWS engineers resolved the issue quickly and acknowledged the problem, showing the importance of rapid incident response in cloud operations."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A cloud computing platform that provides infrastructure and services for hosting websites, apps, and data storage.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS was the central entity experiencing the outage, and its failure caused cascading effects across thousands of dependent services."
+    },
+    {
+      "name": "DynamoDB",
+      "whatIsThisEntity": "A cloud database service used to store user data and other critical information for online platforms.",
+      "whyIsThisEntityRelevantToTheArticle": "The technical update to DynamoDB's API triggered a DNS failure, which initiated the chain of service disruptions."
+    },
+    {
+      "name": "Domain Name System (DNS)",
+      "whatIsThisEntity": "A system that translates website names into IP addresses so computers can locate servers.",
+      "whyIsThisEntityRelevantToTheArticle": "The error in the DNS caused apps to be unable to find server addresses, leading to widespread service failures."
+    },
+    {
+      "name": "Virginia",
+      "whatIsThisEntity": "A U.S. state where AWS operates one of its main data centers.",
+      "whyIsThisEntityRelevantToTheArticle": "The outage originated in AWS’s oldest and largest data center in Virginia, indicating a critical location in the infrastructure failure."
+    },
+    {
+      "name": "Snapchat",
+      "whatIsThisEntity": "A social media app that relies on cloud services for backend operations.",
+      "whyIsThisEntityRelevantToTheArticle": "Snapchat experienced service disruption, illustrating how consumer-facing apps are vulnerable to cloud outages."
+    },
+    {
+      "name": "Pinterest",
+      "whatIsThisEntity": "A social media and content discovery platform dependent on cloud infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "Pinterest went offline, showing how content platforms are impacted by AWS failures."
+    },
+    {
+      "name": "Apple TV",
+      "whatIsThisEntity": "A streaming platform and service using cloud-based infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "Apple TV experienced downtime, demonstrating service disruption in media and entertainment."
+    },
+    {
+      "name": "WhatsApp",
+      "whatIsThisEntity": "A messaging app reliant on cloud servers for real-time communication.",
+      "whyIsThisEntityRelevantToTheArticle": "WhatsApp failed during the outage, highlighting communication services as vulnerable to cloud issues."
+    },
+    {
+      "name": "Signal",
+      "whatIsThisEntity": "A secure messaging app with cloud-dependent backend operations.",
+      "whyIsThisEntityRelevantToTheArticle": "Signal was affected, indicating even secure messaging apps are at risk during cloud outages."
+    },
+    {
+      "name": "Zoom",
+      "whatIsThisEntity": "A video conferencing platform using cloud infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "Zoom experienced outages, showing disruptions in remote work and virtual meetings."
+    },
+    {
+      "name": "Slack",
+      "whatIsThisEntity": "A workplace communication platform dependent on cloud hosting.",
+      "whyIsThisEntityRelevantToTheArticle": "Slack went offline, illustrating impact on business operations and team collaboration."
+    },
+    {
+      "name": "Roblox",
+      "whatIsThisEntity": "A gaming platform requiring backend database access.",
+      "whyIsThisEntityRelevantToTheArticle": "Roblox was affected, demonstrating how gaming services depend on stable cloud infrastructure."
+    },
+    {
+      "name": "Fortnite",
+      "whatIsThisEntity": "A popular online video game reliant on cloud services for backend operations.",
+      "whyIsThisEntityRelevantToTheArticle": "Fortnite was impacted, showing the fragility of large-scale gaming ecosystems."
+    },
+    {
+      "name": "Xbox",
+      "whatIsThisEntity": "A gaming console and service platform using cloud infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "Xbox services were disrupted, illustrating dependency of gaming platforms on AWS."
+    },
+    {
+      "name": "Starbucks",
+      "whatIsThisEntity": "A global retail chain with digital ordering systems hosted in the cloud.",
+      "whyIsThisEntityRelevantToTheArticle": "Starbucks' services were affected, showing how physical businesses integrate into cloud-dependent operations."
+    },
+    {
+      "name": "Etsy",
+      "whatIsThisEntity": "An online marketplace relying on cloud databases and hosting.",
+      "whyIsThisEntityRelevantToTheArticle": "Etsy experienced issues, showing disruption in e-commerce platforms."
+    },
+    {
+      "name": "Venmo",
+      "whatIsThisEntity": "A financial app used for peer-to-peer payments.",
+      "whyIsThisEntityRelevantToTheArticle": "Venmo failed, demonstrating how financial services depend on cloud stability."
+    },
+    {
+      "name": "Duolingo",
+      "whatIsThisEntity": "A language-learning app dependent on cloud hosting.",
+      "whyIsThisEntityRelevantToTheArticle": "Duolingo reported errors, showing education apps affected by cloud outages."
+    },
+    {
+      "name": "Canva",
+      "whatIsThisEntity": "A creative design tool with cloud-based functionality.",
+      "whyIsThisEntityRelevantToTheArticle": "Canva experienced outages, indicating disruption in creative industries."
+    },
+    {
+      "name": "The Associated Press",
+      "whatIsThisEntity": "A major news agency using cloud services for content delivery.",
+      "whyIsThisEntityRelevantToTheArticle": "The AP was impacted, showing how media organizations are vulnerable to cloud failures."
+    },
+    {
+      "name": "The New York Times",
+      "whatIsThisEntity": "A major U.S. newspaper relying on cloud infrastructure for publishing.",
+      "whyIsThisEntityRelevantToTheArticle": "The Times faced outages, demonstrating media disruption due to cloud dependency."
+    },
+    {
+      "name": "The Wall Street Journal",
+      "whatIsThisEntity": "A major financial news outlet using cloud systems for operations.",
+      "whyIsThisEntityRelevantToTheArticle": "The Journal experienced issues, showing financial media’s exposure to cloud failures."
+    },
+    {
+      "name": "Coinbase",
+      "whatIsThisEntity": "A cryptocurrency exchange dependent on cloud services.",
+      "whyIsThisEntityRelevantToTheArticle": "Coinbase reported issues, illustrating how financial tech firms are vulnerable."
+    },
+    {
+      "name": "Perplexity",
+      "whatIsThisEntity": "An AI firm relying on cloud infrastructure for operations.",
+      "whyIsThisEntityRelevantToTheArticle": "Perplexity was affected, showing AI services are dependent on stable cloud systems."
+    },
+    {
+      "name": "Delta Airlines",
+      "whatIsThisEntity": "A major U.S. airline using cloud-based operations and customer services.",
+      "whyIsThisEntityRelevantToTheArticle": "Delta experienced disruptions, highlighting aviation industry vulnerability."
+    },
+    {
+      "name": "United Airlines",
+      "whatIsThisEntity": "A major U.S. airline dependent on cloud systems for operations.",
+      "whyIsThisEntityRelevantToTheArticle": "United also faced issues, reinforcing airline dependency on cloud services."
+    },
+    {
+      "name": "Ring",
+      "whatIsThisEntity": "A smart home security device using cloud-based services.",
+      "whyIsThisEntityRelevantToTheArticle": "Ring doorbells stopped working, showing impact on smart home ecosystems."
+    },
+    {
+      "name": "Alexa",
+      "whatIsThisEntity": "A smart speaker and voice assistant that relies on cloud connectivity.",
+      "whyIsThisEntityRelevantToTheArticle": "Alexa speakers failed, indicating broader disruption in IoT devices."
+    },
+    {
+      "name": "Bryson Bort",
+      "whatIsThisEntity": "CEO of cybersecurity company Scythe.",
+      "whyIsThisEntityRelevantToTheArticle": "Provided expert commentary on the nature of the outage, attributing it to human error rather than cyberattack."
+    },
+    {
+      "name": "Joshua Mahony",
+      "whatIsThisEntity": "Chief market analyst at Scope Markets.",
+      "whyIsThisEntityRelevantToTheArticle": "Offered expert analysis on the scale and impact of the outage, emphasizing AWS’s market dominance and resilience."
+    },
+    {
+      "name": "Downdetector",
+      "whatIsThisEntity": "A website tracking internet outages based on user reports.",
+      "whyIsThisEntityRelevantToTheArticle": "Provided real-time data on the breadth of affected services during the outage."
+    }
+  ],
+  "summaryOfNewsArticle": "A major outage at Amazon Web Services (AWS) on October 20, 2025, began at 07:11 GMT due to a technical error during a DynamoDB API update that caused a DNS failure. This disrupted access to 113 AWS services, including popular platforms such as Snapchat, Pinterest, WhatsApp, Zoom, Roblox, Fortnite, Starbucks, and financial apps like Venmo and Coinbase. The failure also impacted media organizations, gaming services, smart home devices like Ring and Alexa, and AI services such as Perplexity. Despite the widespread disruption, AWS engineers resolved the issue by 10:11 GMT, with some minor delays in message processing. Experts emphasize that such outages are typically due to human error, not cyberattacks, and highlight the critical dependency of modern digital services on cloud infrastructure. The incident underscores the fragility and interconnectedness of today’s internet ecosystem, even as AWS maintains a dominant 30% market share and strong recovery capabilities.",
+  "tags": [
+    "AWS outage",
+    "cloud computing",
+    "DynamoDB",
+    "DNS failure",
+    "human error",
+    "digital dependency",
+    "tech infrastructure",
+    "outage impact",
+    "smart home devices",
+    "gaming platforms",
+    "financial services",
+    "cybersecurity"
+  ],
+  "timeOfPublication": "02:23:04+00:00"
+  ,
+  "title": "What caused Amazon’s AWS outage, and why did so many major apps go offline?"
+}

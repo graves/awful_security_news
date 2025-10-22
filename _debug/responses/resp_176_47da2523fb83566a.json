@@ -1,0 +1,114 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the article indicates that the AWS outage occurred on Monday, October 21, 2025, and is the central timeframe for the reported incident and its global impact."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2300 BST",
+      "approximateTimeFrameStart": "0700 BST",
+      "descriptionOfWhyTimeFrameIsRelevant": "The outage began around 07:00 BST on Monday, October 21, 2025, and was resolved by approximately 23:00 BST, marking the duration and timeline of the global disruption to internet services."
+    }
+  ],
+  "keyTakeAways": [
+    "The AWS outage highlighted the extreme interdependence of global online services on a single dominant cloud provider.",
+    "Over 1,000 apps and websites, including Snapchat, Lloyds Bank, Halifax, Fortnite, and Duolingo, were affected during the outage.",
+    "User reports on Downdetector peaked at over 11 million, indicating widespread global impact.",
+    "The root cause was identified as a DNS resolution issue in the DynamoDB API endpoint in the US-EAST-1 region.",
+    "Experts such as Prof Alan Woodward and Professor Mike Chapple emphasized that small, human-made errors can trigger cascading failures in critical infrastructure.",
+    "Cloud service providers like Amazon, Microsoft, and Google collectively manage around 70% of global cloud infrastructure, creating systemic risk.",
+    "Experts like Cori Crider and Ken Birman argue for greater decentralization and local service adoption to improve economic and national security resilience.",
+    "The incident underscores the need for better application design and backup systems in cloud-dependent software to prevent large-scale outages."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A dominant cloud computing platform providing infrastructure services to thousands of companies worldwide.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS experienced a massive outage that disrupted over 1,000 websites, including major financial institutions and social media platforms, illustrating the critical role of cloud providers in global digital infrastructure."
+    },
+    {
+      "name": "Snapchat",
+      "whatIsThisEntity": "A popular social media platform offering instant messaging and photo-based communication.",
+      "whyIsThisEntityRelevantToTheArticle": "Snapchat was among the websites and apps affected by the AWS outage, demonstrating how widespread reliance on cloud services impacts even consumer-facing social platforms."
+    },
+    {
+      "name": "Lloyds Bank",
+      "whatIsThisEntity": "A major UK-based financial institution providing banking and financial services.",
+      "whyIsThisEntityRelevantToTheArticle": "Lloyds Bank was impacted by the outage, showing how critical financial services depend on stable cloud infrastructure and the risks posed by single-provider dependency."
+    },
+    {
+      "name": "Halifax",
+      "whatIsThisEntity": "A UK-based financial services company offering banking and financial products.",
+      "whyIsThisEntityRelevantToTheArticle": "Halifax was affected during the outage, emphasizing the vulnerability of financial institutions to cloud infrastructure failures."
+    },
+    {
+      "name": "Fortnite",
+      "whatIsThisEntity": "A major online video game platform with millions of active users worldwide.",
+      "whyIsThisEntityRelevantToTheArticle": "Fortnite was among the impacted services, illustrating how large-scale online games are vulnerable when cloud infrastructure fails."
+    },
+    {
+      "name": "Duolingo",
+      "whatIsThisEntity": "A language-learning app used by millions of users globally.",
+      "whyIsThisEntityRelevantToTheArticle": "Duolingo was affected, showing how education and personal development tools depend on stable internet and cloud services."
+    },
+    {
+      "name": "Downdetector",
+      "whatIsThisEntity": "A platform that tracks and reports user-reported outages across websites and apps.",
+      "whyIsThisEntityRelevantToTheArticle": "Downdetector recorded over 11 million user reports during the outage, providing empirical evidence of the global scale and severity of the disruption."
+    },
+    {
+      "name": "University of Surrey",
+      "whatIsThisEntity": "A UK-based university with a research focus on information technology and internet infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "Professor Alan Woodward from the University of Surrey provided expert commentary on how interdependent infrastructure makes such outages particularly dangerous."
+    },
+    {
+      "name": "Notre Dame University",
+      "whatIsThisEntity": "A US-based university with a computer science department.",
+      "whyIsThisEntityRelevantToTheArticle": "Professor Mike Chapple from Notre Dame University analyzed the cascading failure dynamics, suggesting that initial fixes may have only addressed symptoms, not root causes."
+    },
+    {
+      "name": "Cloudflare",
+      "whatIsThisEntity": "A global cloud services and cybersecurity company that provides content delivery and network protection.",
+      "whyIsThisEntityRelevantToTheArticle": "Cloudflare's CEO, Matthew Prince, commented on how the AWS outage shows the power and risk of cloud dependency in modern internet infrastructure."
+    },
+    {
+      "name": "Future of Technology Institute",
+      "whatIsThisEntity": "An institute focused on the future of technology and digital policy.",
+      "whyIsThisEntityRelevantToTheArticle": "Cori Crider, head of the Future of Technology Institute, used the outage to argue for structural changes in how economies rely on a few dominant cloud providers."
+    },
+    {
+      "name": "Cornell University",
+      "whatIsThisEntity": "A US-based university with a computer science department.",
+      "whyIsThisEntityRelevantToTheArticle": "Professor Ken Birman from Cornell University criticized developers for insufficient protection in cloud applications, advocating for better backup and resilience measures."
+    },
+    {
+      "name": "CrowdStrike",
+      "whatIsThisEntity": "A cybersecurity software company that provides endpoint protection services.",
+      "whyIsThisEntityRelevantToTheArticle": "The mention of the CrowdStrike outage and its aftermath (e.g., Delta Airlines’ $500M losses) serves as a precedent for the financial and operational consequences of large-scale tech outages."
+    },
+    {
+      "name": "Delta Airlines",
+      "whatIsThisEntity": "A major US-based airline company.",
+      "whyIsThisEntityRelevantToTheArticle": "Delta Airlines suffered major delays and financial losses following a previous CrowdStrike outage, illustrating the economic consequences of cloud provider failures."
+    }
+  ],
+  "summaryOfNewsArticle": "A massive AWS outage on Monday, October 21, 2025, disrupted over 1,000 websites and apps, including Snapchat, Lloyds Bank, Halifax, Fortnite, and Duolingo, affecting millions of users globally. The root cause was traced to a DNS resolution issue in the DynamoDB API endpoint in the US-EAST-1 region. The outage, which began around 07:00 BST and was resolved by 23:00 BST, led to over 11 million user reports on Downdetector. Experts from institutions such as the University of Surrey, Notre Dame, and Cornell University emphasized that such failures reveal systemic risks due to over-reliance on a few dominant cloud providers, with small errors potentially causing widespread impact. They argue for greater decentralization, stronger application design, and investment in local or alternative cloud infrastructure to improve resilience and national sovereignty.",
+  "tags": [
+    "AWS outage",
+    "cloud computing",
+    "digital infrastructure",
+    "systemic risk",
+    "internet outages",
+    "technology dependency",
+    "cascading failures",
+    "digital resilience",
+    "global internet services"
+  ],
+  "timeOfPublication": "03:30:02.804+00:00"
+  ,
+  "title": "Amazon services 'recovering' as Snapchat and banks among sites hit by outage"
+}

@@ -1,0 +1,78 @@
+{
+  "category": "Military Actions & War",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date when the emergency landing incident occurred, marking a significant event in aviation safety."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "6:59 p.m. local time",
+      "approximateTimeFrameStart": "6:41 p.m. local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "The flight departed Omaha at 6:41 p.m. and returned to the airport within 18 minutes, indicating an urgent and immediate incident."
+    }
+  ],
+  "keyTakeAways": [
+    "An American Airlines flight operated by SkyWest Airlines made an emergency landing in Nebraska due to loss of communication with flight attendants.",
+    "The pilots heard knocking on the cockpit door, which raised concerns about possible unauthorized access or external interference.",
+    "The FAA confirmed that the issue was with the inter-phone system, not a security breach or mechanical failure.",
+    "The aircraft, an Embraer ERJ 175, landed at Omaha’s Eppley Airfield and was surrounded by firetrucks, suggesting a public safety response was initiated.",
+    "No security incident was confirmed by the airport authority, though the event prompted a safety review of cockpit communication systems."
+  ],
+  "namedEntities": [
+    {
+      "name": "American Airlines",
+      "whatIsThisEntity": "A major U.S. commercial airline operating the flight",
+      "whyIsThisEntityRelevantToTheArticle": "American Airlines operated the flight involved in the emergency landing, making it central to the incident."
+    },
+    {
+      "name": "SkyWest Airlines",
+      "whatIsThisEntity": "A regional airline that operates flights for American Airlines",
+      "whyIsThisEntityRelevantToTheArticle": "SkyWest Airlines operated the specific flight (Flight 6469) and is directly linked to the operational context of the incident."
+    },
+    {
+      "name": "Flight 6469",
+      "whatIsThisEntity": "The flight number of the emergency landing incident",
+      "whyIsThisEntityRelevantToTheArticle": "Flight 6469 is the specific flight that experienced the emergency landing due to communication failure and knocking on the cockpit door."
+    },
+    {
+      "name": "Omaha’s Eppley Airfield",
+      "whatIsThisEntity": "The departure airport in Nebraska",
+      "whyIsThisEntityRelevantToTheArticle": "The flight originated from Eppley Airfield, which is central to the timeline and location of the incident."
+    },
+    {
+      "name": "Los Angeles",
+      "whatIsThisEntity": "The intended destination of the flight",
+      "whyIsThisEntityRelevantToTheArticle": "The flight was originally scheduled to travel to Los Angeles, highlighting the route and purpose of the journey."
+    },
+    {
+      "name": "Embrraer ERJ 175",
+      "whatIsThisEntity": "A regional jet model used on the flight",
+      "whyIsThisEntityRelevantToTheArticle": "The aircraft model is relevant because it specifies the type of plane involved and may affect safety or communication system design."
+    },
+    {
+      "name": "Federal Aviation Administration (FAA)",
+      "whatIsThisEntity": "The U.S. government agency overseeing aviation safety",
+      "whyIsThisEntityRelevantToTheArticle": "The FAA investigated the incident and confirmed the inter-phone system failure as the cause."
+    },
+    {
+      "name": "Firetrucks",
+      "whatIsThisEntity": "Emergency vehicles that arrived at the scene",
+      "whyIsThisEntityRelevantToTheArticle": "Their presence suggests a safety or security response was initiated, indicating public concern or uncertainty."
+    }
+  ],
+  "summaryOfNewsArticle": "An American Airlines flight operated by SkyWest Airlines (Flight 6469) made an emergency landing in Nebraska after pilots lost contact with flight attendants and heard knocking on the cockpit door. The flight departed Omaha’s Eppley Airfield at 6:41 p.m. and returned just 18 minutes later. The Federal Aviation Administration determined that the issue was due to a malfunction in the inter-phone system, not a security breach. Despite the urgency, no security incident was confirmed, and the airport authority clarified that the event was an internal communication failure. The incident involved an Embraer ERJ 175 regional jet, which was surrounded by firetrucks, raising public concern. CNN has reached out to the airlines for further information.",
+  "tags": [
+    "aviation safety",
+    "flight emergency",
+    "communication failure",
+    "pilots and flight attendants",
+    "airline operations",
+    "emergency landing",
+    "FAA investigation"
+  ],
+  "timeOfPublication": "10:25:00-05:00",
+  "title": "Plane Makes Emergency Landing After Pilots Lose Contact with Flight Attendants and Hear Knocking on Cockpit Door"
+}

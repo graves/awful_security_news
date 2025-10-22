@@ -1,0 +1,90 @@
+{
+  "category": "Economy & Business",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1000-01-01",
+      "descriptionOfWhyDateIsRelevant": "The incident occurred on October 21, 2025, and the timeline of the flight and emergency landing is critical for understanding the sequence of events and their impact on passengers and operations."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "20:00 EDT",
+      "approximateTimeFrameStart": "18:00 EDT",
+      "descriptionOfWhyTimeFrameIsRelevant": "The flight departed at 6:41 p.m. local time from Omaha and made an emergency landing just 18 minutes later, indicating a rapid escalation and a critical time window during which communication failure and emergency response occurred."
+    }
+  ],
+  "keyTakeAways": [
+    "An American Airlines flight operated by SkyWest Airlines made an emergency landing in Nebraska after pilots lost contact with flight attendants.",
+    "Passengers reported hearing banging on the cockpit door and noticed sudden, unexplained banking of the aircraft.",
+    "The Federal Aviation Administration (FAA) determined that a problem with the inter-phone system caused the communication failure.",
+    "SkyWest confirmed a malfunction with a 'flight crew mic,' which prevented pilots from reaching flight attendants.",
+    "The aircraft, an Embraer ERJ 175, landed safely but had to return to Los Angeles nearly five hours late, resulting in a missed connection for the Gruver family traveling to Japan.",
+    "Passengers were not informed of the situation until police boarded the plane after landing, causing confusion and anxiety.",
+    "The incident highlights a vulnerability in aviation communication systems and the importance of emergency protocols."
+  ],
+  "namedEntities": [
+    {
+      "name": "American Airlines",
+      "whatIsThisEntity": "A major U.S. airline that operated the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "The flight was operated under American Airlines branding, indicating the airline's responsibility for passenger service and safety standards during the incident."
+    },
+    {
+      "name": "SkyWest Airlines",
+      "whatIsThisEntity": "A regional airline that operated the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "SkyWest confirmed a technical failure in the flight crew mic system, directly linking them to the communication failure and the emergency landing."
+    },
+    {
+      "name": "Flight 6469",
+      "whatIsThisEntity": "The flight number of the aircraft involved in the incident.",
+      "whyIsThisEntityRelevantToTheArticle": "This specific flight number identifies the exact journey and allows tracking of the sequence of events, including departure, emergency landing, and re-routing."
+    },
+    {
+      "name": "Omaha’s Eppley Airfield",
+      "whatIsThisEntity": "The departure airport for the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "The origin point of the flight and location where the emergency occurred, providing geographical context to the incident."
+    },
+    {
+      "name": "Los Angeles",
+      "whatIsThisEntity": "The intended destination of the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "The destination point highlights the disruption caused by the emergency landing and the resulting delay in travel plans."
+    },
+    {
+      "name": "Japan",
+      "whatIsThisEntity": "The final destination for the Gruver family.",
+      "whyIsThisEntityRelevantToTheArticle": "The family’s travel plans to Japan were disrupted, illustrating the real-world impact of the incident on individual travelers."
+    },
+    {
+      "name": "Henry Gruver",
+      "whatIsThisEntity": "A passenger on the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "His firsthand account provides a personal perspective on the anxiety and confusion experienced by passengers during the incident."
+    },
+    {
+      "name": "Embraer ERJ 175",
+      "whatIsThisEntity": "The type of regional jet aircraft involved.",
+      "whyIsThisEntityRelevantToTheArticle": "The specific aircraft model is relevant for understanding the type of plane and its operational characteristics during the emergency."
+    },
+    {
+      "name": "Federal Aviation Administration (FAA)",
+      "whatIsThisEntity": "The U.S. government agency overseeing aviation safety.",
+      "whyIsThisEntityRelevantToTheArticle": "The FAA investigated and confirmed the technical failure, establishing official authority and credibility to the incident's explanation."
+    },
+    {
+      "name": "FlightAware",
+      "whatIsThisEntity": "A flight tracking website.",
+      "whyIsThisEntityRelevantToTheArticle": "FlightAware provided tracking data on the flight's departure, landing, and return, supporting the timeline and operational details of the event."
+    }
+  ],
+  "summaryOfNewsArticle": "An American Airlines flight operated by SkyWest Airlines, Flight 6469, made an emergency landing in Nebraska after pilots lost contact with flight attendants and heard banging on the cockpit door. The FAA and SkyWest confirmed a malfunction in the flight crew's interphone system, specifically a 'flight crew mic,' which prevented communication. Passengers, including Henry Gruver and his family, were unaware of the issue until police boarded the aircraft. The flight eventually took off again nearly five hours late, resulting in a missed connection to Japan. The incident highlights communication vulnerabilities in aviation and the need for robust emergency protocols.",
+  "tags": [
+    "aviation safety",
+    "flight emergency",
+    "communication failure",
+    "airline incident",
+    "passenger safety",
+    "technical malfunction"
+  ]
+  ,
+  "timeOfPublication": "10:38:00-04:00",
+  "title": "Plane Makes Emergency Landing After Pilots Lose Contact With Flight Attendants and Hear Banging on Cockpit Door"
+}

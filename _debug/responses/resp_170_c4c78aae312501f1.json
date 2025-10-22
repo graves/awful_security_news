@@ -1,0 +1,127 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [],
+  "importantTimeframes": [],
+  "keyTakeAways": [
+    "A major global outage of Amazon Web Services (AWS) disrupted numerous websites and applications, including Zoom, Roblox, Fortnite, Duolingo, Canva, Wordle, Perplexity, Robinhood, Signal, Coinbase, and Amazon's own services like Prime Video and Alexa.",
+    "The outage originated within AWS's EC2 internal network and was not caused by a cyber attack.",
+    "Over 11 million users reported connectivity issues globally, with hundreds of businesses affected, leading to significant potential financial losses due to lost productivity and halted operations.",
+    "The incident underscores the fragility and interdependence of the global internet, where critical services rely on a small number of cloud providers.",
+    "Analysts and digital rights advocates warn of the risks of market consolidation in cloud computing, emphasizing the need for diversification to ensure resilience and democratic access to digital services.",
+    "Downdetector recorded widespread outages across platforms, and reports from financial institutions like Bank of Scotland confirmed impact on banking services in the UK.",
+    "AWS confirmed ongoing recovery efforts, noting that some services still face disruptions despite initial stabilization."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A major cloud computing service provider offering on-demand computing, data storage, and digital services to businesses, governments, and individuals.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS is central to the global internet infrastructure; its outage directly affected thousands of websites and apps, demonstrating its critical role in digital operations worldwide."
+    },
+    {
+      "name": "Zoom",
+      "whatIsThisEntity": "A video conferencing platform widely used for remote work and education.",
+      "whyIsThisEntityRelevantToTheArticle": "Zoom experienced outages due to reliance on AWS infrastructure, highlighting the cascading effects of cloud service failures on everyday communication tools."
+    },
+    {
+      "name": "Roblox",
+      "whatIsThisEntity": "An online gaming platform and social environment for users to create and play games.",
+      "whyIsThisEntityRelevantToTheArticle": "Roblox went offline due to AWS issues, illustrating how entertainment and interactive platforms depend on stable cloud services."
+    },
+    {
+      "name": "Fortnite",
+      "whatIsThisEntity": "A popular online video game.",
+      "whyIsThisEntityRelevantToTheArticle": "Fortnite’s unavailability during the outage shows how real-time gaming services are vulnerable to cloud infrastructure failures."
+    },
+    {
+      "name": "Duolingo",
+      "whatIsThisEntity": "A language-learning app.",
+      "whyIsThisEntityRelevantToTheArticle": "Duolingo’s downtime reflects the impact of cloud outages on educational and personal development platforms."
+    },
+    {
+      "name": "Canva",
+      "whatIsThisEntity": "A graphic design tool used by individuals and businesses.",
+      "whyIsThisEntityRelevantToTheArticle": "Canva’s unavailability underscores how creative industries depend on cloud-based tools."
+    },
+    {
+      "name": "Wordle",
+      "whatIsThisEntity": "A word-guessing game app.",
+      "whyIsThisEntityRelevantToTheArticle": "Wordle’s outage illustrates how even simple, widely-used apps are affected by AWS outages."
+    },
+    {
+      "name": "Perplexity",
+      "whatIsThisEntity": "An AI startup offering an AI-powered search and information service.",
+      "whyIsThisEntityRelevantToTheArticle": "Perplexity cited AWS as the root cause of its outage, showing how AI services are vulnerable to cloud infrastructure failures."
+    },
+    {
+      "name": "Robinhood",
+      "whatIsThisEntity": "A trading app for financial services.",
+      "whyIsThisEntityRelevantToTheArticle": "Robinhood’s downtime highlights how financial platforms rely on AWS for operations and user access."
+    },
+    {
+      "name": "Signal",
+      "whatIsThisEntity": "A messaging app focused on secure communication.",
+      "whyIsThisEntityRelevantToTheArticle": "Signal went down due to AWS issues, emphasizing how secure communication tools are interdependent on cloud infrastructure."
+    },
+    {
+      "name": "Coinbase",
+      "whatIsThisEntity": "A cryptocurrency exchange platform.",
+      "whyIsThisEntityRelevantToTheArticle": "Coinbase reported outages linked to AWS, showing how financial technology relies on stable cloud services."
+    },
+    {
+      "name": "Downdetector",
+      "whatIsThisEntity": "A website where users report internet outages and service disruptions.",
+      "whyIsThisEntityRelevantToTheArticle": "Downdetector tracked the scale and spread of the outage, providing real-time data on global service failures."
+    },
+    {
+      "name": "Mehdi Daoudi",
+      "whatIsThisEntity": "CEO of Catchpoint, an internet performance monitoring firm.",
+      "whyIsThisEntityRelevantToTheArticle": "Daoudi provided expert analysis on the financial impact and broader systemic risks of the AWS outage."
+    },
+    {
+      "name": "Corinne Cath-Speth",
+      "whatIsThisEntity": "Head of digital issues at Article 19, a free expression group.",
+      "whyIsThisEntityRelevantToTheArticle": "Cath-Speth emphasized the democratic risks of relying on a few cloud providers for critical digital services."
+    },
+    {
+      "name": "Bank of Scotland",
+      "whatIsThisEntity": "A UK-based financial institution.",
+      "whyIsThisEntityRelevantToTheArticle": "The Bank of Scotland reported outages affecting UK bank customers, showing financial services' vulnerability to AWS failures."
+    },
+    {
+      "name": "Uber rival Lyft",
+      "whatIsThisEntity": "A ride-sharing service, with app downtime reported in the US.",
+      "whyIsThisEntityRelevantToTheArticle": "Lyft’s app outage demonstrated how transport apps depend on cloud infrastructure for functionality."
+    },
+    {
+      "name": "EC2",
+      "whatIsThisEntity": "A core AWS cloud computing service for scalable computing power.",
+      "whyIsThisEntityRelevantToTheArticle": "The outage originated in AWS’s EC2 internal network, indicating a technical failure within a foundational cloud service."
+    },
+    {
+      "name": "Google",
+      "whatIsThisEntity": "A tech giant offering cloud computing services.",
+      "whyIsThisEntityRelevantToTheArticle": "Google is a major competitor to AWS in cloud services, and market analysis highlights AWS’s 30% market share in cloud computing."
+    },
+    {
+      "name": "Microsoft",
+      "whatIsThisEntity": "A tech giant offering cloud computing services.",
+      "whyIsThisEntityRelevantToTheArticle": "Microsoft is a major competitor to AWS with 20% market share, and its presence highlights market competition and risk concentration."
+    }
+  ],
+  "summaryOfNewsArticle": "Amazon Web Services (AWS) is still working to stabilize operations following a major global outage that originated within its EC2 internal network and was not caused by a cyber attack. The disruption affected hundreds of businesses and led to widespread outages across popular websites and apps such as Zoom, Roblox, Fortnite, Duolingo, Canva, Wordle, Perplexity, Robinhood, Signal, Coinbase, and Amazon's own services. Over 11 million users reported connectivity issues globally, with financial and operational losses potentially reaching hundreds of billions. Experts warn that the incident exposes the fragility of the internet due to over-reliance on a few cloud providers, calling for greater diversification in cloud computing to protect critical digital services like journalism, secure communication, and financial operations.",
+  "tags": [
+    "cloud computing",
+    "AWS outage",
+    "internet infrastructure",
+    "digital services disruption",
+    "cybersecurity",
+    "market consolidation",
+    "global connectivity",
+    "digital services",
+    "tech outages"
+  ],
+  "timeOfPublication": "09:34:59+00:00"
+  ,
+  "title": "Amazon Web Services struggling to recover from global web outages"
+}

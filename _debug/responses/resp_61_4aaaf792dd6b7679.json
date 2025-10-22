@@ -1,0 +1,75 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-17",
+      "descriptionOfWhyDateIsRelevant": "The date when OpenAI announced the pause on generating videos of Martin Luther King Jr. in Sora, following public backlash and family complaints."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "a few weeks after launch",
+      "approximateTimeFrameStart": "launch of Sora 2",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period around the launch of Sora 2 when concerns about inappropriate and disrespectful AI-generated depictions of public figures, including MLK Jr., began to surface."
+    }
+  ],
+  "keyTakeAways": [
+    "OpenAI has paused user-generated videos featuring Martin Luther King Jr. on its Sora AI tool due to backlash over disrespectful depictions.",
+    "The decision follows complaints from the King family, specifically Dr. Bernice A. King, and input from John Hope Bryant and the AI Ethics Council.",
+    "OpenAI emphasizes that public figures and their families should have control over how their likenesses are used in AI-generated content.",
+    "The incident highlights ethical concerns about AI-generated deepfakes, especially when used to depict real historical figures in inappropriate or misleading contexts.",
+    "The controversy underscores broader fears about misinformation, AI misuse, and the erosion of reality in digital media."
+  ],
+  "namedEntities": [
+    {
+      "name": "OpenAI",
+      "whatIsThisEntity": "A technology company that developed the AI video tool Sora.",
+      "whyIsThisEntityRelevantToTheArticle": "OpenAI is central to the article as the entity that decided to pause AI-generated videos of Martin Luther King Jr. due to ethical and familial concerns."
+    },
+    {
+      "name": "Sora",
+      "whatIsThisEntity": "An artificial intelligence video generation tool developed by OpenAI.",
+      "whyIsThisEntityRelevantToTheArticle": "Sora is the platform where the controversy over AI-generated depictions of MLK Jr. occurred, prompting OpenAI’s policy change."
+    },
+    {
+      "name": "Martin Luther King Jr.",
+      "whatIsThisEntity": "A prominent historical figure and civil rights leader.",
+      "whyIsThisEntityRelevantToTheArticle": "His likeness being used in AI-generated content sparked public outrage and family complaints, leading to the policy change in Sora."
+    },
+    {
+      "name": "Dr. Bernice A. King",
+      "whatIsThisEntity": "Daughter of Martin Luther King Jr., and a representative of the King family.",
+      "whyIsThisEntityRelevantToTheArticle": "She directly complained to OpenAI about the inappropriate use of her father’s likeness in AI videos, prompting the company’s response."
+    },
+    {
+      "name": "John Hope Bryant",
+      "whatIsThisEntity": "An AI ethics expert and public figure involved in the discussion around AI ethics.",
+      "whyIsThisEntityRelevantToTheArticle": "He and the AI Ethics Council advocated for ethical boundaries in AI-generated content involving public figures."
+    },
+    {
+      "name": "King Center",
+      "whatIsThisEntity": "An organization founded by Martin Luther King Jr. to preserve and promote his legacy.",
+      "whyIsThisEntityRelevantToTheArticle": "The King Center represents the official stewardship of MLK Jr.'s legacy and was referenced as a voice in the ethical debate."
+    },
+    {
+      "name": "Sora 2",
+      "whatIsThisEntity": "An updated version of the Sora AI video tool.",
+      "whyIsThisEntityRelevantToTheArticle": "The launch of Sora 2 introduced capabilities for generating videos with real and historical figures, triggering ethical concerns and the subsequent policy update."
+    }
+  ],
+  "summaryOfNewsArticle": "OpenAI has paused user-generated videos of Martin Luther King Jr. on its Sora AI platform after facing complaints from the King family, particularly Dr. Bernice A. King, and input from AI ethics experts like John Hope Bryant. The decision comes amid broader concerns about AI-generated deepfakes, especially those depicting public figures in inappropriate or disrespectful ways. OpenAI emphasizes that public figures and their families should have control over how their likenesses are used, citing ethical considerations and respect for historical legacy. This incident reflects wider societal debates about misinformation, AI ethics, and the boundaries of free speech in digital content creation.",
+  "tags": [
+    "AI ethics",
+    "deepfakes",
+    "Martin Luther King Jr.",
+    "OpenAI",
+    "Sora",
+    "free speech",
+    "digital misinformation",
+    "public figures",
+    "AI-generated content"
+  ],
+  "timeOfPublication": "07:55:00-04:00",
+  "title": "OpenAI’s Sora bans Martin Luther King Jr. deepfakes after his family complained"
+}

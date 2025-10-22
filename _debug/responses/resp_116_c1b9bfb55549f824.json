@@ -1,0 +1,111 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-17",
+      "descriptionOfWhyDateIsRelevant": "The date when OpenAI blocked AI-generated videos of Martin Luther King Jr. on Sora following complaints from the King estate, marking a pivotal moment in AI ethics and content safety."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "Three weeks prior to October 17, 2025",
+      "approximateTimeFrameStart": "October 10, 2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period during which hyper-realistic deepfake videos of Martin Luther King Jr. spread across social media, leading to OpenAI's response and the joint statement with the King estate."
+    }
+  ],
+  "keyTakeAways": [
+    "OpenAI blocked AI-generated videos of Martin Luther King Jr. on its Sora app due to 'disrespectful depictions' reported by the King estate.",
+    "The Sora app, launched three weeks prior, allowed users to create deepfakes of historical and public figures without consent, including figures like Princess Diana, JFK, Kurt Cobain, and Malcolm X.",
+    "OpenAI asserts that free speech supports AI deepfakes, but acknowledges estates should have control over how likenesses are used.",
+    "Intellectual property lawyers like Kristelia García criticize OpenAI's 'asking forgiveness, not permission' approach, noting legal risks and lack of oversight in deepfake generation.",
+    "California law provides strong rights to likeness for 70 years post-death, but state laws vary, creating potential legal gray areas.",
+    "The late Robin Williams' daughter, Zelda Williams, urged public action to stop AI deepfakes of her father, stating it was not what he would want.",
+    "Bernice King, daughter of MLK Jr., publicly called for a stop to AI depictions of her father, emphasizing respect for his legacy.",
+    "Hollywood studios and talent agencies have raised concerns about OpenAI’s approach of creating AI content without consent, similar to how ChatGPT initially used copyrighted material.",
+    "This incident reflects broader ethical and legal debates over AI-generated content involving deceased public figures and the balance between free speech and personal rights."
+  ],
+  "namedEntities": [
+    {
+      "name": "OpenAI",
+      "whatIsThisEntity": "An artificial intelligence company that developed the Sora app and responded to concerns about deepfakes of historical figures.",
+      "whyIsThisEntityRelevantToTheArticle": "OpenAI is central to the article as the developer of Sora, which generated controversial deepfake videos of MLK Jr. and other public figures, prompting its own policy changes and public backlash."
+    },
+    {
+      "name": "Sora",
+      "whatIsThisEntity": "An AI video generation app launched by OpenAI that allows users to create hyper-realistic deepfake videos through user-recorded inputs and AI processing.",
+      "whyIsThisEntityRelevantToTheArticle": "Sora is the platform where the deepfake videos of MLK Jr. and other public figures were created and spread, leading to the controversy and eventual blocking of such content by OpenAI."
+    },
+    {
+      "name": "Martin Luther King Jr.",
+      "whatIsThisEntity": "A civil rights leader and historical figure whose legacy is central to the ethical debate over AI depictions.",
+      "whyIsThisEntityRelevantToTheArticle": "The estate of MLK Jr. raised concerns about disrespectful depictions in AI-generated videos, prompting OpenAI to block such content and reevaluate its AI safety policies."
+    },
+    {
+      "name": "Kristelia García",
+      "whatIsThisEntity": "An intellectual property law professor at Georgetown Law who criticized OpenAI’s approach to AI deepfakes.",
+      "whyIsThisEntityRelevantToTheArticle": "García provided expert commentary on how OpenAI’s lack of consent-based safeguards reflects a 'first-to-market' mindset, highlighting legal and ethical risks."
+    },
+    {
+      "name": "Sam Altman",
+      "whatIsThisEntity": "CEO of OpenAI who announced changes to Sora’s policies to allow rights holders to opt into AI depictions.",
+      "whyIsThisEntityRelevantToTheArticle": "Sam Altman’s announcement of policy changes reflects OpenAI’s response to public and legal criticism, aiming to give estates control over how likenesses are used."
+    },
+    {
+      "name": "Zelda Williams",
+      "whatIsThisEntity": "Daughter of the late actor Robin Williams, who publicly urged people to stop creating AI deepfakes of her father.",
+      "whyIsThisEntityRelevantToTheArticle": "Zelda Williams' public appeal demonstrates how families of deceased public figures feel violated by AI depictions, reinforcing broader concerns about respect and consent."
+    },
+    {
+      "name": "Bernice King",
+      "whatIsThisEntity": "Daughter of Martin Luther King Jr., who called for a halt to AI depictions of her father.",
+      "whyIsThisEntityRelevantToTheArticle": "Bernice King’s public statement emphasizes the emotional and ethical significance of protecting the legacy of public figures from disrespectful AI portrayals."
+    },
+    {
+      "name": "California",
+      "whatIsThisEntity": "A U.S. state with strong rights-to-likeness laws for heirs of public figures, including 70-year ownership rights post-death.",
+      "whyIsThisEntityRelevantToTheArticle": "California’s legal framework provides a basis for estate protection of likeness, contrasting with states where such rights are weaker and highlighting jurisdictional differences in AI ethics."
+    },
+    {
+      "name": "Princess Diana",
+      "whatIsThisEntity": "A public figure whose likeness was used in unauthorized AI deepfakes on Sora.",
+      "whyIsThisEntityRelevantToTheArticle": "The inclusion of Princess Diana in the list of figures affected shows the broad scope of the deepfake issue beyond just MLK Jr. and other civil rights icons."
+    },
+    {
+      "name": "John F. Kennedy",
+      "whatIsThisEntity": "A former U.S. president whose likeness was used in unauthorized AI deepfakes.",
+      "whyIsThisEntityRelevantToTheArticle": "The use of JFK's likeness in deepfakes illustrates the concern over historical figures being exploited in AI-generated content without consent."
+    },
+    {
+      "name": "Kurt Cobain",
+      "whatIsThisEntity": "A musician and public figure whose likeness was used in unauthorized AI deepfakes.",
+      "whyIsThisEntityRelevantToTheArticle": "The inclusion of Cobain highlights the issue of celebrity rights and the potential for deepfakes to misrepresent or insult deceased artists."
+    },
+    {
+      "name": "Malcolm X",
+      "whatIsThisEntity": "A civil rights leader whose likeness was used in unauthorized AI deepfakes.",
+      "whyIsThisEntityRelevantToTheArticle": "Malcolm X’s inclusion underscores the concern that AI deepfakes may distort or disrespect the legacies of other civil rights figures."
+    },
+    {
+      "name": "ChatGPT",
+      "whatIsThisEntity": "An AI language model developed by OpenAI that previously used copyrighted content without consent.",
+      "whyIsThisEntityRelevantToTheArticle": "ChatGPT’s history of using unlicensed content without permission serves as a precedent for OpenAI’s current controversial approach to AI content creation."
+    }
+  ],
+  "summaryOfNewsArticle": "OpenAI has restricted users from generating AI videos of Martin Luther King Jr. on its Sora app after the King estate raised concerns about 'disrespectful depictions' such as fake videos showing King engaging in racist or offensive behavior. The Sora app, launched three weeks earlier, enabled deepfakes of numerous public figures—including Princess Diana, JFK, Kurt Cobain, and Malcolm X—without prior consent, sparking widespread criticism from legal experts, families of deceased celebrities, and Hollywood stakeholders. While OpenAI maintains that free speech supports deepfakes, it now asserts that estates should have ultimate control over how their likenesses are portrayed. The incident reflects broader ethical debates over AI-generated content, intellectual property rights, and the balance between innovation and respect for public figures' legacies, especially in the context of evolving laws like California’s 70-year rights-to-likeness provisions.",
+  "tags": [
+    "AI ethics",
+    "deepfakes",
+    "Martin Luther King Jr.",
+    "OpenAI",
+    "Sora app",
+    "copyright law",
+    "intellectual property",
+    "public figures",
+    "digital privacy",
+    "AI safety",
+    "consent in AI"
+  ],
+  "timeOfPublication": "14:39:00Z",
+  "title": "OpenAI blocks MLK Jr. videos on Sora after 'disrespectful depictions'"
+}

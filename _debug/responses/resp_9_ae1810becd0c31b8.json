@@ -1,0 +1,133 @@
+{
+  "category": "Economy & Business",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2021-01-01",
+      "descriptionOfWhyDateIsRelevant": "The subprime delinquency rate for car loans doubled from 2021, marking a significant increase in financial distress among borrowers."
+    },
+    {
+      "dateMentionedInArticle": "2025-09-01",
+      "descriptionOfWhyDateIsRelevant": "The default rate among subprime car borrowers reached nearly 10% in September 2025, indicating heightened financial instability and risk of repossession."
+    },
+    {
+      "dateMentionedInArticle": "2025-08-01",
+      "descriptionOfWhyDateIsRelevant": "Motor vehicle repair costs surged 15% year-over-year in August 2025, signaling rising costs of car ownership and maintenance."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2021",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period from 2021 to 2025 shows a doubling of subprime car loan delinquency rates, indicating a sustained and worsening economic stress among lower-income borrowers."
+    }
+  ],
+  "keyTakeAways": [
+    "The subprime delinquency rate for car loans has doubled since 2021 to 6.43%, surpassing delinquency levels during past recessions.",
+    "Car loan defaults and repossession rates are at their highest since the Great Recession of 2008–2009.",
+    "High car prices, rising interest rates, inflation, and increased repair and insurance costs have made car payments unaffordable for many.",
+    "Subprime borrowers are often already behind on mortgages, rent, or student loans, leaving no financial buffer to absorb car payment defaults.",
+    "There is a widening gap between prime and subprime borrowers: prime delinquency remains below 0.5%, while subprime delinquency is at 6.43% — highlighting the 'K-shaped economy' where wealthier consumers thrive while others face financial distress.",
+    "Lenders are using GPS tracking and ignition disabling to facilitate repossession, indicating a high volume of defaulting loans."
+  ],
+  "namedEntities": [
+    {
+      "name": "Fitch Ratings",
+      "whatIsThisEntity": "A financial ratings agency that tracks subprime car loan delinquency rates.",
+      "whyIsThisEntityRelevantToTheArticle": "Fitch Ratings provided the data showing that subprime car loan delinquency has doubled since 2021 to 6.43%, serving as a key indicator of economic strain."
+    },
+    {
+      "name": "Cox Automotive",
+      "whatIsThisEntity": "A company that tracks automotive financial data, including default rates.",
+      "whyIsThisEntityRelevantToTheArticle": "Cox Automotive reported that the default rate among subprime car borrowers reached nearly 10% in September 2025, highlighting the severity of financial distress."
+    },
+    {
+      "name": "Experian",
+      "whatIsThisEntity": "A major credit reporting agency that tracks car loan payment trends.",
+      "whyIsThisEntityRelevantToTheArticle": "Experian data shows that 46% of used car loans and about half of new car loans have monthly payments of $500 or more, illustrating the financial burden on borrowers."
+    },
+    {
+      "name": "Bureau of Labor Statistics",
+      "whatIsThisEntity": "A U.S. government agency that collects and reports labor and economic data.",
+      "whyIsThisEntityRelevantToTheArticle": "The Bureau of Labor Statistics reported a 15% year-over-year increase in motor vehicle repair costs in August 2025, contributing to the overall cost burden on car owners."
+    },
+    {
+      "name": "Jonathan Smoke",
+      "whatIsThisEntity": "Chief economist at Cox Automotive.",
+      "whyIsThisEntityRelevantToTheArticle": "He emphasized that 'there’s no room for error' in the financial situation of subprime borrowers, illustrating the fragility of their financial positions."
+    },
+    {
+      "name": "Rod Chadehumbe",
+      "whatIsThisEntity": "Chief asset-backed securities strategist at Bloomberg Intelligence.",
+      "whyIsThisEntityRelevantToTheArticle": "He noted that prime borrowers are not struggling, underscoring the divide between wealthy and struggling consumers in the 'K-shaped economy'."
+    },
+    {
+      "name": "Pamela Foohey",
+      "whatIsThisEntity": "Law professor at the University of Georgia and expert in auto finance and bankruptcies.",
+      "whyIsThisEntityRelevantToTheArticle": "She explained how lenders are implementing GPS tracking and ignition disabling to recover repossessed vehicles, indicating aggressive repossession practices."
+    },
+    {
+      "name": "George Badeen",
+      "whatIsThisEntity": "President of Midwest Recovery and Adjustment in Detroit and a trade group leader.",
+      "whyIsThisEntityRelevantToTheArticle": "He stated that repo activity levels are comparable to those during the Great Recession, signaling extreme financial distress in the auto lending market."
+    },
+    {
+      "name": "Subprime borrowers",
+      "whatIsThisEntity": "Individuals with credit scores below 670 who are at risk of defaulting on car loans.",
+      "whyIsThisEntityRelevantToTheArticle": "This group is experiencing a sharp rise in delinquency and repossession, reflecting broader economic inequality and financial vulnerability."
+    },
+    {
+      "name": "Prime borrowers",
+      "whatIsThisEntity": "Individuals with strong credit scores (above 670) who are not facing significant car loan delinquency.",
+      "whyIsThisEntityRelevantToTheArticle": "Their low delinquency rate (less than 0.5%) contrasts sharply with subprime borrowers, highlighting the economic divide known as the K-shaped economy."
+    },
+    {
+      "name": "K-shaped economy",
+      "whatIsThisEntity": "An economic model describing uneven recovery, where some groups thrive while others suffer.",
+      "whyIsThisEntityRelevantToTheArticle": "The article uses the K-shaped economy to describe how wealthier consumers are spending aggressively while lower-income borrowers face financial distress."
+    },
+    {
+      "name": "Car payments",
+      "whatIsThisEntity": "Monthly costs associated with owning a vehicle.",
+      "whyIsThisEntityRelevantToTheArticle": "Rising car payments due to high prices, interest rates, and inflation are a key driver of delinquency and financial distress among subprime borrowers."
+    },
+    {
+      "name": "Repossession",
+      "whatIsThisEntity": "The legal process of reclaiming a car when a borrower defaults on a loan.",
+      "whyIsThisEntityRelevantToTheArticle": "Repossession rates are at a 20-year high, indicating severe financial strain and a lack of consumer resilience."
+    },
+    {
+      "name": "Student loans",
+      "whatIsThisEntity": "Loans taken out by students to fund education.",
+      "whyIsThisEntityRelevantToTheArticle": "The resumption of student loan payments after pandemic pauses has increased financial pressure on borrowers, pushing them into lower credit ratings and higher interest rates."
+    },
+    {
+      "name": "Auto payments",
+      "whatIsThisEntity": "Monthly costs for car loans and leases.",
+      "whyIsThisEntityRelevantToTheArticle": "The rise in auto payments — including new and used car loans — is a central economic pressure point affecting financial stability."
+    },
+    {
+      "name": "Motor vehicle repair costs",
+      "whatIsThisEntity": "Costs associated with fixing or maintaining a vehicle.",
+      "whyIsThisEntityRelevantToTheArticle": "A 15% year-over-year surge in repair costs increases total ownership expenses and financial strain on car owners."
+    },
+    {
+      "name": "Car insurance",
+      "whatIsThisEntity": "Premiums paid to cover vehicle damage or liability.",
+      "whyIsThisEntityRelevantToTheArticle": "A 5% annual increase in car insurance costs since the pandemic adds significant financial burden to car ownership."
+    }
+  ],
+  "summaryOfNewsArticle": "A significant rise in car loan delinquency among subprime borrowers — those with credit scores below 670 — has occurred since 2021, reaching 6.43%, which is the highest level since the early 1990s and higher than during past recessions. This trend, driven by record car prices, high interest rates, inflation, and rising repair and insurance costs, has led to a surge in repossession activity, with default rates nearing 10% in September 2025. The financial strain is compounded by borrowers already behind on mortgage, rent, or student loans. In contrast, prime borrowers with strong credit scores show minimal delinquency, highlighting the 'K-shaped economy' where wealthier individuals benefit while lower-income consumers face deep financial hardship. Lenders are now using GPS tracking and ignition disabling to recover vehicles, signaling a crisis level in the auto finance market.",
+  "tags": [
+    "Economic warning",
+    "Subprime delinquency",
+    "Car loan crisis",
+    "K-shaped economy",
+    "Affordability crisis",
+    "Repossession surge",
+    "Inflation impact",
+    "Wealth inequality"
+  ],
+  "timeOfPublication": "06:27:00-04:00",
+  "title": "A significant group of Americans are falling behind on their car payments - an economic warning sign"
+}

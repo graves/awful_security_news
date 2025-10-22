@@ -1,0 +1,69 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1020-10-20",
+      "descriptionOfWhyDateIsRelevant": "The incident occurred on October 20, 2025, and is a key temporal reference point for tracking aviation safety events."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "6:41 p.m. local time",
+      "approximateTimeFrameStart": "6:41 p.m. local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "The flight departed at 6:41 p.m. local time, indicating the precise moment of departure and subsequent emergency turn-around."
+    }
+  ],
+  "keyTakeAways": [
+    "An American Airlines flight operated by SkyWest Airlines made an emergency landing in Nebraska after pilots lost contact with flight attendants.",
+    "The pilots heard knocking on the cockpit door, which led to the emergency landing.",
+    "The FAA identified a malfunction in the inter-phone system as the cause of the communication failure.",
+    "The flight, Flight 6469, took off from Omaha’s Eppley Airfield and landed just 18 minutes later at the same airport.",
+    "No security incident was reported by Omaha’s airport authority, and there were no injuries or fatalities.",
+    "A photo of the aircraft showed it parked away from the terminal with two firetrucks present, suggesting a precautionary response.",
+    "The incident highlights a potential vulnerability in aircraft communication systems affecting flight safety."
+  ],
+  "namedEntities": [
+    {
+      "name": "American Airlines",
+      "whatIsThisEntity": "A major U.S. airline operating the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "American Airlines operated the flight, making it directly responsible for the flight operations and safety oversight in this incident."
+    },
+    {
+      "name": "SkyWest Airlines",
+      "whatIsThisEntity": "The airline operating the flight under a contract with American Airlines.",
+      "whyIsThisEntityRelevantToTheArticle": "SkyWest Airlines operated the flight, which means they are responsible for regional jet operations and may need to address the inter-phone system malfunction."
+    },
+    {
+      "name": "Flight 6469",
+      "whatIsThisEntity": "The flight number of the aircraft involved in the incident.",
+      "whyIsThisEntityRelevantToTheArticle": "Flight 6469 is the specific identification of the flight that experienced the emergency landing due to communication failure."
+    },
+    {
+      "name": "Embraer ERJ 175",
+      "whatIsThisEntity": "The type of regional jet aircraft used in the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "The Embraer ERJ 175 model is a specific aircraft type, and its communication system failure contributed to the incident."
+    },
+    {
+      "name": "Omaha’s Eppley Airfield",
+      "whatIsThisEntity": "The departure airport in Nebraska.",
+      "whyIsThisEntityRelevantToTheArticle": "The flight originated at Eppley Airfield, which is the key location where the incident began and the emergency landing occurred."
+    },
+    {
+      "name": "Federal Aviation Administration (FAA)",
+      "whatIsThisEntity": "The U.S. government agency overseeing aviation safety.",
+      "whyIsThisEntityRelevantToTheArticle": "The FAA investigated and confirmed the communication system malfunction, establishing official authority on the incident's cause."
+    }
+  ],
+  "summaryOfNewsArticle": "An American Airlines flight operated by SkyWest Airlines, designated Flight 6469, departed from Omaha’s Eppley Airfield at 6:41 p.m. local time on October 20, 2025, bound for Los Angeles, but only 18 minutes later made an emergency landing due to the pilots losing contact with flight attendants and hearing knocking on the cockpit door. The Federal Aviation Administration confirmed a malfunction in the inter-phone system as the root cause, with no security incident or injuries reported. The aircraft, an Embraer ERJ 175 regional jet, was later observed parked away from the terminal with two firetrucks present, indicating precautionary measures. The incident underscores potential risks in aircraft communication systems and highlights the importance of real-time crew coordination in commercial aviation.",
+  "tags": [
+    "aviation safety",
+    "flight emergency",
+    "inter-phone system failure",
+    "communication failure",
+    "airline operations",
+    "FAA investigation"
+  ],
+  "timeOfPublication": "10:25:00-05:00",
+  "title": "Plane Makes Emergency Landing After Pilots Lose Contact With Flight Attendants and Hear Knocking on Cockpit Door"
+}

@@ -1,0 +1,122 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "The American Dialect Society named 'enshittification' as its Word of the Year in 2023, marking a pivotal moment in public discourse about internet platform degradation."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The article was published on October 21, 2025, as part of a Planet Money newsletter, bringing renewed attention to the theory of internet platform decline."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "Stage 1: early platform growth (pre-2010s)",
+      "approximateTimeFrameStart": "Stage 1: when platforms are new and growing",
+      "descriptionOfWhyTimeFrameIsRelevant": "Stage 1 represents the initial phase of platforms like Facebook and Amazon, where they offer attractive, user-friendly experiences to gain users and scale."
+    },
+    {
+      "approximateTimeFrameEnd": "Stage 2: mid-platform maturity (post-2010s)",
+      "approximateTimeFrameStart": "Stage 2: when platforms begin prioritizing business customers",
+      "descriptionOfWhyTimeFrameIsRelevant": "Stage 2 marks the shift where platforms start exploiting user data and content to entice advertisers and publishers, often at user expense."
+    },
+    {
+      "approximateTimeFrameEnd": "Stage 3: decline phase (present day)",
+      "approximateTimeFrameStart": "Stage 3: when platforms begin extracting profits from users and businesses",
+      "descriptionOfWhyTimeFrameIsRelevant": "Stage 3 is described as the 'end-stage of enshittification,' where platforms charge excessive fees, manipulate algorithms, and degrade user experience."
+    }
+  ],
+  "keyTakeAways": [
+    "The term 'enshittification' was coined by Cory Doctorow and has become widely recognized in internet culture and policy debates.",
+    "Doctorow identifies a three-stage process through which internet platforms degrade: user acquisition, business prioritization, and profit extraction.",
+    "Stage 1: Platforms attract users with free or low-cost offers and strong network effects, such as Facebook’s early non-invasive feed or Amazon’s deals.",
+    "Stage 2: Platforms shift focus to business customers, using user data to target ads and subsidizing business operations (e.g., Amazon paying full price for goods to sell below cost).",
+    "Stage 3: Platforms begin extracting revenue through junk fees, algorithm manipulation, and poor search results (e.g., Amazon charging 45–51 cents per dollar earned by sellers; Facebook boosting content without user consent).",
+    "Amazon and Facebook deny Doctorow’s claims, asserting their services have improved and that fees are not predatory or junk fees.",
+    "Doctorow attributes the degradation to lack of competition and weak consumer regulations, especially the consumer welfare standard.",
+    "Proposed solutions include stronger antitrust enforcement, the 'right-to-exit' policy (e.g., allowing Kindle users to take books with them), and improved interoperability (e.g., allowing third-party apps and services to work across platforms).",
+    "The theory is gaining traction globally, with growing public and political support for reversing platform enshittification."
+  ],
+  "namedEntities": [
+    {
+      "name": "Cory Doctorow",
+      "whatIsThisEntity": "Author, internet activist, journalist, and coiner of the term 'enshittification'",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow is the central figure behind the theory of enshittification, providing the framework and evidence for platform degradation in the internet ecosystem."
+    },
+    {
+      "name": "Facebook",
+      "whatIsThisEntity": "Social media platform that Doctorow critiques for its data practices and algorithmic manipulation",
+      "whyIsThisEntityRelevantToTheArticle": "Facebook is a key example of enshittification, with Doctorow arguing it changed user feeds to prioritize ads and forced publishers to publish longer content."
+    },
+    {
+      "name": "Google",
+      "whatIsThisEntity": "Search engine and tech giant cited in the article as a platform undergoing enshittification",
+      "whyIsThisEntityRelevantToTheArticle": "Google is referenced as part of the broader set of platforms Doctorow criticizes for shifting from user-centric to profit-driven models, though the article focuses more on Facebook and Amazon."
+    },
+    {
+      "name": "Amazon",
+      "whatIsThisEntity": "E-commerce platform accused by Doctorow of predatory pricing, algorithm manipulation, and junk fees",
+      "whyIsThisEntityRelevantToTheArticle": "Amazon is a central case study in enshittification, with Doctorow claiming it clones products, charges sellers 45–51 cents per dollar earned, and degrades search quality."
+    },
+    {
+      "name": "Uber",
+      "whatIsThisEntity": "Mobility platform included in Doctorow’s list of platforms undergoing enshittification",
+      "whyIsThisEntityRelevantToTheArticle": "Uber is cited as part of the broader trend, where platforms shift from user-friendly services to profit-driven operations once they achieve scale."
+    },
+    {
+      "name": "American Dialect Society",
+      "whatIsThisEntity": "Organization that named 'enshittification' Word of the Year in 2023",
+      "whyIsThisEntityRelevantToTheArticle": "The recognition by the American Dialect Society underscores the cultural and linguistic significance of the term in public discourse."
+    },
+    {
+      "name": "Merriam-Webster",
+      "whatIsThisEntity": "Dictionary publisher that added 'enshittification' to its dictionary",
+      "whyIsThisEntityRelevantToTheArticle": "Merriam-Webster’s inclusion of the term signals widespread acceptance of the concept in mainstream language and thought."
+    },
+    {
+      "name": "Planet Money",
+      "whatIsThisEntity": "NPR podcast series that published the article and analyzed internet platform degradation",
+      "whyIsThisEntityRelevantToTheArticle": "Planet Money provides a platform for public discussion of enshittification and is central to spreading the theory to a broader audience."
+    },
+    {
+      "name": "Institute for Local Self-Reliance",
+      "whatIsThisEntity": "Non-profit research and advocacy group cited by Doctorow for supporting claims about Amazon’s seller fees",
+      "whyIsThisEntityRelevantToTheArticle": "The institute provides a source for the claim that Amazon sellers lose 45–51 cents per dollar in revenue due to fees."
+    },
+    {
+      "name": "Consumer Welfare Standard",
+      "whatIsThisEntity": "Legal doctrine used in antitrust cases to judge competition based on consumer prices",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow argues this standard undermines effective regulation and enables platforms to act anti-competitively."
+    },
+    {
+      "name": "Right-to-Exit",
+      "whatIsThisEntity": "Policy proposal suggesting users can take data or content with them when leaving a platform",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow recommends this as a tool to create accountability and reduce platform power."
+    },
+    {
+      "name": "Interoperability",
+      "whatIsThisEntity": "Technical standard allowing products or services to work together across platforms",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow proposes interoperability as a way to break down monopolies, such as preventing printer companies from locking users into proprietary ink."
+    }
+  ],
+  "summaryOfNewsArticle": "Cory Doctorow presents a theory of 'enshittification' — a degradation of internet platforms — arguing that over time, platforms like Facebook, Google, Amazon, and Uber shift from user-friendly, innovative beginnings to profit-driven, exploitative models. The process occurs in three stages: (1) user acquisition with strong network effects; (2) prioritization of business customers at user expense; and (3) profit extraction through junk fees, algorithm manipulation, and poor search quality. Doctorow attributes this decline to a lack of competition and weak consumer regulations, especially the consumer welfare standard. He proposes policy solutions such as the right-to-exit and interoperability to restore user trust and competition. Though Amazon and Facebook deny the claims, the theory has gained cultural and political traction, especially in discussions about antitrust and digital monopolies.",
+  "tags": [
+    "internet",
+    "platform degradation",
+    "enshittification",
+    "Cory Doctorow",
+    "antitrust",
+    "digital monopolies",
+    "consumer rights",
+    "algorithmic bias",
+    "Amazon",
+    "Facebook",
+    "interoperability",
+    "right-to-exit",
+    "tech regulation"
+  ],
+  "timeOfPublication": "06:30:00-04:00",
+  "title": "A theory why the internet is going down the toilet"
+}

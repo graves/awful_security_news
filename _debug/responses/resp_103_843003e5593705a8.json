@@ -1,0 +1,128 @@
+{
+  "category": "Human Rights & Immigration",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication, indicating the current state of humanitarian restrictions in Gaza and the West Bank."
+    },
+    {
+      "dateMentionedInArticle": "2023-10-07",
+      "descriptionOfWhyDateIsRelevant": "The date of the Hamas attack on Israel that triggered the Gaza war and subsequent humanitarian crisis, forming the context for Israel's current aid restrictions."
+    },
+    {
+      "dateMentionedInArticle": "2025-01-01",
+      "descriptionOfWhyDateIsRelevant": "The start of the ceasefire agreement brokered by President Trump, which initially committed Israel to increased aid in Gaza, now undermined by enforcement failures."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2023",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period from the 2023 Hamas attack to 2025, during which the humanitarian crisis in Gaza intensified and Israel has progressively restricted aid operations."
+    },
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "The current period of renewed scrutiny and de-registration of international aid organizations under new Israeli criteria."
+    }
+  ],
+  "keyTakeAways": [
+    "Israel has banned the UN agency for Palestinian refugees (UNRWA) from sending aid and staff to Gaza, citing unsubstantiated claims that it employs Hamas members.",
+    "Israel has introduced new registration requirements for international aid groups (INGOs), including a committee review process that can deem organizations ideologically delegitimized, potentially removing their ability to operate in Gaza and the West Bank.",
+    "Many major INGOs, including the Norwegian Refugee Council and Mercy Corps, are unable to re-register or send aid due to vague and politically charged criteria such as 'inciting racism' or supporting 'terrorist activities'.",
+    "Aid organizations report that only two of seven border crossings are currently open, and even then, aid requests are routinely rejected without explanation.",
+    "The U.S. stopped funding UNRWA in 2024, contributing to financial instability, while other countries have partially compensated, but not enough to cover the full gap.",
+    "UNRWA has warehouses in Jordan and Egypt with supplies sufficient to feed Gaza’s population for three months, which remain inaccessible due to Israeli restrictions.",
+    "The Israeli military claims security concerns justify restrictions, but aid groups and international observers argue the measures are politically motivated and undermine humanitarian needs.",
+    "A dozen new aid organizations have been approved by Israel that are ideologically driven or lack traditional humanitarian experience, raising concerns about the neutrality and effectiveness of aid delivery."
+  ],
+  "namedEntities": [
+    {
+      "name": "Israel",
+      "whatIsThisEntity": "A nation-state in the Middle East, central to the geopolitical and humanitarian conflict described.",
+      "whyIsThisEntityRelevantToTheArticle": "Israel is the primary actor implementing restrictions on international humanitarian aid, including banning UNRWA and de-registering INGOs, which directly affects humanitarian access in Gaza and the West Bank."
+    },
+    {
+      "name": "United Nations Relief and Works Agency for Palestine Refugees (UNRWA)",
+      "whatIsThisEntity": "The UN agency responsible for providing humanitarian aid to Palestinian refugees.",
+      "whyIsThisEntityRelevantToTheArticle": "UNRWA has been banned from operating in Gaza, making it one of the largest aid providers in the region, and its restriction undermines the humanitarian response in Gaza."
+    },
+    {
+      "name": "Norwegian Refugee Council (NRC)",
+      "whatIsThisEntity": "A major international non-governmental organization (INGO) operating in Gaza since 2009.",
+      "whyIsThisEntityRelevantToTheArticle": "The NRC is one of the INGOs caught in Israel’s new re-registration process, which it claims is designed to remove its ability to operate in Gaza and the West Bank."
+    },
+    {
+      "name": "Mercy Corps",
+      "whatIsThisEntity": "A major U.S.-based international aid organization.",
+      "whyIsThisEntityRelevantToTheArticle": "Mercy Corps was denied entry to Gaza due to being in the re-registration process, illustrating how Israeli policy is impacting U.S.-backed humanitarian operations."
+    },
+    {
+      "name": "President Trump",
+      "whatIsThisEntity": "Former U.S. President who brokered a ceasefire agreement in Gaza.",
+      "whyIsThisEntityRelevantToTheArticle": "The ceasefire agreement he facilitated included promises of increased aid, which are currently not being fulfilled, creating a contradiction between diplomatic promises and on-the-ground reality."
+    },
+    {
+      "name": "COGAT",
+      "whatIsThisEntity": "The Israeli military arm responsible for border coordination and NGO approval processes.",
+      "whyIsThisEntityRelevantToTheArticle": "COGAT enforces the new registration criteria for INGOs and is central to the de-registration process, including rejecting applications based on ideological grounds."
+    },
+  {
+      "name": "United States",
+      "whatIsThisEntity": "A major donor country to UNRWA and a key player in regional diplomacy.",
+      "whyIsThisEntityRelevantToTheArticle": "The U.S. stopped funding UNRWA in 2024, which has contributed to financial instability, and its policies are influencing international aid dynamics in Gaza."
+    },
+    {
+      "name": "European Union",
+      "whatIsThisEntity": "A regional bloc providing humanitarian support to Gaza.",
+      "whyIsThisEntityRelevantToTheArticle": "The EU has increased contributions to UNRWA, though not enough to offset funding losses, showing the international community's divided response to the crisis."
+    },
+    {
+      "name": "Egypt",
+      "whatIsThisEntity": "A neighboring country with a border crossing into Gaza (Rafah).",
+      "whyIsThisEntityRelevantToTheArticle": "Egypt's Rafah crossing is one of the few open border points into Gaza, and many aid trucks have been waiting months to enter through it."
+    },
+    {
+      "name": "Jordan",
+      "whatIsThisEntity": "A neighboring country with a border crossing into Gaza and storage facilities for UNRWA supplies.",
+      "whyIsThisEntityRelevantToTheArticle": "Jordan hosts UNRWA warehouses with food supplies sufficient to feed Gaza for three months, and is a key logistical hub for humanitarian goods."
+    },
+    {
+      "name": "Gaza",
+      "whatIsThisEntity": "A Palestinian territory under Israeli military control, with severe humanitarian needs.",
+      "whyIsThisEntityRelevantToTheArticle": "Gaza is the focal point of the humanitarian crisis, where access to aid is severely restricted by Israel despite international commitments to provide relief."
+    },
+    {
+      "name": "West Bank",
+      "whatIsThisEntity": "An Israeli-occupied Palestinian territory where aid access is also restricted.",
+      "whyIsThisEntityRelevantToTheArticle": "The new Israeli restrictions apply to both Gaza and the West Bank, affecting humanitarian operations across the occupied Palestinian territories."
+    },
+    {
+      "name": "Hamas",
+      "whatIsThisEntity": "A Palestinian political and militant organization accused by Israel of involvement in attacks on Israel.",
+      "whyIsThisEntityRelevantToTheArticle": "Israel claims UNRWA employs Hamas members, which is a primary justification for its ban on the organization, though no evidence is provided."
+    },
+    {
+      "name": "Hamas attack on Israel (October 7, 2023)",
+      "whatIsThisEntity": "A major terrorist attack that triggered the Gaza war and the subsequent humanitarian crisis.",
+      "whyIsThisEntityRelevantToTheArticle": "The attack is the foundational event that led to increased military activity and restrictions on humanitarian access in Gaza."
+    }
+  ],
+  "summaryOfNewsArticle": "Israel has implemented sweeping restrictions on humanitarian aid in Gaza and the West Bank, banning the UNRWA agency from operating and de-registering major international aid organizations (INGOs) under new ideological criteria. The process, overseen by COGAT, includes rejecting applications based on vague grounds such as 'inciting racism' or supporting 'terrorist activities,' effectively targeting groups like the Norwegian Refugee Council and Mercy Corps. Despite a U.S.-brokered ceasefire promising increased aid, Israel continues to limit crossings, allowing only two of seven border crossings to remain open. Humanitarian organizations report that hundreds of aid trucks have been stranded in Egypt and Jordan, with critical supplies like food, medicine, and shelter remaining inaccessible. Israel's claims of security concerns lack evidence, and the de-registration process has been widely criticized as politically motivated. Meanwhile, UNRWA, which previously provided essential services like shelter, healthcare, and education in Gaza, remains banned from entering, with its emergency food stockpiles in Jordan and Egypt still inaccessible.",
+  "tags": [
+    "humanitarian crisis",
+    "Israel-Gaza conflict",
+    "UNRWA ban",
+    "humanitarian aid restrictions",
+    "international aid organizations",
+    "political interference in aid",
+    "ceasefire violations",
+    "Middle East politics",
+    "aid access",
+    "Palestinian refugee crisis"
+  ]
+  ,
+  "timeOfPublication": "13:30:00-04:00",
+  "title": "Israel Takes Steps to Shut Down International Aid Groups in Gaza and the West Bank"
+}

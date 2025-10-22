@@ -1,0 +1,151 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-12",
+      "descriptionOfWhyDateIsRelevant": "The Smithsonian Institute and National Zoo closed on this date due to the government shutdown, leading to increased visitation at nearby private museums and a shift in tourist behavior in Washington, DC."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-18",
+      "descriptionOfWhyDateIsRelevant": "West Virginia announced it would keep its national parks open through this date for Bridge Day, a major tourism event, highlighting the economic importance of tourism in the state."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The article was published on this date, marking the ongoing impact of the government shutdown and public concern over long-term effects on national parks and local economies."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-20",
+      "approximateTimeFrameStart": "2025-10-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "The shutdown began around October 1, 2025, and the article covers its effects up to October 20, 2025, during which tourist behavior, park operations, and economic impacts have been observed and reported."
+    }
+  ],
+  "keyTakeAways": [
+    "The government shutdown has led to closures of national park entrances and furloughing of 9,000 National Park Service employees, affecting safety, law enforcement, and visitor access.",
+    "Despite closures, some national parks like New River Gorge and Yosemite remain open due to state or private funding, resulting in increased visitor numbers and potential safety risks such as drone use and base jumping.",
+    "Local businesses near national parks are experiencing mixed impacts—some report no decline in bookings, while others, like Mountain Mama in Harpers Ferry, see a 30% drop in reservations.",
+    "Private museums in Washington, DC, have seen a surge in visitors, with Mount Vernon reporting 50% more foot traffic than the same period last year, suggesting a shift in tourist behavior due to closures of public institutions.",
+    "Advocacy groups like the National Parks Conservation Association and the Coalition to Protect America’s National Parks warn that limited staffing compromises safety, emergency response, and environmental stewardship, with reports of trash buildup and vandalism.",
+    "The economic impact on local communities is significant, with West Virginia’s tourism sector and Washington, DC’s small businesses facing financial strain, especially during peak season months like October and November."
+  ],
+  "namedEntities": [
+    {
+      "name": "Nudrat Mahajabin",
+      "whatIsThisEntity": "A 26-year-old tourist who visited Grand Canyon National Park during the shutdown despite closures and fees being waived.",
+      "whyIsThisEntityRelevantToTheArticle": "Her visit illustrates how individual tourists remain unaffected by closures, but raises concerns about the impact on park caretakers and visitor safety."
+    },
+    {
+      "name": "Grand Canyon National Park",
+      "whatIsThisEntity": "A U.S. national park where entrance fees were not collected during the shutdown, and rangers were absent.",
+      "whyIsThisEntityRelevantToTheArticle": "The park serves as a key example of how closures and staff reductions affect visitor experience and park safety."
+    },
+    {
+      "name": "New River Gorge National Park",
+      "whatIsThisEntity": "A national park in West Virginia that remained open using state funds during the shutdown.",
+      "whyIsThisEntityRelevantToTheArticle": "It highlights the economic and cultural importance of tourism in West Virginia and the state's efforts to maintain park operations for key events like Bridge Day."
+    },
+    {
+      "name": "Harpers Ferry National Historical Park",
+      "whatIsThisEntity": "A national park in West Virginia that remained open during the shutdown with support from state funds.",
+      "whyIsThisEntityRelevantToTheArticle": "It demonstrates the interplay between state and federal funding in maintaining park operations during a shutdown and the economic dependency on tourism."
+    },
+    {
+      "name": "West Virginia",
+      "whatIsThisEntity": "A U.S. state where tourism is a major economic driver, and where state leaders are actively supporting national parks during the shutdown.",
+      "whyIsThisEntityRelevantToTheArticle": "The state’s response underscores the broader economic stakes of government shutdowns on regional economies and tourism-dependent communities."
+    },
+    {
+      "name": "Patrick Morrisey",
+      "whatIsThisEntity": "The Republican governor of West Virginia who pledged to keep national parks open through October 18 for Bridge Day.",
+      "whyIsThisEntityRelevantToTheArticle": "His leadership reflects political and economic decisions that prioritize tourism during peak times, even amid federal shutdowns."
+    },
+    {
+      "name": "Rob Dobson",
+      "whatIsThisEntity": "Owner of West Virginia Adventures, a white water rafting business near New River Gorge National Park.",
+      "whyIsThisEntityRelevantToTheArticle": "He exemplifies a business unaffected by the shutdown, showing resilience in tourism-based operations despite federal closures."
+    },
+    {
+      "name": "Elisabeth Barton",
+      "whatIsThisEntity": "General manager of Echo Adventure Cooperative, a guide service in Groveland, California.",
+      "whyIsThisEntityRelevantToTheArticle": "She reports increased visitor numbers at Yosemite due to fee-free access, illustrating both tourism growth and safety concerns like drone use and base jumping."
+    },
+    {
+      "name": "Mount Vernon",
+      "whatIsThisEntity": "The historic home of George Washington, located in Washington, DC, which saw a 50% increase in visitors during the shutdown.",
+      "whyIsThisEntityRelevantToTheArticle": "It shows a shift in tourist behavior as people seek alternatives to closed federal institutions, indicating a broader impact on cultural tourism."
+    },
+    {
+      "name": "Smithsonian Institute",
+      "whatIsThisEntity": "A major U.S. museum system that closed during the shutdown, leading to increased foot traffic at nearby private museums.",
+      "whyIsThisEntityRelevantToTheArticle": "Its closure is a key factor in the surge of visitors to private museums, illustrating how federal closures alter tourist patterns."
+    },
+    {
+      "name": "National Zoo",
+      "whatIsThisEntity": "A federal zoo in Washington, DC, which closed during the shutdown, contributing to visitor shifts to other attractions.",
+      "whyIsThisEntityRelevantToTheArticle": "Its closure is directly linked to increased tourism at alternative sites, highlighting the economic ripple effect of federal closures."
+    },
+    {
+      "name": "National Parks Conservation Association",
+      "whatIsThisEntity": "An advocacy group urging national parks to close during the shutdown due to safety and staffing concerns.",
+      "whyIsThisEntityRelevantToTheArticle": "It represents the formal concern of park advocates about compromised safety and visitor education during staffing shortages."
+    },
+    {
+      "name": "Coalition to Protect America’s National Parks",
+      "whatIsThisEntity": "An advocacy group expressing concern about safety in national parks due to lack of rangers and emergency response staff.",
+      "whyIsThisEntityRelevantToTheArticle": "It amplifies public concern about long-term risks to park safety and environmental integrity during shutdowns."
+    },
+    {
+      "name": "YMCA of the Rockies",
+      "whatIsThisEntity": "A volunteer group operating in Rocky Mountain National Park to clean up trash left behind by visitors.",
+      "whyIsThisEntityRelevantToTheArticle": "It demonstrates the increasing environmental challenges and volunteer response efforts as a result of visitor overuse during open park periods."
+    },
+    {
+      "name": "Ferguson",
+      "whatIsThisEntity": "A Washington, DC business leader who warns of economic damage from the shutdown, citing $47.4 million in revenue loss in a prior shutdown.",
+      "whyIsThisEntityRelevantToTheArticle": "His testimony provides real economic data on the impact of shutdowns on local business and tourism in the capital region."
+    },
+    {
+      "name": "Jason Nelson",
+      "whatIsThisEntity": "Communication director for the YMCA of the Rockies, who reports on trash buildup and volunteer cleanup efforts.",
+      "whyIsThisEntityRelevantToTheArticle": "He provides on-the-ground evidence of environmental degradation and the strain on local resources during extended closures."
+    },
+    {
+      "name": "Eddie Love",
+      "whatIsThisEntity": "Owner of Mountain Mama vacation cabins in Harpers Ferry, West Virginia, who reports a 30% drop in bookings.",
+      "whyIsThisEntityRelevantToTheArticle": "His experience reflects the economic vulnerability of tourism-dependent small businesses during prolonged shutdowns."
+    },
+    {
+      "name": "William Torres",
+      "whatIsThisEntity": "Owner of DC Trails, a tour bus company in Washington, DC, who notes potential future impacts if the shutdown continues.",
+      "whyIsThisEntityRelevantToTheArticle": "His perspective reflects concern about long-term economic impacts on transport and tour services during peak travel times."
+    },
+    {
+      "name": "Department of the Interior",
+      "whatIsThisEntity": "A federal agency that maintains some national parks open during the shutdown, emphasizing critical functions like law enforcement and emergency response.",
+      "whyIsThisEntityRelevantToTheArticle": "It represents the federal government’s balance between maintaining essential services and managing public safety and operations during a shutdown."
+    },
+    {
+      "name": "Washington Metropolitan Area Transit Authority",
+      "whatIsThisEntity": "A transit agency whose ridership data shows higher train and bus usage during the shutdown than in the same period last year.",
+      "whyIsThisEntityRelevantToTheArticle": "It provides data suggesting that despite closures, public transportation usage increased, indicating a shift in mobility patterns during the shutdown."
+    }
+  ],
+  "summaryOfNewsArticle": "During a prolonged government shutdown in 2025, national parks across the U.S., including Grand Canyon, New River Gorge, and Yosemite, remain open with limited staffing due to furloughed National Park Service employees. While some tourists, like Nudrat Mahajabin, visit despite closures, advocates and local businesses express growing concern over safety risks, such as unauthorized drone use, base jumping, and trash buildup. In West Virginia, state leadership and local businesses like Rob Dobson’s rafting company report resilience, while others like Eddie Love’s cabins see significant drops in bookings. In Washington, DC, closures of Smithsonian museums and the National Zoo have driven a surge in visits to private attractions like Mount Vernon and the International Spy Museum. Advocacy groups warn that the absence of rangers and staff compromises emergency response and visitor safety, with environmental issues like litter accumulating. The economic impact on local tourism economies is significant, especially during peak months, and raises questions about the long-term sustainability of national park operations during federal shutdowns.",
+  "tags": [
+    "government shutdown",
+    "national parks",
+    "tourism",
+    "West Virginia",
+    "Washington, DC",
+    "economic impact",
+    "safety concerns",
+    "environmental degradation",
+    "local business",
+    "public safety",
+    "visitor behavior"
+  ],
+  "timeOfPublication": "07:00:00-04:00",
+  "title": "Tourists Continue Visiting National Parks Amid Government Shutdown, Raising Safety and Economic Concerns"
+}

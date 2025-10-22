@@ -1,0 +1,98 @@
+{
+  "category": "Economy & Business",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1002-10-21",
+      "descriptionOfWhyDateIsRelevant": "The incident occurred on October 21, 2025, and is the key timeline point for public awareness and reporting of the event."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "6:41 PM local time",
+      "approximateTimeFrameStart": "6:41 PM local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "Flight 6469 departed Omaha at 6:41 PM, and the emergency landing occurred just 18 minutes later, indicating a rapid escalation of events."
+    },
+    {
+      "approximateTimeFrameEnd": "8:59 PM local time",
+      "approximateTimeFrameStart": "8:59 PM local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "The flight made an emergency landing at approximately 6:59 PM, and the situation was resolved after being grounded and reassessed."
+    }
+  ],
+  "keyTakeAways": [
+    "An American Airlines flight operated by SkyWest Airlines made an emergency landing in Nebraska after pilots lost contact with flight attendants and heard banging on the cockpit door.",
+    "The flight was operating as Flight 6469, departing from Omaha’s Eppley Airfield and bound for Los Angeles.",
+    "Passengers, including Henry Gruver and his family, were unaware of the issue until police boarded the plane after landing.",
+    "The Federal Aviation Administration (FAA) determined that the cause was a malfunction in the inter-phone system, leading to the pilots being unable to communicate with flight attendants.",
+    "SkyWest confirmed a problem with a 'flight crew mic' as the root cause.",
+    "The flight eventually took off again five hours late, resulting in a missed connection to Japan and a prolonged wait at the airport.",
+    "SkyWest and American Airlines have not contacted the affected passengers since the incident."
+  ],
+  "namedEntities": [
+    {
+      "name": "American Airlines",
+      "whatIsThisEntity": "Airline operator",
+      "whyIsThisEntityRelevantToTheArticle": "American Airlines is the airline responsible for operating the flight, and its involvement is central to the incident's context and public visibility."
+    },
+    {
+      "name": "SkyWest Airlines",
+      "whatIsThisEntity": "Airline operator",
+      "whyIsThisEntityRelevantToTheArticle": "SkyWest Airlines operated the specific flight (Flight 6469) and confirmed the technical fault in the flight crew mic system, indicating operational responsibility for the incident."
+    },
+    {
+      "name": "Flight 6469",
+      "whatIsThisEntity": "Flight number",
+      "whyIsThisEntityRelevantToTheArticle": "The flight number identifies the specific incident and allows tracking of the flight's route, timing, and outcome."
+    },
+    {
+      "name": "Omaha’s Eppley Airfield",
+      "whatIsThisEntity": "Airport",
+      "whyIsThisEntityRelevantToTheArticle": "The departure point of the flight, where the incident began, making it a critical geographic and logistical reference."
+    },
+    {
+      "name": "Los Angeles",
+      "whatIsThisEntity": "Destination city",
+      "whyIsThisEntityRelevantToTheArticle": "The intended destination of the flight, highlighting the disruption caused by the emergency landing and subsequent delay."
+    },
+    {
+      "name": "Japan",
+      "whatIsThisEntity": "Destination country",
+      "whyIsThisEntityRelevantToTheArticle": "The final destination of the passengers, showing the real-world consequence of the delay—missed connections and travel disruption."
+    },
+    {
+      "name": "Henry Gruver",
+      "whatIsThisEntity": "Passenger",
+      "whyIsThisEntityRelevantToTheArticle": "A named passenger who provided firsthand account of the incident, adding a human element to the story and emphasizing passenger anxiety and impact."
+    },
+    {
+      "name": "Embraer ERJ 175",
+      "whatIsThisEntity": "Aircraft model",
+      "whyIsThisEntityRelevantToTheArticle": "The type of regional jet used in the flight, indicating the technical class and type of aircraft involved in the communication failure."
+    },
+    {
+      "name": "Federal Aviation Administration (FAA)",
+      "whatIsThisEntity": "Government agency",
+      "whyIsThisEntityRelevantToTheArticle": "The FAA investigated and confirmed the technical issue (inter-phone system failure), establishing official authority and credibility in the incident's explanation."
+    },
+    {
+      "name": "FlightAware",
+      "whatIsThisEntity": "Tracking site",
+      "whyIsThisEntityRelevantToTheArticle": "A third-party tracking service used to verify flight times and landing details, adding independent data validation to the reported timeline."
+    }
+  ],
+  "summaryOfNewsArticle": "An American Airlines flight operated by SkyWest Airlines, Flight 6469, experienced an emergency landing in Nebraska after pilots lost communication with flight attendants and heard banging on the cockpit door. The flight departed from Omaha’s Eppley Airfield at 6:41 PM local time, turned around, and landed just 18 minutes later. The Federal Aviation Administration determined that a malfunction in the inter-phone system, specifically a flight crew mic, caused the communication failure. Passengers, including Henry Gruver and his family, were unaware of the issue until police boarded the plane. The flight eventually resumed for Los Angeles five hours late, resulting in a missed connection to Japan and an overnight wait at the airport. SkyWest confirmed the technical fault and apologized for the inconvenience, while neither airline has contacted the affected passengers since.",
+  "tags": [
+    "aircraft malfunction",
+    "communication failure",
+    "emergency landing",
+    "flight crew and attendants",
+    "passenger experience",
+    "airline safety",
+    "technical fault",
+    "interphone system failure",
+    "commercial aviation incident"
+  ]
+  ,
+  "timeOfPublication": "10:38:00-05:00",
+  "title": "Plane Makes Emergency Landing After Pilots Lose Contact With Flight Attendants and Hear Banging on Cockpit Door"
+}

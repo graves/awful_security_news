@@ -1,0 +1,106 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-22",
+      "descriptionOfWhyDateIsRelevant": "The date when the three-day hearing on the disputed election result was underway, highlighting the ongoing judicial review of a pivotal vote in Canada’s national legislature."
+    },
+    {
+      "dateMentionedInArticle": "2025-04-28",
+      "descriptionOfWhyDateIsRelevant": "The date of the April 2025 election in which the electoral district of Terrebonne was contested, setting the context for the dispute over a single uncounted vote."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-04-28",
+      "approximateTimeFrameStart": "2025-04-28",
+      "descriptionOfWhyTimeFrameIsRelevant": "The election period during which the vote in Terrebonne was cast and initially counted, forming the foundation of the legal dispute."
+    },
+    {
+      "approximateTimeFrameEnd": "2025-05-10",
+      "approximateTimeFrameStart": "2025-05-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period during which the judicial recount took place, leading to the final count of 23,352 votes for Auguste and 23,351 for Sinclair-Desgagné, triggering the legal challenge."
+    }
+  ],
+  "keyTakeAways": [
+    "A single vote was not counted due to a clerical error—specifically, an incorrect postal code printed on return envelopes by Elections Canada—raising questions about the integrity and accuracy of election results.",
+    "The electoral district of Terrebonne flipped from Bloc Québécois to Liberal, a shift that brought Prime Minister Mark Carney’s party closer to forming a majority government in Parliament.",
+    "The close margin of one vote after a recount triggered a legal challenge, with the Bloc Québécois candidate Nathalie Sinclair-Desgagné arguing that the result undermines voter confidence, while the Liberal candidate’s team argues it would violate the right to vote.",
+    "The case is being heard in Quebec’s Superior Court, emphasizing the importance of accountability and transparency in electoral systems.",
+    "Elections Canada officials acknowledge that despite technical complexity, errors are inevitable, but the legal review underscores public trust in democratic processes."
+  ],
+  "namedEntities": [
+    {
+      "name": "Tatiana Auguste",
+      "whatIsThisEntity": "Liberal candidate",
+      "whyIsThisEntityRelevantToTheArticle": "She won the Terrebonne district by one vote, making the result pivotal in shifting power within the federal legislature and influencing Prime Minister Mark Carney’s path to a majority government."
+    },
+    {
+      "name": "Nathalie Sinclair-Desgagné",
+      "whatIsThisEntity": "Bloc Québécois incumbent",
+      "whyIsThisEntityRelevantToTheArticle": "She challenged the election result after a voter claimed her ballot wasn’t counted, making her the central figure in the legal dispute over the legitimacy of the one-vote margin."
+    },
+    {
+      "name": "Emmanuelle Bossé",
+      "whatIsThisEntity": "Terrebonne resident and voter",
+      "whyIsThisEntityRelevantToTheArticle": "She is the key witness whose ballot was not counted due to a postal code error, which may have changed the outcome of the election and is central to the legal case."
+    },
+    {
+      "name": "Mark Carney",
+      "whatIsThisEntity": "Prime Minister of Canada",
+      "whyIsThisEntityRelevantToTheArticle": "His party’s narrow gain in Terrebonne brings them closer to a majority, making the dispute over one vote a significant development in national politics and governance."
+    },
+    {
+      "name": "Elections Canada",
+      "whatIsThisEntity": "National election administration body",
+      "whyIsThisEntityRelevantToTheArticle": "It made an administrative error by printing incorrect postal codes on ballots, which led to the uncounted ballot and sparked legal scrutiny of election integrity."
+    },
+    {
+      "name": "Terrebonne",
+      "whatIsThisEntity": "Electoral district",
+      "whyIsThisEntityRelevantToTheArticle": "A key battleground district in Quebec, flipped from Bloc to Liberal by one vote, symbolizing a shift in political sentiment and a pivotal moment in the election outcome."
+    },
+    {
+      "name": "Bloc Québécois",
+      "whatIsThisEntity": "Political party",
+      "whyIsThisEntityRelevantToTheArticle": "The party that previously held Terrebonne, and whose loss in the district is central to the political significance of the dispute."
+    },
+    {
+      "name": "Quebec’s Superior Court",
+      "whatIsThisEntity": "Judicial body",
+      "whyIsThisEntityRelevantToTheArticle": "The venue where the legal challenge is being heard, determining whether the one-vote margin should stand or be overturned."
+    },
+    {
+      "name": "David Baum",
+      "whatIsThisEntity": "Lawyer for Elections Canada",
+      "whyIsThisEntityRelevantToTheArticle": "He represents Elections Canada in the court, arguing that electoral systems are inherently complex and errors are inevitable, thus justifying the existing result."
+    },
+    {
+      "name": "Stéphane Chatigny",
+      "whatIsThisEntity": "Lawyer for Nathalie Sinclair-Desgagné",
+      "whyIsThisEntityRelevantToTheArticle": "He argues that overturning the result would protect public confidence in the electoral system, emphasizing democratic legitimacy."
+    },
+    {
+      "name": "Marc-Étienne Vien",
+      "whatIsThisEntity": "Lawyer for Tatiana Auguste",
+      "whyIsThisEntityRelevantToTheArticle": "He argues that canceling the result would violate the fundamental right to vote, asserting that the election outcome should be upheld."
+    }
+  ],
+  "summaryOfNewsArticle": "In a high-stakes legal case in Canada, a single vote from Terrebonne—where a voter’s ballot was not counted due to a clerical error involving an incorrectly printed postal code on a return envelope—may have altered the outcome of a close election. Liberal candidate Tatiana Auguste won the district by just one vote, flipping it from the Bloc Québécois, which had held it for years. The result brought Prime Minister Mark Carney’s party closer to a majority in Parliament. After a recount, the final margin was one vote, prompting a legal challenge by incumbent Nathalie Sinclair-Desgagné, who claims the result undermines public trust. Her lawyer argues that overturning the result is necessary to maintain confidence in democratic processes, while Auguste’s legal team asserts that canceling the result would violate the right to vote. The case is currently being heard in Quebec’s Superior Court, with Elections Canada’s legal representative emphasizing that errors are inevitable in a large-scale electoral system. This case highlights the fragility of close electoral margins and the profound importance of accuracy and transparency in democratic elections.",
+  "tags": [
+    "election integrity",
+    "voter rights",
+    "Elections Canada",
+    "Canada",
+    "Quebec politics",
+    "voter error",
+    "legal challenge",
+    "democratic legitimacy",
+    "one-vote margin",
+    "judicial recount"
+  ]
+  ,
+  "timeOfPublication": "12:41:00-04:00",
+  "title": "A blunder meant this voter’s ballot wasn’t counted – then her pick lost by one vote. Now the case is in court"
+}

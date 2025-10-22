@@ -1,0 +1,130 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {"dateMentionedInArticle": "2015-01-01", "descriptionOfWhyDateIsRelevant": "Landmark study published in 2015 (LEAP study) revealed that early exposure to peanuts reduces allergy risk, leading to a reversal in pediatric guidelines."},
+    {"dateMentionedInArticle": "2017-01-01", "descriptionOfWhyDateIsRelevant": "National Institute of Allergy and Infectious Diseases published updated guidance recommending early allergen introduction, influencing U.S. health policies."},
+    {"dateMentionedInArticle": "2015-01-01", "descriptionOfWhyDateIsRelevant": "The change in guidance in 2015 led to a 43% reduction in peanut allergy prevalence and a 36% reduction in food allergy prevalence."},
+    {"dateMentionedInArticle": "2015-01-01", "descriptionOfWhyDateIsRelevant": "The study cited in the article analyzed data from over 120,000 children in the U.S. and found that early peanut introduction prevented at least 40,000 allergy cases over the decade."},
+    {"dateMentionedInArticle": "2015-01-01", "descriptionOfWhyDateIsRelevant": "The LEAP study (Learning Early about Peanut Allergy) was pivotal in showing that Jewish children in the U.K. had higher peanut allergy rates than Israeli children due to differences in early feeding practices."},
+    {"dateMentionedInArticle": "2015-01-01", "descriptionOfWhyDateIsRelevant": "The 2015 revision in U.S. health guidance led to a significant shift in food allergy trends, reversing a decade-long rise in peanut allergy prevalence."}
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2015",
+      "approximateTimeFrameStart": "2005",
+      "descriptionOfWhyTimeFrameIsRelevant": "Between 1997 and 2010, peanut allergy prevalence in the U.S. increased from 0.4% to over 2%, indicating a growing public health crisis that prompted major changes in guidance."
+    },
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2015",
+      "descriptionOfWhyTimeFrameIsRelevant": "Over the past decade, the reversal in peanut allergy prevention guidelines has led to a significant decline in allergy rates, with the study estimating prevention of at least 40,000 cases."
+    }
+  ],
+  "keyTakeAways": [
+    "Early introduction of peanuts to infants, especially those at high risk, significantly reduces the likelihood of developing a peanut allergy.",
+    "The reversal of previous advice — which recommended avoiding peanuts — has been shown to reduce peanut allergy prevalence by 43% and overall food allergy by 36%.",
+    "A landmark 2015 study (LEAP) revealed that Israeli children, who were routinely exposed to peanuts early in life, had much lower peanut allergy rates than British children, who were kept away from peanuts.",
+    "Despite the success of new guidelines, implementation remains inconsistent due to parental fears and lack of awareness.",
+    "Peanut allergies are highly persistent — only about 10% of children who develop them will outgrow them.",
+    "The study analyzed health data from over 120,000 children, using diagnostic codes, though limitations exist due to reliance on such codes and lack of detailed eating habit data."
+  ],
+  "namedEntities": [
+    {
+      "name": "Bill Chappell",
+      "whatIsThisEntity": "Reporter",
+      "whyIsThisEntityRelevantToTheArticle": "He is the byline reporter of the article, providing context and credibility through his role in the media."
+    },
+    {
+      "name": "Dr. David Hill",
+      "whatIsThisEntity": "Lead researcher, pediatric allergist, and assistant professor",
+      "whyIsThisEntityRelevantToTheArticle": "He led the study cited in the article and is a key expert advocating for early allergen introduction as a public health strategy."
+    },
+    {
+      "name": "Children's Hospital of Philadelphia",
+      "whatIsThisEntity": "Medical institution",
+      "whyIsThisEntityRelevantToTheArticle": "It is the professional home of Dr. David Hill, where he practices and conducts research on pediatric allergies."
+    },
+    {
+      "name": "University of Pennsylvania",
+      "whatIsThisEntity": "Academic institution",
+      "whyIsThisEntityRelevantToTheArticle": "It is where Dr. David Hill holds a faculty position in pediatrics, linking academic research to clinical practice."
+    },
+    {
+      "name": "Dr. Corinne Keet",
+      "whatIsThisEntity": "Pediatrics professor and expert in food allergy epidemiology",
+      "whyIsThisEntityRelevantToTheArticle": "She provides expert skepticism and insight into the limitations of the study, emphasizing real-world implementation challenges."
+    },
+    {
+      "name": "University of North Carolina at Chapel Hill",
+      "whatIsThisEntity": "Academic institution",
+      "whyIsThisEntityRelevantToTheArticle": "It is where Dr. Corinne Keet is affiliated, contributing to the credibility of her research on food allergy trends."
+    },
+    {
+      "name": "LEAP study (Learning Early about Peanut Allergy)",
+      "whatIsThisEntity": "Landmark clinical trial",
+      "whyIsThisEntityRelevantToTheArticle": "It was pivotal in changing guidelines and showed that early peanut exposure reduces allergy risk in high-risk infants."
+    },
+    {
+      "name": "New England Journal of Medicine",
+      "whatIsThisEntity": "Peer-reviewed medical journal",
+      "whyIsThisEntityRelevantToTheArticle": "It published a study that cited a quadrupling of peanut allergy prevalence in U.S. children from 1997 to 2010, highlighting the urgency of intervention."
+    },
+    {
+      "name": "Dietary Guidelines for Americans",
+      "whatIsThisEntity": "National health policy document",
+      "whyIsThisEntityRelevantToTheArticle": "It includes updated recommendations for early allergen introduction, influencing public health and parental behavior."
+    },
+    {
+      "name": "National Institute of Allergy and Infectious Diseases (NIAID)",
+      "whatIsThisEntity": "U.S. government health agency",
+      "whyIsThisEntityRelevantToTheArticle": "It published 2017 guidance on early allergen exposure, which became a key influence in shifting pediatric allergy prevention practices."
+    },
+    {
+      "name": "Pediatrics journal",
+      "whatIsThisEntity": "Peer-reviewed journal",
+      "whyIsThisEntityRelevantToTheArticle": "It published the new study analyzing 120,000 children to assess the impact of revised peanut allergy guidelines."
+    },
+    {
+      "name": "Bamba",
+      "whatIsThisEntity": "Peanut-based snack",
+      "whyIsThisEntityRelevantToTheArticle": "It was a key example in the LEAP study, showing that Israeli children exposed to peanuts via Bamba had much lower allergy rates than British children."
+    },
+    {
+      "name": "U.S. Children",
+      "whatIsThisEntity": "Demographic group",
+      "whyIsThisEntityRelevantToTheArticle": "The study's findings are directly relevant to U.S. children, showing a significant reduction in food allergy rates due to policy changes."
+    },
+    {
+      "name": "Peanut allergy",
+      "whatIsThisEntity": "Medical condition",
+      "whyIsThisEntityRelevantToTheArticle": "It is the central focus of the article, with evidence showing that early exposure can prevent development of a lifelong condition."
+    },
+    {
+      "name": "Infants",
+      "whatIsThisEntity": "Demographic group",
+      "whyIsThisEntityRelevantToTheArticle": "The article focuses on early exposure to allergens in infants as a preventive measure for lifelong allergies."
+    },
+    {
+      "name": "Parental guidance",
+      "whatIsThisEntity": "Public health policy",
+      "whyIsThisEntityRelevantToTheArticle": "The reversal of advice from avoidance to early introduction represents a major shift in parenting and public health recommendations."
+    }
+  ],
+  "summaryOfNewsArticle": "A new study published in Pediatrics finds that reversing long-standing advice to avoid peanuts in infants has significantly reduced food allergy rates in the U.S. Over the past decade, the shift in guidance — inspired by the landmark LEAP study and endorsed by the National Institute of Allergy and Infectious Diseases and included in the Dietary Guidelines for Americans — led to a 43% drop in peanut allergy prevalence and a 36% drop in overall food allergy prevalence. The study analyzed data from over 120,000 children and estimates that the change in policy has prevented at least 40,000 cases of peanut allergy. Experts like Dr. David Hill and Dr. Corinne Keet highlight that early allergen introduction, especially for high-risk infants, reduces the risk of lifelong allergies, with only about 10% of affected children outgrowing their allergies. Despite the success, implementation remains uneven due to parental fear and lack of awareness, and limitations in data collection (such as reliance on diagnostic codes) are noted.",
+  "tags": [
+    "food allergy",
+    "public health",
+    "pediatric health",
+    "early allergen introduction",
+    "peanut allergy",
+    "NIAID",
+    "LEAP study",
+    "Dietary Guidelines for Americans",
+    "children's health",
+    "parental guidance"
+  ],
+  "timeOfPublication": "17:40:00-04:00"
+  ,
+  "title": "Reversing peanut advice prevented tens of thousands of allergy cases, researchers say"
+}

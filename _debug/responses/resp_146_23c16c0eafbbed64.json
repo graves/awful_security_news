@@ -1,0 +1,130 @@
+{
+  "category": "Environment & Climate",
+  "dateOfPublication": "2025-10-15",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-15",
+      "descriptionOfWhyDateIsRelevant": "The date of the Human Rights Watch report's release, highlighting ongoing concerns about deforestation linked to JBS's beef supply chain and setting context for the upcoming COP30 climate summit in Pará."
+    },
+    {
+      "dateMentionedInArticle": "2024-01-01",
+      "descriptionOfWhyDateIsRelevant": "Deforestation in Pará rose by 421% in 2024, with 17,195 square kilometres of forest degraded, indicating a sharp escalation in illegal land use and cattle ranching."
+    },
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "Pará’s governor introduced a decree requiring full traceability of animal movements by the end of 2026, signaling a potential policy shift to address supply chain transparency."
+    },
+    {
+      "dateMentionedInArticle": "2024-12-01",
+      "descriptionOfWhyDateIsRelevant": "The federal Ministry of Agriculture announced a plan to require all states to implement cattle tracking systems by 2032, suggesting a long-term national strategy to improve traceability."
+    },
+    {
+      "dateMentionedInArticle": "2009-01-01",
+      "descriptionOfWhyDateIsRelevant": "JBS signed the G4 Cattle Agreement with Greenpeace in 2009, pledging to identify all indirect suppliers by 2011, a commitment that was not fulfilled and is now seen as a precedent for corporate accountability failures."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2026",
+      "approximateTimeFrameStart": "2023",
+      "descriptionOfWhyTimeFrameIsRelevant": "A key period of policy and corporate action, during which Pará’s state decree and JBS’s supplier declaration promises aim to improve cattle traceability, though effectiveness remains uncertain."
+    },
+    {
+      "approximateTimeFrameEnd": "2032",
+      "approximateTimeFrameStart": "2024",
+      "descriptionOfWhyTimeFrameIsRelevant": "The federal government’s proposed timeline for nationwide cattle tracking, reflecting a long-term effort to regulate supply chains and combat illegal deforestation."
+    }
+  ],
+  "keyTakeAways": [
+    "JBS, the world’s largest meat company, is allegedly contributing to Amazon deforestation through its supply chain, which includes cattle raised in illegally deforested protected areas in Pará.",
+    "Human Rights Watch reports that JBS does not track its indirect suppliers, allowing illegal cattle from protected zones to be 'laundered' through a transit system, obscuring origins and enabling deforestation.",
+    "The state animal health agency, Adepará, authorized cattle transport into protected areas like Cachoeira Seca and Terra Nossa, despite no environmental oversight, enabling illegal ranching and land grabs.",
+    "Brazil’s current livestock tracking system relies on group-level 'animal transit permits' (GTAs), which do not provide individual animal records, making it impossible to trace the origin of cattle.",
+    "JBS acknowledged in a 2024 SEC filing that it cannot ensure compliance with environmental laws due to the limitations of the GTA system.",
+    "In 2009, JBS committed to identifying all indirect suppliers by 2011 under the G4 Cattle Agreement with Greenpeace, but failed to meet that deadline, raising concerns about corporate accountability.",
+    "Experts and advocacy groups, including Greenpeace and Imaflora, argue that voluntary corporate pledges are insufficient and that stronger federal regulation, including public access to GTA data, is needed.",
+    "Pará is a critical hotspot for deforestation, with 2024 seeing a 421% increase in forest degradation and the highest levels of land conflicts in the Amazon.",
+    "Illegal land grabs threaten Indigenous and traditional communities, with cases of violence, threats, and killings reported, and protected land being fraudulently registered as private property.",
+    "The upcoming COP30 climate summit in Pará underscores global attention on the role of agriculture and supply chains in Amazon deforestation."
+  ],
+  "namedEntities": [
+    {
+      "name": "JBS",
+      "whatIsThisEntity": "The world’s largest meat company",
+      "whyIsThisEntityRelevantToTheArticle": "JBS is central to the article because it is accused of sourcing cattle from illegal deforestation zones in the Brazilian Amazon via an untraceable supply chain, raising concerns about corporate responsibility and environmental harm."
+    },
+    {
+      "name": "Human Rights Watch",
+      "whatIsThisEntity": "A nonprofit organization conducting investigations into human rights and environmental abuses",
+      "whyIsThisEntityRelevantToTheArticle": "Human Rights Watch is the entity that conducted and released the 86-page report exposing JBS’s supply chain loopholes and illegal deforestation linked to cattle ranching in Pará."
+    },
+    {
+      "name": "Pará",
+      "whatIsThisEntity": "A state in Brazil, known for high deforestation rates and land conflicts",
+      "whyIsThisEntityRelevantToTheArticle": "Pará is significant because it is the epicenter of deforestation and land grabs in the Amazon, hosting the upcoming COP30 climate summit and reporting record-breaking forest degradation and illegal ranching."
+    },
+    {
+      "name": "COP30",
+      "whatIsThisEntity": "The United Nations climate change summit scheduled for next month",
+      "whyIsThisEntityRelevantToTheArticle": "COP30 is relevant because it will take place in Pará, drawing global attention to the issue of agricultural deforestation and corporate supply chain impacts on the Amazon."
+    },
+    {
+      "name": "Cachoeira Seca Indigenous Territory",
+      "whatIsThisEntity": "A protected Indigenous area in Pará where illegal land encroachment has occurred",
+      "whyIsThisEntityRelevantToTheArticle": "This protected area has been invaded by illegal ranchers, illustrating the direct threat to Indigenous communities and their lands from illegal cattle operations."
+    },
+    {
+      "name": "Terra Nossa Sustainable Development Area",
+      "whatIsThisEntity": "A protected sustainable development zone in Pará where illegal land grabs have taken place",
+      "whyIsThisEntityRelevantToTheArticle": "Terra Nossa has seen violent land encroachments and intimidation, demonstrating how protected land is being exploited for cattle ranching and deforestation."
+    },
+    {
+      "name": "Adepará",
+      "whatIsThisEntity": "Pará’s state animal health agency responsible for authorizing cattle transport",
+      "whyIsThisEntityRelevantToTheArticle": "Adepará authorized cattle movements into protected areas without environmental checks, enabling illegal ranching and the 'laundering' of cattle through the supply chain."
+    },
+    {
+      "name": "Greenpeace Brazil",
+      "whatIsThisEntity": "A Brazilian environmental advocacy group",
+      "whyIsThisEntityRelevantToTheArticle": "Greenpeace Brazil criticized JBS for failing to fulfill past supply chain transparency commitments and called for stronger government regulation and accountability."
+    },
+    {
+      "name": "Imaflora",
+      "whatIsThisEntity": "A Brazilian environmental nonprofit",
+      "whyIsThisEntityRelevantToTheArticle": "Imaflora highlighted the lack of public access to GTA data and the absence of universal market requirements, emphasizing systemic failures in cattle traceability."
+    },
+    {
+      "name": "GTAs (Guias de Trânsito Animal)",
+      "whatIsThisEntity": "Brazilian animal transit permits that track group-level cattle shipments but lack individual animal records",
+      "whyIsThisEntityRelevantToTheArticle": "GTAs are the core system failing to ensure traceability, allowing illegal cattle to move undetected through the supply chain and remain unaccounted for."
+    },
+    {
+      "name": "G4 Cattle Agreement",
+      "whatIsThisEntity": "A 2009 agreement between JBS and Greenpeace pledging supply chain transparency",
+      "whyIsThisEntityRelevantToTheArticle": "The G4 Agreement is referenced as a failed corporate promise, showing a pattern of inadequate follow-through on environmental commitments."
+    }
+  ],
+  "summaryOfNewsArticle": "The article reports that JBS, the world’s largest meat company, is allegedly linked to deforestation in the Brazilian Amazon through its supply chain, particularly in Pará, where illegal cattle ranching in protected areas has been documented. Human Rights Watch found that JBS does not track its indirect suppliers, allowing cattle from illegally deforested zones to be 'laundered' via transit systems, obscuring their origins. This is enabled by Brazil’s inadequate livestock tracking system—based on group-level transit permits (GTAs) that lack individual records. The report highlights violations in protected areas like Cachoeira Seca and Terra Nossa, with the state agency Adepará authorizing cattle transport without environmental oversight. Despite JBS’s past commitments under the 2009 G4 Cattle Agreement and new policy timelines (2026 for Pará, 2032 for the federal level), experts and advocacy groups argue that voluntary corporate action is insufficient and that stronger federal regulation, including public access to GTAs, is urgently needed to stop deforestation and protect Indigenous communities.",
+  "tags": [
+    "deforestation",
+    "Amazon rainforest",
+    "JBS",
+    "cattle ranching",
+    "supply chain accountability",
+    "Brazil",
+    "Pará",
+    "climate change",
+    "human rights",
+    "illegal land grabs",
+    "Indigenous communities",
+    "corporate responsibility",
+    "cattle traceability",
+    "GTAs",
+    "COP30",
+    "environmental policy"
+  ]
+  ,
+  "timeOfPublication": "13:18:36+00:00"
+  ,
+  "title": "Is your beef linked to Amazon deforestation? A report highlights loopholes"
+}

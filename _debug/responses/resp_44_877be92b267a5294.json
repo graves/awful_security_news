@@ -1,0 +1,97 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-17",
+      "descriptionOfWhyDateIsRelevant": "The date of the crash and the subsequent investigation update highlights the ongoing relevance of safety concerns in aviation following a recent similar incident."
+    },
+    {
+      "dateMentionedInArticle": "2024-02-01",
+      "descriptionOfWhyDateIsRelevant": "The earlier crash in February 2024 involving a similar Hawker jet raises global concerns about stall recovery systems and maintenance safety in business aviation."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "5:08 p.m. local time",
+      "approximateTimeFrameStart": "5:08 p.m. local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "The departure time from Battle Creek Executive Airport marks the beginning of the test flight, setting the timeline for the sudden descent and crash."
+    },
+    {
+      "approximateTimeFrameEnd": "1 minute after departure",
+      "approximateTimeFrameStart": "within 20 minutes of departure",
+      "descriptionOfWhyTimeFrameIsRelevant": "The rapid descent and crash occurred within minutes of takeoff, emphasizing the suddenness and severity of the event."
+    }
+  ],
+  "keyTakeAways": [
+    "A private business jet, a Mexican-registered Hawker 800XP (registration XA-JMR), crashed near Lansing, Michigan, killing all three on board during a post-maintenance test flight.",
+    "The National Transportation Safety Board (NTSB) has opened an investigation into the crash, citing a possible stall recovery failure as a contributing factor.",
+    "The incident mirrors a 2024 crash involving a similar Hawker jet, where two pilots died during a test flight focused on stall warning systems, raising concerns about aircraft system reliability and pilot training.",
+    "The aircraft had not flown since March 25, 2025, and was operated by Duncan Aviation, which confirmed that two pilots and the maintenance representative were killed.",
+    "Flight data shows a sudden rate of descent reaching 24,000 feet per minute, indicating a likely aerodynamic stall or loss of control.",
+    "Pilots reportedly transmitted 'stall recovery, stall recovery' to air traffic control, suggesting they were attempting to regain control before the crash.",
+    "Bystanders captured video of the jet corkscrewing into the woods and producing a large plume of smoke, confirming the violent nature of the crash.",
+    "Duncan Aviation stated their focus is on supporting affected families and team members involved in the maintenance and operation of the aircraft."
+  ],
+  "namedEntities": [
+    {
+      "name": "Hawker 800XP",
+      "whatIsThisEntity": "A model of private business jet involved in the crash",
+      "whyIsThisEntityRelevantToTheArticle": "The specific aircraft model is central to the incident, as it mirrors a prior crash involving the same model, highlighting recurring safety issues."
+    },
+    {
+      "name": "Duncan Aviation",
+      "whatIsThisEntity": "Aircraft maintenance company involved in the flight maintenance",
+      "whyIsThisEntityRelevantToTheArticle": "The company was responsible for the maintenance and conducted the test flight, making it directly involved in the safety and execution of the flight."
+    },
+    {
+      "name": "National Transportation Safety Board (NTSB)",
+      "whatIsThisEntity": "U.S. federal agency investigating aviation accidents",
+      "whyIsThisEntityRelevantToTheArticle": "The NTSB initiated an investigation into the crash, signaling a formal response to a serious aviation safety event."
+    },
+    {
+      "name": "Cleveland Air Route Traffic Control Center",
+      "whatIsThisEntity": "Air traffic control center that attempted to communicate with pilots",
+      "whyIsThisEntityRelevantToTheArticle": "The center's failed attempts to reach pilots underscore the emergency and lack of response during the critical phase of the flight."
+    },
+    {
+      "name": "Battle Creek Executive Airport",
+      "whatIsThisEntity": "Airport where the plane departed from",
+      "whyIsThisEntityRelevantToTheArticle": "The origin point of the flight is critical for tracking the flight path and timeline of events leading to the crash."
+    },
+    {
+      "name": "Lansing, Michigan",
+      "whatIsThisEntity": "Location where the crash occurred",
+      "whyIsThisEntityRelevantToTheArticle": "The crash site is significant for public awareness and emergency response efforts."
+    },
+    {
+      "name": "Mexico",
+      "whatIsThisEntity": "Country of registration for the aircraft",
+      "whyIsThisEntityRelevantToTheArticle": "The aircraft's registration in Mexico adds international regulatory complexity and may affect jurisdictional responsibility for safety standards."
+    },
+    {
+      "name": "February 2024",
+      "whatIsThisEntity": "Date of a prior similar business jet crash",
+      "whyIsThisEntityRelevantToTheArticle": "This prior incident provides a direct comparison, showing a pattern of accidents involving stall recovery systems in Hawker jets."
+    },
+    {
+      "name": "March 25, 2025",
+      "whatIsThisEntity": "Date the aircraft last flew from Mexico",
+      "whyIsThisEntityRelevantToTheArticle": "The flight history indicates the aircraft had not been flown since then, raising questions about maintenance and operational safety."
+    }
+  ],
+  "summaryOfNewsArticle": "A private Hawker 800XP business jet, registered in Mexico and operated by Duncan Aviation, crashed near Lansing, Michigan, during a post-maintenance test flight on October 17, 2025. The plane, which had not flown since March 25, 2025, descended rapidly—reaching 24,000 feet per minute—before plunging into woods. Pilots reportedly requested stall recovery, and air traffic control attempted contact seven times without success. The crash killed all three people on board, including two pilots and a maintenance representative. The National Transportation Safety Board (NTSB) has opened an investigation, noting the incident mirrors a 2024 crash involving a similar Hawker jet, which also occurred during a stall test flight. This recurrence raises serious concerns about the reliability of stall warning systems and maintenance practices in business aviation.",
+  "tags": [
+    "aviation safety",
+    "business jet crash",
+    "Hawker 800XP",
+    "NTSB investigation",
+    "air traffic control",
+    "michigan accident",
+    "stall recovery system",
+    "maintenance flight",
+    "international registration"
+  ],
+  "timeOfPublication": "16:58:00Z",
+  "title": "Deadly plane crash in Michigan mirrors similar business jet crash last year"
+}

@@ -4,7 +4,7 @@
 
 ## About us
 
-We use the Qwen 2.5 3B LLM Model to summarize the daily news from outlets who publish text-only or html-lite versions of their articles. We extract the named entitites, important dates and timeframes and publish them in an easily digestable format.
+We use the **Qwen 3 4B 2507 Instruct** LLM Model to summarize the daily news from outlets who publish text-only or html-lite versions of their articles. We extract the named entities, important dates and timeframes and publish them in an easily digestable format.
 
 ----
 

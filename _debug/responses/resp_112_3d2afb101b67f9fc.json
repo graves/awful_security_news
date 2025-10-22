@@ -1,0 +1,119 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "The American Dialect Society named 'enshittification' as its Word of the Year in 2023, marking a significant cultural and linguistic recognition of the phenomenon."
+    },
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "Merriam-Webster included 'enshittification' in its dictionary in 2023, indicating widespread public and linguistic adoption of the term as a descriptor of platform degradation."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The article was published on October 21, 2025, as part of a Planet Money newsletter, signaling ongoing public discourse about internet platform decline."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2020",
+      "descriptionOfWhyTimeFrameIsRelevant": "The article discusses the evolution of platforms like Facebook, Google, Uber, and Amazon from early-stage user-friendly platforms to later stages of degradation, a trend observed over the past five years."
+    }
+  ],
+  "keyTakeAways": [
+    "Enshittification is a process by which internet platforms degrade in quality, shifting from user-centric models to business-centric, profit-driven ones.",
+    "The process occurs in three stages: (1) user acquisition with attractive deals, (2) favoring business customers at user expense, and (3) monetizing users and businesses through exploitative pricing and algorithmic manipulation.",
+    "Platforms like Facebook, Amazon, and Uber are cited as examples where user experience deteriorates due to data harvesting, ad targeting, and algorithmic bias.",
+    "Amazon is accused of cloning products, charging junk fees (up to 51 cents per dollar earned), and distorting search results, leading to higher prices for consumers.",
+    "Facebook is accused of altering feeds to promote ads and boosted content, reducing user control and experience.",
+    "The degradation is attributed to a lack of competition and weak consumer protection regulations, with Doctorow advocating for antitrust enforcement and greater interoperability between platforms.",
+    "Doctorow proposes 'right-to-exit' regulations, allowing users to take data or content with them, and promoting interoperability to reduce market monopolies."
+  ],
+  "namedEntities": [
+    {
+      "name": "Cory Doctorow",
+      "whatIsThisEntity": "Internet activist, journalist, and author who coined the term 'enshittification' and wrote a new book on the topic.",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow is central to the article as the originator of the concept of enshittification and the primary voice analyzing platform degradation."
+    },
+    {
+      "name": "Enshittification",
+      "whatIsThisEntity": "A term coined by Cory Doctorow to describe the degradation of internet platforms into exploitative, user-unfriendly systems.",
+      "whyIsThisEntityRelevantToTheArticle": "The article centers on this term as a framework for understanding how platforms like Facebook and Amazon have deteriorated over time."
+    },
+    {
+      "name": "Facebook (Meta)",
+      "whatIsThisEntity": "A major social media platform accused of degrading user experience through algorithmic manipulation and ad targeting.",
+      "whyIsThisEntityRelevantToTheArticle": "It is cited as a key example of enshittification in stages 2 and 3, with changes in feed algorithms and ad practices harming users."
+    },
+    {
+      "name": "Google",
+      "whatIsThisEntity": "A major internet platform and search engine accused of enabling ecosystem control, though not directly detailed in platform degradation.",
+      "whyIsThisEntityRelevantToTheArticle": "It is mentioned as one of the platforms undergoing enshittification and as a financial supporter of NPR, which adds context to potential conflicts of interest."
+    },
+    {
+      "name": "Amazon",
+      "whatIsThisEntity": "An e-commerce platform accused of exploiting merchants through junk fees, product cloning, and search manipulation.",
+      "whyIsThisEntityRelevantToTheArticle": "Amazon is a primary example of enshittification in stages 2 and 3, with specific claims about pricing, search quality, and merchant exploitation."
+    },
+    {
+      "name": "Uber",
+      "whatIsThisEntity": "A ride-sharing platform cited as an example of platform degradation due to profit-driven business model shifts.",
+      "whyIsThisEntityRelevantToTheArticle": "It is listed among platforms that have undergone enshittification, illustrating a broader trend across industries."
+    },
+    {
+      "name": "American Dialect Society",
+      "whatIsThisEntity": "An organization that selected 'enshittification' as Word of the Year in 2023.",
+      "whyIsThisEntityRelevantToTheArticle": "Its selection validates the cultural significance and widespread recognition of the term in public discourse."
+    },
+    {
+      "name": "Merriam-Webster",
+      "whatIsThisEntity": "A dictionary publisher that added 'enshittification' to its dictionary.",
+      "whyIsThisEntityRelevantToTheArticle": "This shows the term has gained mainstream linguistic acceptance and credibility."
+    },
+    {
+      "name": "Institute for Local Self-Reliance",
+      "whatIsThisEntity": "A nonprofit research and advocacy group cited by Doctorow as a source for claims about Amazon's junk fees.",
+      "whyIsThisEntityRelevantToTheArticle": "It provides the data source for the claim that Amazon takes 45–51 cents per dollar from merchants."
+    },
+    {
+      "name": "Planet Money",
+      "whatIsThisEntity": "A podcast and newsletter that published the article and features a segment on antitrust and platform regulation.",
+      "whyIsThisEntityRelevantToTheArticle": "The article originates from Planet Money, giving it a public media platform and audience relevance beyond the original article."
+    },
+    {
+      "name": "Right-to-exit",
+      "whatIsThisEntity": "A proposed regulatory policy allowing users to take their data or content with them when leaving a platform.",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow proposes it as a solution to incentivize platforms to treat users better and break down user lock-in."
+    },
+    {
+      "name": "Interoperability",
+      "whatIsThisEntity": "A technical concept where products or services can work together across platforms, such as compatible printer ink or apps.",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow argues that lack of interoperability enables monopolistic control and suggests regulation to enforce it."
+    },
+    {
+      "name": "Consumer Welfare Standard",
+      "whatIsThisEntity": "A legal doctrine used to assess monopolistic behavior based on consumer harm, not just market size.",
+      "whyIsThisEntityRelevantToTheArticle": "Doctorow advocates abandoning this standard to enable stronger antitrust enforcement and better protection of users."
+    }
+  ],
+  "summaryOfNewsArticle": "The article presents a theory of 'enshittification' — a degradation process in internet platforms — developed by internet activist and journalist Cory Doctorow. It outlines three stages: user acquisition with attractive deals, favoring business customers at user expense, and exploitative monetization. Platforms like Facebook and Amazon are cited as examples, where user experience deteriorates due to algorithmic manipulation, data harvesting, and inflated fees. Doctorow attributes this decline to a lack of competition and weak regulation, proposing solutions such as 'right-to-exit' policies and interoperability. Despite Amazon's rebuttals, the article highlights growing public and policy interest in reversing platform degradation through antitrust reforms and consumer protection measures.",
+  "tags": [
+    "enshittification",
+    "internet platforms",
+    "platform degradation",
+    "antitrust",
+    "digital monopolies",
+    "consumer rights",
+    "Cory Doctorow",
+    "Facebook",
+    "Amazon",
+    "interoperability",
+    "right-to-exit",
+    "tech regulation",
+    "digital economy"
+  ],
+  "timeOfPublication": "06:30:00-04:00",
+  "title": "A theory why the internet is going down the toilet"
+}
