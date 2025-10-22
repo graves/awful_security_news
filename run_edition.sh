@@ -82,17 +82,36 @@ log "Generating sitemap..."
 
 # ---------- Deploy atomically ----------
 log "Deploying API to ${API_DEST}..."
-# -rl : recurse, preserve symlinks; no -t (times)
+# First, ensure we can write to the destination by fixing permissions
+if [[ -d "${API_DEST}" ]]; then
+  find "${API_DEST}" -type d -exec chmod 775 {} + 2>/dev/null || true
+  find "${API_DEST}" -type f -exec chmod 664 {} + 2>/dev/null || true
+fi
+
+# -rlpt : recurse, preserve symlinks, perms, times
 # --omit-dir-times: don't try to set directory mtimes (avoids EPERM)
-# --no-perms/owner/group: don't try to chown/chgrp/chmod
 # --delete: sync deletions safely
-rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
+# --chmod: ensure new files/dirs get proper permissions
+rsync -rlpt --delete --omit-dir-times \
+  --chmod=D775,F664 \
   "${API_OUT}/" "${API_DEST}/"
 
 log "Deploying site to ${SITE_DEST}..."
-rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
+# First, ensure we can write to the destination by fixing permissions
+if [[ -d "${SITE_DEST}" ]]; then
+  find "${SITE_DEST}" -type d ! -path "*/api/*" ! -path "*/api" -exec chmod 775 {} + 2>/dev/null || true
+  find "${SITE_DEST}" -type f ! -path "*/api/*" -exec chmod 664 {} + 2>/dev/null || true
+fi
+
+rsync -rlpt --delete --omit-dir-times \
+  --chmod=D775,F664 \
   --exclude '/api/' \
   "${SITE_BUILD}/" "${SITE_DEST}/"
+
+# Final permission fix to ensure group writeability
+log "Setting final permissions..."
+find "${DEPLOY_ROOT}" -type d -exec chmod 775 {} + 2>/dev/null || true
+find "${DEPLOY_ROOT}" -type f -exec chmod 664 {} + 2>/dev/null || true
 
 # ---------- Cleanup ----------
 #log "Cleaning project API_OUT..."
