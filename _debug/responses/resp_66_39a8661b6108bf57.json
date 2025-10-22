@@ -1,0 +1,140 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-17",
+      "descriptionOfWhyDateIsRelevant": "The date of the latest crash and the day the NTSB officially announced its investigation into the Michigan plane crash, signaling ongoing public concern about aviation safety."
+    },
+    {
+      "dateMentionedInArticle": "2024-02-25",
+      "descriptionOfWhyDateIsRelevant": "The date of a previous similar business jet crash in the U.S., linking the current incident to a prior incident involving stall warning system testing, raising broader safety concerns in business aviation."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-17",
+      "descriptionOfWhyDateIsRelevant": "The date when the new crash occurred, highlighting the recurrence of such tragic events in a short timeframe, reinforcing public anxiety about air safety."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "5:08 PM local time",
+      "approximateTimeFrameStart": "5:08 PM local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "The exact departure time of the plane from Battle Creek Executive Airport, a key detail in reconstructing flight path and timing of the crash."
+    },
+    {
+      "approximateTimeFrameEnd": "6:08 PM local time",
+      "approximateTimeFrameStart": "5:08 PM local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "The duration of the flight — less than 20 minutes — and the rapid descent that occurred within that window, illustrating the suddenness and severity of the incident."
+    },
+    {
+      "approximateTimeFrameEnd": "6:09 PM local time",
+      "approximateTimeFrameStart": "5:08 PM local time",
+      "descriptionOfWhyTimeFrameIsRelevant": "The one-minute duration of the descent and plunge, underscoring the abrupt nature of the crash and the lack of pilot recovery time."
+    }
+  ],
+  "keyTakeAways": [
+    "The plane, a Mexican-registered Hawker 800XP, crashed during a test flight following scheduled maintenance at Battle Creek Executive Airport, Michigan.",
+    "Pilots reportedly requested a block altitude to maneuver, but failed to respond to multiple attempts by air traffic control to initiate a stall recovery.",
+    "The aircraft descended at an alarming rate — up to 24,000 feet per minute — and plunged into woods near Lansing, killing all three on board.",
+    "Two pilots and their maintenance representative were killed, with Duncan Aviation confirming the involvement of its crew in the flight.",
+    "This crash mirrors the 2024 incident involving a similar Hawker jet, where two pilots died during a test flight involving stall warning system checks.",
+    "The National Transportation Safety Board (NTSB) has launched an investigation into the crash, citing the similarity to a prior incident as a concern for aviation safety protocols.",
+    "Flight tracking data shows the plane had not flown since March 25, indicating potential maintenance or system issues prior to the flight.",
+    "Publicly available data confirms the aircraft's registration (XA-JMR) and its route from Mexico to Michigan, with no recent flight activity before the crash."
+  ],
+  "namedEntities": [
+    {
+      "name": "Pete Muntean",
+      "whatIsThisEntity": "Byline author of the article",
+      "whyIsThisEntityRelevantToTheArticle": "Identifies the source and authorship of the news report, establishing credibility and origin of the information."
+    },
+    {
+      "name": "CNN",
+      "whatIsThisEntity": "Media organization publishing the article",
+      "whyIsThisEntityRelevantToTheArticle": "Provides context about the news outlet's role in disseminating information on aviation safety concerns to the public."
+    },
+    {
+      "name": "LiveATC.net",
+      "whatIsThisEntity": "Source of air traffic control audio recordings",
+      "whyIsThisEntityRelevantToTheArticle": "Provides direct audio evidence of pilot-controller communication during the crash, supporting the narrative of pilot struggle and loss of control."
+    },
+    {
+      "name": "Cleveland Air Route Traffic Control Center",
+      "whatIsThisEntity": "Air traffic control center involved in communication with the flight",
+      "whyIsThisEntityRelevantToTheArticle": "Demonstrates the communication chain between pilots and controllers, highlighting the failure to respond to recovery attempts."
+    },
+    {
+      "name": "Duncan Aviation",
+      "whatIsThisEntity": "Maintenance company performing scheduled maintenance on the aircraft",
+      "whyIsThisEntityRelevantToTheArticle": "Serves as the maintenance provider, linking the crash to post-maintenance test flight procedures and accountability."
+    },
+    {
+      "name": "Mike Minchow",
+      "whatIsThisEntity": "President of Duncan Aviation",
+      "whyIsThisEntityRelevantToTheArticle": "Provides a direct statement from leadership, emphasizing the company's commitment to supporting affected families and reflecting organizational response."
+    },
+    {
+      "name": "National Transportation Safety Board (NTSB)",
+      "whatIsThisEntity": "U.S. federal agency investigating aviation accidents",
+      "whyIsThisEntityRelevantToTheArticle": "Initiated a formal investigation due to the similarity to a prior crash, indicating broader safety implications and regulatory scrutiny."
+    },
+    {
+      "name": "Hawker 800XP",
+      "whatIsThisEntity": "Type of business jet involved in the crash",
+      "whyIsThisEntityRelevantToTheArticle": "A specific aircraft model known for prior safety concerns, making the current crash particularly significant in aviation safety discussions."
+    },
+    {
+      "name": "Battle Creek Executive Airport",
+      "whatIsThisEntity": "Airport where the plane departed from",
+      "whyIsThisEntityRelevantToTheArticle": "Establishes the geographical origin of the flight, critical for reconstructing flight path and accident context."
+    },
+    {
+      "name": "Lansing, Michigan",
+      "whatIsThisEntity": "Location where the crash occurred",
+      "whyIsThisEntityRelevantToTheArticle": "Geographic context of the crash, which is central to understanding the incident's location and impact."
+    },
+    {
+      "name": "March 25, 2025",
+      "whatIsThisEntity": "Date the aircraft flew from Mexico to Michigan",
+      "whyIsThisEntityRelevantToTheArticle": "Establishes a timeline for flight activity, showing the plane had not operated since, raising questions about maintenance or system status."
+    },
+    {
+      "name": "February 2024",
+      "whatIsThisEntity": "Date of prior business jet crash involving stall warning test",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights a recurring pattern of crashes in similar operational contexts, suggesting systemic safety issues in business aviation."
+    },
+    {
+      "name": "FlightAware",
+      "whatIsThisEntity": "Flight tracking data provider",
+      "whyIsThisEntityRelevantToTheArticle": "Provides independent flight data confirming flight path, departure time, and descent rate, adding technical credibility to the report."
+    },
+    {
+      "name": "ADS-B Exchange",
+      "whatIsThisEntity": "Source of publicly available flight tracking data",
+      "whyIsThisEntityRelevantToTheArticle": "Provides accessible flight data that supports the timeline and descent profile of the aircraft before crash."
+    },
+    {
+      "name": "XA-JMR",
+      "whatIsThisEntity": "Aircraft registration number",
+      "whyIsThisEntityRelevantToTheArticle": "Unique identifier for the aircraft, used in tracking and official reporting."
+    }
+  ],
+  "summaryOfNewsArticle": "A private business jet, a Mexican-registered Hawker 800XP with registration XA-JMR, crashed during a post-maintenance test flight in Lansing, Michigan, killing all three on board — two pilots and a maintenance representative. The crash occurred shortly after departure from Battle Creek Executive Airport at 5:08 PM, with the aircraft descending at a rate of up to 24,000 feet per minute. Air traffic control audio captures the pilots repeatedly calling out 'stall recovery,' indicating a possible loss of control. This incident mirrors a similar crash in February 2024 involving a Hawker 800XP during a stall warning system test flight, raising serious concerns about the safety of business jet operations and maintenance protocols. The National Transportation Safety Board has opened an investigation, and flight data from FlightAware and ADS-B Exchange support the timeline of the event. The aircraft had not flown since March 25, suggesting potential system or maintenance issues. Duncan Aviation, responsible for the maintenance, expressed support for the families and acknowledged the human impact of the tragedy.",
+  "tags": [
+    "aviation safety",
+    "plane crash",
+    "Hawker 800XP",
+    "business jet",
+    "Michigan",
+    "NTSB investigation",
+    "air traffic control",
+    "post-maintenance flight",
+    "stall recovery",
+    "crash investigation",
+    "flight data"
+  ]
+  ,
+  "timeOfPublication": "16:58:00Z"
+  ,
+  "title": "Deadly plane crash in Michigan mirrors similar business jet crash last year"
+}

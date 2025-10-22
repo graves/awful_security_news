@@ -1,0 +1,58 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-02-18",
+  "importantDates": [],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "11:30 a.m. ET",
+      "approximateTimeFrameStart": "7 a.m. ET",
+      "descriptionOfWhyTimeFrameIsRelevant": "The NPR News Now broadcast is aired during a key morning window when people are most likely to engage with news, making it a critical time for public awareness and civic information dissemination."
+    }
+  ],
+  "keyTakeAways": [
+    "NPR offers a visual news broadcast that can be accessed via smart speakers, increasing accessibility for a broader audience.",
+    "The broadcast is hosted by familiar voices from NPR’s audio newscast, ensuring continuity and trust in the source of information.",
+    "The content is designed for viewers who prefer visual formats, which may include younger audiences or individuals with hearing impairments."
+  ],
+  "namedEntities": [
+    {
+      "name": "NPR",
+      "whatIsThisEntity": "A public media organization that produces and distributes news programming",
+      "whyIsThisEntityRelevantToTheArticle": "NPR is the primary entity mentioned in the article, providing the context and platform for the news roundup broadcast."
+    },
+    {
+      "name": "NPR News Now",
+      "whatIsThisEntity": "A visual newscast produced by NPR, aired daily from 7 a.m. to 11:30 a.m. ET",
+      "whyIsThisEntityRelevantToTheArticle": "This is the specific broadcast featured in the article, highlighting the availability and format of NPR’s news delivery."
+    },
+    {
+      "name": "Alexa",
+      "whatIsThisEntity": "A smart speaker platform by Amazon",
+      "whyIsThisEntityRelevantToTheArticle": "Alexa is mentioned as a way users can access NPR’s visual news broadcast, emphasizing integration with consumer technology."
+    },
+    {
+      "name": "Google Nest",
+      "whatIsThisEntity": "A smart speaker platform by Google",
+      "whyIsThisEntityRelevantToTheArticle": "Google Nest is listed as another device that allows users to access NPR’s visual newscast, showing cross-platform compatibility."
+    },
+    {
+      "name": "Echo Show",
+      "whatIsThisEntity": "A smart display device by Amazon",
+      "whyIsThisEntityRelevantToTheArticle": "The Echo Show is referenced as a device where the NPR visual news can be viewed, indicating access points for visual media consumption."
+    }
+  ],
+  "summaryOfNewsArticle": "NPR’s News Now visual broadcast, aired daily from 7 a.m. to 11:30 a.m. ET, is accessible via smart speakers including Amazon’s Alexa and Google Nest devices. The broadcast, hosted by familiar NPR voices, offers a visual alternative to traditional audio news, improving accessibility for diverse audiences, including those with hearing impairments or a preference for visual content.",
+  "tags": [
+    "NPR",
+    "smart speakers",
+    "visual news",
+    "morning broadcast",
+    "public media",
+    "Alexa",
+    "Google Nest",
+    "Echo Show"
+  ],
+  "timeOfPublication": "06:18:00-05:00"
+  ,
+  "title": "Watch NPR's News Roundup"
+}

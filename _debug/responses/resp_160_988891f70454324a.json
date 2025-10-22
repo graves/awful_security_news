@@ -1,0 +1,127 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-06",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-02-04",
+      "descriptionOfWhyDateIsRelevant": "The date when the fraudulent call involving a fake voice of Defence Minister Guido Crosetto was reported, marking the beginning of a significant AI voice scam targeting Italian businessmen."
+    },
+    {
+      "dateMentionedInArticle": "2025-02-06",
+      "descriptionOfWhyDateIsRelevant": "The date when Defence Minister Guido Crosetto publicly revealed he had received a call from a purported 'friend' asking about his mobile number, exposing the scam and prompting public awareness."
+    },
+    {
+      "dateMentionedInArticle": "2025-06-30",
+      "descriptionOfWhyDateIsRelevant": "The date when Resemble AI reported that global losses from deepfake scams had risen to $347 million between January and June 2025, indicating a growing trend of AI-powered fraud."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period during which AI-generated voice scams, including those targeting Italian businessmen and US citizens, have surged in frequency and sophistication, highlighting an urgent rise in AI misuse."
+    }
+  ],
+  "keyTakeAways": [
+    "AI voice technology has advanced to the point where generated voices are indistinguishable from real human voices, especially when trained on real voice data.",
+    "A recent scam targeted Italian businessmen with deepfake calls from Defence Minister Guido Crosetto, who was not involved, asking for money to free kidnapped journalists.",
+    "The scam included fake calls from a 'General' and targeted prominent figures such as Giorgio Armani and Patrizio Bertelli, with only Massimo Moratti sending money.",
+    "AI-generated voice clones are now rated as more trustworthy than real voices by participants in research, indicating a dangerous level of realism and deception.",
+    "Between January and June 2025, over $547 million has been lost globally to deepfake scams, with the figure rising from $200 million to $347 million.",
+    "AI-generated deepfakes are being used to create fake news, manipulate public perception, and produce illegal sexual content, including child sexual abuse material.",
+    "In response, US President Donald Trump signed a federal law criminalizing the publication of AI-generated intimate images without consent, and Australia banned a deepfake app used to generate nude images."
+  ],
+  "namedEntities": [
+    {
+      "name": "Guido Crosetto",
+      "whatIsThisEntity": "Defence Minister of Italy",
+      "whyIsThisEntityRelevantToTheArticle": "Crosetto's voice was cloned and used in a deepfake scam to deceive Italian businessmen into sending money, making him central to the fraud case."
+    },
+    {
+      "name": "Giorgia Meloni",
+      "whatIsThisEntity": "Prime Minister of Italy",
+      "whyIsThisEntityRelevantToTheArticle": "Her recent release of journalist Cecilia Sala in Iran provided context for the timing of the AI scam, which occurred shortly after her leadership actions."
+    },
+    {
+      "name": "Cecilia Sala",
+      "whatIsThisEntity": "Italian journalist",
+      "whyIsThisEntityRelevantToTheArticle": "Her imprisonment in Iran and subsequent release provided a narrative backdrop for the scam, which falsely claimed to be about freeing her."
+    },
+    {
+      "name": "Massimo Moratti",
+      "whatIsThisEntity": "Former owner of Inter Milan football club",
+      "whyIsThisEntityRelevantToTheArticle": "He was one of the few businessmen who sent money in response to the deepfake scam and has since filed a legal complaint with Italian authorities."
+    },
+    {
+      "name": "Giorgio Armani",
+      "whatIsThisEntity": "Late Italian fashion designer",
+      "whyIsThisEntityRelevantToTheArticle": "He was targeted in the AI voice scam, illustrating the broad reach of such frauds across prominent business figures."
+    },
+    {
+      "name": "Patrizio Bertelli",
+      "whatIsThisEntity": "Co-founder of Prada",
+      "whyIsThisEntityRelevantToTheArticle": "He was also targeted in the scam, showing how deepfakes can reach high-profile individuals across industries."
+    },
+    {
+      "name": "Nadine Lavan",
+      "whatIsThisEntity": "Senior lecturer in psychology at Queen Mary University of London",
+      "whyIsThisEntityRelevantToTheArticle": "She is a key researcher in AI voice generation and provided expert analysis on how AI voices are becoming indistinguishable from real human voices."
+    },
+    {
+      "name": "Queen Mary University of London",
+      "whatIsThisEntity": "University in the United Kingdom",
+      "whyIsThisEntityRelevantToTheArticle": "It conducted pivotal research on AI voice realism and published findings in PLOS One, showing that AI voice clones are perceived as equally real as authentic voices."
+    },
+    {
+      "name": "Resemble AI",
+      "whatIsThisEntity": "California-based AI company",
+      "whyIsThisEntityRelevantToTheArticle": "It provided data showing a rise in global deepfake scam losses from $200 million to $347 million between January and June 2025, indicating a growing threat."
+    },
+    {
+      "name": "DeepMedia",
+      "whatIsThisEntity": "Company developing tools to detect synthetic media",
+      "whyIsThisEntityRelevantToTheArticle": "It estimates that 8 million deepfakes will be shared online by end of 2025, signaling a massive increase in AI-generated fake content."
+    },
+    {
+      "name": "Donald Trump",
+      "whatIsThisEntity": "President of the United States",
+      "whyIsThisEntityRelevantToTheArticle": "He signed a federal law making it a crime to publish AI-generated intimate images of people without consent, reflecting policy responses to AI deepfakes."
+    },
+    {
+      "name": "Australia",
+      "whatIsThisEntity": "Government of Australia",
+      "whyIsThisEntityRelevantToTheArticle": "It announced a ban on an app used to create deepfake nude images, showing global concern over AI-generated sexual content."
+    },
+    {
+      "name": "ElevenLabs",
+      "whatIsThisEntity": "AI voice generation tool",
+      "whyIsThisEntityRelevantToTheArticle": "It was used by researchers at Queen Mary University of London to generate AI voice samples for testing realism and deception."
+    },
+    {
+      "name": "Carabinieri",
+      "whatIsThisEntity": "Italian police force",
+      "whyIsThisEntityRelevantToTheArticle": "They investigated and took action against the businessman who made a fraudulent transfer, demonstrating real-world enforcement of AI-related fraud."
+    }
+  ],
+  "summaryOfNewsArticle": "A surge in AI-powered deepfake voice scams has emerged, with a notable case targeting Italian businessmen who received calls from a fake Defence Minister Guido Crosetto, asking for over 1 million euros to free kidnapped journalists. The scam, which occurred in February 2025, exploited AI voice cloning technology that can mimic real human speech with high realism, making it indistinguishable from actual voices. Research by Queen Mary University of London found that AI voice clones are rated as equally trustworthy as real voices, and participants were more likely to believe AI voices than real ones. Global losses from such scams have increased dramatically, with over $547 million lost between January and June 2025. The technology also enables the creation of fake news, illicit sexual content, and deepfakes of real people. In response, the US and Australia have introduced legal measures to criminalize the publication of AI-generated intimate images, highlighting growing global concern over AI’s misuse in fraud and abuse.",
+  "tags": [
+    "artificial intelligence",
+    "deepfake",
+    "voice cloning",
+    "scams",
+    "fraud",
+    "identity theft",
+    "AI ethics",
+    "cybersecurity",
+    "police investigation",
+    "global fraud",
+    "AI misuse",
+    "AI voice technology",
+    "government response",
+    "AI-generated content",
+    "public safety"
+  ],
+  "timeOfPublication": "14:46:58Z"
+  ,
+  "title": "AI now sounds more like us – should we be concerned?"
+}

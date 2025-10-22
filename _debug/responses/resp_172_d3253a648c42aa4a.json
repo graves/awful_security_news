@@ -1,0 +1,188 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "8 weeks",
+      "approximateTimeFrameStart": "after starting treatment"
+    	,
+    "descriptionOfWhyTimeFrameIsRelevant": "The study analyzed side effects within the first eight weeks of antidepressant treatment, which provides a key benchmark for early physiological responses and helps determine how quickly side effects may become clinically significant."
+  },
+  {
+    "approximateTimeFrameEnd": "long-term (months to years)",
+    "approximateTimeFrameStart": "after initial treatment"
+  ,
+  "descriptionOfWhyTimeFrameIsRelevant": "The study notes that while short-term effects were measured, long-term cumulative risks — especially in chronic depression — may be higher, emphasizing the importance of sustained treatment planning."
+  },
+  {
+    "approximateTimeFrameEnd": "immediate",
+    "approximateTimeFrameStart": "after starting treatment"
+  ,
+  "descriptionOfWhyTimeFrameIsRelevant": "The analysis of immediate side effects (within 8 weeks) helps inform patient selection and prescription decisions in real time, which is critical for clinical decision-making."
+  }
+],
+  "keyTakeAways": [
+    "Antidepressants vary significantly in their physical side effects, such as weight gain, heart rate changes, and blood pressure effects.",
+    "The study ranks 30 commonly used antidepressants based on data from over 58,500 patients across 151 studies, making side effects comparable for the first time.",
+    "SSRIs like sertraline, citalopram, and escitalopram generally have fewer physical side effects, while others like venlafaxine, paroxetine, and amitriptyline have notable risks.",
+    "Personalized prescribing is crucial — patients with pre-existing conditions (e.g., hypertension, high cholesterol) may need different drugs based on individual risk profiles.",
+    "The UK currently prescribes 85% of antidepressants to just three SSRIs (citalopram, sertraline, fluoxetine), which may limit patient choice and increase side effect burden.",
+    "A free online tool is being developed to help doctors and patients match antidepressants to individual needs.",
+    "Even modest differences in side effects can have large population-level impacts due to the scale of antidepressant use (around 8 million people in the UK).",
+    "Long-term risks — especially in chronic depression — may be greater than short-term effects, requiring more personalized, long-term treatment strategies."
+  ],
+  "namedEntities": [
+    {
+      "name": "Prof Oliver Howes",
+      "whatIsThisEntity": "Researcher",
+      "whyIsThisEntityRelevantToTheArticle": "He led the research and emphasized that differences in antidepressant side effects are important for both individuals and large populations, underlining the clinical significance of personalization in treatment."
+    },
+    {
+      "name": "Dr Atheeshaan Arumuham",
+      "whatIsThisEntity": "Researcher",
+      "whyIsThisEntityRelevantToTheArticle": "She contributed to the analysis and highlighted that differences in side effects can become clinically significant, reinforcing the need for tailored treatment approaches."
+    },
+    {
+      "name": "Dr Toby Pillinger",
+      "whatIsThisEntity": "Researcher and BBC Contributor",
+      "whyIsThisEntityRelevantToTheArticle": "He provided real-world clinical examples of how different patients should be prescribed different antidepressants based on their health conditions and side effect preferences."
+    },
+    {
+      "name": "Prof Andrea Cipriani",
+      "whatIsThisEntity": "Researcher",
+      "whyIsThisEntityRelevantToTheArticle": "He highlighted the widespread use of only three SSRIs in the UK, and emphasized how shifting prescribing patterns could improve patient outcomes."
+    },
+    {
+      "name": "Dr Prasad Nishtala",
+      "whatIsThisEntity": "Researcher (University of Bath)",
+      "whyIsThisEntityRelevantToTheArticle": "He provided an independent evaluation, noting that long-term cumulative risks in chronic depression may be greater than short-term effects, adding depth to the study’s implications."
+    },
+    {
+      "name": "King's College London",
+      "whatIsThisEntity": "University",
+      "whyIsThisEntityRelevantToTheArticle": "It co-led the study on antidepressant side effects, contributing to the development of the first comprehensive ranking of antidepressants based on physical side effects."
+    },
+    {
+      "name": "University of Oxford",
+      "whatIsThisEntity": "University",
+      "whyIsThisEntityRelevantToTheArticle": "It co-led the study and provided expert analysis, particularly on the implications of prescribing patterns and side effect profiles."
+    },
+    {
+      "name": "University of Bath",
+      "whatIsThisEntity": "University",
+      "whyIsThisEntityRelevantToTheArticle": "It contributed an independent expert perspective on long-term risks in chronic depression, adding scientific validation to the study's conclusions."
+    },
+    {
+      "name": "Lancet medical journal",
+      "whatIsThisEntity": "Journal",
+      "whyIsThisEntityRelevantToTheArticle": "The study's results were published in the Lancet, a globally respected medical journal, lending credibility and broad impact to the findings."
+    },
+    {
+      "name": "SSRIs",
+      "whatIsThisEntity": "Drug class",
+      "whyIsThisEntityRelevantToTheArticle": "SSRIs (e.g., citalopram, sertraline, fluoxetine) are the most prescribed class of antidepressants and generally have fewer physical side effects, making them a common choice despite variability."
+    },
+    {
+      "name": "Agomelatine",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "Recommended for patients like Sarah who want to avoid weight gain, due to its lower risk of causing weight gain compared to other antidepressants."
+    },
+    {
+      "name": "Sertraline",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "Recommended for patients who want to avoid weight gain and is part of the SSRI class with relatively low physical side effects."
+    },
+    {
+      "name": "Venlafaxine",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "Linked to weight gain, increased heart rate, and elevated blood pressure, making it unsuitable for patients with pre-existing cardiovascular or metabolic conditions."
+    },
+    {
+      "name": "Amitriptyline",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "Associated with significant weight gain, increased heart rate, and blood pressure, making it a high-risk option for patients with metabolic or cardiovascular concerns."
+    },
+    {
+      "name": "Mirtazapine",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "Known to increase weight, making it a less ideal choice for patients who prioritize avoiding weight gain."
+    },
+    {
+      "name": "Paroxetine",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "Linked to increased blood pressure and cholesterol, making it unsuitable for patients with hypertension or high cholesterol, though it is widely prescribed."
+    },
+    {
+      "name": "Citalopram",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "A widely prescribed SSRI with neutral effects on cholesterol and fewer physical side effects, making it suitable for patients with metabolic concerns."
+    },
+    {
+      "name": "Escitalopram",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "A SSRI with low side effect burden, recommended for patients with cholesterol or blood pressure concerns."
+    },
+    {
+      "name": "Fluoxetine",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "An SSRI linked to weight loss and increased blood pressure, showing variability within the SSRI class and highlighting the need for individualized prescribing."
+    },
+    {
+      "name": "Duloxetine",
+      "whatIsThisEntity": "Antidepressant",
+      "whyIsThisEntityRelevantToTheArticle": "Associated with increased cholesterol levels, making it a potential risk for patients with elevated lipid profiles."
+    },
+    {
+      "name": "Sarah (32)",
+      "whatIsThisEntity": "Patient",
+      "whyIsThisEntityRelevantToTheArticle": "Serves as a representative case of a patient prioritizing weight gain avoidance, illustrating personalized treatment based on patient preference."
+    },
+    {
+      "name": "John (44)",
+      "whatIsThisEntity": "Patient",
+      "whyIsThisEntityRelevantToTheArticle": "Represents a patient with pre-existing high blood pressure, showing how drug selection must consider comorbid health conditions."
+    },
+    {
+      "name": "Jane (56)",
+      "whatIsThisEntity": "Patient",
+      "whyIsThisEntityRelevantToTheArticle": "Represents a patient with raised cholesterol, demonstrating the need for drugs that are neutral or beneficial on lipid profiles."
+    },
+    {
+      "name": "UK",
+      "whatIsThisEntity": "Nation",
+      "whyIsThisEntityRelevantToTheArticle": "Home to around 8 million people taking antidepressants, and where 85% of prescriptions are for just three SSRIs, highlighting a systemic issue needing reform."
+    },
+    {
+      "name": "8 million",
+      "whatIsThisEntity": "Population statistic",
+      "whyIsThisEntityRelevantToTheArticle": "Indicates the scale of antidepressant use, showing that even small improvements in prescribing could have large population-level health benefits."
+    },
+    {
+      "name": "85%",
+      "whatIsThisEntity": "Prescription statistic",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights that a large majority of antidepressant prescriptions in the UK are for just three drugs (SSRIs), raising concerns about lack of personalization and potential side effect burden."
+    },
+    {
+      "name": "free online tool",
+      "whatIsThisEntity": "Resource",
+      "whyIsThisEntityRelevantToTheArticle": "A new tool being developed to help doctors and patients match antidepressants to individual needs, supporting the shift toward personalized care."
+    }
+  ],
+  "summaryOfNewsArticle": "A new study from King's College London and the University of Oxford has ranked antidepressants based on their physical side effects, revealing significant differences in impacts such as weight gain, heart rate changes, and blood pressure. The research, which analyzed data from over 58,500 patients across 151 studies, found that SSRIs like sertraline and citalopram generally have fewer side effects, while drugs like venlafaxine, amitriptyline, and paroxetine carry higher risks. The findings emphasize that patients with different health profiles — such as high blood pressure or elevated cholesterol — may benefit from different antidepressants. Personalized prescribing is recommended to improve both safety and adherence, with a free online tool being developed to support this shift. Despite the study focusing on the first eight weeks of treatment, researchers note that long-term risks in chronic depression could be greater, and current prescribing patterns in the UK — where 85% of prescriptions are for just three SSRIs — may need reform to improve patient outcomes.",
+  "tags": [
+    "antidepressants",
+    "side effects",
+    "personalized medicine",
+    "mental health",
+    "UK healthcare",
+    "SSRIs",
+    "prescription trends",
+    "public health",
+    "clinical research",
+    "mental health treatment"
+  ],
+  "timeOfPublication": "23:53:25.839+00:00"
+  ,
+  "title": "First league table of antidepressant side effects"
+}

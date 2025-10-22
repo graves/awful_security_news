@@ -1,0 +1,145 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-03-01",
+      "descriptionOfWhyDateIsRelevant": "Anthropic CEO Dario Amodei made a prediction in March 2025 about AI writing 90% of code within three to six months."
+    },
+    {
+      "dateMentionedInArticle": "2025-04-01",
+      "descriptionOfWhyDateIsRelevant": "Meta's CEO Mark Zuckerberg made a prediction in April 2025 about AI contributing to half of development work in one project within the next year."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2026",
+      "approximateTimeFrameStart": "2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "Tech CEOs are forecasting a near-term shift in software development where AI will write a large portion of code, with significant claims made in early 2025."
+    }
+  ],
+  "keyTakeAways": [
+    "Tech CEOs from major companies including Amazon, Google, Microsoft, and Meta are making bold claims about AI's ability to generate code, citing potential for 50–90% code automation.",
+    "Despite high rhetoric, many software engineers remain skeptical, citing lack of long-term efficiency gains, code quality issues, and instances where AI tools produce 'messy' or non-functional code.",
+    "AI tools are most effective for short-term, repetitive, or prototyping tasks where accuracy is less critical, such as creating quick illustrated prototypes.",
+    "There is growing concern that AI usage is being mandated in workplaces regardless of need, leading to what researchers call 'workslop' — where AI is used without purpose, increasing workload and reducing collaboration.",
+    "Studies show mixed results: a METR study found that experienced open-source engineers used AI and took 19% longer to complete tasks, while a Danish survey reported a modest 6.5% time saving.",
+    "Experts like Simon Willison emphasize that AI cannot replace human problem-solving and that the role of software engineers remains centered on designing systems that solve real-world problems.",
+    "AI-generated code often requires human review and correction, and even advanced tools like Anthropic's 'agents' can go into 'death spirals' or get stuck in testing loops.",
+    "Concerns about job displacement of junior software engineers and the environmental cost of training large AI models are also raising alarms among engineers.",
+    "Companies like Amazon and Meta have internal mandates pushing for AI adoption, with some instances of employees being fired for insufficient AI tool usage.",
+    "Y Combinator, a startup incubator that once supported diverse tech innovations, now exclusively focuses on AI, reflecting broader industry shifts toward AI-centric development."
+  ],
+  "namedEntities": [
+    {
+      "name": "Dario Amodei",
+      "whatIsThisEntity": "CEO of Anthropic",
+      "whyIsThisEntityRelevantToTheArticle": "Amodei is central to the article's discussion of AI coding capabilities, as he predicted AI would write 90% of code within three to six months in March 2025."
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "whatIsThisEntity": "CEO of Meta",
+      "whyIsThisEntityRelevantToTheArticle": "Zuckerberg predicted that AI would contribute to half of development work in one project within the next year, reflecting the broader optimism among tech leaders."
+    },
+    {
+      "name": "Amazon",
+      "whatIsThisEntity": "Tech company",
+      "whyIsThisEntityRelevantToTheArticle": "Amazon has been actively promoting AI tools to improve developer productivity and has faced criticism for mandating AI use even in inappropriate cases."
+    },
+    {
+      "name": "Google",
+      "whatIsThisEntity": "Tech company",
+      "whyIsThisEntityRelevantToTheArticle": "Google's software engineers show mixed trust in AI, with a survey indicating only half 'somewhat' trust AI-generated responses, highlighting skepticism across the industry."
+    },
+    {
+      "name": "Microsoft",
+      "whatIsThisEntity": "Tech company",
+      "whyIsThisEntityRelevantToTheArticle": "Microsoft is cited as one of the major companies promoting large language models' code generation capabilities, contributing to the industry-wide narrative."
+    },
+    {
+      "name": "Anthropic",
+      "whatIsThisEntity": "AI company",
+      "whyIsThisEntityRelevantToTheArticle": "Anthropic developed Claude Code, an AI tool for code generation, and its CEO Dario Amodei made key claims about AI writing most code, with Boris Cherny emphasizing human oversight."
+    },
+    {
+      "name": "Claude Code",
+      "whatIsThisEntity": "AI tool developed by Anthropic",
+      "whyIsThisEntityRelevantToTheArticle": "Claude Code is highlighted as a tool capable of generating and testing code via agents, but also criticized for producing 'death spirals' and requiring human review."
+    },
+    {
+      "name": "OpenAI",
+      "whatIsThisEntity": "AI company",
+      "whyIsThisEntityRelevantToTheArticle": "Simon Willison, an independent AI researcher, previewed OpenAI's latest model, indicating that AI could assist experienced engineers but not replace human judgment."
+    },
+    {
+      "name": "Y Combinator",
+      "whatIsThisEntity": "Startup incubator",
+      "whyIsThisEntityRelevantToTheArticle": "Y Combinator supported Colton Voege's early company and now exclusively focuses on AI, signaling a shift in tech investment priorities toward AI."
+    },
+    {
+      "name": "Simon Willison",
+      "whatIsThisEntity": "Independent AI researcher",
+      "whyIsThisEntityRelevantToTheArticle": "Willison provides expert analysis on AI’s productivity gains, emphasizing that AI improves efficiency only in specific, well-defined tasks."
+    },
+    {
+      "name": "Boris Cherny",
+      "whatIsThisEntity": "Head of Anthropic's Claude Code unit",
+      "whyIsThisEntityRelevantToTheArticle": "Cherny emphasizes that AI-generated code must be reviewed by engineers and that AI tools are not autonomous enough to replace human engineering judgment."
+    },
+    {
+      "name": "Colton Voege",
+      "whatIsThisEntity": "Software engineer",
+      "whyIsThisEntityRelevantToTheArticle": "Voege personally tried AI tools and reported no significant long-term efficiency gains, representing a growing skepticism among engineers."
+    },
+    {
+      "name": "METR",
+      "whatIsThisEntity": "AI evaluation nonprofit",
+      "whyIsThisEntityRelevantToTheArticle": "METR conducted a study showing that experienced engineers using LLMs took 19% longer to complete tasks, contradicting optimistic claims about AI efficiency."
+    },
+    {
+      "name": "Anders Humlum",
+      "whatIsThisEntity": "Co-author of Denmark study",
+      "whyIsThisEntityRelevantToTheArticle": "Humlum's research shows AI leads to a modest 6.5% time saving in Denmark, framing AI’s impact as incremental rather than transformative."
+    },
+    {
+      "name": "fly.io",
+      "whatIsThisEntity": "Cloud infrastructure company",
+      "whyIsThisEntityRelevantToTheArticle": "Thomas Ptacek, a software developer at fly.io, notes AI has helped reduce repetitive coding tasks, supporting the idea that AI is useful in familiar, routine work."
+    },
+    {
+      "name": "404 Media",
+      "whatIsThisEntity": "Media outlet",
+      "whyIsThisEntityRelevantToTheArticle": "404 Media reported on a Meta executive memo calling for 5X productivity via AI, showing internal AI push within companies."
+    },
+    {
+      "name": "Wired",
+      "whatIsThisEntity": "Media outlet",
+      "whyIsThisEntityRelevantToTheArticle": "Wired reported on the Meta memo advocating AI-driven productivity, illustrating internal company pressure to adopt AI tools."
+    },
+    {
+      "name": "The Information",
+      "whatIsThisEntity": "Media outlet",
+      "whyIsThisEntityRelevantToTheArticle": "The Information reported that two engineers were fired from an AI startup for not using AI coding tools enough, indicating real-world consequences of AI mandates."
+    }
+  ],
+  "summaryOfNewsArticle": "Tech CEOs from Amazon, Google, Microsoft, Meta, and Anthropic are promoting AI’s growing role in software development, claiming AI will write 90% of code or significantly reduce development time. However, many software engineers, including Colton Voege and Simon Willison, remain skeptical, citing lack of long-term efficiency, poor code quality, and 'death spirals' in AI agents. Studies show mixed results: one found AI led to a 19% longer task completion time, while another reported a modest 6.5% time saving. Experts emphasize that AI is best for prototyping and repetitive tasks, not complex problem-solving, and that every line of AI-generated code must still be reviewed by human engineers. The industry faces pressure to adopt AI tools regardless of need, leading to 'workslop' — inefficient, unproductive use — and concerns about job displacement and environmental costs. Despite optimism from executives, the reality on the ground suggests AI is not automating software engineering as dramatically as claimed, and human oversight remains essential.",
+  "tags": [
+    "Artificial Intelligence",
+    "Software Engineering",
+    "AI in Coding",
+    "Tech Industry Trends",
+    "Productivity",
+    "Job Displacement",
+    "AI Tools",
+    "Machine Learning",
+    "Large Language Models (LLMs)",
+    "Human Oversight",
+    "Skepticism",
+    "Automation",
+    "Tech CEOs",
+    "Startup Incubators"
+  ]
+  ,
+  "timeOfPublication": "09:17:00-21:10",
+  "title": "Tech CEOs Say the Era of 'Code by AI' Is Here, But Engineers Are Skeptical"
+}

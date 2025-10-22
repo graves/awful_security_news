@@ -1,0 +1,116 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the article indicates when the AWS outage occurred and was reported, establishing the timeline of the event."
+    },
+    {
+      "dateMentionedInArticle": "0311-10-20",
+      "descriptionOfWhyDateIsRelevant": "The first signs of the AWS outage were reported at 3:11 a.m. Eastern Time, marking the initial detection of service disruptions."
+    },
+    {
+      "dateMentionedInArticle": "0600-10-20",
+      "descriptionOfWhyDateIsRelevant": "By 6 a.m. Eastern Time, AWS confirmed recovery across most affected services, indicating the resolution timeline of the incident."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "0600-10-20",
+      "approximateTimeFrameStart": "0311-10-20",
+      "descriptionOfWhyTimeFrameIsRelevant": "The time frame between 3:11 a.m. and 6 a.m. Eastern Time captures the duration of the AWS outage and the subsequent recovery, illustrating the scale and response time of the incident."
+    }
+  ],
+  "keyTakeAways": [
+    "Amazon Web Services (AWS) experienced a major outage affecting global online services, beginning around 3:11 a.m. Eastern Time on October 20, 2025.",
+    "The outage impacted a wide range of services including Snapchat, Roblox, Fortnite, Robinhood, McDonald’s app, Coinbase, and Signal, highlighting the critical role of AWS in powering digital platforms.",
+    "The US-EAST-1 region was initially affected, with AWS reporting increased error rates and latencies, and later confirming recovery by 6 a.m. Eastern Time.",
+    "Experts like Patrick Burgess from BCS, The Chartered Institute for IT, emphasize that the world now runs on cloud computing infrastructure provided by a few dominant companies, making outages widely felt even by users who don’t directly interact with AWS.",
+    "The outage is described as a technical issue, not a cyberattack, and is being resolved through AWS’s established processes, with typical resolution times in hours rather than days.",
+    "The incident underscores the vulnerability of modern digital ecosystems to infrastructure failures, as users perceive disruptions in apps like Snapchat or Roblox rather than recognizing the root cause in cloud providers."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A cloud computing service provider offering remote computing infrastructure to governments, universities, and companies.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS was the central entity affected by a major outage that disrupted online services globally, demonstrating its foundational role in digital infrastructure."
+    },
+    {
+      "name": "The Associated Press (AP)",
+      "whatIsThisEntity": "A major international news agency that relies on AWS for its digital operations.",
+      "whyIsThisEntityRelevantToTheArticle": "The AP is cited as an example of a customer affected by the AWS outage, showing how even media organizations depend on cloud services."
+    },
+    {
+      "name": "Snapchat",
+      "whatIsThisEntity": "A social media application that experienced outages due to AWS dependency.",
+      "whyIsThisEntityRelevantToTheArticle": "Snapchat's unavailability during the outage illustrates how consumer-facing apps rely on AWS infrastructure for operations."
+    },
+    {
+      "name": "Roblox",
+      "whatIsThisEntity": "An online platform for user-generated games and content that was impacted by the AWS outage.",
+      "whyIsThisEntityRelevantToTheArticle": "Roblox's outage reflects the broader trend of gaming platforms depending on cloud computing services for functionality."
+    },
+    {
+      "name": "Fortnite",
+      "whatIsThisEntity": "A popular multiplayer video game affected during the AWS outage.",
+      "whyIsThisEntityRelevantToTheArticle": "Fortnite's disruption highlights how real-time gaming platforms depend on stable cloud infrastructure."
+    },
+    {
+      "name": "Robinhood",
+      "whatIsThisEntity": "An online brokerage service that faced outages due to AWS issues.",
+      "whyIsThisEntityRelevantToTheArticle": "Robinhood’s failure demonstrates how financial services rely on cloud platforms for transaction processing and availability."
+    },
+    {
+      "name": "McDonald’s",
+      "whatIsThisEntity": "A global fast-food chain whose app was impacted by the AWS outage.",
+      "whyIsThisEntityRelevantToTheArticle": "The McDonald’s app outage shows how even large consumer brands depend on cloud infrastructure for digital operations."
+    },
+    {
+      "name": "Coinbase",
+      "whatIsThisEntity": "A cryptocurrency exchange that reported issues linked to the AWS outage.",
+      "whyIsThisEntityRelevantToTheArticle": "Coinbase's problems reflect how fintech services are vulnerable to cloud service disruptions."
+    },
+    {
+      "name": "Signal",
+      "whatIsThisEntity": "A secure messaging app that experienced outages due to AWS dependency.",
+      "whyIsThisEntityRelevantToTheArticle": "Signal’s disruption emphasizes the critical role of cloud services in secure communication platforms."
+    },
+    {
+      "name": "Patrick Burgess",
+      "whatIsThisEntity": "A cybersecurity expert at BCS, The Chartered Institute for IT.",
+      "whyIsThisEntityRelevantToTheArticle": "Burgess provides expert analysis on how cloud dependency affects global digital services and explains the nature of the outage as a technical, not cyber-based, event."
+    },
+    {
+      "name": "DownDetector",
+      "whatIsThisEntity": "A website that tracks online service outages and user reports.",
+      "whyIsThisEntityRelevantToTheArticle": "DownDetector was used to aggregate user reports of service failures, helping to verify the extent of the AWS-related outages."
+    },
+    {
+      "name": "US-EAST-1 Region",
+      "whatIsThisEntity": "A specific geographic region within AWS’s infrastructure where the outage originated.",
+      "whyIsThisEntityRelevantToTheArticle": "The outage began in the US-EAST-1 region, indicating a localized technical failure with global ripple effects."
+    },
+    {
+      "name": "U.K.-based BCS, The Chartered Institute for IT",
+      "whatIsThisEntity": "An IT professional organization that provides expert commentary on cloud infrastructure risks.",
+      "whyIsThisEntityRelevantToTheArticle": "BCS offers contextual insight into the systemic risks posed by reliance on a few dominant cloud providers."
+    }
+  ],
+  "summaryOfNewsArticle": "Amazon Web Services (AWS) suffered a significant outage starting at around 3:11 a.m. Eastern Time on October 20, 2025, affecting its US-EAST-1 region and causing widespread disruption to numerous online services including Snapchat, Roblox, Fortnite, Robinhood, the McDonald’s app, Coinbase, and Signal. The issue was reported through AWS’s Health Dashboard and confirmed by user reports on DownDetector. By 6 a.m. Eastern Time, AWS confirmed recovery across most services and stated it was working toward a full resolution. Experts such as Patrick Burgess of BCS emphasize that the modern internet is fundamentally dependent on a few major cloud providers, making such outages impactful and widely felt, even if users only notice failures in apps like Snapchat or Roblox. The incident is attributed to a technical issue, not a cyberattack, and is resolved through established cloud infrastructure protocols. This event illustrates the fragility and interconnectedness of global digital services underpinned by centralized cloud computing platforms.",
+  "tags": [
+    "cloud computing",
+    "AWS outage",
+    "digital infrastructure",
+    "global outages",
+    "technology failure",
+    "cybersecurity",
+    "outage recovery",
+    "US-EAST-1 region",
+    "tech dependency"
+  ]
+  ,
+  "timeOfPublication": "08:54:08.030+00:00"
+  ,
+  "title": "Amazon Web Services Outage Disrupts Global Online Services"
+}

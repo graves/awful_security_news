@@ -1,0 +1,97 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the AWS outage, which disrupted major online services globally, highlighting ongoing fragility in internet infrastructure."
+    },
+    {
+      "dateMentionedInArticle": "2021-03-24",
+      "descriptionOfWhyDateIsRelevant": "The last major AWS outage occurred in 2021, showing a pattern of rare but significant disruptions over time."
+    },
+    {
+      "dateMentionedInArticle": "2024-07-19",
+      "descriptionOfWhyDateIsRelevant": "A major IT outage in 2024 caused global disruptions due to a CrowdStrike software glitch, illustrating how critical software updates can impact global systems."
+    },
+    {
+      "dateMentionedInArticle": "2024-07-19",
+      "descriptionOfWhyDateIsRelevant": "The 2024 CrowdStrike incident resulted in $5 billion in business losses and widespread service outages, showing precedent for large-scale digital failures."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "6:35 AM ET",
+      "approximateTimeFrameStart": "9:00 AM EDT (monday, 10/20/2025)",
+      "descriptionOfWhyTimeFrameIsRelevant": "The duration of the AWS outage, which lasted several hours, with services restored by 6:35 AM ET, indicating the scale and speed of recovery."
+    },
+    {
+      "approximateTimeFrameEnd": "6:35 AM ET",
+      "approximateTimeFrameStart": "9:00 AM EDT (monday, 10/20/2025)",
+      "descriptionOfWhyTimeFrameIsRelevant": "The timeframe during which the DNS issue affected thousands of services, impacting users' ability to access apps and websites."
+    }
+  ],
+  "keyTakeAways": [
+    "The internet's reliance on a few major cloud providers like AWS makes it vulnerable to outages, even if the fault is technical and brief.",
+    "A DNS malfunction caused a critical service failure, preventing users from accessing data stored in AWS's DynamoDB and other services.",
+    "The root cause remains unknown, but it likely stemmed from a technical fault in Amazon's DNS infrastructure, not a cyberattack.",
+    "The internet was originally designed to be decentralized, but modern systems are concentrated in a small number of cloud regions, leading to widespread cascading effects.",
+    "AWS, while generally stable, has experienced outages before, with the last one in 2021, showing that disruptions, though rare, are not unprecedented.",
+    "The impact of such outages is amplified because so many services — from banking to shopping to travel — depend on AWS infrastructure."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A cloud computing platform that hosts critical online services and databases for millions of companies.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS experienced a major global outage that disrupted services such as banking, social media, and airline booking, demonstrating its central role in internet infrastructure."
+    },
+    {
+      "name": "Domain Name System (DNS)",
+      "whatIsThisEntity": "A system that converts user-friendly web addresses (like amazon.com) into IP addresses that computers can understand.",
+      "whyIsThisEntityRelevantToTheArticle": "A DNS malfunction prevented access to data stored in AWS databases, leading to widespread service disruptions during the outage."
+    },
+    {
+      "name": "DynamoDB",
+      "whatIsThisEntity": "A database service offered by AWS that stores customer and application data for companies.",
+      "whyIsThisEntityRelevantToTheArticle": "Customers were unable to access data in DynamoDB due to the DNS failure, illustrating how a single component failure can isolate critical data."
+    },
+    {
+      "name": "EC2",
+      "whatIsThisEntity": "A virtual server service used by companies to build and run online applications.",
+      "whyIsThisEntityRelevantToTheArticle": "The outage affected EC2 services, meaning businesses relying on virtual servers lost functionality during the outage."
+    },
+    {
+      "name": "CrowdStrike",
+      "whatIsThisEntity": "A software company that provides cybersecurity and cloud-based monitoring tools.",
+      "whyIsThisEntityRelevantToTheArticle": "A 2024 CrowdStrike software glitch caused a global IT outage, showing how a single software update can have massive cascading consequences."
+    },
+    {
+      "name": "AT&T",
+      "whatIsThisEntity": "A major telecommunications company that provides network services.",
+      "whyIsThisEntityRelevantToTheArticle": "AT&T experienced repeated network outages in 2024, including an 11-hour outage affecting gig workers, showing another example of infrastructure fragility."
+    },
+    {
+      "name": "Rob Jardin",
+      "whatIsThisEntity": "Chief digital officer at cybersecurity firm NymVPN.",
+      "whyIsThisEntityRelevantToTheArticle": "He assessed the AWS outage as likely a technical fault, not a cyberattack, reinforcing the narrative of internal system failure."
+    },
+    {
+      "name": "Mike Chapple",
+      "whatIsThisEntity": "Cybersecurity expert and IT professor at the University of Notre Dame.",
+      "whyIsThisEntityRelevantToTheArticle": "He explained that the visibility of such outages is due to their widespread impact, not because they are frequent."
+    }
+  ],
+  "summaryOfNewsArticle": "Amazon Web Services (AWS) experienced a global outage on Monday, October 20, 2025, disrupting millions of online services including banking, shopping, and social media. The outage stemmed from a failure in Amazon’s Domain Name System (DNS), preventing users from accessing data stored in AWS’s DynamoDB and EC2 services. Although the root cause remains unclear, experts attribute the issue to a technical fault, not a cyberattack. This event highlights the fragility of the internet’s infrastructure, which is overly reliant on a few major cloud providers like AWS. Historically, such outages are rare, with the last major one occurring in 2021, but their impact is magnified due to the widespread dependence on cloud computing. The incident underscores the need for greater redundancy and diversity in digital infrastructure to prevent cascading failures.",
+  "tags": [
+    "cloud computing",
+    "internet outage",
+    "AWS",
+    "DNS",
+    "digital infrastructure",
+    "technology failure",
+    "cybersecurity",
+    "system resilience"
+  ],
+  "timeOfPublication": "09:28:00-04:00",
+  "title": "The internet just had another global outage. Why does this keep happening?"
+}

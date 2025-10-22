@@ -1,0 +1,132 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2018-12-22",
+      "descriptionOfWhyDateIsRelevant": "The start date of the last government shutdown, which began on December 22, 2018, and lasted until January 25, 2019, making it the longest in history at 35 days."
+    },
+    {
+      "dateMentionedInArticle": "2019-01-25",
+      "descriptionOfWhyDateIsRelevant": "The end date of the last government shutdown, marking the conclusion of the 35-day event that was the longest in nearly 50 years."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the latest update on the current government shutdown, indicating ongoing federal operations failure due to lack of funding."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2019-01-25",
+      "approximateTimeFrameStart": "2018-12-22",
+      "descriptionOfWhyTimeFrameIsRelevant": "The duration of the 35-day shutdown in 2018–2019, the longest in history, which cost the U.S. an estimated $3 billion in lost GDP."
+    },
+    {
+      "approximateTimeFrameEnd": "ongoing",
+      "approximateTimeFrameStart": "ongoing",
+      "descriptionOfWhyTimeFrameIsRelevant": "The current full government shutdown, which began with the failure to pass any of the 12 appropriations bills, resulting in all federal operations being halted."
+    }
+  ],
+  "keyTakeAways": [
+    "The last government shutdown, from December 22, 2018, to January 25, 2019, lasted 35 days and was the longest in U.S. history.",
+    "The shutdown cost the U.S. economy an estimated $3 billion in lost GDP, according to the Congressional Budget Office.",
+    "During the 2018–2019 shutdown, about 800,000 federal workers were affected, with approximately 300,000 furloughed and 500,000 exempt from pay but required to report to work.",
+    "The current government shutdown (as of October 2025) is a full shutdown, meaning no federal agencies are operating, unlike the partial shutdown in 2018–2019.",
+    "The current Congress has not passed any of the 12 appropriations bills needed to fund the U.S. government.",
+    "The political stalemate is attributed to a narrow Republican majority in the House, led by Speaker Mike Johnson, and the lack of 60 votes in the Senate to overcome a filibuster.",
+    "Government shutdowns have become less common since 1990, but increasing partisanship in Washington has made it harder to reach consensus on funding.",
+    "The first federal government shutdown occurred in 1976, and since then, U.S. agencies have been instructed to cease operations during funding lapses."
+  ],
+  "namedEntities": [
+    {
+      "name": "United States government",
+      "whatIsThisEntity": "The federal government of the United States",
+      "whyIsThisEntityRelevantToTheArticle": "The subject of the article, as it details the duration, causes, and economic impact of government shutdowns."
+    },
+    {
+      "name": "Congressional Budget Office (CBO)",
+      "whatIsThisEntity": "A nonpartisan office that provides economic analysis and budget estimates",
+      "whyIsThisEntityRelevantToTheArticle": "Provided the economic estimate of $3 billion in lost GDP during the 2018–2019 shutdown."
+    },
+    {
+      "name": "Mike Johnson",
+      "whatIsThisEntity": "Republican Speaker of the U.S. House of Representatives",
+      "whyIsThisEntityRelevantToTheArticle": "Leadership figure in Congress whose narrow majority and lack of filibuster-breaking votes contributed to the current shutdown stalemate."
+    },
+    {
+      "name": "Senate",
+      "whatIsThisEntity": "Upper chamber of the U.S. Congress",
+      "whyIsThisEntityRelevantToTheArticle": "The Senate lacks the 60 votes needed to end a filibuster, blocking legislative progress and contributing to the shutdown."
+    },
+    {
+      "name": "House of Representatives",
+      "whatIsThisEntity": "Lower chamber of the U.S. Congress",
+      "whyIsThisEntityRelevantToTheArticle": "Currently controlled by Republicans with one of the narrowest majorities in history, contributing to political deadlock."
+    },
+    {
+      "name": "Appropriations bills",
+      "whatIsThisEntity": "Funding legislation required to operate federal agencies",
+      "whyIsThisEntityRelevantToTheArticle": "The failure to pass any of the 12 appropriations bills is the direct cause of the current full government shutdown."
+    },
+    {
+      "name": "Federal agencies",
+      "whatIsThisEntity": "U.S. government departments and offices",
+      "whyIsThisEntityRelevantToTheArticle": "These agencies either shut down or operate partially during funding lapses, affecting millions of employees."
+    },
+    {
+      "name": "Tami Luhby",
+      "whatIsThisEntity": "CNN journalist",
+      "whyIsThisEntityRelevantToTheArticle": "Reports on which services are expected to be halted or continue during the shutdown."
+    },
+    {
+      "name": "Gillian Roberts and Kaanita Iyer",
+      "whatIsThisEntity": "CNN reporters",
+      "whyIsThisEntityRelevantToTheArticle": "Authors of the article providing coverage and analysis of the government shutdown."
+    },
+    {
+      "name": "1976",
+      "whatIsThisEntity": "Year of the first federal government shutdown",
+      "whyIsThisEntityRelevantToTheArticle": "Marks the first known instance of a U.S. government shutdown, according to CNN research."
+    },
+    {
+      "name": "1981",
+      "whatIsThisEntity": "Year when federal agencies first received official instructions to cease operations during funding gaps",
+      "whyIsThisEntityRelevantToTheArticle": "Establishes a baseline for when the protocol for shutdowns was formalized."
+    },
+    {
+      "name": "35 days",
+      "whatIsThisEntity": "Duration of the longest government shutdown in history",
+      "whyIsThisEntityRelevantToTheArticle": "The length of the 2018–2019 shutdown, which set a record for the longest shutdown in U.S. history."
+    },
+    {
+      "name": "$3 billion",
+      "whatIsThisEntity": "Estimated economic cost of the 2018–2019 shutdown",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights the economic impact of government shutdowns on the U.S. GDP."
+    },
+    {
+      "name": "800,000 employees",
+      "whatIsThisEntity": "Number of people employed at shuttered federal agencies during the 2018–2019 shutdown",
+      "whyIsThisEntityRelevantToTheArticle": "Illustrates the scale of human impact during a shutdown."
+    },
+    {
+      "name": "300,000 furloughed employees",
+      "whatIsThisEntity": "Number of federal workers not paid and asked not to report to work during the 2018–2019 shutdown",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights the direct workforce and financial impact of the shutdown."
+    }
+  ],
+  "summaryOfNewsArticle": "The article reports on the current U.S. government shutdown, which is a full shutdown due to the failure to pass any of the 12 required appropriations bills. It notes that this marks a continuation of political stalemate, with the current Congress unable to reach agreement despite narrow majorities and Senate filibuster rules. It references the longest shutdown in history—35 days from December 22, 2018, to January 25, 2019—which cost the economy an estimated $3 billion and affected around 800,000 federal workers, with 300,000 furloughed. Unlike the partial 2018 shutdown, the current shutdown affects all federal operations. The article attributes the ongoing impasse to partisan gridlock, particularly the narrow House majority under Speaker Mike Johnson and the Senate’s lack of a quorum to break a filibuster, highlighting both the political and economic consequences of such events.",
+  "tags": [
+    "government shutdown",
+    "federal funding",
+    "U.S. politics",
+    "Congressional deadlock",
+    "economic impact",
+    "partisan gridlock",
+    "appropriations bills",
+    "GDP loss",
+    "furloughs",
+    "political stalemate"
+  ],
+  "timeOfPublication": "09:58:00-04:00",
+  "title": "The last government shutdown was the longest in nearly 50 years. Here are all the recent shutdowns in one chart"
+}

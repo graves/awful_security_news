@@ -1,0 +1,75 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "1222-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1222-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication, indicating when the legal dispute between prosecutors and James Comey’s attorney Patrick Fitzgerald was publicly reported."
+    },
+    {
+      "dateMentionedInArticle": "2017-05-09",
+      "descriptionOfWhyDateIsRelevant": "The date James Comey was fired from the FBI, which is central to the timeline of events involving the alleged misuse of classified information and the subsequent legal dispute over representation."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2017",
+      "approximateTimeFrameStart": "2017",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period during which James Comey conducted investigations into Russian interference in the 2016 U.S. election, and during which he wrote and shared memos with his attorney, forming the basis of the legal dispute over classified information."
+    }
+  ],
+  "keyTakeAways": [
+    "Prosecutors allege that James Comey used his lead defense attorney, Patrick Fitzgerald, to disseminate classified information in 2017, which could create a conflict of interest and potentially disqualify Fitzgerald from representing Comey.",
+    "Fitzgerald denies the allegations, stating that the memos were unclassified at the time they were shared with counsel and that no classified information was disclosed.",
+    "The Justice Department claims that the memos were later upclassified, but Fitzgerald argues that the initial classification status was unclassified and that an upclassification does not retroactively change the original status.",
+    "The legal dispute centers on whether Fitzgerald can ethically and legally represent Comey given his role in receiving and transmitting information related to the investigation into Russian meddling.",
+    "Former federal prosecutor Elie Honig notes that a person cannot be both a witness and a defense attorney in the same case, raising ethical and legal concerns about Fitzgerald’s representation."
+  ],
+  "namedEntities": [
+    {
+      "name": "James Comey",
+      "whatIsThisEntity": "Former FBI Director",
+      "whyIsThisEntityRelevantToTheArticle": "He is the central figure in the legal dispute, with prosecutors alleging that he improperly disclosed classified information through his attorney, and he is the defendant in the case being discussed."
+    },
+    {
+      "name": "Patrick Fitzgerald",
+      "whatIsThisEntity": "Lead defense attorney for James Comey",
+      "whyIsThisEntityRelevantToTheArticle": "He is the attorney being challenged by prosecutors for a potential conflict of interest due to alleged involvement in the dissemination of classified information in 2017."
+    },
+    {
+      "name": "Justice Department",
+      "whatIsThisEntity": "U.S. Department of Justice",
+      "whyIsThisEntityRelevantToTheArticle": "It is the body filing the legal motion to challenge Fitzgerald’s representation of Comey, alleging a conflict of interest related to the handling of classified information."
+    },
+    {
+      "name": "Elie Honig",
+      "whatIsThisEntity": "Former federal prosecutor and legal analyst",
+      "whyIsThisEntityRelevantToTheArticle": "He provides expert commentary on the ethical issues involved in a lawyer being both a witness and a defense attorney in the same case, highlighting the legal complexity of the situation."
+    },
+    {
+      "name": "President Trump",
+      "whatIsThisEntity": "U.S. President at time of Comey’s firing",
+      "whyIsThisEntityRelevantToTheArticle": "The context of Comey’s firing—after Trump took office—connects the investigation into Russian interference with political tensions and raises questions about executive power and accountability."
+    },
+    {
+      "name": "Russian meddling in the 2016 election",
+      "whatIsThisEntity": "Investigation topic",
+      "whyIsThisEntityRelevantToTheArticle": "The basis of Comey’s investigation, and the reason he wrote memos about troubling interactions with President Trump, which are central to the legal and political controversy."
+    }
+  ],
+  "summaryOfNewsArticle": "Prosecutors from the Justice Department are challenging Patrick Fitzgerald, James Comey’s lead defense attorney, claiming he may have been involved in the improper dissemination of classified information in 2017. The dispute arises from allegations that Comey used Fitzgerald to share unclassified memos about his interactions with President Trump, which the government later claims were upclassified. Fitzgerald denies these allegations, asserting that the memos were unclassified at the time of sharing and that no classified information was disclosed. The case raises significant ethical and legal questions about a lawyer’s ability to represent a client when they were also a witness to or participant in the events being investigated. Legal experts note that a person cannot serve as both a witness and a defense attorney in the same case, adding to the controversy.",
+  "tags": [
+    "James Comey",
+    "Patrick Fitzgerald",
+    "Justice Department",
+    "classified information",
+    "legal ethics",
+    "2017 FBI investigation",
+    "Russian interference",
+    "Trump administration",
+    "conflict of interest"
+  ]
+  ,
+  "timeOfPublication": "12:52:00-04:00",
+  "title": "Prosecutors go after James Comey’s attorney Patrick Fitzgerald"
+}

@@ -1,0 +1,127 @@
+{
+  "category": "Environment & Climate",
+  "dateOfPublication": "2025-10-13",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-13",
+      "descriptionOfWhyDateIsRelevant": "The date of publication indicates the current relevance of the article on climate change resilience in Pakistan, highlighting how Indigenous knowledge remains vital amid technological shortcomings."
+    },
+    {
+      "dateMentionedInArticle": "2017-06-01",
+      "descriptionOfWhyDateIsRelevant": "The GLOF-II project was launched in 2017, marking a key date when Pakistan invested $37 million in early warning systems, yet failures in implementation and community trust have undermined its effectiveness."
+    },
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "The World Bank's 2023 data on temperature rise in Pakistan (1.3°C since 1950s) provides a long-term climate context for understanding the severity of glacial melt and flooding in the region."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2022",
+      "approximateTimeFrameStart": "2019",
+      "descriptionOfWhyTimeFrameIsRelevant": "Between 2019 and 2022, Pakistan experienced nearly 90 glacial lake outburst floods (GLOFs), illustrating a rising frequency of climate-related disasters in the region."
+    },
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2024",
+      "descriptionOfWhyTimeFrameIsRelevant": "The article is published in 2025, placing it in a critical window where climate vulnerability in Pakistan is intensifying due to ongoing warming and glacier retreat."
+    }
+  ],
+  "keyTakeAways": [
+    "Indigenous knowledge systems—such as observing animal behavior, cloud formations, and using sound signals like gunfire—are being used effectively by local communities in Gilgit-Baltistan to predict and respond to glacial lake outburst floods (GLOFs).",
+    "Despite a $37 million investment in early warning systems (EWS) since 2017, many communities in northern Pakistan lack trust in the technology due to frequent malfunctions, lack of follow-up, and poor community engagement.",
+    "Residents in areas like Skardu and Ghizer have relied on traditional warning signals (e.g., three-gunshots) passed down through generations, which have proven effective in saving lives during floods.",
+    "A lack of real-time connectivity between local human sensors and official rescue teams means that community-based early warnings are still the most reliable method of disaster response.",
+    "Pakistan, despite contributing less than 1% of global emissions, ranks among the top 10 climate-vulnerable nations due to rising temperatures and glacial melt, particularly in mountainous regions.",
+    "The government's reward of $28,000 to shepherds like Wasiyat Khan for saving lives underscores the value placed on local knowledge and courage in the face of technological failure.",
+    "Global challenges such as limited financial resources, weak institutional capacity, and communication barriers make EWS implementation difficult even in climate-vulnerable nations like Pakistan."
+  ],
+  "namedEntities": [
+    {
+      "name": "Wasiyat Khan",
+      "whatIsThisEntity": "A shepherd from Roshan Valley, Ghizer, who used traditional knowledge to alert villagers during a glacial lake outburst flood (GLOF) and saved lives.",
+      "whyIsThisEntityRelevantToTheArticle": "His experience exemplifies how Indigenous human knowledge is being used in real-time disaster response in Pakistan’s mountainous regions."
+    },
+    {
+      "name": "Mohammad Hussain",
+      "whatIsThisEntity": "A shepherd in Skardu Valley, Gilgit-Baltistan, who recalled traditional warning signs and used gunfire to alert villagers during a flash flood.",
+      "whyIsThisEntityRelevantToTheArticle": "His story illustrates the intergenerational transmission of Indigenous warning methods in climate-risk communities."
+    },
+    {
+      "name": "Zaki Abbas",
+      "whatIsThisEntity": "An Islamabad-based journalist who writes on climate change, and who has reported on the failure of government-installed EWS in Gilgit-Baltistan.",
+      "whyIsThisEntityRelevantToTheArticle": "He provides critical journalistic insight into the lack of community trust and political accountability in EWS implementation."
+    },
+    {
+      "name": "Pakistan Meteorological Department",
+      "whatIsThisEntity": "The national body responsible for monitoring and disseminating weather and disaster data through early warning systems.",
+      "whyIsThisEntityRelevantToTheArticle": "It is central to the functioning of EWS, yet its systems are criticized for failure to connect with local communities or function reliably in real time."
+    },
+    {
+      "name": "National Disaster Management Authority (NDMA)",
+      "whatIsThisEntity": "The primary government body responsible for disaster risk reduction and climate resilience in Pakistan.",
+      "whyIsThisEntityRelevantToTheArticle": "It has issued projections on reduced snowfall and increased GLOF risks, and is involved in early warning system planning and assessment."
+    },
+    {
+      "name": "GLOF (Glacial Lake Outburst Flood)",
+      "whatIsThisEntity": "A climate-related disaster caused by the sudden release of water from a glacial lake, common in northern Pakistan.",
+      "whyIsThisEntityRelevantToTheArticle": "It is the primary disaster being addressed, and the article highlights both technological and traditional responses to it."
+    },
+    {
+      "name": "GLOF-II Project",
+      "whatIsThisEntity": "A $37 million project launched in 2017 to improve early warning systems in Pakistan’s vulnerable mountain regions.",
+      "whyIsThisEntityRelevantToTheArticle": "It symbolizes government investment in technology, but its failure to gain community trust highlights the limitations of top-down approaches."
+    },
+    {
+      "name": "Skardu Valley",
+      "whatIsThisEntity": "A region in Gilgit-Baltistan where Indigenous knowledge and community-based warnings have been reported to be effective.",
+      "whyIsThisEntityRelevantToTheArticle": "It serves as a case study for how local communities are relying on traditional knowledge in the absence of working EWS systems."
+    },
+    {
+      "name": "Roshan Valley",
+      "whatIsThisEntity": "A valley in Ghizer, Gilgit-Baltistan, where Wasiyat Khan lives and where a GLOF incident occurred.",
+      "whyIsThisEntityRelevantToTheArticle": "It is a specific location where Indigenous knowledge was used to save lives during a glacial flood."
+    },
+    {
+      "name": "Gilgit-Baltistan",
+      "whatIsThisEntity": "A northern region of Pakistan with a high number of glaciers and frequent GLOFs.",
+      "whyIsThisEntityRelevantToTheArticle": "It is the primary geographic zone affected by climate change and where Indigenous knowledge systems are most active and trusted."
+    },
+    {
+      "name": "Khyber Pakhtunkhwa",
+      "whatIsThisEntity": "A province in Pakistan that shares climate risks with Gilgit-Baltistan and includes areas with vulnerable high-altitude zones.",
+      "whyIsThisEntityRelevantToTheArticle": "It is one of the regions where EWS sites are operational and where community reliance on Indigenous knowledge is noted."
+    },
+    {
+      "name": "Pakistan Climate Change Minister (Musadiq Malik)",
+      "whatIsThisEntity": "A government official who stated that GLOFs cause significant mortality and displacement.",
+      "whyIsThisEntityRelevantToTheArticle": "His statement underscores the severity of climate disasters and the government’s recognition of the human cost."
+    },
+    {
+      "name": "World Bank",
+      "whatIsThisEntity": "An international financial institution that reported on Pakistan’s temperature rise since 1950s.",
+      "whyIsThisEntityRelevantToTheArticle": "It provides scientific context on climate change in Pakistan, showing accelerated warming compared to the global average."
+    },
+    {
+      "name": "United Nations Development Programme (UNDP)",
+      "whatIsThisEntity": "An international organization that identified systemic challenges in EWS implementation globally.",
+      "whyIsThisEntityRelevantToTheArticle": "It provides a global context for the challenges faced by Pakistan’s EWS, such as data gaps and weak institutional capacity."
+    }
+  ],
+  "summaryOfNewsArticle": "In northern Pakistan’s mountainous regions, particularly in Gilgit-Baltistan, Indigenous knowledge—such as observing unusual animal behavior, cloud formations, or using traditional signals like gunfire—is being relied upon to predict and prevent deadly glacial lake outburst floods (GLOFs). Despite a $37 million investment in early warning systems (EWS) since 2017, many communities lack trust in the technology due to frequent failures, lack of real-time communication, and poor engagement. Cases like that of shepherd Wasiyat Khan, who saved hundreds of lives through timely alerts using traditional methods, demonstrate the effectiveness and cultural continuity of local knowledge. Pakistan, one of the top 10 most climate-vulnerable nations despite low emissions, faces worsening glacial melt due to rising temperatures (1.3°C since 1950s), increasing the frequency of GLOFs. The government’s failure to build trust and ensure operational functionality of EWS systems has led communities to continue depending on human-based, intergenerational warning systems, which remain the most reliable and immediate form of disaster response in the absence of a functioning technological network.",
+  "tags": [
+    "climate change",
+    "Indigenous knowledge",
+    "early warning systems",
+    "glacial lake outburst floods (GLOF)",
+    "Pakistan",
+    "climate vulnerability",
+    "community resilience",
+    "mountain regions",
+    "traditional knowledge systems",
+    "environmental disaster response"
+  ],
+  "timeOfPublication": "05:27:09+00:00"
+  ,
+  "title": "How Indigenous knowledge is aiding Pakistan’s fight against climate change"
+}

@@ -1,0 +1,133 @@
+{
+  "category": "Military Actions & War",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-22",
+      "descriptionOfWhyDateIsRelevant": "The date of the article indicates the timing of recent large-scale Russian drone and missile attacks on Ukraine, highlighting current developments in the ongoing conflict."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-22",
+      "descriptionOfWhyDateIsRelevant": "The date marks the day of the White House meeting between President Volodymyr Zelenskyy and Donald Trump, where discussions about Tomahawk missile support were discussed, adding context to geopolitical tensions."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The day prior to the article, a surprise phone call between Trump and Vladimir Putin was reported, which influenced the political trajectory and led to the cancellation of planned talks, affecting diplomatic momentum."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "overnight",
+      "approximateTimeFrameStart": "early on Wednesday",
+      "descriptionOfWhyTimeFrameIsRelevant": "The attacks occurred over a span of overnight hours and early morning, emphasizing the suddenness and widespread nature of the assaults across multiple Ukrainian districts."
+    }
+  ],
+  "keyTakeAways": [
+    "Russia launched a large-scale wave of drone and missile attacks across multiple Ukrainian districts, including Kyiv, Dnipropetrovsk, Pechersky, Darnytsky, and Izmail.",
+    "At least two people were killed and over 10 injured, with a two-year-old child among the victims.",
+    "Explosions in residential areas caused fires and shattered glass, with debris hitting multiple buildings in key urban centers.",
+    "Ukrainian officials reported damage to critical infrastructure, including railway systems in Kharkiv and energy and port facilities in Izmail.",
+    "Kyiv Mayor Vitali Klitschko declared an airborne alert in the Zaporizhia region in response to the drone threats.",
+    "Ukrainian President Volodymyr Zelenskyy sought long-range Tomahawk missiles from the United States as leverage in ceasefire negotiations.",
+    "Donald Trump initially expressed openness to providing Tomahawk missiles but backtracked during a White House meeting with Zelenskyy.",
+    "A surprise phone call between Trump and Russian President Vladimir Putin was reported, with both leaders agreeing to meet for talks—though those plans were later canceled.",
+    "The incident underscores the escalating intensity of Russian attacks and the deteriorating geopolitical situation between Ukraine, the U.S., and Russia."
+  ],
+  "namedEntities": [
+    {
+      "name": "Russia",
+      "whatIsThisEntity": "A nation conducting a large-scale military assault on Ukraine using drones and missiles.",
+      "whyIsThisEntityRelevantToTheArticle": "Russia is the aggressor in the attacks, making it central to the military conflict described in the article."
+    },
+    {
+      "name": "Ukraine",
+      "whatIsThisEntity": "A nation targeted by Russian attacks, experiencing civilian casualties and infrastructure damage.",
+      "whyIsThisEntityRelevantToTheArticle": "Ukraine is the primary victim of the attacks, with multiple cities and critical infrastructure affected."
+    },
+    {
+      "name": "Kyiv",
+      "whatIsThisEntity": "The capital city of Ukraine that was the focal point of drone and missile attacks.",
+      "whyIsThisEntityRelevantToTheArticle": "Kyiv was specifically targeted, with multiple casualties and structural damage reported, indicating high priority for Russian attacks."
+    },
+    {
+      "name": "Vitali Klitschko",
+      "whatIsThisEntity": "Kyiv Mayor who reported on the drone and missile attacks and coordinated emergency responses.",
+      "whyIsThisEntityRelevantToTheArticle": "He is a key local official providing firsthand reporting and crisis management during the attacks."
+    },
+    {
+      "name": "Oleh Syniehubov",
+      "whatIsThisEntity": "Governor of Kharkiv region who reported drone attacks damaging railway infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "He provides regional-level evidence of infrastructure damage, illustrating the breadth of the attacks beyond Kyiv."
+    },
+    {
+      "name": "Oleh Kiper",
+      "whatIsThisEntity": "Head of Odesa region who reported drone attacks damaging energy and port infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "He contributes to showing that attacks extended beyond the capital to key industrial and economic areas."
+    },
+    {
+      "name": "Volodymyr Zelenskyy",
+      "whatIsThisEntity": "President of Ukraine who sought U.S. military support to counter Russian attacks.",
+      "whyIsThisEntityRelevantToTheArticle": "He is central to the diplomatic effort for long-range missile support, linking military action to international negotiations."
+    },
+    {
+      "name": "Donald Trump",
+      "whatIsThisEntity": "Former U.S. President who expressed openness to providing Tomahawk missiles to Ukraine.",
+      "whyIsThisEntityRelevantToTheArticle": "His shifting stance on missile support reflects the complexity of U.S. foreign policy during the conflict."
+    },
+    {
+      "name": "Vladimir Putin",
+      "whatIsThisEntity": "President of Russia who engaged in a surprise phone call with Donald Trump, leading to canceled talks.",
+      "whyIsThisEntityRelevantToTheArticle": "His communication with Trump signals active diplomatic maneuvering between Russia and the U.S., influencing the strategic landscape."
+    },
+    {
+      "name": "Tomahawk missiles",
+      "whatIsThisEntity": "Long-range cruise missiles being requested by Ukraine for use against Russian territory.",
+      "whyIsThisEntityRelevantToTheArticle": "Their potential use represents a shift in the conflict’s strategic balance and is central to ceasefire negotiations."
+    },
+    {
+      "name": "Dnipropetrovsk",
+      "whatIsThisEntity": "District in Ukraine where drone debris caused injuries and fires.",
+      "whyIsThisEntityRelevantToTheArticle": "It is one of the key districts affected, showing the reach of Russian attacks into urban areas."
+    },
+    {
+      "name": "Pechersky district",
+      "whatIsThisEntity": "District in Kyiv where a missile fragment caused a fire.",
+      "whyIsThisEntityRelevantToTheArticle": "It highlights the specific and localized nature of the attacks within the capital city."
+    },
+    {
+      "name": "Darnytsky",
+      "whatIsThisEntity": "District in Ukraine where drone debris caused fires in a building, hangar, and residential tower.",
+      "whyIsThisEntityRelevantToTheArticle": "It shows the destructive impact of drones across different types of infrastructure."
+    },
+    {
+      "name": "Zaporizhia",
+      "whatIsThisEntity": "Region in Ukraine where an airborne alert was declared due to drone threats.",
+      "whyIsThisEntityRelevantToTheArticle": "It indicates the regional scope of drone attacks and the need for emergency preparedness."
+    },
+    {
+      "name": "Izmail",
+    "whatIsThisEntity": "City in southern Ukraine where drone attacks damaged energy and port infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "It shows that attacks extended to critical economic zones, affecting Ukraine’s supply chains and energy independence."
+    },
+    {
+      "name": "Kharkiv",
+      "whatIsThisEntity": "Region in northeastern Ukraine where drone attacks damaged railway infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "It demonstrates that the attacks are not limited to the capital and have broader regional implications."
+    }
+  ],
+  "summaryOfNewsArticle": "Russia launched a large-scale wave of drone and missile attacks across Ukraine overnight, including in Kyiv, Dnipropetrovsk, Pechersky, Darnytsky, and Izmail, resulting in at least two deaths and over 10 injuries. The attacks caused fires, shattered windows, and damaged critical infrastructure such as railways, energy systems, and ports. Ukrainian officials, including Kyiv Mayor Vitali Klitschko and regional governors, reported the damage and declared emergency alerts. In parallel, Ukraine’s President Volodymyr Zelenskyy sought U.S. long-range Tomahawk missiles to strike deeper into Russian territory as leverage in ceasefire negotiations, though U.S. President Donald Trump backtracked from support during a meeting. A surprise phone call between Trump and Russian President Vladimir Putin further complicated diplomatic prospects, with both leaders initially agreeing to talks that were later canceled.",
+  "tags": [
+    "Russia-Ukraine conflict",
+    "drone warfare",
+    "missile attacks",
+    "civilian casualties",
+    "Ukrainian infrastructure damage",
+    "U.S. foreign policy",
+    "ceasefire negotiations",
+    "Tomahawk missiles",
+    "geopolitical tensions",
+    "war in Ukraine"
+  ],
+  "timeOfPublication": "08:13:41+00:00",
+  "title": "Russia launches deadly wave of drone, missile attacks across Ukraine"
+}

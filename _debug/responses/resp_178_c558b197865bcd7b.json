@@ -1,0 +1,114 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the news article's publication, indicating when the legal decision and developments regarding Zuckerberg’s testimony were publicly reported."
+    },
+    {
+      "dateMentionedInArticle": "2022-01-01",
+      "descriptionOfWhyDateIsRelevant": "The date when hundreds of claims from parents and school districts were consolidated into one legal case in Los Angeles County Superior Court."
+    },
+    {
+      "dateMentionedInArticle": "2025-01-01",
+      "descriptionOfWhyDateIsRelevant": "The expected date of the landmark trial, marking when the case is anticipated to begin in court."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-21",
+      "approximateTimeFrameStart": "2022-01-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period during which the consolidated litigation began, spanning from the initial filing of claims to the court's decision to require executive testimony."
+    }
+  ],
+  "keyTakeAways": [
+    "Mark Zuckerberg is required to testify in a landmark trial over social media's impact on youth mental health.",
+    "The ruling by Judge Carolyn Kuhl overrules Meta's argument that in-person testimony was unnecessary, emphasizing that CEO testimony is crucial to assessing negligence.",
+    "Evan Spiegel and Adam Mosseri are also required to testify, reflecting the scope of executive accountability.",
+    "The case consolidates hundreds of claims from parents and school districts alleging addictive design, weak parental controls, and harm to young users.",
+    "The companies argue under a 1990s law that they are not liable for user-generated content, but the court finds they can still be held liable for negligence in app design.",
+    "Lawyers assert that companies deliberately avoided changes to content algorithms due to business concerns, contributing to the harm.",
+    "The trial represents a major step in legal accountability for social media companies’ role in youth mental health issues."
+  ],
+  "namedEntities": [
+    {
+      "name": "Mark Zuckerberg",
+      "whatIsThisEntity": "Founder of Facebook and CEO of Meta Platforms",
+      "whyIsThisEntityRelevantToTheArticle": "Zuckerberg is required to testify in the trial, reflecting accountability for Meta's product design and its impact on youth mental health."
+    },
+    {
+      "name": "Evan Spiegel",
+      "whatIsThisEntity": "Founder and CEO of Snap Inc.",
+      "whyIsThisEntityRelevantToTheArticle": "Spiegel is required to testify, indicating that Snap is being held accountable for its app’s design and safety features for young users."
+    },
+    {
+      "name": "Adam Mosseri",
+      "whatIsThisEntity": "Head of Instagram, a Meta-owned platform",
+      "whyIsThisEntityRelevantToTheArticle": "Mosseri is required to testify, highlighting Meta’s internal leadership being called out for design decisions affecting teen users."
+    },
+    {
+      "name": "Meta Platforms",
+      "whatIsThisEntity": "Parent company of Facebook and Instagram",
+      "whyIsThisEntityRelevantToTheArticle": "Meta is central to the lawsuit, accused of creating addictive features and failing to protect youth mental health."
+    },
+    {
+      "name": "Snap Inc.",
+      "whatIsThisEntity": "Social media company that owns Snapchat",
+      "whyIsThisEntityRelevantToTheArticle": "Snap is named in the legal claims and must testify, showing shared liability across platforms."
+    },
+    {
+      "name": "TikTok",
+      "whatIsThisEntity": "Social media app owned by ByteDance",
+      "whyIsThisEntityRelevantToTheArticle": "TikTok is included in the lawsuit, indicating broader industry scrutiny across major platforms."
+    },
+    {
+      "name": "YouTube",
+      "whatIsThisEntity": "Social media and video platform owned by Alphabet",
+      "whyIsThisEntityRelevantToTheArticle": "YouTube is named in the lawsuits, showing that the legal pressure extends across all major social media companies."
+    },
+    {
+      "name": "Carolyn Kuhl",
+      "whatIsThisEntity": "Judge of Los Angeles County Superior Court",
+      "whyIsThisEntityRelevantToTheArticle": "She made the key ruling requiring executive testimony, emphasizing the legal precedent for corporate accountability."
+    },
+    {
+      "name": "Kirkland & Ellis",
+      "whatIsThisEntity": "Law firm representing Snap",
+      "whyIsThisEntityRelevantToTheArticle": "The firm is defending Snapchat against allegations of design harms and claims of negligence."
+    },
+    {
+      "name": "Beasley Allen",
+      "whatIsThisEntity": "Law firm representing plaintiffs (parents and school districts)",
+      "whyIsThisEntityRelevantToTheArticle": "Beasley Allen is advocating for youth and parental rights, pushing for accountability from social media companies."
+    },
+    {
+      "name": "1990s law",
+      "whatIsThisEntity": "A federal law protecting platforms from liability for user-generated content",
+      "whyIsThisEntityRelevantToTheArticle": "The companies cited this law to avoid responsibility, but the court rejected its application to claims of negligence in design."
+    },
+    {
+      "name": "teen accounts",
+      "whatIsThisEntity": "Special Instagram accounts designed for younger users",
+      "whyIsThisEntityRelevantToTheArticle": "Meta introduced teen accounts in response to mental health concerns, showing reactive design changes."
+    }
+  ],
+  "summaryOfNewsArticle": "A landmark trial in Los Angeles County Superior Court has ordered Facebook founder Mark Zuckerberg, Snap CEO Evan Spiegel, and Instagram head Adam Mosseri to testify over claims that social media platforms have designed addictive features that harm young people’s mental health. The case, which consolidated hundreds of claims from parents and school districts, alleges that companies failed to implement adequate parental controls and that notifications like 'likes' keep users hooked. Despite a 1990s law shielding platforms from liability for user content, Judge Carolyn Kuhl ruled that companies can still be held liable for negligence in app design, especially due to their knowledge of harms and failure to act. The testimony of company executives is deemed essential to evaluate these claims, and the trial—expected in January—is a significant development in holding social media firms accountable for their impact on youth mental health.",
+  "tags": [
+    "mental health",
+    "social media",
+    "youth",
+    "legal accountability",
+    "platform design",
+    "addiction",
+    "parental controls",
+    "court testimony",
+    "tech regulation",
+    "Zuckerberg",
+    "Snapchat",
+    "Instagram"
+  ],
+  "timeOfPublication": "19:06:07.703+00:00"
+  ,
+  "title": "Zuckerberg to testify in landmark social media trial"
+}

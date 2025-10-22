@@ -1,0 +1,183 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-06",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-06",
+      "descriptionOfWhyDateIsRelevant": "First Nobel Prize in Physiology or Medicine is announced, marking the start of the annual Nobel Prizes cycle."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-13",
+      "descriptionOfWhyDateIsRelevant": "The final Nobel Prize of the year, in Economic Sciences, is announced, completing the full cycle of awards."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-13",
+      "approximateTimeFrameStart": "2025-10-06",
+      "descriptionOfWhyTimeFrameIsRelevant": "The week-long announcement period sets the stage for global scientific, political, and cultural discourse around the most prestigious scientific and humanitarian achievements of the year."
+    }
+  ],
+  "keyTakeAways": [
+    "The Nobel Prizes are among the most prestigious international awards, established by Alfred Nobel’s will in 1895, recognizing individuals who have conferred the greatest benefit to humankind.",
+    "The prizes are awarded across six categories: physics, chemistry, medicine, literature, peace, and economic sciences, each administered by a different institution.",
+    "The 2025 medicine prize was awarded to Mary Brunkow, Fred Ramsdell, and Shimon Sakaguchi for their discoveries in peripheral immune tolerance, which have paved the way for treatments in cancer and autoimmune diseases.",
+    "In 2024, Victor Ambros and Gary Ruvkun won the medicine prize for discovering microRNAs; in physics, John Hopfield and Geoffrey Hinton were honored for foundational work in machine learning and artificial neural networks.",
+    "In chemistry, David Baker, Demis Hassabis, and John Jumper were recognized for breakthroughs in protein structure prediction, notably through the AI system AlphaFold.",
+    "The 2024 literature prize went to Han Kang for her powerful exploration of violence and memory in works like The Vegetarian and Human Acts.",
+    "The 2024 peace prize was awarded to Nihon Hidankyo for its decades-long campaign to abolish nuclear weapons.",
+    "The 2024 economics prize was shared by Daron Acemoglu, Simon Johnson, and James Robinson for their research on how inclusive institutions drive long-term economic growth and reduce inequality.",
+    "The nomination process is confidential, with experts, academics, and past winners submitting nominations by January 31, and decisions kept secret for 50 years.",
+    "The Peace Prize announcements have drawn significant attention in 2025 due to speculation about U.S. President Donald Trump, who claims he deserves the prize for ending wars, though experts say his chances are slim due to the prize's focus on durable peace and institutional efforts.",
+    "The Norwegian Nobel Committee has expressed concern about political interference in science, with Ylva Engstrom of the Royal Swedish Academy of Sciences criticizing the Trump administration’s impact on academic freedom."
+  ],
+  "namedEntities": [
+    {
+      "name": "Alfred Nobel",
+      "whatIsThisEntity": "Swedish chemist, engineer, and industrialist; founder of the Nobel Prizes through his will in 1895."
+    ,
+    "whyIsThisEntityRelevantToTheArticle": "Alfred Nobel is central to the origin and structure of the Nobel Prizes, as his will established the foundation, purpose, and criteria for the awards — emphasizing benefit to humankind and scientific or humanitarian progress."
+    },
+    {
+      "name": "Mary Brunkow",
+      "whatIsThisEntity": "Physiology or medicine laureate in 2025 for discoveries in peripheral immune tolerance.",
+      "whyIsThisEntityRelevantToTheArticle": "Her research contributes to understanding immune system regulation, enabling new treatments for cancer and autoimmune diseases."
+    },
+    {
+      "name": "Fred Ramsdell",
+      "whatIsThisEntity": "Physiology or medicine laureate in 2025 for discoveries in peripheral immune tolerance.",
+      "whyIsThisEntityRelevantToTheArticle": "His work in immune tolerance has expanded the scientific understanding of how immune systems avoid attacking healthy tissue, a key area in medicine."
+    },
+    {
+      "name": "Shimon Sakaguchi",
+      "whatIsThisEntity": "Physiology or medicine laureate in 2025 for discoveries in peripheral immune tolerance.",
+      "whyIsThisEntityRelevantToTheArticle": "His discoveries have laid the groundwork for future therapies in autoimmune disorders and cancer immunotherapy."
+    },
+    {
+      "name": "Victor Ambros",
+      "whatIsThisEntity": "2024 medicine laureate for discovering microRNAs.",
+      "whyIsThisEntityRelevantToTheArticle": "His discovery of microRNAs revolutionized the understanding of gene regulation, influencing modern molecular biology and medicine."
+    },
+    {
+      "name": "Gary Ruvkun",
+      "whatIsThisEntity": "2024 medicine laureate for discovering microRNAs.",
+      "whyIsThisEntityRelevantToTheArticle": "His work on microRNAs has enabled deeper insights into gene expression and disease mechanisms."
+    },
+    {
+      "name": "John Hopfield",
+      "whatIsThisEntity": "2024 physics laureate for theoretical and computational foundations of machine learning.",
+      "whyIsThisEntityRelevantToTheArticle": "His early models linked neuroscience and computation, influencing modern AI development."
+    },
+    {
+      "name": "Geoffrey Hinton",
+      "whatIsThisEntity": "2024 physics laureate for foundational work in deep learning and AI.",
+      "whyIsThisEntityRelevantToTheArticle": "His innovations in deep learning have transformed artificial intelligence in image recognition, language processing, and automation."
+    },
+    {
+      "name": "David Baker",
+      "whatIsThisEntity": "2024 chemistry laureate for protein design algorithms.",
+      "whyIsThisEntityRelevantToTheArticle": "His computational methods enable the design of novel proteins with specific functions, accelerating drug development."
+    },
+    {
+      "name": "Demis Hassabis",
+      "whatIsThisEntity": "2024 chemistry laureate for AI protein structure prediction.",
+      "whyIsThisEntityRelevantToTheArticle": "His work with DeepMind on AlphaFold helped predict nearly all known protein structures, revolutionizing structural biology."
+    },
+    {
+      "name": "John Jumper",
+      "whatIsThisEntity": "2024 chemistry laureate for AI protein structure prediction.",
+      "whyIsThisEntityRelevantToTheArticle": "He co-developed AlphaFold, which has transformed how scientists study and understand protein structures."
+    },
+    {
+      "name": "Han Kang",
+      "whatIsThisEntity": "2024 literature laureate for her exploration of violence and memory.",
+      "whyIsThisEntityRelevantToTheArticle": "Her literary work brings attention to historical trauma and human fragility, resonating globally with themes of violence and identity."
+    },
+    {
+      "name": "Nihon Hidankyo",
+      "whatIsThisEntity": "2024 peace laureate for campaigning against nuclear weapons.",
+      "whyIsThisEntityRelevantToTheArticle": "The organization’s long-term advocacy for nuclear disarmament reflects the peace prize’s focus on institutional and enduring efforts toward global stability."
+    },
+    {
+      "name": "Daron Acemoglu",
+      "whatIsThisEntity": "2024 economics laureate for research on institutions and economic growth.",
+      "whyIsThisEntityRelevantToTheArticle": "His work demonstrates that inclusive institutions are key to long-term prosperity, influencing policy and development economics."
+    },
+    {
+      "name": "Simon Johnson",
+      "whatIsThisEntity": "2024 economics laureate for research on institutions and economic growth.",
+      "whyIsThisEntityRelevantToTheArticle": "He contributed to the understanding that political and economic institutions shape inequality and growth, supporting inclusive development."
+    },
+    {
+      "name": "James Robinson",
+      "whatIsThisEntity": "2024 economics laureate for research on institutions and economic growth.",
+      "whyIsThisEntityRelevantToTheArticle": "His collaborative work with Acemoglu and Johnson highlights how inclusive institutions drive long-term economic success."
+    },
+    {
+      "name": "United States President Donald Trump",
+      "whatIsThisEntity": "Controversial figure whose claims about deserving the 2025 Peace Prize have sparked global debate.",
+      "whyIsThisEntityRelevantToTheArticle": "Trump’s self-promotion and claims of merit for ending wars have made the 2025 Peace Prize highly visible and politically charged."
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "whatIsThisEntity": "Israeli Prime Minister who submitted a nomination for Trump after the deadline.",
+      "whyIsThisEntityRelevantToTheArticle": "His post-deadline nomination adds to the political controversy surrounding the 2025 Peace Prize nominations."
+    },
+    {
+      "name": "Pakistan Government",
+      "whatIsThisEntity": "Political body that submitted a nomination for Trump after the deadline.",
+      "whyIsThisEntityRelevantToTheArticle": "The nomination by Pakistan’s government adds to the political speculation around Trump’s potential nomination."
+    },
+    {
+      "name": "Royal Swedish Academy of Sciences",
+      "whatIsThisEntity": "Institution that awards prizes in physics, chemistry, and economics.",
+      "whyIsThisEntityRelevantToTheArticle": "It administers the science prizes and emphasizes scientific rigor, independence, and long-term impact."
+    },
+    {
+      "name": "Nobel Assembly at Karolinska Institutet",
+      "whatIsThisEntity": "Institution that awards the Nobel Prize in Medicine.",
+      "whyIsThisEntityRelevantToTheArticle": "It announced the 2025 medicine prize and is responsible for selecting medical breakthroughs with real-world impact."
+    },
+    {
+      "name": "Swedish Academy",
+      "whatIsThisEntity": "Institution that awards the Nobel Prize in Literature.",
+      "whyIsThisEntityRelevantToTheArticle": "It selects literary works that explore profound human experiences, such as trauma and identity."
+    },
+    {
+      "name": "Norwegian Nobel Committee",
+      "whatIsThisEntity": "Institution that awards the Nobel Peace Prize.",
+      "whyIsThisEntityRelevantToTheArticle": "It is responsible for selecting peace-related nominations, often reflecting global conflict and efforts toward resolution."
+    },
+    {
+      "name": "Sveriges Riksbank",
+      "whatIsThisEntity": "Swedish central bank that established the Prize in Economic Sciences in 1968.",
+      "whyIsThisEntityRelevantToTheArticle": "It initiated the expansion of the Nobel Prizes to include economic sciences, broadening the scope of recognition."
+    },
+    {
+      "name": "Ylva Engstrom",
+      "whatIsThisEntity": "Vice president of the Royal Swedish Academy of Sciences.",
+      "whyIsThisEntityRelevantToTheArticle": "She expressed concern about political interference in academia, particularly from the Trump administration, highlighting threats to academic freedom."
+    }
+  ],
+  "summaryOfNewsArticle": "The 2025 Nobel Prizes have begun with the announcement of the physiology or medicine prize awarded to Mary Brunkow, Fred Ramsdell, and Shimon Sakaguchi for their discoveries in peripheral immune tolerance, which have advanced treatments for cancer and autoimmune diseases. The full schedule of announcements runs from October 6 to October 13, covering medicine, physics, chemistry, literature, peace, and economics. The science prizes, including recent breakthroughs in machine learning, protein design, and gene regulation, are recognized for long-term impact, while the literature and peace prizes highlight cultural and humanitarian significance. The 2025 peace prize nominations have drawn significant global attention due to claims by U.S. President Donald Trump about deserving the award for ending wars, despite experts noting the prize's focus on durable peace and institutional efforts. The article also underscores concerns over academic freedom, with critics warning of political interference from the Trump administration. The Nobel Prizes remain a vital symbol of global scientific, cultural, and humanitarian achievement.",
+  "tags": [
+    "Nobel Prizes",
+    "Science Awards",
+    "Medicine",
+    "Physics",
+    "Chemistry",
+    "Literature",
+    "Peace Prize",
+    "Artificial Intelligence",
+    "Protein Structure Prediction",
+    "Academic Freedom",
+    "Global Politics",
+    "2025 Awards",
+    "Alfred Nobel",
+    "International Recognition"
+  ]
+  ,
+  "timeOfPublication": "09:07:20Z"
+  ,
+  "title": "What are Nobel Prizes, when are the awards announced?"
+}

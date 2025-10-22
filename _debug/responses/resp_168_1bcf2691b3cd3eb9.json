@@ -1,0 +1,52 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication indicates when the AWS outage was reported publicly, signaling a recent event that impacts global digital infrastructure."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-20T09:31:43+00:00",
+      "approximateTimeFrameStart": "2025-10-20T09:31:43+00:00",
+      "descriptionOfWhyTimeFrameIsRelevant": "The exact timestamp of the article's publication marks the moment when the public became aware of the AWS outage, highlighting the immediacy and global impact of the incident."
+    }
+  ],
+  "keyTakeAways": [
+    "Amazon Web Services (AWS) experienced a significant outage that disrupted numerous online applications and services globally.",
+    "The outage caused widespread connectivity issues, affecting businesses and users across multiple countries.",
+    "The incident underscores the critical role AWS plays as a backbone of cloud computing infrastructure used by major tech companies.",
+    "The disruption highlights vulnerabilities in cloud infrastructure and the potential cascading effects of outages in a globally interconnected digital ecosystem."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A cloud computing platform operated by Amazon, providing scalable IT services to businesses and organizations worldwide.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS is central to the article as the primary service experiencing a major outage that disrupted global digital operations."
+    },
+    {
+      "name": "Brian Osgood",
+      "whatIsThisEntity": "A journalist who authored the article on the AWS outage.",
+      "whyIsThisEntityRelevantToTheArticle": "As the reporter, Brian Osgood provides the source and credibility of the information presented in the article."
+    },
+    {
+      "name": "Amazon",
+      "whatIsThisEntity": "A multinational technology company that owns and operates AWS.",
+      "whyIsThisEntityRelevantToTheArticle": "Amazon is relevant because it is the parent company of AWS, and the company's performance in maintaining cloud reliability impacts global digital services."
+    }
+  ],
+  "summaryOfNewsArticle": "Amazon Web Services (AWS) faced a significant outage on October 20, 2025, which caused widespread connectivity issues and disrupted online applications and services worldwide. This event highlights the critical role AWS plays as a foundational component of global cloud infrastructure, with ripple effects across businesses relying on its platforms. The incident underscores both the importance and the vulnerabilities inherent in centralized cloud computing systems, emphasizing the need for robust fail-safes and redundancy in digital operations.",
+  "tags": [
+    "AWS",
+    "cloud computing",
+    "outage",
+    "technology",
+    "digital infrastructure",
+    "global connectivity"
+  ],
+  "timeOfPublication": "09:31:43+00:00"
+  ,
+  "title": "Amazon’s AWS struggles to recover after outage disrupts apps, services"
+}

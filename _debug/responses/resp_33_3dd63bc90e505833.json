@@ -1,0 +1,87 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-18",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-18",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's update indicates the most recent developments in the ongoing conflict involving the Zaporizhzhia nuclear plant, specifically the restoration of power and the establishment of ceasefire zones."
+    },
+    {
+      "dateMentionedInArticle": "4225-10-18",
+      "descriptionOfWhyDateIsRelevant": "This date is not valid or correctly formatted. The article mentions the 42nd round of repair works since the invasion, but does not assign a specific date to it. This value should be corrected or removed."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-18",
+      "approximateTimeFrameStart": "2025-10-04",
+      "descriptionOfWhyTimeFrameIsRelevant": "The four-week power outage at Zaporizhzhia nuclear plant began around mid-October 2025 and was restored by late October 2025, marking a critical period of safety risk and international intervention."
+    }
+  ],
+  "keyTakeAways": [
+    "The Zaporizhzhia Nuclear Power Plant (ZNPP) has been without off-site power for four weeks, the longest blackout since the war began, forcing reliance on emergency diesel generators.",
+    "The International Atomic Energy Agency (IAEA) has confirmed that work is underway to restore power after the establishment of rare 'ceasefire zones' between Ukrainian and Russian forces.",
+    "Both Ukraine and Russia have accused each other of causing the blackout — Ukraine claims Russia intentionally cut the power supply to test reconnection; Russia blames Ukrainian shelling.",
+    "The ZNPP is under Russian control since the early days of the war and has lost connection to the grid 10 times since the conflict began.",
+    "Restoration of off-site power is critical for nuclear safety and security, with both sides engaging with the IAEA to facilitate repair efforts.",
+    "The Russian-controlled plant claimed that its defense ministry provided security guarantees to allow restoration work in areas under active shelling.",
+    "A previous Russian strike on the Slavutych energy substation two weeks prior caused a three-hour blackout at the former Chernobyl plant, raising regional radiation safety concerns.",
+    "Ukraine's energy ministry attributed the current crisis to Russian military aggression, occupation of the ZNPP, and systematic shelling of energy infrastructure."
+  ],
+  "namedEntities": [
+    {
+      "name": "Zaporizhzhia nuclear power plant (ZNPP)",
+      "whatIsThisEntity": "A nuclear power plant located in Ukraine, currently occupied by Russian forces.",
+      "whyIsThisEntityRelevantToTheArticle": "The ZNPP is central to the article as it has been without power for four weeks, risking a radiation incident, and is the focus of ongoing repair and ceasefire efforts."
+    },
+    {
+      "name": "International Atomic Energy Agency (IAEA)",
+      "whatIsThisEntity": "The UN's nuclear watchdog responsible for nuclear safety and security.",
+      "whyIsThisEntityRelevantToTheArticle": "The IAEA facilitated communication between Ukrainian and Russian forces and confirmed that work to restore power has begun due to ceasefire zones."
+    },
+    {
+      "name": "Rafael Grossi",
+      "whatIsThisEntity": "Director of the International Atomic Energy Agency (IAEA).",
+      "whyIsThisEntityRelevantToTheArticle": "He is the key figure who announced the restoration of power and emphasized the importance of ceasefire zones for safety and repair work."
+    },
+    {
+      "name": "Ukraine",
+      "whatIsThisEntity": "A nation in Eastern Europe currently engaged in a war with Russia.",
+      "whyIsThisEntityRelevantToTheArticle": "Ukraine is central to the conflict and has consistently accused Russia of targeting its energy infrastructure, including at the ZNPP."
+    },
+    {
+      "name": "Russia",
+      "whatIsThisEntity": "A nation in Eastern Europe that has occupied parts of Ukraine since the start of the war.",
+      "whyIsThisEntityRelevantToTheArticle": "Russia controls the ZNPP and is accused by Ukraine of causing the blackout through deliberate actions or shelling, and claims to support security for restoration work."
+    },
+    {
+      "name": "Andrii Sybiha",
+      "whatIsThisEntity": "Ukraine’s foreign minister.",
+      "whyIsThisEntityRelevantToTheArticle": "He accused Russia of intentionally cutting power to the ZNPP to test reconnection, indicating political and strategic blame in the conflict."
+    },
+    {
+      "name": "Zelensky",
+      "whatIsThisEntity": "President of Ukraine.",
+      "whyIsThisEntityRelevantToTheArticle": "He accused Moscow of a deliberate strike on Slavutych using over 20 drones, highlighting concerns about escalation and radiation risks in the region."
+    },
+    {
+      "name": "Slavutych",
+      "whatIsThisEntity": "A city in Ukraine near the former Chernobyl nuclear plant, known for its energy infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "A recent Russian strike on a substation in Slavutych caused a three-hour blackout at Chernobyl, raising regional concerns about nuclear safety and escalation."
+    }
+  ],
+  "summaryOfNewsArticle": "Work is underway to restore power to the Zaporizhzhia nuclear power plant (ZNPP) in Ukraine, following the establishment of rare ceasefire zones between Ukrainian and Russian forces. The plant has been without off-site power for four weeks—its longest blackout since the war began—forcing it to rely on emergency diesel generators. The International Atomic Energy Agency (IAEA) confirmed that repair efforts have begun after negotiations with both sides, with IAEA Director Rafael Grossi stressing the importance of power restoration for nuclear safety. Ukraine accuses Russia of intentionally cutting power to test reconnection, while Russia blames Ukrainian shelling. Both sides claim to have played a key role in enabling the repair work, with Russia asserting that its defense ministry provided security guarantees. This incident follows a previous Russian strike on a Slavutych energy substation, which caused a blackout at the former Chernobyl site and raised regional radiation safety concerns. The situation underscores the risks of military aggression on critical energy and nuclear infrastructure, and highlights the fragile balance of ceasefire zones in a war zone.",
+  "tags": [
+    "Zaporizhzhia nuclear plant",
+    "IAEA",
+    "nuclear safety",
+    "ceasefire zones",
+    "Ukraine-Russia conflict",
+    "energy infrastructure",
+    "radiation risk",
+    "power outage",
+    "international diplomacy"
+  ],
+  "timeOfPublication": "08:52:00-04:00",
+  "title": "Work underway to restore power at Ukrainian nuclear plant as UN announces rare local ‘ceasefire zones’"
+}

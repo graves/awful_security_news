@@ -1,0 +1,165 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [],
+  "importantTimeframes": [],
+  "keyTakeAways": [
+    "Antidepressants have significantly different physical side effects, with some causing up to 2kg weight gain or 21 beats per minute heart rate variation.",
+    "The study analyzed 151 studies involving over 58,500 patients across 30 commonly prescribed antidepressants.",
+    "The research, led by King's College London and the University of Oxford, is the first to rank antidepressants based on their side effects, providing a clear comparison tool.",
+    "SSRIs like paroxetine, citalopram, escitalopram, and sertraline generally have fewer physical side effects.",
+    "Fluoxetine (Prozac) was linked to weight loss and increased blood pressure.",
+    "Specific side effects vary by patient profile: weight gain, blood pressure, and cholesterol levels are key concerns.",
+    "Patients with pre-existing conditions (e.g., high blood pressure or high cholesterol) may benefit from different antidepressants.",
+    "Dr. Toby Pillinger emphasizes the need for shared decision-making between patients and doctors.",
+    "The researchers recommend matching antidepressants to individual patient needs rather than using a one-size-fits-all approach.",
+    "The findings could shift prescribing patterns in the UK, where 85% of prescriptions are currently for just three SSRIs (citalopram, sertraline, fluoxetine).",
+    "A free online tool is being developed to assist doctors and patients in selecting appropriate antidepressants.",
+    "The study only assessed short-term effects (first eight weeks), and long-term impacts remain under investigation.",
+    "Experts note that cumulative side effects over years could be more significant in chronic depression cases."
+  ],
+  "namedEntities": [
+    {
+      "name": "Sarah",
+      "whatIsThisEntity": "A 32-year-old hypothetical patient with depression who prioritizes avoiding weight gain.",
+      "whyIsThisEntityRelevantToTheArticle": "She represents a patient whose treatment should be tailored to avoid weight gain, highlighting the individualized approach to antidepressant selection based on personal health goals and preferences."
+    },
+    {
+      "name": "John",
+      "whatIsThisEntity": "A 44-year-old hypothetical patient with depression and pre-existing high blood pressure.",
+      "whyIsThisEntityRelevantToTheArticle": "He illustrates how patients with comorbid conditions must be matched with antidepressants that do not exacerbate cardiovascular risks, emphasizing personalized treatment plans."
+    },
+    {
+      "name": "Jane",
+      "whatIsThisEntity": "A 56-year-old hypothetical patient with depression and elevated cholesterol levels.",
+      "whyIsThisEntityRelevantToTheArticle": "She demonstrates how lipid profile concerns influence antidepressant choice, showing that side effects on cholesterol can affect long-term heart health."
+    },
+    {
+      "name": "Prof Oliver Howes",
+      "whatIsThisEntity": "Lead researcher from King's College London.",
+      "whyIsThisEntityRelevantToTheArticle": "He underscores the importance of individualized treatment, noting that differences in side effects matter at both the individual and population levels."
+    },
+    {
+      "name": "Dr Atheeshaan Arumuham",
+      "whatIsThisEntity": "Researcher from King's College London.",
+      "whyIsThisEntityRelevantToTheArticle": "She emphasizes that differences in side effects between drugs can become clinically significant, reinforcing the need for tailored prescriptions."
+    },
+    {
+      "name": "Dr Toby Pillinger",
+      "whatIsThisEntity": "Researcher and BBC contributor who advocates for patient-centered decision-making.",
+      "whyIsThisEntityRelevantToTheArticle": "He stresses that side effects observed in eight weeks are clinically relevant and supports patient engagement in shared decision-making with clinicians."
+    },
+    {
+      "name": "Prof Andrea Cipriani",
+      "whatIsThisEntity": "Researcher from the University of Oxford.",
+      "whyIsThisEntityRelevantToTheArticle": "He highlights the over-reliance on three generic SSRIs in the UK and suggests that this study could reduce the prevalence of such one-size-fits-all prescriptions."
+    },
+    {
+      "name": "King's College London",
+      "whatIsThisEntity": "Academic institution involved in the study.",
+      "whyIsThisEntityRelevantToTheArticle": "It led the research that first ranked antidepressants by side effects, enabling a transparent comparison between medications."
+    },
+    {
+      "name": "University of Oxford",
+      "whatIsThisEntity": "Academic institution involved in the study.",
+      "whyIsThisEntityRelevantToTheArticle": "It collaborated with King's College London to conduct the analysis and publish findings in the Lancet medical journal."
+    },
+    {
+      "name": "Lancet medical journal",
+      "whatIsThisEntity": "Journal that published the study results.",
+      "whyIsThisEntityRelevantToTheArticle": "It provides a reputable platform for disseminating evidence-based medical research on antidepressant side effects to a global audience."
+    },
+    {
+      "name": "SSRIs",
+      "whatIsThisEntity": "A class of antidepressants including paroxetine, citalopram, escitalopram, sertraline, and fluoxetine.",
+      "whyIsThisEntityRelevantToTheArticle": "These are the most commonly prescribed antidepressants, and the study found they generally have fewer physical side effects than other classes."
+    },
+    {
+      "name": "Agomelatine",
+      "whatIsThisEntity": "Antidepressant recommended for Sarah to avoid weight gain.",
+      "whyIsThisEntityRelevantToTheArticle": "It exemplifies a drug with low risk of weight gain, making it suitable for patients prioritizing metabolic health."
+    },
+    {
+      "name": "Sertraline",
+      "whatIsThisEntity": "Antidepressant recommended for Sarah and part of the SSRI group.",
+      "whyIsThisEntityRelevantToTheArticle": "It is associated with minimal weight gain and is a preferred option for patients concerned about metabolic side effects."
+    },
+    {
+      "name": "Venlafaxine",
+      "whatIsThisEntity": "Antidepressant linked to weight gain, increased heart rate, and elevated blood pressure.",
+      "whyIsThisEntityRelevantToTheArticle": "It is recommended to avoid in patients with high blood pressure or weight concerns due to its adverse physical effects."
+    },
+    {
+      "name": "Amitriptyline",
+      "whatIsThisEntity": "Antidepressant linked to weight gain, heart rate increase, and blood pressure rise.",
+      "whyIsThisEntityRelevantToTheArticle": "It is associated with significant physical side effects, making it unsuitable for patients with cardiovascular or metabolic risks."
+    },
+    {
+      "name": "Mirtazapine",
+      "whatIsThisEntity": "Antidepressant linked to weight gain.",
+      "whyIsThisEntityRelevantToTheArticle": "It is recommended to avoid in patients prioritizing weight management due to its propensity to cause weight gain."
+    },
+    {
+      "name": "Citalopram",
+      "whatIsThisEntity": "SSRI recommended for John and Jane due to neutral effects on blood pressure and cholesterol.",
+      "whyIsThisEntityRelevantToTheArticle": "It is a safer choice for patients with cardiovascular or lipid issues, due to its favorable side effect profile."
+    },
+    {
+      "name": "Escitalopram",
+      "whatIsThisEntity": "SSRI recommended for John and Jane due to neutral effects on blood pressure and cholesterol.",
+      "whyIsThisEntityRelevantToTheArticle": "It is considered a safer alternative for individuals with pre-existing health conditions."
+    },
+    {
+      "name": "Paroxetine",
+      "whatIsThisEntity": "SSRI linked to increased blood pressure and cholesterol, but widely prescribed.",
+      "whyIsThisEntityRelevantToTheArticle": "Its side effects make it less suitable for patients with high blood pressure or cholesterol, illustrating the need for tailored prescriptions."
+    },
+    {
+      "name": "Duloxetine",
+      "whatIsThisEntity": "Antidepressant linked to increased cholesterol levels.",
+      "whyIsThisEntityRelevantToTheArticle": "It is advised to avoid in patients with elevated cholesterol levels due to its impact on lipid profiles."
+    },
+    {
+      "name": "Fluoxetine (Prozac)",
+      "whatIsThisEntity": "SSRI linked to weight loss and increased blood pressure.",
+      "whyIsThisEntityRelevantToTheArticle": "It demonstrates that even within the SSRI class, side effects vary, and its effects on blood pressure require caution in specific patient groups."
+    },
+    {
+      "name": "University of Bath",
+      "whatIsThisEntity": "Academic institution not involved in the study.",
+      "whyIsThisEntityRelevantToTheArticle": "Dr. Prasad Nishtala from this institution praised the findings as novel and valuable, noting long-term cumulative risks in chronic depression."
+    },
+    {
+      "name": "85%",
+      "whatIsThisEntity": "Percentage of antidepressant prescriptions in the UK currently allocated to just three SSRIs.",
+      "whyIsThisEntityRelevantToTheArticle": "It underscores the current trend of generic, low-cost medication use and the potential impact of shifting to more personalized prescriptions."
+    },
+    {
+      "name": "UK",
+      "whatIsThisEntity": "Geographic region where around eight million people take antidepressants.",
+      "whyIsThisEntityRelevantToTheArticle": "The study has direct public health significance in a country with a large antidepressant user population, where treatment patterns could be reformed."
+    }
+  ],
+  "summaryOfNewsArticle": "A landmark study conducted by King's College London and the University of Oxford has ranked antidepressants based on their physical side effects—such as weight gain, heart rate changes, and blood pressure fluctuations—revealing significant differences between drugs. The research analyzed over 58,000 patients across 30 common antidepressants and found that even within the widely prescribed SSRI class, side effects vary substantially. For instance, fluoxetine is linked to weight loss and elevated blood pressure, while venlafaxine and amitriptyline increase weight and blood pressure. Patients with specific health conditions—like high blood pressure or high cholesterol—should be prescribed drugs tailored to their needs, such as citalopram or escitalopram. The researchers emphasize that while no antidepressant is universally 'better,' individualized treatment improves patient outcomes and long-term health. A free online tool is being developed to help doctors and patients make informed decisions. The findings challenge the current UK trend of prescribing 85% of antidepressants to just three SSRIs, suggesting that personalized prescriptions could improve patient safety and health outcomes, especially in long-term depression treatment.",
+  "tags": [
+    "antidepressants",
+    "side effects",
+    "SSRIs",
+    "personalized medicine",
+    "mental health",
+    "patient choice",
+    "public health",
+    "King's College London",
+    "University of Oxford",
+    "Lancet",
+    "weight gain",
+    "heart rate",
+    "blood pressure",
+    "cholesterol",
+    "mental health treatment",
+    "clinical decision-making"
+  ],
+  "timeOfPublication": "06:26:48.775+00:00"
+  ,
+  "title": "First league table of antidepressant side effects"
+}

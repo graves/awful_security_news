@@ -1,0 +1,127 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1020-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's update, indicating when the White House announced its plan to use tariff revenue to fund WIC during the government shutdown."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "October 1, 2025",
+      "approximateTimeFrameStart": "October 1, 2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "The start of fiscal year 2026, which triggered the funding gap in WIC due to lack of congressional appropriations."
+    }
+  ],
+  "keyTakeAways": [
+    "The Trump administration announced a plan to redirect tariff revenue, specifically from Section 32 and Section 232, to fund the WIC program during the government shutdown.",
+    "WIC, which serves nearly 7 million pregnant women, new moms, and young children, was at risk of closing within days due to a lack of federal funding.",
+    "The White House claims the tariff funds will be channeled into a general Treasury fund, with a potential congressional measure designating funds for WIC, though this raises legal concerns.",
+    "Critics, including budget experts, argue that Congress hasn't appropriated funds for WIC, so the administration lacks legal authority to redirect tariff revenue.",
+    "The National WIC Association expressed concern over the lack of clarity on funding amount, distribution speed, and duration of the temporary support.",
+    "Bipartisan support for WIC has increased as Republicans use the program as a political talking point to criticize the shutdown and its impact on vulnerable populations.",
+    "WIC enrollment has risen to nearly 6.9 million due to improved access and rising inflation pressures on low-income families.",
+    "Congressional proposals for fiscal year 2026 differ: the House plan maintains current funding but cuts benefits, while the Senate plan increases funding to $8.2 billion.",
+    "The Trump administration has raised tariffs on multiple products and countries, generating $190 billion in tariff revenue so far this year, with Section 232 tariffs tied to national security.",
+    "The USDA has allocated up to $150 million in contingency funds and allows states to use manufacturer rebates and state funds to offset shortfalls."
+  ],
+  "namedEntities": [
+    {
+      "name": "White House",
+      "whatIsThisEntity": "The executive branch office of the U.S. President, responsible for policy announcements and government operations.",
+      "whyIsThisEntityRelevantToTheArticle": "The White House announced a plan to use tariff revenue to fund WIC during the government shutdown, demonstrating direct executive action in response to a fiscal crisis."
+    },
+    {
+      "name": "WIC (Special Supplemental Nutrition Program for Women, Infants and Children)",
+      "whatIsThisEntity": "A federal food assistance program providing nutrition support to pregnant women, new mothers, and young children.",
+      "whyIsThisEntityRelevantToTheArticle": "WIC is central to the article as it faces imminent funding collapse during the shutdown, prompting the administration's emergency financial intervention."
+    },
+    {
+      "name": "Section 32 tariffs",
+      "whatIsThisEntity": "A category of tariffs that traditionally fund child nutrition programs, including WIC.",
+      "whyIsThisEntityRelevantToTheArticle": "The administration proposed redirecting Section 32 tariff revenue to keep WIC operational during the shutdown, highlighting a shift in funding allocation strategy."
+    },
+    {
+      "name": "Section 232 tariffs",
+      "whatIsThisEntity": "Tariffs imposed on goods for national security reasons, such as steel, aluminum, and cars.",
+      "whyIsThisEntityRelevantToTheArticle": "Initially proposed as a funding source, the administration later clarified that Section 232 revenue would be redirected to WIC, reflecting a policy adjustment in fiscal planning."
+    },
+    {
+      "name": "Karoline Leavitt",
+      "whatIsThisEntity": "White House press secretary who publicly announced the tariff funding plan.",
+      "whyIsThisEntityRelevantToTheArticle": "She was the official who communicated the administration’s solution on social media, framing it as a response to Democratic-led government shutdown."
+    },
+    {
+      "name": "National WIC Association",
+      "whatIsThisEntity": "The advocacy group representing WIC participants and state agencies.",
+      "whyIsThisEntityRelevantToTheArticle": "The association voiced concerns about the lack of long-term stability and clarity in the funding plan, emphasizing the need for sustained support."
+    },
+    {
+      "name": "Mike Johnson",
+      "whatIsThisEntity": "House Speaker of the United States House of Representatives.",
+      "whyIsThisEntityRelevantToTheArticle": "He criticized Democrats for causing the shutdown and blamed them for halting WIC, using it as a political argument."
+    },
+    {
+      "name": "Chris Towner",
+      "whatIsThisEntity": "Policy director at the Committee for a Responsible Federal Budget.",
+      "whyIsThisEntityRelevantToTheArticle": "He raised legal concerns about the administration’s authority to redirect tariff revenue without congressional appropriation."
+    },
+    {
+      "name": "Senate Minority Leader Chuck Schumer",
+      "whatIsThisEntity": "A U.S. Senator and political figure referenced in the article.",
+      "whyIsThisEntityRelevantToTheArticle": "He is cited by Mike Johnson as having engaged in political maneuvering that caused the shutdown, thereby implicating him in the funding crisis."
+    },
+    {
+      "name": "US Department of Agriculture",
+      "whatIsThisEntity": "The federal agency that oversees federal nutrition programs, including WIC.",
+      "whyIsThisEntityRelevantToTheArticle": "It informed state agencies of funding lapses and provided contingency funds to mitigate the shutdown’s impact on WIC operations."
+    },
+    {
+      "name": "Congress",
+      "whatIsThisEntity": "The legislative body responsible for approving federal spending.",
+      "whyIsThisEntityRelevantToTheArticle": "Congress has not passed a spending bill for fiscal year 2026, leading to the funding crisis that the White House attempted to circumvent via tariff revenue."
+    },
+    {
+      "name": "Trump administration",
+      "whatIsThisEntity": "The executive branch under President Donald Trump, currently in power.",
+      "whyIsThisEntityRelevantToTheArticle": "It is central to the narrative, as it proposed and implemented the tariff-to-WIC funding plan during the shutdown."
+    },
+    {
+      "name": "Axios",
+      "whatIsThisEntity": "A media outlet that first reported the White House’s proposal.",
+      "whyIsThisEntityRelevantToTheArticle": "It provided the initial coverage of the tariff funding plan, signaling its significance and public interest."
+    },
+    {
+      "name": "Food stamp program",
+      "whatIsThisEntity": "A broader category of federal nutrition assistance programs.",
+      "whyIsThisEntityRelevantToTheArticle": "Contrasted with WIC to highlight that WIC has unique funding limitations and requires specific, long-term support."
+    },
+    {
+      "name": "Fiscal Year 2026",
+      "whatIsThisEntity": "The U.S. fiscal year beginning October 1, 2025.",
+      "whyIsThisEntityRelevantToTheArticle": "It marks the timeframe during which WIC faced a funding gap due to lack of congressional appropriations."
+    },
+    {
+      "name": "Section 232",
+      "whatIsThisEntity": "A legal authority under which tariffs can be imposed for national security reasons.",
+      "whyIsThisEntityRelevantToTheArticle": "Used as the initial source of tariff revenue, later replaced in the plan due to legal or administrative constraints."
+    }
+  ],
+  "summaryOfNewsArticle": "During the ongoing government shutdown in October 2025, the Trump administration announced a plan to redirect tariff revenue — specifically from Section 32 and Section 232 tariffs — to fund the WIC program, which supports nearly 7 million pregnant women, new moms, and young children. The move was made to prevent the program from closing within days due to a lack of federal funding, as Congress had not passed a spending bill for fiscal year 2026. While the White House claims the funds will be transferred through a Treasury general fund and potentially via a congressional designation, legal experts and advocacy groups raise concerns about the legality and transparency of the plan, citing that Congress has not formally appropriated funds for WIC. The National WIC Association stresses the need for long-term, stable funding rather than short-term fixes. The plan has drawn bipartisan attention, with House Speaker Mike Johnson blaming Democrats for the shutdown and calling the impact on vulnerable families 'shameful.' Despite the effort, advocates remain concerned about future funding, especially as the Senate and House proposals for fiscal year 2026 differ in funding levels and benefits.",
+  "tags": [
+    "government shutdown",
+    "tariff revenue",
+    "WIC program",
+    "federal food assistance",
+    "Trump administration",
+    "national security tariffs",
+    "bipartisan politics",
+    "funding crisis",
+    "food insecurity",
+    "policy response"
+  ]
+  ,
+  "timeOfPublication": "10:17:00-04:00",
+  "title": "White House says it will use tariff revenue to fund federal food aid for mothers and young children"
+}

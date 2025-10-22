@@ -1,0 +1,91 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-17",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication, indicating when the discovery of the mysterious signal from Starshield satellites was reported to the public."
+    },
+    {
+      "dateMentionedInArticle": "2024-05-01",
+      "descriptionOfWhyDateIsRelevant": "The start date of the National Reconnaissance Office's launch program for Starshield satellites, marking when the system began deployment."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2110",
+      "approximateTimeFrameStart": "2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "The radio frequency band (2025–2110 MHz) used by the Starshield satellites, which is designated for uplinking data to satellites, not downlinking from them."
+    }
+  ],
+  "keyTakeAways": [
+    "SpaceX's Starshield satellite network, a classified defense satellite constellation, is emitting signals in the 2025–2110 MHz frequency range, which is normally reserved for Earth-to-satellite uplink transmissions.",
+    "The signals are downlinking data to Earth, violating International Telecommunication Union (ITU) standards that require such bands to be used only for uplink commands.",
+    "The transmissions have the potential to interfere with other scientific and commercial satellites, risking command failures or command confusion.",
+    "Amateur satellite tracker Scott Tilley first detected the anomaly by accident while resetting equipment and scanning an unexpected radio band.",
+    "The signal pattern suggests possible intent to conceal operations, with frequent shifts in frequencies to avoid detection.",
+    "Starshield operates at low data rates (closer to 3G cellular), unlike SpaceX's public Starlink network, which uses higher frequencies for broadband internet.",
+    "The U.S. National Reconnaissance Office (NRO) has launched 11 Starshield satellites since May 2024 as part of a 'proliferated system' designed to improve data access speed and system resilience.",
+    "SpaceX and the NRO have not responded to requests for comment, raising questions about transparency and compliance with international radio spectrum rules.",
+    "Experts like Kevin Gifford believe the issue may not yet be disruptive, but the risk of interference remains unresolved and potentially significant."
+  ],
+  "namedEntities": [
+    {
+      "name": "SpaceX",
+      "whatIsThisEntity": "A commercial aerospace company that designs and manufactures satellites.",
+      "whyIsThisEntityRelevantToTheArticle": "SpaceX built the Starshield satellites and is involved in the development of the network emitting the mysterious signal, raising questions about commercial involvement in classified defense operations."
+    },
+    {
+      "name": "Starshield",
+      "whatIsThisEntity": "A classified satellite network operated by SpaceX for U.S. defense purposes, based on Starlink technology.",
+      "whyIsThisEntityRelevantToTheArticle": "The core subject of the article — the Starshield network is transmitting a downlink signal in an unauthorized frequency band, violating international spectrum standards."
+    },
+    {
+      "name": "National Reconnaissance Office (NRO)",
+      "whatIsThisEntity": "A U.S. government agency responsible for operating intelligence-gathering satellites.",
+      "whyIsThisEntityRelevantToTheArticle": "The NRO operates the Starshield satellite constellation for defense missions and has launched 11 satellites since May 2024 as part of a proliferated system."
+    },
+    {
+      "name": "International Telecommunication Union (ITU)",
+      "whatIsThisEntity": "A United Nations agency that coordinates the use of global radio frequency spectrum.",
+      "whyIsThisEntityRelevantToTheArticle": "The ITU sets international standards that are being violated by Starshield's downlink transmissions in an uplink-only frequency band."
+    },
+    {
+      "name": "Scott Tilley",
+      "whatIsThisEntity": "An amateur satellite tracker based in British Columbia, Canada.",
+      "whyIsThisEntityRelevantToTheArticle": "He first detected the unusual signal by accident while monitoring radio frequencies, and played a key role in identifying the source as Starshield."
+    },
+    {
+      "name": "Kevin Gifford",
+      "whatIsThisEntity": "A computer science professor at the University of Colorado, Boulder, specializing in radio interference from spacecraft.",
+      "whyIsThisEntityRelevantToTheArticle": "He provided expert analysis on the potential for interference and the likelihood that the signal usage may be a stealthy or opportunistic decision."
+    },
+    {
+      "name": "Starlink",
+      "whatIsThisEntity": "SpaceX's public satellite internet network providing broadband services globally.",
+      "whyIsThisEntityRelevantToTheArticle": "Used for contrast to Starshield — Starshield operates at lower frequencies and different purposes, highlighting a divergence in technical and operational strategy."
+    },
+    {
+      "name": "2025–2110 MHz frequency band",
+      "whatIsThisEntity": "A radio frequency range reserved for uplink transmissions from Earth to satellites.",
+      "whyIsThisEntityRelevantToTheArticle": "The Starshield satellites are transmitting downlink signals in this band, which is a violation of international radio spectrum rules."
+    }
+  ],
+  "summaryOfNewsArticle": "A classified defense satellite network called Starshield, built by SpaceX and operated by the U.S. National Reconnaissance Office (NRO), is transmitting downlink signals in the 2025–2110 MHz frequency band — a range normally reserved for Earth-to-satellite uplink commands. This action violates International Telecommunication Union (ITU) standards and could interfere with other satellites' operations. The signals were first detected by amateur satellite tracker Scott Tilley, who noticed an unexpected transmission while scanning radio frequencies. Experts like Kevin Gifford suggest the use of these frequencies may be intended to conceal operations or take advantage of a quiet spectrum, though it remains unclear whether the interference is currently disruptive. Since May 2024, the NRO has launched 11 Starshield satellites, with over 170 detected so far. SpaceX and the NRO have not responded to public inquiries, and the global satellite community is now concerned about potential disruptions to critical space-based communications and operations.",
+  "tags": [
+    "SpaceX",
+    "Starshield",
+    "satellite interference",
+    "radio spectrum",
+    "classified satellites",
+    "National Reconnaissance Office",
+    "International Telecommunication Union",
+    "radio frequency",
+    "space technology",
+    "defense satellites",
+    "space communication",
+    "amateur satellite tracking"
+  ],
+  "timeOfPublication": "05:00:00-04:00",
+  "title": "A Classified Network of SpaceX Satellites Is Emitting a Mysterious Signal"
+}

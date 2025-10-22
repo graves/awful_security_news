@@ -1,0 +1,174 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication marks when the Amazon cloud outage was resolved, highlighting the timing and global impact of the disruption."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The timeline of the outage (starting early Monday morning, recovery by 6 p.m. Eastern) is central to understanding the duration and scale of the event."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-20T12:59:15+00:00",
+      "approximateTimeFrameStart": "2025-10-20T03:11:00+00:00",
+      "descriptionOfWhyTimeFrameIsRelevant": "The outage began at approximately 3:11 a.m. Eastern time and lasted through the day, with recovery achieved by 6 p.m. Eastern time, illustrating the sustained disruption and slow recovery process."
+    }
+  ],
+  "keyTakeAways": [
+    "The Amazon Web Services (AWS) outage exposed the vulnerability of modern internet infrastructure, which is heavily reliant on a few major tech companies.",
+    "AWS services, including those for social media, gaming, financial platforms, and education platforms like Canvas, were significantly disrupted.",
+    "The outage originated in Amazon's domain name system (DNS), affecting how websites are routed and accessed, leading to widespread failures across platforms.",
+    "The recovery process was slow and bumpy, similar to a large-scale power outage, with smaller disruptions occurring during repairs.",
+    "The incident underscores that the internet's core infrastructure is centralized, meaning a single point of failure can have cascading effects across global services.",
+    "Past AWS outages in 2017, 2020, and 2021 demonstrate a recurring pattern of instability, indicating systemic risks in cloud computing."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon",
+      "whatIsThisEntity": "A multinational technology company that provides cloud computing services through Amazon Web Services (AWS).",
+      "whyIsThisEntityRelevantToTheArticle": "Amazon's cloud services are foundational to many online platforms, and the outage demonstrated how a failure in Amazon's infrastructure can cascade across global digital services."
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "Amazon's cloud computing platform providing infrastructure for websites, apps, and data storage to businesses and organizations.",
+      "whyIsThisEntityRelevantToTheArticle": "The AWS outage was the root cause of the disruption, affecting a wide range of services from gaming to education and financial platforms."
+    },
+    {
+      "name": "Domain Name System (DNS)",
+      "whatIsThisEntity": "A system that translates web addresses (like www.example.com) into IP addresses that devices use to access websites.",
+      "whyIsThisEntityRelevantToTheArticle": "Amazon blamed the outage on issues within its DNS system, which caused websites and apps to fail to load or connect properly."
+    },
+    {
+      "name": "Snapchat",
+      "whatIsThisEntity": "A social media platform where users share photos and videos.",
+      "whyIsThisEntityRelevantToTheArticle": "Snapchat was among the services affected by the AWS outage, illustrating how consumer-facing apps depend on cloud infrastructure."
+    },
+    {
+      "name": "Roblox",
+      "whatIsThisEntity": "A popular online gaming platform where users create and play games.",
+      "whyIsThisEntityRelevantToTheArticle": "Roblox experienced outages due to the AWS failure, showing how gaming platforms rely on cloud services for operation."
+    },
+    {
+      "name": "Fortnite",
+      "whatIsThisEntity": "A popular video game that relies on online servers and cloud infrastructure.",
+      "whyIsThisEntityRelevantToTheArticle": "Fortnite was affected by the AWS outage, demonstrating the fragility of online gaming services."
+    },
+    {
+      "name": "Robinhood",
+      "whatIsThisEntity": "An online financial brokerage platform.",
+      "whyIsThisEntityRelevantToTheArticle": "Robinhood's services were disrupted, showing how financial platforms depend on cloud infrastructure for real-time operations."
+    },
+    {
+      "name": "Netflix",
+      "whatIsThisEntity": "A leading streaming entertainment service.",
+      "whyIsThisEntityRelevantToTheArticle": "Netflix was impacted, highlighting how media platforms are vulnerable to cloud outages."
+    },
+    {
+      "name": "Disney+",
+      "whatIsThisEntity": "A streaming platform for television and movies.",
+      "whyIsThisEntityRelevantToTheArticle": "Disney+ experienced disruptions, emphasizing the widespread reach of the outage across media services."
+    },
+    {
+      "name": "Coinbase",
+      "whatIsThisEntity": "A cryptocurrency exchange platform.",
+      "whyIsThisEntityRelevantToTheArticle": "Coinbase reported issues during the outage, indicating that even financial technology platforms are vulnerable."
+    },
+    {
+      "name": "Signal",
+      "whatIsThisEntity": "An encrypted messaging app.",
+      "whyIsThisEntityRelevantToTheArticle": "Signal experienced service issues, showing that communication platforms also rely on AWS infrastructure."
+    },
+    {
+      "name": "Ring",
+      "whatIsThisEntity": "An Amazon-owned smart doorbell and home security product.",
+      "whyIsThisEntityRelevantToTheArticle": "Ring devices failed during the outage, showing that even consumer IoT products are dependent on cloud services."
+    },
+    {
+      "name": "Alexa",
+      "whatIsThisEntity": "Amazon's voice-activated smart speaker and assistant technology.",
+      "whyIsThisEntityRelevantToTheArticle": "Alexa-powered devices were unresponsive, demonstrating how smart home systems depend on cloud computing."
+    },
+    {
+      "name": "Kindle",
+      "whatIsThisEntity": "Amazon's e-book and digital content platform.",
+      "whyIsThisEntityRelevantToTheArticle": "Users could not download books to their Kindle, showing a direct impact on Amazon's own services."
+    },
+    {
+      "name": "Canvas",
+      "whatIsThisEntity": "A learning management system (LMS) used by colleges and K-12 schools.",
+      "whyIsThisEntityRelevantToTheArticle": "Canvas was disabled, preventing students from accessing course materials and submitting assignments, highlighting educational disruption."
+    },
+    {
+      "name": "University of North Carolina at Charlotte",
+      "whatIsThisEntity": "A U.S. university where faculty reported being unable to grade assignments or access student materials.",
+      "whyIsThisEntityRelevantToTheArticle": "This example illustrates how academic institutions rely on cloud-based platforms for teaching and grading."
+    },
+    {
+      "name": "University of California, Riverside",
+      "whatIsThisEntity": "A U.S. university where students were unable to submit assignments or access course materials.",
+      "whyIsThisEntityRelevantToTheArticle": "This case shows the real-world impact of cloud outages on university education and online learning."
+    },
+    {
+      "name": "Ohio State University",
+      "whatIsThisEntity": "A U.S. university with 70,000 students across six campuses.",
+      "whyIsThisEntityRelevantToTheArticle": "The university issued alerts about inaccessibility of course materials, underscoring widespread educational disruption."
+    },
+    {
+      "name": "Mike Chapple",
+      "whatIsThisEntity": "A cybersecurity expert and information technology professor at the University of Notre Dame.",
+      "whyIsThisEntityRelevantToTheArticle": "Chapple explained that slow recovery is normal, comparing the outage to a power restoration process."
+    },
+    {
+      "name": "Patrick Burgess",
+      "whatIsThisEntity": "A cybersecurity expert at BCS, a U.K.-based IT institute.",
+      "whyIsThisEntityRelevantToTheArticle": "Burgess emphasized the centralized nature of internet infrastructure and the difficulty for users to identify the root cause of outages."
+    },
+    {
+      "name": "DownDetector",
+      "whatIsThisEntity": "A website that tracks online outages and user reports.",
+      "whyIsThisEntityRelevantToTheArticle": "DownDetector recorded over 11 million user reports and more than 2,500 affected companies, providing data on the scale of the outage."
+    },
+    {
+      "name": "Associated Press",
+      "whatIsThisEntity": "A global news agency that reported on the outage.",
+      "whyIsThisEntityRelevantToTheArticle": "The AP covered the event, indicating its role in disseminating information about critical technology failures."
+    },
+    {
+      "name": "The Mendoza College of Business",
+      "whatIsThisEntity": "A business school at the University of Notre Dame.",
+      "whyIsThisEntityRelevantToTheArticle": "The location of Mike Chapple’s academic affiliation provides context to the expert perspective on outage recovery."
+    },
+    {
+      "name": "U.S. Ivy League schools",
+      "whatIsThisEntity": "A group of elite U.S. universities.",
+      "whyIsThisEntityRelevantToTheArticle": "Canvas is used by all Ivy League schools, showing the broad reach of the outage across prestigious academic institutions."
+    },
+    {
+      "name": "Cybersecurity experts",
+      "whatIsThisEntity": "A category of professionals who analyze and respond to internet infrastructure failures.",
+      "whyIsThisEntityRelevantToTheArticle": "Experts like Chapple and Burgess provided analysis on the nature and implications of the outage."
+    }
+  ],
+  "summaryOfNewsArticle": "Amazon’s cloud computing service, AWS, experienced a major outage that began early Monday morning and lasted through the day, affecting a wide range of online services including social media, gaming, financial platforms, streaming services, and education platforms. The outage was traced to problems in AWS’s domain name system (DNS), which is essential for converting web addresses into accessible internet addresses. As a result, services such as Snapchat, Roblox, Fortnite, Robinhood, Netflix, Disney+, Coinbase, and Signal became unavailable, while Amazon’s own services like Ring, Alexa, and Kindle also failed. The incident caused significant disruption in education, with students and instructors at universities including the University of California, Riverside, Ohio State University, and the University of North Carolina at Charlotte unable to access course materials or submit assignments. Experts noted that the slow and bumpy recovery process is typical after large-scale infrastructure failures, comparing it to a power outage. This event underscores the growing dependency of modern society on a handful of tech companies for internet infrastructure, revealing the systemic risks of centralized cloud computing. While no cyberattack was suspected, the outage highlights the fragility of the internet's backbone and the need for redundancy and resilience in critical services.",
+  "tags": [
+    "Amazon",
+    "AWS",
+    "cloud computing",
+    "outage",
+    "domain name system",
+    "digital infrastructure",
+    "internet dependency",
+    "technology failure",
+    "social media",
+    "gaming",
+    "education",
+    "cybersecurity",
+    "global services disruption"
+  ],
+  "timeOfPublication": "12:59:15+00:00",
+  "title": "Amazon Cloud Outage Exposes Vulnerability of Internet's Digital Backbone"
+}

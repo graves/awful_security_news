@@ -1,0 +1,191 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-06",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-06",
+      "descriptionOfWhyDateIsRelevant": "This is the date when the first Nobel Prize of the 2025 cycle was announced, marking the official start of the week-long sequence of awards."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-13",
+      "descriptionOfWhyDateIsRelevant": "The final Nobel Prize of the 2025 cycle, in Economics, is announced on this date, concluding the annual cycle of awards."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-13",
+      "approximateTimeFrameStart": "2025-10-06",
+      "descriptionOfWhyTimeFrameIsRelevant": "This week-long period represents the official announcement timeline of the 2025 Nobel Prizes, with each prize revealed in sequence across disciplines."
+    }
+  ],
+  "keyTakeAways": [
+    "The 2025 Nobel Prizes have begun with the awarding of the Physiology or Medicine Prize to Mary Brunkow, Fred Ramsdell, and Shimon Sakaguchi for discoveries in peripheral immune tolerance, which have advanced research into cancer and autoimmune diseases.",
+    "The Nobel Prizes are the most prestigious international awards, established by Alfred Nobel’s 1895 will, recognizing individuals who have conferred the greatest benefit to humankind.",
+    "The prizes are awarded by different institutions: the Royal Swedish Academy of Sciences (physics, chemistry, economics), the Nobel Assembly (medicine), the Swedish Academy (literature), and the Norwegian Nobel Committee (peace).",
+    "Each laureate receives a gold medal, a diploma, and a cash award of 11 million Swedish kronor ($1.2 million).",
+    "The formal award ceremonies take place on December 10, the anniversary of Alfred Nobel’s death.",
+    "The nomination process is highly secretive: nominations are submitted by experts, past winners, and academics by January 31, and nominees are not revealed publicly; committee members cannot discuss decisions for 50 years.",
+    "The Peace Prize often reflects current global events, but is judged on durability of peace, institutional work, and promotion of international cooperation, not political self-promotion.",
+    "Despite public attention, Donald Trump’s claims of deserving the Peace Prize are considered unlikely by experts due to a lack of alignment with the prize’s values of peace and institutional work.",
+    "There are concerns about academic freedom being threatened by political interference, notably from the Trump administration, as noted by Ylva Engstrom of the Royal Swedish Academy of Sciences.",
+    "The 2024 winners include Victor Ambros and Gary Ruvkun (medicine) for microRNA discoveries, John Hopfield and Geoffrey Hinton (physics) for foundational work in machine learning, David Baker, Demis Hassabis, and John Jumper (chemistry) for protein structure prediction using AI, Han Kang (literature) for her exploration of trauma and identity, and Nihon Hidankyo (peace) for its nuclear disarmament advocacy, and Daron Acemoglu, Simon Johnson, and James Robinson (economic sciences) for their analysis of how institutions shape economic growth and inequality."
+  ],
+  "namedEntities": [
+    {
+      "name": "Alfred Nobel",
+      "whatIsThisEntity": "The Swedish chemist, engineer, and industrialist who established the Nobel Prizes through his 1895 will.",
+      "whyIsThisEntityRelevantToTheArticle": "Alfred Nobel is the foundational figure behind the Nobel Prizes, whose will established the awards to recognize contributions to humanity, shaping the entire structure and purpose of the prizes."
+    },
+    {
+      "name": "Mary Brunkow",
+      "whatIsThisEntity": "A scientist awarded the 2025 Nobel Prize in Physiology or Medicine.",
+      "whyIsThisEntityRelevantToTheArticle": "She is one of the recipients of the 2025 medicine prize for discoveries concerning peripheral immune tolerance, which has implications for treating cancer and autoimmune diseases."
+    },
+    {
+      "name": "Fred Ramsdell",
+      "whatIsThisEntity": "A scientist awarded the 2025 Nobel Prize in Physiology or Medicine.",
+      "whyIsThisEntityRelevantToTheArticle": "He shares the 2025 medicine prize for discoveries in peripheral immune tolerance, contributing to advancements in medical treatments for immune-related conditions."
+    },
+    {
+      "name": "Shimon Sakaguchi",
+      "whatIsThisEntity": "A scientist awarded the 2025 Nobel Prize in Physiology or Medicine.",
+      "whyIsThisEntityRelevantToTheArticle": "He is recognized for his pivotal discoveries in immune tolerance, forming the basis of new research and therapies in autoimmune diseases and cancer."
+    },
+    {
+      "name": "Victor Ambros",
+      "whatIsThisEntity": "A scientist awarded the 2024 Nobel Prize in Medicine.",
+      "whyIsThisEntityRelevantToTheArticle": "He was honored for discovering microRNAs, which regulate gene expression and are vital to understanding cellular function and disease."
+    },
+    {
+      "name": "Gary Ruvkun",
+      "whatIsThisEntity": "A scientist awarded the 2024 Nobel Prize in Medicine.",
+      "whyIsThisEntityRelevantToTheArticle": "He shared the 2024 medicine prize for discoveries in microRNA regulation, contributing to broader understanding of gene expression and disease mechanisms."
+    },
+    {
+      "name": "John Hopfield",
+      "whatIsThisEntity": "A scientist awarded the 2024 Nobel Prize in Physics.",
+      "whyIsThisEntityRelevantToTheArticle": "He received the prize for foundational theoretical work linking neuroscience and computation, enabling advances in artificial neural networks."
+    },
+    {
+      "name": "Geoffrey Hinton",
+      "whatIsThisEntity": "A scientist awarded the 2024 Nobel Prize in Physics.",
+      "whyIsThisEntityRelevantToTheArticle": "He is credited with revolutionizing deep learning and artificial intelligence through pivotal work in neural networks, impacting modern AI systems."
+    },
+    {
+      "name": "David Baker",
+      "whatIsThisEntity": "A scientist awarded the 2024 Nobel Prize in Chemistry.",
+      "whyIsThisEntityRelevantToTheArticle": "He developed algorithms to design proteins with specific functions, advancing protein engineering and drug development."
+    },
+    {
+      "name": "Demis Hassabis",
+      "whatIsThisEntity": "A scientist awarded the 2024 Nobel Prize in Chemistry.",
+      "whyIsThisEntityRelevantToTheArticle": "He co-created AlphaFold with John Jumper at DeepMind, enabling AI to predict protein structures with high accuracy."
+    },
+    {
+      "name": "John Jumper",
+      "whatIsThisEntity": "A scientist awarded the 2024 Nobel Prize in Chemistry.",
+      "whyIsThisEntityRelevantToTheArticle": "He co-developed AlphaFold, a breakthrough AI system that accurately predicts protein structures, transforming biomedical research."
+    },
+    {
+      "name": "Han Kang",
+      "whatIsThisEntity": "A South Korean novelist awarded the 2024 Nobel Prize in Literature.",
+      "whyIsThisEntityRelevantToTheArticle": "She is recognized for her poetic and powerful exploration of violence, identity, and collective trauma in works like The Vegetarian and Human Acts."
+    },
+    {
+      "name": "Nihon Hidankyo",
+      "whatIsThisEntity": "An organization awarded the 2024 Nobel Peace Prize.",
+      "whyIsThisEntityRelevantToTheArticle": "It received the prize for its decades-long campaign to abolish nuclear weapons and preserve survivor testimonies from Hiroshima and Nagasaki."
+    },
+    {
+      "name": "Daron Acemoglu",
+      "whatIsThisEntity": "An economist awarded the 2024 Nobel Prize in Economic Sciences.",
+      "whyIsThisEntityRelevantToTheArticle": "He shared the prize with Simon Johnson and James Robinson for their analysis of how inclusive institutions drive long-term economic growth and reduce inequality."
+    },
+    {
+      "name": "Simon Johnson",
+      "whatIsThisEntity": "An economist awarded the 2024 Nobel Prize in Economic Sciences.",
+      "whyIsThisEntityRelevantToTheArticle": "He co-led research on institutional economics, particularly in the book Why Nations Fail, showing that inclusive institutions determine prosperity."
+    },
+    {
+      "name": "James Robinson",
+      "whatIsThisEntity": "An economist awarded the 2024 Nobel Prize in Economic Sciences.",
+      "whyIsThisEntityRelevantToTheArticle": "He contributed to understanding how political and economic institutions shape national development and inequality."
+    },
+    {
+      "name": "Donald Trump",
+      "whatIsThisEntity": "The former U.S. President who made claims about deserving the Nobel Peace Prize.",
+      "whyIsThisEntityRelevantToTheArticle": "Trump’s self-promotional claims about receiving the 2025 Peace Prize have generated significant media attention, though experts deem them unlikely due to misalignment with the prize's criteria."
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "whatIsThisEntity": "Israeli Prime Minister who submitted a nomination for Donald Trump.",
+      "whyIsThisEntityRelevantToTheArticle": "His post-deadline nomination of Trump was noted as an exception, indicating possible political influence in the nomination process."
+    },
+    {
+      "name": "Pakistan Government",
+      "whatIsThisEntity": "A national government that submitted a nomination for Donald Trump.",
+      "whyIsThisEntityRelevantToTheArticle": "The Pakistan government’s post-deadline nomination of Trump reflects broader political engagement with the nomination process, though it does not increase his chances of winning."
+    },
+    {
+      "name": "Sveriges Riksbank",
+      "whatIsThisEntity": "Sweden’s central bank, which established the Prize in Economic Sciences in Memory of Alfred Nobel in 1968.",
+      "whyIsThisEntityRelevantToTheArticle": "It created the economics prize, expanding the Nobel Prizes from five to six categories, emphasizing the importance of economic science in global development."
+    },
+    {
+      "name": "Royal Swedish Academy of Sciences",
+      "whatIsThisEntity": "The institution that awards the prizes in physics, chemistry, and economics.",
+      "whyIsThisEntityRelevantToTheArticle": "This body is central to the nomination and selection process for science-based prizes and plays a key role in maintaining scientific integrity and objectivity."
+    },
+    {
+      "name": "Nobel Assembly at Karolinska Institutet",
+      "whatIsThisEntity": "The body that awards the Nobel Prize in Physiology or Medicine.",
+      "whyIsThisEntityRelevantToTheArticle": "It announced the 2025 medicine prize, reflecting its role in recognizing medical breakthroughs with real-world health impacts."
+    },
+    {
+      "name": "Swedish Academy",
+      "whatIsThisEntity": "The institution that awards the Nobel Prize in Literature.",
+      "whyIsThisEntityRelevantToTheArticle": "It selected Han Kang for her literary contributions, highlighting the value of artistic and narrative exploration of human experience."
+    },
+    {
+      "name": "Norwegian Nobel Committee",
+      "whatIsThisEntity": "The body that awards the Nobel Peace Prize.",
+      "whyIsThisEntityRelevantToTheArticle": "It is responsible for selecting the Peace Prize winner, typically based on efforts promoting peace, reconciliation, and human dignity."
+    },
+    {
+      "name": "Ylva Engstrom",
+      "whatIsThisEntity": "Vice president of the Royal Swedish Academy of Sciences.",
+      "whyIsThisEntityRelevantToTheArticle": "She expressed concerns about political interference in academia, particularly from the Trump administration, emphasizing threats to academic freedom."
+    },
+    {
+      "name": "Nobel Foundation",
+      "whatIsThisEntity": "The organization that manages Alfred Nobel’s endowment and funds the prize cash awards.",
+      "whyIsThisEntityRelevantToTheArticle": "It ensures the financial sustainability of the prizes, providing each laureate with a monetary award of 1.2 million USD."
+    }
+  ],
+  "summaryOfNewsArticle": "The 2025 Nobel Prizes have officially begun with the announcement of the Physiology or Medicine Prize awarded to Mary Brunkow, Fred Ramsdell, and Shimon Sakaguchi for their discoveries in peripheral immune tolerance, which have laid the foundation for new treatments in cancer and autoimmune diseases. The full schedule of announcements spans from October 6 to October 13, with prizes in medicine, physics, chemistry, literature, peace, and economics being revealed in sequence. The Nobel Prizes, established by Alfred Nobel’s will, remain the world’s most prestigious international awards, recognizing individuals who have conferred the greatest benefit to humankind. The nomination process emphasizes secrecy and scientific integrity, with experts and institutions evaluating hundreds of entries over months. The 2024 laureates include Victor Ambros and Gary Ruvkun (medicine), John Hopfield and Geoffrey Hinton (physics), David Baker, Demis Hassabis, and John Jumper (chemistry), Han Kang (literature), Nihon Hidankyo (peace), and Daron Acemoglu, Simon Johnson, and James Robinson (economic sciences). Public attention is notably focused on Donald Trump’s claims of deserving the Peace Prize, though experts argue that such claims are inconsistent with the prize’s values of enduring peace and institutional work. Concerns have been raised about political interference in science, particularly from the Trump administration, which threatens academic freedom—a cornerstone of democratic society.",
+  "tags": [
+    "Nobel Prizes",
+    "2025",
+    "Science",
+    "Medicine",
+    "Physics",
+    "Chemistry",
+    "Literature",
+    "Peace",
+    "Economics",
+    "Alfred Nobel",
+    "Academic Freedom",
+    "Political Influence",
+    "Global Events",
+    "Artificial Intelligence",
+    "Cancer Research",
+    "Autoimmune Diseases",
+    "Nuclear Disarmament",
+    "Political Self-Promotion",
+    "International Cooperation"
+  ]
+  ,
+  "timeOfPublication": "09:07:20Z"
+  ,
+  "title": "What are Nobel Prizes, when are the awards announced?"
+}

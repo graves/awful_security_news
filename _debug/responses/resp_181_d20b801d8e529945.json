@@ -1,0 +1,137 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "In 2023, the US recorded over 110,000 drug-related deaths, marking the peak of the fentanyl overdose epidemic."
+    },
+    {
+      "dateMentionedInArticle": "2024-01-01",
+      "descriptionOfWhyDateIsRelevant": "In 2024, the number of fatal overdoses in the US fell by approximately 25%, saving nearly 30,000 lives, signaling a turning point in the national epidemic."
+    },
+    {
+      "dateMentionedInArticle": "2025-01-01",
+      "descriptionOfWhyDateIsRelevant": "In 2025, enrollment in medication-assisted treatment (MAT) programs in North Carolina continued to rise, indicating sustained progress in harm reduction and recovery efforts."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2023",
+      "approximateTimeFrameStart": "2019",
+      "descriptionOfWhyTimeFrameIsRelevant": "The fentanyl epidemic began in the 1990s with prescription opioids and intensified with the rise of synthetic opioids like fentanyl, leading to a massive increase in overdose deaths by 2023."
+    },
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2024",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period from 2024 to 2025 shows a significant decline in overdose deaths, attributed to expanded access to harm reduction strategies, medication-assisted treatment, and policy actions."
+    }
+  ],
+  "keyTakeAways": [
+    "The US is seeing a dramatic decline in drug-related deaths, particularly from fentanyl, with a 25% drop in fatalities in 2024.",
+    "North Carolina has led the charge in harm reduction, with overdose fatalities falling by 35% and widespread adoption of law enforcement assisted diversion (LEAD) and medication-assisted treatment (MAT) programs.",
+    "Harm reduction strategies, such as LEAD and MAT, are effective in reducing deaths and improving long-term recovery outcomes, even in the face of opposition from some politicians and abstinence-focused advocates.",
+    "Naloxone use has saved over 16,000 lives in North Carolina alone in 2024, demonstrating real-world effectiveness in reversing fatal overdoses.",
+    "Drugs are being tested for fentanyl contamination through national labs, helping users make safer choices and contributing to a demographic shift where younger generations are avoiding opioids.",
+    "A $60 billion national Opioid Settlement, with North Carolina receiving $1.5 billion, is being used to fund prevention, treatment, recovery, and harm reduction programs.",
+    "Despite progress, disparities remain, especially among Black, Indigenous, and Non-White populations, and states like Nevada and Arizona have not seen the same reduction in overdose deaths.",
+    "Political and policy uncertainty, such as Medicaid cuts in Trump’s One Big, Beautiful Bill Act, threatens access to treatment and could reverse gains in public health."
+  ],
+  "namedEntities": [
+    {
+      "name": "Fentanyl",
+      "whatIsThisEntity": "A synthetic opioid 50 times more potent than heroin, responsible for a major surge in overdose deaths across the US.",
+      "whyIsThisEntityRelevantToTheArticle": "Fentanyl is the central drug at the heart of the US drug death epidemic, with contaminated street drugs causing widespread fatalities and driving public health policy responses."
+    },
+    {
+      "name": "Kayla",
+      "whatIsThisEntity": "A former fentanyl user from North Carolina who now lives a clean, drug-free life and is a client of a law enforcement assisted diversion program.",
+      "whyIsThisEntityRelevantToTheArticle": "Kayla represents a personal story of recovery from fentanyl addiction and serves as a human-centered example of the success of harm reduction and treatment programs."
+    },
+    {
+      "name": "North Carolina",
+      "whatIsThisEntity": "A US state where fentanyl-related overdose deaths have dropped by 35% and where harm reduction policies are widely implemented.",
+      "whyIsThisEntityRelevantToTheArticle": "North Carolina is a leading state in combating the fentanyl epidemic, exemplifying how policy, treatment access, and community programs can turn around public health outcomes."
+    },
+    {
+      "name": "Law Enforcement Assisted Diversion (LEAD)",
+      "whatIsThisEntity": "A program in Fayetteville, North Carolina, that diverts drug users from criminal prosecution to support services like recovery, housing, and employment.",
+      "whyIsThisEntityRelevantToTheArticle": "LEAD is a key harm reduction initiative that helps reduce crime, supports recovery, and provides pathways to stability for individuals with substance use disorders."
+    },
+    {
+      "name": "Morse Clinics",
+      "whatIsThisEntity": "A network of addiction treatment clinics in Raleigh, North Carolina, offering medication-assisted treatment (MAT) for opioid use disorder.",
+      "whyIsThisEntityRelevantToTheArticle": "The Morse Clinics provide accessible, evidence-based treatment and are central to North Carolina's reduction in overdose deaths through MAT programs."
+    },
+    {
+      "name": "Methadone and Buprenorphine",
+      "whatIsThisEntity": "Medications used to treat opioid use disorder by reducing cravings and preventing withdrawal.",
+      "whyIsThisEntityRelevantToTheArticle": "These medications have played a crucial role in reducing overdose deaths by stabilizing users and helping them transition to long-term recovery."
+    },
+    {
+      "name": "Naloxone",
+      "whatIsThisEntity": "A drug used to reverse opioid overdoses, available as a nasal spray.",
+      "whyIsThisEntityRelevantToTheArticle": "Naloxone has saved over 16,000 lives in North Carolina in 2024, highlighting its effectiveness as a life-saving intervention in overdose emergencies."
+    },
+    {
+      "name": "Dr Eric Morse",
+      "whatIsThisEntity": "An addiction psychiatrist and founder of the Morse Clinics in Raleigh, North Carolina.",
+      "whyIsThisEntityRelevantToTheArticle": "Dr. Morse is a key figure in promoting medication-assisted treatment and providing real-world data on treatment efficacy and patient outcomes."
+    },
+    {
+      "name": "Dr Nabarun Dasgupta",
+      "whatIsThisEntity": "A scientist at the University of North Carolina specializing in street drug analysis.",
+      "whyIsThisEntityRelevantToTheArticle": "Dr. Dasgupta leads national drug testing efforts, helping users detect fentanyl contamination and contributing to public awareness and safer drug use."
+    },
+    {
+      "name": "Mark Pless",
+      "whatIsThisEntity": "A Republican state representative in North Carolina who opposes medication-assisted treatment and favors abstinence-based recovery.",
+      "whyIsThisEntityRelevantToTheArticle": "Mark Pless represents the political opposition to harm reduction, highlighting ongoing debate about the best approaches to treating opioid addiction."
+    },
+    {
+      "name": "Josh Stein",
+      "whatIsThisEntity": "Former attorney general and current governor of North Carolina, who led legal action against opioid manufacturers.",
+      "whyIsThisEntityRelevantToTheArticle": "Josh Stein was instrumental in securing a $60 billion national Opioid Settlement to fund prevention, treatment, and harm reduction efforts."
+    },
+    {
+      "name": "Opioid Settlement",
+      "whatIsThisEntity": "A $60 billion national settlement between opioid manufacturers and US states to fund public health initiatives.",
+      "whyIsThisEntityRelevantToTheArticle": "The settlement provides critical funding for treatment, prevention, and harm reduction, directly addressing the root causes of the fentanyl epidemic."
+    },
+    {
+      "name": "One Big, Beautiful Bill Act",
+      "whatIsThisEntity": "A proposed federal bill by President Donald Trump that includes cuts to Medicaid, threatening access to treatment.",
+      "whyIsThisEntityRelevantToTheArticle": "The bill poses a threat to the sustainability of addiction treatment programs, especially in states where most patients rely on Medicaid."
+    },
+    {
+      "name": "Generation Z",
+      "whatIsThisEntity": "A demographic group of young adults who are showing reduced rates of opioid-related deaths compared to previous generations.",
+      "whyIsThisEntityRelevantToTheArticle": "The shift in overdose rates among younger people suggests changing drug use behaviors and may reflect improved awareness and avoidance of fentanyl."
+    },
+    {
+      "name": "Federal Medicaid Cuts",
+      "whatIsThisEntity": "Proposed reductions in federal Medicaid funding that could impact access to addiction treatment in the US.",
+      "whyIsThisEntityRelevantToTheArticle": "These cuts threaten the viability of treatment programs, especially in states where over 70% of patients depend on Medicaid for care."
+    }
+  ],
+  "summaryOfNewsArticle": "The United States is experiencing a significant reversal in its drug-related death epidemic, particularly from fentanyl, with overdose fatalities dropping by nearly 25% in 2024. This turnaround is driven by a combination of public health strategies, including medication-assisted treatment (MAT) like methadone and buprenorphine, widespread use of naloxone to reverse overdoses, and innovative programs such as Law Enforcement Assisted Diversion (LEAD) in North Carolina. These efforts are especially visible in North Carolina, where overdose deaths have fallen by 35% and more than 30,000 people have enrolled in treatment programs. Personal stories like Kayla’s illustrate how recovery is possible with support and access to care. However, challenges remain, including political opposition to harm reduction, disparities in outcomes among racial and ethnic groups, and threats from proposed federal cuts to Medicaid, which could undermine access to vital treatment services. The article underscores that progress in public health is not uniform, and long-term success depends on sustained investment, policy support, and equitable access to care.",
+  "tags": [
+    "fentanyl",
+    "overdose epidemic",
+    "harm reduction",
+    "medication-assisted treatment",
+    "North Carolina",
+    "drug policy",
+    "public health",
+    "opioid settlement",
+    "naloxone",
+    "addiction recovery",
+    "moral debate in treatment",
+    "Medicaid cuts",
+    "Generation Z",
+    "law enforcement diversion"
+  ],
+  "timeOfPublication": "23:42:24.234+00:00"
+  ,
+  "title": "Fentanyl: How the US is emerging from its drugs death epidemic"
+}

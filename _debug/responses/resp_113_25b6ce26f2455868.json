@@ -1,0 +1,82 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2018-01-01",
+      "descriptionOfWhyDateIsRelevant": "This is when a prior study on ant social behavior in response to fungal infection was conducted, establishing foundational research that led to the current investigation into nest architecture changes."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication, indicating the most up-to-date research on ant colony architecture and disease resistance as of this point in time."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2018",
+      "descriptionOfWhyTimeFrameIsRelevant": "The time period during which key research on ant behavioral and architectural responses to disease occurred, showing a longitudinal scientific effort spanning from 2018 to 2025."
+    }
+  ],
+  "keyTakeAways": [
+    "Ants, specifically black garden ants (Lasius niger), modify their nest architecture in response to a lethal fungal pathogen, Metarhizium brunneum.",
+    "Infected ants self-isolate, and healthy ants increase distance from high-risk foragers, demonstrating proactive social distancing.",
+    "Nest structures become more compartmentalized, less interconnected, with spaced entrances and longer travel routes, reducing disease transmission.",
+    "These structural and social behaviors work together to create a form of 'architectural immunity' that protects the colony from epidemics.",
+    "The study represents the first documented case of a non-human social species actively modifying its physical environment to combat disease spread.",
+    "The findings suggest potential applications for human-designed public spaces that reduce disease transmission through spatial design principles."
+  ],
+  "namedEntities": [
+    {
+      "name": "Metarhizium brunneum",
+      "whatIsThisEntity": "A common and lethal fungus that infects insects, including black garden ants, and transforms the host into a sporulating cadaver covered in infectious spores."
+    ,
+    "whyIsThisEntityRelevantToTheArticle": "The fungus serves as the primary threat that drives the ants' behavioral and architectural responses, making it central to understanding how the colony defends itself from disease."
+    },
+    {
+      "name": "Lasius niger",
+      "whatIsThisEntity": "The black garden ant species studied in the research for its social behavior and nest-building responses to disease.",
+      "whyIsThisEntityRelevantToTheArticle": "This specific ant species is the subject of the study, showing adaptive behaviors in response to a pathogen, which provides a biological model for disease resistance in social systems."
+    },
+    {
+      "name": "Nathalie Stroeymeyt",
+      "whatIsThisEntity": "A behavioral ecologist at the University of Bristol who led early research on how black garden ants respond socially to fungal infection.",
+      "whyIsThisEntityRelevantToTheArticle": "She is the lead researcher behind the initial findings on social distancing in ants, and her work laid the foundation for the current study on architectural changes."
+    },
+    {
+      "name": "Luke Leckie",
+      "whatIsThisEntity": "A systems biologist at Indiana University Bloomington who collaborated with Stroeymeyt to investigate nest architecture changes in response to infection.",
+      "whyIsThisEntityRelevantToTheArticle": "He conducted the structural analysis using CT scans and helped demonstrate that ants modify nest structure in response to pathogens."
+    },
+    {
+      "name": "Sarah Kocher",
+      "whatIsThisEntity": "An evolutionary biologist at Princeton University who was not involved in the study but provided expert commentary on social immunity and its potential human applications.",
+      "whyIsThisEntityRelevantToTheArticle": "She emphasizes how ant social immunity principles could inform better human public space design to prevent disease spread."
+    },
+    {
+      "name": "Science (journal)",
+      "whatIsThisEntity": "A peer-reviewed scientific journal where the study on ant nest architecture and disease resistance was published.",
+      "whyIsThisEntityRelevantToTheArticle": "The publication in Science adds credibility and visibility to the findings, indicating peer-reviewed validation of the research."
+    },
+    {
+      "name": "principles of architectural immunity",
+      "whatIsThisEntity": "A concept inspired by ant behavior, where physical space design reduces disease transmission by isolating high-risk or vulnerable individuals.",
+      "whyIsThisEntityRelevantToTheArticle": "This concept is presented as a potential model for human-designed environments, such as hospitals, schools, or public buildings, to reduce disease spread."
+    }
+  ],
+  "summaryOfNewsArticle": "Black garden ants (Lasius niger) respond to a lethal fungal pathogen, Metarhizium brunneum, by altering both their social behavior and nest architecture. Infected ants self-isolate, and healthy ants—especially nurses caring for the queen and young—distance themselves from foragers, demonstrating proactive social distancing. When threatened, the ants build more compartmentalized, less interconnected nests with spaced entrances and longer travel routes, which reduces disease transmission. This combined social and structural response, observed in a study published in Science, represents the first known instance of a non-human social species modifying its physical environment to combat disease. The research has significant implications for human design, suggesting that public spaces could adopt 'architectural immunity' strategies—inspired by ants—to reduce disease spread, especially during epidemics.",
+  "tags": [
+    "ants",
+    "disease prevention",
+    "social immunity",
+    "architectural immunity",
+    "Metarhizium brunneum",
+    "behavioral ecology",
+    "nest architecture",
+    "public space design",
+    "epidemic control",
+    "insect behavior"
+  ],
+  "timeOfPublication": "07:13:00-04:00",
+  "title": "Ants Design Colonies to Cut Risk of Disease – A Model for Human Architecture"
+}

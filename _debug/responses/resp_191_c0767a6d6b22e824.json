@@ -1,0 +1,112 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the preliminary report's release, indicating recent developments in the investigation into the Lisbon funicular crash."
+    },
+    {
+      "dateMentionedInArticle": "2022-06-01",
+      "descriptionOfWhyDateIsRelevant": "The date when the defective cable was acquired by Carris, highlighting a timeline of procurement and safety oversight failure."
+    },
+    {
+      "dateMentionedInArticle": "2022-05-01",
+      "descriptionOfWhyDateIsRelevant": "The date when the current Carris board took office, showing a potential disconnect between leadership change and prior safety decisions."
+    },
+    {
+      "dateMentionedInArticle": "2025-09-03",
+      "descriptionOfWhyDateIsRelevant": "The date of the funicular crash that killed 16 people, a pivotal event driving the investigation and public scrutiny."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-12",
+      "descriptionOfWhyDateIsRelevant": "The date of Lisbon Mayor Carlos Moedas' re-election, raising political questions about oversight responsibilities despite his public defense of technical causes."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2026-10-20",
+      "approximateTimeFrameStart": "2025-10-20",
+      "descriptionOfWhyTimeFrameIsRelevant": "The timeframe for the completion of the full accident report, which is expected to take about 11 months, indicating ongoing investigation and regulatory implications."
+    }
+  ],
+  "keyTakeAways": [
+    "The Glória funicular crash in Lisbon on 3 September 2025 resulted in 16 deaths and 20 injuries, including 11 foreigners and three British nationals.",
+    "A defective underground cable, never certified for passenger transport and acquired in 2022, acted as a counterweight and broke during the crash, contributing to the derailed accident.",
+    "The cable was not tested before installation, and there was a failure in oversight by Carris engineers and outsourced maintenance teams.",
+    "The emergency brake system failed to activate properly and had never been tested in advance, despite the driver’s correct attempt to apply it.",
+    "Carris dismissed its head of maintenance for funiculars and trams following the incident, indicating internal accountability.",
+    "The preliminary report notes the information is incomplete and does not assign guilt or responsibility to any individual or organization.",
+    "The investigation highlights a systemic failure in maintenance, certification, and safety testing, with recommendations for improved safety management systems and end-to-end oversight.",
+    "Lisbon’s historic funiculars are currently exempt from legal oversight, a loophole now being closed by the report’s recommendations.",
+    "All Lisbon cable cars are currently out of service until safety checks are completed, and all braking systems must be reviewed to ensure functionality in cable failure scenarios."
+  ],
+  "namedEntities": [
+    {
+      "name": "Lisbon",
+      "whatIsThisEntity": "A city in Portugal",
+      "whyIsThisEntityRelevantToTheArticle": "The location of the funicular crash, central to the incident and its public and political ramifications."
+    },
+    {
+      "name": "Glória funicular",
+      "whatIsThisEntity": "A 140-year-old cable funicular in Lisbon",
+      "whyIsThisEntityRelevantToTheArticle": "The specific transport system where the crash occurred, highlighting a long-standing and popular tourist attraction with systemic safety flaws."
+    },
+    {
+      "name": "Carris",
+      "whatIsThisEntity": "The company operating Lisbon's public transport, including funiculars and trams",
+      "whyIsThisEntityRelevantToTheArticle": "The operator of the funicular system responsible for maintenance, oversight, and the procurement of the defective cable."
+    },
+    {
+      "name": "Portugal's Air and Rail Accident Investigations Bureau",
+      "whatIsThisEntity": "The official body investigating transport accidents in Portugal",
+      "whyIsThisEntityRelevantToTheArticle": "The authority that released the preliminary report detailing technical and oversight failures in the crash."
+    },
+    {
+      "name": "underground cable",
+      "whatIsThisEntity": "A counterweight cable used in the funicular system",
+      "whyIsThisEntityRelevantToTheArticle": "The defective component that failed under load, directly causing the derailed crash and central to the investigation's findings."
+    },
+    {
+      "name": "Carlos Moedas",
+      "whatIsThisEntity": "Mayor of Lisbon, re-elected in October 2025",
+      "whyIsThisEntityRelevantToTheArticle": "The political figure whose leadership and oversight responsibilities were questioned in the aftermath of the crash."
+    },
+    {
+      "name": "British nationals",
+      "whatIsThisEntity": "Foreign nationals killed in the crash, including three from the UK",
+      "whyIsThisEntityRelevantToTheArticle": "Highlighting the international human cost of the disaster and raising diplomatic and humanitarian concerns."
+    },
+    {
+      "name": "European best practice",
+      "whatIsThisEntity": "Safety standards referenced in proposed reforms",
+      "whyIsThisEntityRelevantToTheArticle": "Guiding future safety regulations for transport systems, indicating alignment with international safety norms."
+    },
+    {
+      "name": "emergency brake system",
+      "whatIsThisEntity": "A safety mechanism designed to stop carriages in emergencies",
+      "whyIsThisEntityRelevantToTheArticle": "A failed system that did not activate during the crash, contributing to the severity of the outcome."
+    }
+  ],
+  "summaryOfNewsArticle": "A preliminary report into a fatal funicular crash in Lisbon on 3 September 2025 reveals a series of critical safety failures, including the use of a defective underground cable that was never certified for passenger transport and had not been tested before installation. The cable, acquired in 2022 by Carris, the operator of Lisbon’s public transport, failed under load, causing the 140-year-old Glória funicular to derail and crash into a building, killing 16 people and injuring 20. The report highlights significant lapses in oversight, maintenance, and testing, with the emergency brake system also failing to function. Carris has dismissed its head of maintenance, and all cable cars in Lisbon are currently out of service pending safety checks. The investigation is ongoing, with the full report expected in 11 months, and key recommendations include implementing a new safety management system in line with European best practice and closing a legal loophole allowing funiculars to be exempt from supervision.",
+  "tags": [
+    "Lisbon",
+    "crash",
+    "funicular",
+    "safety failure",
+    "defective cable",
+    "Carris",
+    "transportation accident",
+    "Portugal",
+    "emergency brake",
+    "public transport",
+    "investigation",
+    "oversight",
+    "European safety standards",
+    "political accountability"
+  ]
+  ,
+  "timeOfPublication": "21:43:58.890+00:00"
+  ,
+  "title": "Lisbon funicular crash initial report reveals litany of failings"
+}

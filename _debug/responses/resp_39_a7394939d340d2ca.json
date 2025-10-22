@@ -1,0 +1,126 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2026-01-01",
+      "descriptionOfWhyDateIsRelevant": "Madari Space's first orbital mission, carrying a small data processing payload, is scheduled for 2026 as a technical demonstration of space-based data center feasibility."
+    },
+    {
+      "dateMentionedInArticle": "2027-01-01",
+      "descriptionOfWhyDateIsRelevant": "Lonestar Data Holdings plans to launch its first moon-based data center satellite in 2027, operating at the Earth-moon Lagrange point L1."
+    },
+    {
+      "dateMentionedInArticle": "2025-05-01",
+      "descriptionOfWhyDateIsRelevant": "China launched 12 satellites for a space-based computing constellation, marking the first step toward a proposed 2,800-satellite fleet to process data in space."
+    },
+    {
+      "dateMentionedInArticle": "2025-11-01",
+      "descriptionOfWhyDateIsRelevant": "Starcloud, a Washington-based startup, plans to launch a satellite with an Nvidia H100 GPU in November 2025, aiming to set a record for in-orbit compute power."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2030",
+      "approximateTimeFrameStart": "2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "Data center power demand is projected to increase by 165% by 2030, prompting companies to explore space-based alternatives to terrestrial infrastructure."
+    },
+    {
+      "approximateTimeFrameEnd": "2030",
+      "approximateTimeFrameStart": "2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "Experts predict that within a decade, nearly all new data centers will be built in space due to growing terrestrial energy constraints."
+    }
+  ],
+  "keyTakeAways": [
+    "Advances in artificial intelligence are driving a surge in demand for data centers, which require vast land and energy, leading to high CO2 emissions.",
+    "Space-based data centers offer access to continuous solar energy and potential reductions in carbon emissions, especially if powered by cleaner launch technologies.",
+    "The ASCEND project in Europe is investigating the feasibility of space-based data centers to reduce emissions and increase data sovereignty.",
+    "Companies such as Madari Space, Lonestar Data Holdings, and Starcloud are pioneering small-scale launches of computing payloads into orbit as technical demonstrations.",
+    "Despite early progress, significant challenges remain, including heat dissipation in a vacuum, radiation damage to electronics, high launch costs, space debris risks, and the lack of in-orbit maintenance capabilities.",
+    "Experts like Quentin A. Parker from the University of Hong Kong question the economic viability of space-based data centers, arguing terrestrial solutions remain cheaper and more practical.",
+    "The long-term vision is that space-based data centers could become a necessary alternative due to exhaustion of terrestrial land and energy resources.",
+    "Space-based data centers may offer resilience against natural disasters and cyberattacks, but are vulnerable to space weather and potential counterspace threats."
+  ],
+  "namedEntities": [
+    {
+      "name": "Thales Alenia Space",
+      "whatIsThisEntity": "A France-based aerospace and defense company",
+      "whyIsThisEntityRelevantToTheArticle": "Led the European Commission-funded study on the ASCEND project, evaluating the feasibility of space-based data centers for environmental and energy efficiency benefits."
+    },
+    {
+      "name": "ASCEND project",
+      "whatIsThisEntity": "A European initiative studying space-based data centers for reducing CO2 emissions",
+      "whyIsThisEntityRelevantToTheArticle": "Aims to demonstrate that space-based data centers could offer a more eco-friendly and sovereign solution to data hosting and processing."
+    },
+    {
+      "name": "Madari Space",
+      "whatIsThisEntity": "An Abu Dhabi-based startup developing space-based computing systems",
+      "whyIsThisEntityRelevantToTheArticle": "Collaborating with Thales Alenia Space, it is one of the few companies launching small computing components into orbit as a technical demonstration of space data center feasibility."
+    },
+    {
+      "name": "China",
+      "whatIsThisEntity": "A nation launching satellites for space-based computing",
+      "whyIsThisEntityRelevantToTheArticle": "Launched 12 satellites in May 2025 as the first phase of a proposed 2,800-satellite fleet for in-orbit data processing, signaling growing interest in space computing."
+    },
+    {
+      "name": "Lonestar Data Holdings",
+      "whatIsThisEntity": "A Florida-based company that successfully tested a small data center on the moon",
+      "whyIsThisEntityRelevantToTheArticle": "Conducted a moon-based test in March 2025, planning to launch six data-storage satellites to the Earth-moon Lagrange point L1 by 2027."
+    },
+    {
+      "name": "Starcloud",
+      "whatIsThisEntity": "A Washington state-based startup launching a satellite with an Nvidia H100 GPU",
+      "whyIsThisEntityRelevantToTheArticle": "Plans to launch a satellite in November 2025 with the world’s most powerful in-orbit compute unit, aiming to set a new benchmark for space-based computing."
+    },
+    {
+      "name": "SpaceX",
+      "whatIsThisEntity": "A private aerospace company providing rocket launch services",
+      "whyIsThisEntityRelevantToTheArticle": "Provides launch services for Lonestar Data Holdings’ satellites via Falcon rockets, with payloads making up 15% of the launch mass."
+    },
+    {
+      "name": "Sidus",
+      "whatIsThisEntity": "A spacecraft provider",
+      "whyIsThisEntityRelevantToTheArticle": "Signed a $120 million deal with Lonestar Data Holdings to build and support six on-orbit data storage satellites."
+    },
+    {
+      "name": "UN Office for Outer Space Affairs (UNOOSA)",
+      "whatIsThisEntity": "An international organization promoting access to space for all nations",
+      "whyIsThisEntityRelevantToTheArticle": "The Access to Space for All Initiative provides a platform for Madari Space’s first orbital mission, which carries a payload on an Emirati satellite."
+    },
+    {
+      "name": "Goldman Sachs",
+      "whatIsThisEntity": "A global investment bank",
+      "whyIsThisEntityRelevantToTheArticle": "Projected a 165% increase in data center power demand by 2030, highlighting the urgency for alternative solutions like space-based computing."
+    },
+    {
+      "name": "Nvidia H100 GPU",
+      "whatIsThisEntity": "A high-performance graphics processing unit",
+      "whyIsThisEntityRelevantToTheArticle": "Starcloud plans to launch a satellite equipped with the most powerful in-orbit compute unit, setting a new record for space-based processing power."
+    },
+    {
+      "name": "Earth-moon Lagrange point L1",
+      "whatIsThisEntity": "A gravitational balance point between Earth and the Moon",
+      "whyIsThisEntityRelevantToTheArticle": "Lonestar Data Holdings plans to deploy its first satellite at this location, 60,000 kilometers from Earth, to operate as a data center in space."
+    },
+    {
+      "name": "Quentin A. Parker",
+      "whatIsThisEntity": "Director of the Laboratory for Space Research at the University of Hong Kong",
+      "whyIsThisEntityRelevantToTheArticle": "Skeptic about the economic viability of space-based data centers, noting terrestrial solutions remain more cost-effective and practical."
+    }
+  ],
+  "summaryOfNewsArticle": "As artificial intelligence drives a surge in data center demand, companies and researchers are exploring space-based computing as a solution to energy and land constraints. With data center power demand projected to rise 165% by 2030, initiatives like the European ASCEND project and startups such as Madari Space, Lonestar Data Holdings, and Starcloud are testing small-scale space-based computing systems. These efforts aim to leverage continuous solar energy and avoid terrestrial carbon emissions, though significant challenges remain — including heat dissipation, radiation effects, launch costs, and space debris risks. While proponents believe space-based data centers will become essential within a decade due to terrestrial resource exhaustion, experts like Quentin A. Parker question their economic and practical feasibility, noting current terrestrial solutions remain cheaper and more reliable. The article highlights both the technological ambition and the skepticism surrounding the future of space-based data centers.",
+  "tags": [
+    "space-based data centers",
+    "artificial intelligence",
+    "data center sustainability",
+    "space technology",
+    "clean energy",
+    "space launch",
+    "carbon emissions",
+    "space debris",
+    "moon-based computing",
+    "orbital computing"
+  ],
+  "timeOfPublication": "05:33:00-04:00",
+  "title": "Why these companies want to send data centers into space"
+}

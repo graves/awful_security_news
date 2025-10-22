@@ -1,0 +1,119 @@
+{
+  "category": "Military Actions & War",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-22",
+      "descriptionOfWhyDateIsRelevant": "The date marks the occurrence of a large-scale Russian air attack on Ukraine, including strikes in Kyiv, Kharkiv, and Brovary, which caused casualties and widespread power outages, highlighting the escalation of hostilities during the ongoing war."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "5:34 AM EDT, Wed October 22, 2025",
+      "approximateTimeFrameStart": "Early Wednesday, October 22, 2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "The timeframe indicates when the Russian air attacks occurred, coinciding with the cancellation of a Trump-Putin summit and following Ukraine’s use of Storm Shadow missiles, marking a critical moment of escalation in the conflict."
+    }
+  ],
+  "keyTakeAways": [
+    "Russia launched a large-scale air attack on Ukraine involving drones, missiles, and fighter jets, targeting key areas including Kyiv and Kharkiv, killing at least six people and injuring 17.",
+    "The attacks caused widespread power outages across Ukraine due to damage to energy infrastructure, with Ukrenergo and DTEK reporting significant damage and ongoing restoration efforts.",
+    "Multiple civilians were killed, including a six-month-old baby, a 12-year-old girl, and an 83-year-old woman, with several others injured or rescued from burning homes, especially in Kyiv’s Dniprovskiy district and Brovary.",
+    "Ukrainian President Volodymyr Zelensky criticized Russia’s continued aggression, stating it proves Russia does not feel sufficient pressure to end the war, and called for a united international response from the EU and the US.",
+    "Ukraine responded to Russian attacks by launching British-made Storm Shadow missiles at Russia’s Bryansk Chemical Plant, which produces explosive materials, marking a significant escalation in long-range strikes.",
+    "The Russian regional governor of Bryansk claimed that Russia destroyed 57 enemy UAVs during the Ukrainian attack, though this claim has not been independently verified.",
+    "US President Donald Trump canceled plans for a summit with Russian President Vladimir Putin, citing concerns that it would be a 'waste of time,' and denied Ukraine’s request for access to Tomahawk missiles, insisting on territorial concessions to end the war.",
+    "European Union ambassador Katarina Maternovak described the night of attacks as 'a night of horror,' recounting personal experience of sirens and explosions during the assault, emphasizing the severity and emotional toll on international actors."
+  ],
+  "namedEntities": [
+    {
+      "name": "Russia",
+      "whatIsThisEntity": "A nation that launched large-scale air attacks on Ukraine, including using drones, missiles, and fighter jets.",
+      "whyIsThisEntityRelevantToTheArticle": "Russia is the aggressor in the conflict, directly responsible for the attacks that caused casualties, infrastructure damage, and power outages in Ukraine."
+    },
+    {
+      "name": "Ukraine",
+      "whatIsThisEntity": "A nation that experienced devastating air attacks and retaliated with military strikes.",
+      "whyIsThisEntityRelevantToTheArticle": "Ukraine is the target of Russian attacks and has responded with defensive and offensive actions, including targeting Russian infrastructure and calling for international support."
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "whatIsThisEntity": "President of Ukraine, who publicly condemned Russian actions and urged international action.",
+      "whyIsThisEntityRelevantToTheArticle": "Zelensky is a central figure in the article, reacting to attacks, commenting on the war’s progression, and calling for increased international pressure on Russia."
+    },
+    {
+      "name": "Donald Trump",
+      "whatIsThisEntity": "Former US President who canceled a summit with Vladimir Putin.",
+      "whyIsThisEntityRelevantToTheArticle": "Trump’s cancellation of the summit signals a shift in US foreign policy toward Russia, reflecting geopolitical hesitation amid ongoing violence in Ukraine."
+    },
+    {
+      "name": "Vladimir Putin",
+      "whatIsThisEntity": "President of Russia, who is the counterpart to Trump in the shelved summit.",
+      "whyIsThisEntityRelevantToTheArticle": "Putin is the leader of Russia, the aggressor in the attacks, and central to the geopolitical dynamics surrounding the summit and ongoing war."
+    },
+    {
+      "name": "Kyiv",
+      "whatIsThisEntity": "The capital city of Ukraine, targeted in multiple attacks.",
+      "whyIsThisEntityRelevantToTheArticle": "Kyiv was directly hit by multiple strikes, including a drone attack on a 16-story residential building, resulting in casualties and fires, underscoring the vulnerability of urban centers."
+    },
+    {
+      "name": "Kharkiv",
+      "whatIsThisEntity": "A major city in northeastern Ukraine, struck by Russian attacks.",
+      "whyIsThisEntityRelevantToTheArticle": "Kharkiv was targeted in both drone strikes and attacks on a kindergarten, leading to civilian deaths and evacuations, highlighting the reach of Russian aggression."
+    },
+    {
+      "name": "Bryansk Chemical Plant",
+      "whatIsThisEntity": "A Russian facility producing gunpowder and explosives, targeted by Ukrainian Storm Shadow missiles.",
+      "whyIsThisEntityRelevantToTheArticle": "It is a key military target, and its destruction represents a strategic offensive by Ukraine to disrupt Russian war production capabilities."
+    },
+    {
+      "name": "Storm Shadow missile",
+      "whatIsThisEntity": "A British-made long-range air-launched missile used by Ukraine to attack Russian facilities.",
+      "whyIsThisEntityRelevantToTheArticle": "It marks a significant escalation in Ukraine’s military capabilities, enabling strikes deep into Russian territory and signaling a shift in the battlefield dynamics."
+    },
+    {
+      "name": "Ukrenergo",
+      "whatIsThisEntity": "Ukraine’s state-owned energy operator, which reported emergency power cuts.",
+      "whyIsThisEntityRelevantToTheArticle": "Ukrenergo reflects the impact of attacks on Ukraine’s critical infrastructure, specifically energy systems, resulting in widespread blackouts."
+    },
+    {
+      "name": "DTEK",
+      "whatIsThisEntity": "Ukraine’s largest private energy company, which reported damage in the Odesa region.",
+      "whyIsThisEntityRelevantToTheArticle": "DTEK illustrates the extent of infrastructure damage and the challenges of restoring power after strikes on energy facilities."
+    },
+    {
+      "name": "Katarina Maternovak",
+      "whatIsThisEntity": "European Union ambassador to Ukraine, who personally experienced the attack.",
+      "whyIsThisEntityRelevantToTheArticle": "Her firsthand account underscores the humanitarian and emotional toll of the conflict on international actors and diplomatic personnel."
+    },
+    {
+      "name": "Oleh Synehubov",
+      "whatIsThisEntity": "Head of military administration in Kharkiv.",
+      "whyIsThisEntityRelevantToTheArticle": "He confirmed civilian casualties and injuries in Kharkiv, providing official details about the impact of Russian attacks in that region."
+    },
+    {
+      "name": "Vitali Klitschko",
+      "whatIsThisEntity": "Mayor of Kyiv, who reported on drone strikes causing fires in high-rises.",
+      "whyIsThisEntityRelevantToTheArticle": "Klitschko provided on-the-ground reports about fires and civilian responses in Kyiv, reinforcing the human cost of attacks in urban areas."
+    },
+    {
+      "name": "Mykola Kalashnyk",
+      "whatIsThisEntity": "Head of Kyiv regional military administration, who confirmed deaths in Brovary.",
+      "whyIsThisEntityRelevantToTheArticle": "He confirmed civilian fatalities and rescue efforts, providing detailed casualty reports from the Brovary district."
+    }
+  ],
+  "summaryOfNewsArticle": "Russia launched a large-scale air attack on Ukraine on Wednesday, October 22, 2025, using drones, missiles, and fighter jets, targeting major cities including Kyiv and Kharkiv. The attacks killed at least six people and injured 17, with multiple civilian homes catching fire, including a 16-story building in Kyiv and a kindergarten in Kharkiv. Ukraine’s state-owned energy operator Ukrenergo and private firm DTEK reported widespread damage to energy infrastructure, leading to emergency power cuts. In response, Ukraine launched British-made Storm Shadow missiles at Russia’s Bryansk Chemical Plant, which produces explosives. Meanwhile, US President Donald Trump canceled plans for a summit with Russian President Vladimir Putin, calling it a potential 'waste of time,' and denied Ukraine access to Tomahawk missiles. Ukrainian President Volodymyr Zelensky condemned the attacks, emphasized the suffering of civilians, and urged the EU and US to increase international pressure on Russia, highlighting the ongoing escalation and humanitarian crisis in Ukraine.",
+  "tags": [
+    "Russia-Ukraine war",
+    "air attacks",
+    "power outages",
+    "Storm Shadow missiles",
+    "civilian casualties",
+    "US-Russia summit",
+    "Ukrainian defense",
+    "international response",
+    "military escalation",
+    "humanitarian crisis"
+  ],
+  "timeOfPublication": "05:34:00-04:00",
+  "title": "Deadly Russian air attacks force power cuts across Ukraine, as Trump-Putin summit shelved"
+}

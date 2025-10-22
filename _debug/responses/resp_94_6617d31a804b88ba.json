@@ -1,0 +1,116 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-17",
+      "descriptionOfWhyDateIsRelevant": "The article was published on October 17, 2025, providing up-to-date analysis on rising electricity costs linked to AI growth, which is critical for understanding current trends in energy demand."
+    },
+    {
+      "dateMentionedInArticle": "2023-12-20",
+      "descriptionOfWhyDateIsRelevant": "A December 2024 report from the Department of Energy shows projected data center electricity consumption growth, indicating that trends are being observed and analyzed in real time."
+    },
+    {
+      "dateMentionedInArticle": "2024-06-30",
+      "descriptionOfWhyDateIsRelevant": "Meta and Microsoft reported capital expenditures for data centers in the quarter ending June 2024, highlighting a key moment in AI infrastructure investment."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2028",
+      "approximateTimeFrameStart": "2023",
+      "descriptionOfWhyTimeFrameIsRelevant": "Data center electricity consumption is projected to rise from 4.4% in 2023 to between 6.7% and 12% in 2028, showing a significant and sustained increase in energy demand due to AI growth."
+    }
+  ],
+  "keyTakeAways": [
+    "Electricity bills are rising due to increased demand from AI-powered data centers, which are consuming a growing share of national electricity (projected to reach 6.7%–12% of U.S. usage by 2028).",
+    "Major tech companies like Meta and Microsoft are investing heavily in data centers—Meta spent $17 billion and Microsoft $24.2 billion in the June 2024 quarter—driving up energy consumption and costs.",
+    "The AI boom is creating an 'explosion in demand' for computing power, with AI tools now capable of complex tasks like video generation and code writing, requiring more energy than earlier applications.",
+    "The power grid is not equipped to handle this surge, leading to infrastructure strain, especially in regions with high data center density, resulting in higher consumer electricity prices.",
+    "Some states like Oregon have introduced policies requiring data centers to pay for grid strain, preventing costs from being passed to residential consumers.",
+    "Existing pricing models do not account for AI-related electricity demand, leading to consumer confusion and perceived price spikes.",
+    "While the U.S. Energy Information Administration notes a 13% average electricity price increase since 2022, AI-driven demand is a key contributing factor in recent and accelerating trends."
+  ],
+  "namedEntities": [
+    {
+      "name": "Lindsey Martin",
+      "whatIsThisEntity": "A Kentucky-based registered nurse who reported a significant increase in her electricity bill to $372 in August 2025, highlighting consumer-level concerns about rising utility costs.",
+      "whyIsThisEntityRelevantToTheArticle": "Her personal experience with a dramatic spike in electricity costs illustrates a real-world consumer impact of increased energy demand, particularly tied to AI infrastructure growth."
+    },
+    {
+      "name": "US Energy Information Administration (EIA)",
+      "whatIsThisEntity": "A federal agency that tracks and reports on electricity prices and usage trends in the United States.",
+      "whyIsThisEntityRelevantToTheArticle": "Provides authoritative data showing a 13% increase in average electricity prices since 2022, linking broader energy trends to consumer bills."
+    },
+    {
+      "name": "OpenAI",
+      "whatIsThisEntity": "An AI research company that has entered into a partnership with Broadcom to design and develop 10 gigawatts of custom AI chips.",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights a major technological and infrastructural investment in AI computing, which directly contributes to increased electricity demand and costs."
+    },
+    {
+      "name": "Broadcom",
+      "whatIsThisEntity": "A technology company that partnered with OpenAI to develop 10 gigawatts of custom AI chips, enough to power a major city.",
+      "whyIsThisEntityRelevantToTheArticle": "Demonstrates large-scale technological investments in AI hardware, indicating a surge in energy consumption tied to AI development and deployment."
+    },
+    {
+      "name": "Meta",
+      "whatIsThisEntity": "A tech company that spent $17 billion on capital expenditures (data centers and infrastructure) in the quarter ending June 2024.",
+      "whyIsThisEntityRelevantToTheArticle": "Illustrates a major financial commitment to AI infrastructure, contributing directly to increased electricity demand and regional cost increases."
+    },
+    {
+      "name": "Microsoft",
+      "whatIsThisEntity": "A tech company that spent $24.2 billion on data center infrastructure in the same quarter, reflecting massive investment in AI-related computing.",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights another key player in AI-driven data center expansion, directly linked to rising energy consumption and electricity costs."
+    },
+    {
+      "name": "Department of Energy (DOE)",
+      "whatIsThisEntity": "A U.S. federal department that issued a 2024 report predicting data center electricity use will grow from 4.4% to 6.7%–12% of national usage by 2028.",
+      "whyIsThisEntityRelevantToTheArticle": "Provides official projections showing the long-term trajectory of AI-related electricity consumption and its impact on national energy systems."
+    },
+    {
+      "name": "Bank of America Institute",
+      "whatIsThisEntity": "A financial research entity that reported data center construction spending reached $40 billion in June 2024.",
+      "whyIsThisEntityRelevantToTheArticle": "Offers data on rapid spending in data center construction, indicating a surge in physical infrastructure that increases local electricity demand."
+    },
+    {
+      "name": "Bob Johnson",
+      "whatIsThisEntity": "An analyst at Gartner who follows the semiconductor industry and noted the 'explosion in demand' from AI.",
+      "whyIsThisEntityRelevantToTheArticle": "Provides expert insight into how AI-driven computing is outpacing grid capacity and infrastructure readiness."
+    },
+    {
+      "name": "Rich Powell",
+      "whatIsThisEntity": "CEO of the Clean Energy Buyers Association, who states that AI growth is contributing to increased electricity demand and the need for new generation and transmission investments.",
+      "whyIsThisEntityRelevantToTheArticle": "Highlights industry-level consensus that AI is causing a significant and sustained increase in energy demand, requiring systemic infrastructure upgrades."
+    },
+    {
+      "name": "Ram Rajagopal",
+      "whatIsThisEntity": "Senior fellow at Stanford University’s Precourt Institute for Energy, who says past data center investments were insufficient to affect prices now.",
+      "whyIsThisEntityRelevantToTheArticle": "Explains that current AI demand is unprecedented and not anticipated in previous infrastructure planning."
+    },
+    {
+      "name": "Shaolei Ren",
+      "whatIsThisEntity": "Associate professor of electrical and computer engineering at UC Riverside, who describes AI as 'computationally intensive'.",
+      "whyIsThisEntityRelevantToTheArticle": "Provides technical context for why AI tools consume more power than earlier applications."
+    },
+    {
+      "name": "Oregon",
+      "whatIsThisEntity": "A U.S. state that passed a law requiring data centers to pay for the strain they place on the electrical grid.",
+      "whyIsThisEntityRelevantToTheArticle": "Serves as a policy example of how jurisdictions may attempt to prevent residential electricity cost inflation due to AI infrastructure."
+    }
+  ],
+  "summaryOfNewsArticle": "Rising electricity bills across the U.S., exemplified by a Kentucky nurse's $372 bill in August 2025, are being linked to the AI boom. As major tech companies like Meta and Microsoft invest billions in data centers—Meta at $17 billion and Microsoft at $24.2 billion—the demand for computing power has exploded. This surge is driving up national electricity consumption, with data centers projected to use 6.7% to 12% of U.S. electricity by 2028. Experts from the Department of Energy, Gartner, and Stanford say the power grid is unprepared for this scale of demand, leading to infrastructure strain and higher consumer prices. While some states like Oregon have introduced policies to require data centers to pay for grid strain, current pricing models do not account for AI-related demand, leaving homeowners to bear the financial burden. The article underscores a growing concern: AI-driven technological growth is not just a digital shift—it is a major force reshaping energy consumption and household budgets.",
+  "tags": [
+    "AI",
+    "electricity bills",
+    "data centers",
+    "energy demand",
+    "tech investment",
+    "power grid",
+    "electricity cost",
+    "climate resilience",
+    "semiconductor industry",
+    "consumer prices"
+  ],
+  "timeOfPublication": "06:30:00-04:00",
+  "title": "Is AI really making electricity bills higher? Here’s what the experts say"
+}

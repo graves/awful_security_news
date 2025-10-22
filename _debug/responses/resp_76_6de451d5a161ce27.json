@@ -1,0 +1,74 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the AWS outage, which occurred on Monday, October 20, 2025, marks a recent instance of widespread internet disruption, highlighting growing concerns about the fragility of cloud infrastructure."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "06:35 ET",
+      "approximateTimeFrameStart": "9:00 AM ET",
+      "descriptionOfWhyTimeFrameIsRelevant": "The outage began around 9:00 AM EDT and was resolved by 6:35 AM ET, indicating a duration of several hours and showing how quickly critical services can become unavailable and recover."
+    }
+  ],
+  "keyTakeAways": [
+    "Amazon Web Services (AWS) experienced a significant global outage on October 20, 2025, affecting numerous online services including banking, social media, airline booking, and e-commerce platforms.",
+    "The root cause was identified as a failure in the Domain Name System (DNS), which prevented users from accessing data stored in AWS's DynamoDB and other services.",
+    "The outage demonstrates the internet's fragility due to overreliance on a few major cloud providers, such as AWS, with limited redundancy or alternative infrastructure.",
+    "Although AWS is generally robust, such outages underscore a critical design flaw: the internet was originally decentralized but now heavily centralized in cloud computing regions.",
+    "Experts note that the impact of a single failure is amplified due to the interconnectedness of services hosted on AWS, leading to widespread disruption across the digital ecosystem.",
+    "The event is part of a broader pattern of large-scale IT outages, including the 2024 CrowdStrike software glitch and previous AT&T network failures, highlighting systemic vulnerabilities in digital infrastructure."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A cloud computing platform that hosts and supports many of the world’s major online services.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS went down for several hours, disrupting services like banking, social media, and e-commerce, showing how dependent modern digital systems are on a few key providers."
+    },
+    {
+      "name": "Domain Name System (DNS)",
+      "whatIsThisEntity": "A system that converts user-friendly web addresses (like amazon.com) into IP addresses for computers to access.",
+      "whyIsThisEntityRelevantToTheArticle": "The DNS malfunctioned during the AWS outage, preventing access to critical data stored in AWS databases, illustrating a key technical failure point in internet operations."
+    },
+    {
+      "name": "DynamoDB",
+      "whatIsThisEntity": "A database service offered by AWS that stores customer and application data for various companies.",
+      "whyIsThisEntityRelevantToTheArticle": "Customers could not access data stored in DynamoDB due to the DNS failure, demonstrating how a single component failure can disconnect apps from essential data."
+    },
+    {
+      "name": "CrowdStrike",
+      "whatIsThisEntity": "A software company that provides cybersecurity and IT management solutions.",
+      "whyIsThisEntityRelevantToTheArticle": "A 2024 CrowdStrike software glitch caused a global IT outage, showing similar patterns of large-scale disruption due to software bugs in cloud-based systems."
+    },
+    {
+      "name": "AT&T",
+      "whatIsThisEntity": "A major telecommunications company providing network services.",
+      "whyIsThisEntityRelevantToTheArticle": "AT&T experienced network outages in the past, including an 11-hour meltdown, highlighting recurring issues with telecom infrastructure in supporting digital services."
+    },
+    {
+      "name": "Rob Jardin",
+      "whatIsThisEntity": "Chief digital officer at cybersecurity firm NymVPN.",
+      "whyIsThisEntityRelevantToTheArticle": "He commented on the lack of redundancy in internet infrastructure and the impact of AWS centralization, offering expert analysis on the outage's significance."
+    },
+    {
+      "name": "Mike Chapple",
+      "whatIsThisEntity": "Cybersecurity expert and IT professor at the University of Notre Dame.",
+      "whyIsThisEntityRelevantToTheArticle": "He provided context on why such outages attract attention due to their widespread impact and emphasized the fragility of systems reliant on a few cloud providers."
+    }
+  ],
+  "summaryOfNewsArticle": "Amazon Web Services (AWS) suffered a major global outage on October 20, 2025, disrupting millions of users worldwide by making banking, social media, and e-commerce services inoperable. The outage originated in the Domain Name System (DNS), which failed to route traffic to AWS’s databases, including DynamoDB, causing apps to lose access to critical data. Although the issue lasted only a few hours and was resolved by 6:35 AM ET, the event highlights a critical vulnerability in the internet’s architecture: its overreliance on centralized cloud providers like AWS. Experts note that the lack of redundancy and competitive alternatives means that a single point of failure in one major cloud region can have cascading, widespread effects. This incident echoes past major outages, such as the 2024 CrowdStrike software bug and previous AT&T network failures, underscoring systemic risks in modern digital infrastructure.",
+  "tags": [
+    "cloud computing",
+    "internet outage",
+    "AWS",
+    "DNS failure",
+    "digital infrastructure",
+    "cybersecurity",
+    "technology fragility"
+  ],
+  "timeOfPublication": "09:28:00-04:00",
+  "title": "The internet just had another global outage. Why does this keep happening?"
+}

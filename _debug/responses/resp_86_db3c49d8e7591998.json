@@ -1,0 +1,83 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-20",
+      "descriptionOfWhyDateIsRelevant": "The date of the AWS outage reported in the article, highlighting a recent global internet disruption."
+    },
+    {
+      "dateMentionedInArticle": "2021-06-06",
+      "descriptionOfWhyDateIsRelevant": "The last major AWS outage before the 2025 event, showing a historical pattern of service disruptions."
+    },
+    {
+      "dateMentionedInArticle": "2024-07-17",
+      "descriptionOfWhyDateIsRelevant": "The date of the largest-ever IT outage due to a CrowdStrike software glitch, providing context for the frequency and scale of critical infrastructure failures."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "06:35 AM ET",
+      "approximateTimeFrameStart": "9:00 AM ET (monday, 2025-10-20)",
+      "descriptionOfWhyTimeFrameIsRelevant": "The duration of the AWS outage, during which millions of users experienced service disruptions, particularly on the US East Coast."
+    }
+  ],
+  "keyTakeAways": [
+    "The internet's reliance on centralized cloud computing platforms like AWS makes it vulnerable to outages, even if brief.",
+    "A DNS failure in Amazon’s system prevented access to critical data in DynamoDB, temporarily disconnecting apps from their data.",
+    "The incident underscores a lack of redundancy and diversification in cloud infrastructure, with many companies relying on a single provider.",
+    "Past outages, such as the 2024 CrowdStrike bug and AT&T’s 11-hour network meltdown, demonstrate recurring risks in digital infrastructure.",
+    "Experts say the internet was designed to be decentralized but is now overly concentrated in a few cloud regions, increasing systemic risk.",
+    "The root cause of the outage remains unknown, though it appears to be a technical fault in AWS’s DNS system, not a cyberattack."
+  ],
+  "namedEntities": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "whatIsThisEntity": "A cloud computing platform that hosts critical online services such as banking, social media, e-commerce, and airline booking systems.",
+      "whyIsThisEntityRelevantToTheArticle": "AWS is central to the functioning of the modern internet, and its outage caused widespread disruptions across global services, illustrating the fragility of digital infrastructure."
+    },
+    {
+      "name": "Domain Name System (DNS)",
+      "whatIsThisEntity": "A system that translates human-readable web addresses (like amazon.com) into IP addresses that computers can understand.",
+      "whyIsThisEntityRelevantToTheArticle": "The DNS failure caused a critical breakdown in service access, preventing users from reaching apps and databases hosted by AWS, even though data was intact."
+    },
+    {
+      "name": "DynamoDB",
+      "whatIsThisEntity": "A database service offered by AWS that stores customer data and other critical information used by various companies.",
+      "whyIsThisEntityRelevantToTheArticle": "The inability to access DynamoDB data was a key symptom of the outage, showing how a single component failure can impact business operations globally."
+    },
+    {
+      "name": "CrowdStrike",
+      "whatIsThisEntity": "A cybersecurity company whose software update in 2024 caused a global IT outage.",
+      "whyIsThisEntityRelevantToTheArticle": "It serves as a historical example of how a software bug in a cloud-based service can have cascading effects across global systems, reinforcing concerns about system fragility."
+    },
+    {
+      "name": "AT&T",
+      "whatIsThisEntity": "A major telecommunications provider that experienced multiple network outages, including an 11-hour meltdown.",
+      "whyIsThisEntityRelevantToTheArticle": "AT&T's past outages illustrate how critical infrastructure failures in telecom can disrupt economic activities, including gig work and remote services."
+    },
+    {
+      "name": "Rob Jardin",
+      "whatIsThisEntity": "Chief digital officer at NymVPN, a cybersecurity firm.",
+      "whyIsThisEntityRelevantToTheArticle": "He provided expert commentary on the nature of the AWS outage, stating it was likely a technical fault and not a cyberattack, reinforcing the technical origin of the incident."
+    },
+    {
+      "name": "Mike Chapple",
+      "whatIsThisEntity": "Cybersecurity expert and IT professor at the University of Notre Dame.",
+      "whyIsThisEntityRelevantToTheArticle": "He commented on the disproportionate attention given to outages due to their widespread impact, emphasizing the centralization of internet services."
+    }
+  ],
+  "summaryOfNewsArticle": "Amazon Web Services (AWS) experienced a significant global outage on Monday, October 20, 2025, during which thousands of websites and apps — including banking services, social media platforms, and airline booking systems — became inaccessible for several hours. The root cause was a failure in the Domain Name System (DNS), which prevented users from reaching data stored in AWS’s DynamoDB service, even though the data itself remained intact. The outage highlights the fragility of the internet’s infrastructure, particularly due to the overreliance on a single cloud provider. Experts note that while AWS has a strong track record, the concentration of critical services in few cloud regions makes the system vulnerable to cascading failures. Previous major outages, such as the 2024 CrowdStrike bug and AT&T’s network collapse, demonstrate a recurring pattern of systemic risk in digital systems. The incident underscores a need for greater redundancy, diversification, and decentralization in internet architecture to prevent widespread disruption.",
+  "tags": [
+    "cloud computing",
+    "AWS outage",
+    "internet infrastructure",
+    "DNS failure",
+    "digital resilience",
+    "cybersecurity",
+    "systemic risk",
+    "global outage"
+  ],
+  "timeOfPublication": "09:28:00-04:00",
+  "title": "The internet just had another global outage. Why does this keep happening?"
+}

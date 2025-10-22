@@ -1,0 +1,124 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-22",
+      "descriptionOfWhyDateIsRelevant": "The date of the article's publication indicates the current state of policy implementation and public concern regarding the enforcement of work requirements in Medicaid programs."
+    },
+    {
+      "dateMentionedInArticle": "2028-12-31",
+      "descriptionOfWhyDateIsRelevant": "The deadline for states to implement work rules under the Trump administration’s tax and spending law, with extensions possible only via HHS Secretary Robert F. Kennedy Jr.'s approval, raises concerns about timely and equitable rollout."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2028",
+      "approximateTimeFrameStart": "2025",
+      "descriptionOfWhyTimeFrameIsRelevant": "States have until the end of 2028 to begin enforcing new work requirements for Medicaid enrollees, creating urgency for implementation, especially given limited success in pilot programs."
+    }
+  ],
+  "keyTakeAways": [
+    "The Trump administration's proposed work rules for Medicaid enrollees — requiring at least 80 hours per month of work, study, job training, or volunteering — may disqualify millions, with the Congressional Budget Office projecting 10 million fewer Americans covered by 2034, mostly due to these rules.",
+    "Pilot programs in Louisiana and Arizona have shown minimal success: only 7% of Louisiana’s 13,000 texted enrollees completed income verification, and Arizona's pilot verified eligibility only for SNAP, not Medicaid.",
+    "The technology being tested does not use artificial intelligence to infer activity levels; it only verifies income via payroll provider connections, limiting its usefulness in confirming work, study, or volunteer hours.",
+    "State officials and researchers are skeptical of claims that the tools will help enrollees meet work rules, noting lack of data, poor user awareness, limited internet access, and outdated eligibility systems.",
+    "A $200 million federal budget has been allocated to help states develop compliance systems, but this is roughly four times the cost of Georgia’s existing Medicaid work requirement program, which has struggled with enrollment and oversight.",
+    "Private vendors and nonprofit groups like Digital Public Works are developing tools, but none offer a comprehensive solution that guarantees access for all eligible individuals, especially in rural or underserved areas.",
+    "Enrollees may not know about the apps or how to use them, and many lack reliable internet or cell service, raising concerns that eligible people could lose Medicaid coverage."
+  ],
+  "namedEntities": [
+    {
+      "name": "Louisiana",
+      "whatIsThisEntity": "A U.S. state that conducted a Medicaid pilot program to test income verification via text messages and a website",
+      "whyIsThisEntityRelevantToTheArticle": "Louisiana's pilot program demonstrated low participation (only 7% of enrollees completed income verification), highlighting the technology's limited effectiveness in helping Medicaid enrollees meet work requirements."
+    },
+    {
+      "name": "Arizona",
+      "whatIsThisEntity": "A U.S. state that ran a Medicaid pilot program focused on verifying eligibility for the Supplemental Nutrition Assistance Program (SNAP), not Medicaid",
+      "whyIsThisEntityRelevantToTheArticle": "Arizona’s pilot was limited in scope and did not verify work activities or community service, underscoring the lack of comprehensive solutions for Medicaid work rules."
+    },
+    {
+      "name": "Mehmet Oz",
+      "whatIsThisEntity": "Director of the Centers for Medicare & Medicaid Services (CMS)",
+      "whyIsThisEntityRelevantToTheArticle": "Oz promoted the use of technology to verify income in under seven minutes, but this claim lacks empirical support and is questioned by researchers due to limited pilot outcomes."
+    },
+    {
+      "name": "Brian Blase",
+      "whatIsThisEntity": "President of the conservative Paragon Health Institute and key architect of Medicaid work rule changes",
+      "whyIsThisEntityRelevantToTheArticle": "Blase advocated for AI-based tools to track time spent on work, study, or volunteering, yet there is no evidence these tools are operational or effective in practice."
+    },
+    {
+      "name": "Digital Public Works",
+      "whatIsThisEntity": "A nonprofit founded by former U.S. Digital Service staff, including Michael Burstein, to develop technology for Medicaid income verification",
+      "whyIsThisEntityRelevantToTheArticle": "The nonprofit is working on a mobile-first tool to verify income but has not shared details, and its tool does not verify non-income activities like volunteering or study."
+    },
+    {
+      "name": "Michael Burstein",
+      "whatIsThisEntity": "Software engineer who worked at the U.S. Digital Service and now leads Digital Public Works",
+      "whyIsThisEntityRelevantToTheArticle": "Burstein is a key figure in developing the technology aimed at verifying Medicaid income, though the tool lacks functionality for proving work, study, or volunteer activities."
+    },
+    {
+      "name": "Congressional Budget Office (CBO)",
+      "whatIsThisEntity": "A nonpartisan federal agency that analyzes the fiscal impacts of legislation",
+      "whyIsThisEntityRelevantToTheArticle": "The CBO estimates that work rules in Medicaid will result in 10 million fewer Americans having access to health insurance by 2034, making the policy a major public health concern."
+    },
+    {
+      "name": "U.S. Department of Health and Human Services (HHS)",
+      "whatIsThisEntity": "Federal agency overseeing Medicaid and CMS",
+      "whyIsThisEntityRelevantToTheArticle": "HHS is funding and overseeing the development of technology for work rule enforcement, though it has not provided clear, working tools or sufficient support to states."
+    },
+    {
+      "name": "Georgia",
+      "whatIsThisEntity": "A U.S. state with the nation’s only active Medicaid work requirement program (Georgia Pathways to Coverage)",
+      "whyIsThisEntityRelevantToTheArticle": "Georgia’s program has faced enrollment challenges and a federal oversight report, illustrating that even existing work requirements are difficult to implement effectively."
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "whatIsThisEntity": "Secretary of HHS",
+      "whyIsThisEntityRelevantToTheArticle": "He has authority to approve county-level exemptions from work rules for states with high unemployment, adding complexity to implementation and equity."
+    },
+    {
+      "name": "Community Food Bank of Southern Arizona",
+      "whatIsThisEntity": "A nonprofit helping people enroll in SNAP benefits",
+      "whyIsThisEntityRelevantToTheArticle": "The organization was unaware of Arizona’s Medicaid pilot, showing a lack of public awareness and outreach that could prevent enrollees from accessing the new systems."
+    },
+    {
+      "name": "Jennifer Wagner",
+      "whatIsThisEntity": "Policy researcher at the Center on Budget and Policy Priorities",
+      "whyIsThisEntityRelevantToTheArticle": "She highlights that no private vendor or pilot has offered a complete solution, indicating systemic gaps in technology and outreach."
+    },
+    {
+      "name": "KFF Health News",
+      "whatIsThisEntity": "A health policy news organization",
+      "whyIsThisEntityRelevantToTheArticle": "KFF Health News conducted investigative reporting on the effectiveness of the pilots and the lack of transparency in technology development."
+    },
+    {
+      "name": "Centers for Medicare & Medicaid Services (CMS)",
+      "whatIsThisEntity": "Federal agency responsible for managing Medicare and Medicaid programs",
+      "whyIsThisEntityRelevantToTheArticle": "CMS is promoting technology for income verification, but its tools are limited in scope and effectiveness, and state-level implementation remains weak."
+    },
+    {
+      "name": "Supplemental Nutrition Assistance Program (SNAP)",
+      "whatIsThisEntity": "A federal nutrition assistance program",
+      "whyIsThisEntityRelevantToTheArticle": "Arizona’s pilot tested only SNAP eligibility, not Medicaid, showing the technology’s limited scope and failure to address broader work rule requirements."
+    }
+  ],
+  "summaryOfNewsArticle": "The Trump administration’s proposed work requirements for Medicaid enrollees — mandating 80 hours per month of work, study, or volunteering — are facing widespread skepticism due to ineffective pilot programs in Louisiana and Arizona. In Louisiana, only 7% of texted enrollees completed income verification, and Arizona’s pilot verified eligibility only for SNAP, not Medicaid. The technology being tested relies on payroll provider connections to verify income, not on AI to track work, study, or volunteer hours. Experts and state officials warn that without better tools, public awareness, and reliable access to technology, millions of eligible individuals—especially in rural or low-income areas—risk losing Medicaid coverage. The federal government has allocated $200 million for state implementation, but the tools are still under development, and no solution has been proven to work across diverse populations. The Congressional Budget Office estimates that these rules will result in 10 million fewer Americans having health coverage by 2034, making this a major public health and equity issue.",
+  "tags": [
+    "Medicaid",
+    "work requirements",
+    "policy implementation",
+    "technology failure",
+    "health equity",
+    "public policy",
+    "pilot programs",
+    "federal-state relations",
+    "digital health tools",
+    "rural access",
+    "healthcare access"
+  ]
+  ,
+  "timeOfPublication": "07:00:00-04:00",
+  "title": "Officials show little proof that new tech will help Medicaid enrollees meet work rules"
+}

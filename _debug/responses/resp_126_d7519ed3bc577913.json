@@ -1,0 +1,135 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-20",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-01",
+      "descriptionOfWhyDateIsRelevant": "The government shutdown began on October 1, 2025, leading to federal scientists being unpaid and preventing CDC researchers from attending the IDWeek conference, which is a major gathering for infectious disease experts."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-10-20",
+      "approximateTimeFrameStart": "2025-10-01",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period from October 1 to October 20, 2025, is critical because it covers the duration of the government shutdown that directly impacted CDC scientists' ability to attend and participate in the IDWeek conference."
+    }
+  ],
+  "keyTakeAways": [
+    "The CDC has been forced to skip a pivotal infectious disease conference (IDWeek) due to the government shutdown, which began on October 1, 2025.",
+    "Only about 10 of the hundreds of speakers at IDWeek were identified as CDC scientists, and none of them attended due to lack of funding and pay during the shutdown.",
+    "The shutdown has caused federal scientists to be unpaid, resulting in postponements of conference appearances unless funded independently.",
+    "The CDC has already lost a quarter of its workforce through layoffs, buyouts, and resignations, with the Trump administration attempting to lay off hundreds more.",
+    "Infectious disease threats, such as measles and whooping cough surges, have increased in the U.S., making expert collaboration and timely information sharing critical.",
+    "The HHS and CDC have faced criticism for restricting scientific dissemination, with CDC researchers like Dr. Anna Yousaf unable to share findings despite being invited to present.",
+    "In response, infectious disease researchers like Michael Osterholm are launching open-access publications (e.g., Public Health Alerts) and forming collaborations with foundations to maintain disease research and public health reporting.",
+    "The IDWeek conference, hosted in Atlanta at the CDC’s location, was originally selected as a key venue for public health experts to exchange information on threats like bird flu, superbugs, and HIV.",
+    "The CDC’s absence from IDWeek highlights a broader crisis in public health infrastructure and communication due to political and budgetary constraints."
+  ],
+  "namedEntities": [
+    {
+      "name": "CDC",
+      "whatIsThisEntity": "Centers for Disease Control and Prevention",
+      "whyIsThisEntityRelevantToTheArticle": "The CDC is the central public health agency in the U.S. responsible for monitoring, diagnosing, and responding to infectious diseases. Its absence from key conferences undermines national efforts to combat rising disease threats."
+    },
+    {
+      "name": "IDWeek",
+      "whatIsThisEntity": "Infectious Disease Society of America's annual conference",
+      "whyIsThisEntityRelevantToTheArticle": "IDWeek is the largest annual gathering of infectious disease experts in the U.S., serving as a critical platform for sharing research, diagnostic techniques, and preventive strategies during disease outbreaks."
+    },
+    {
+      "name": "Atlanta",
+      "whatIsThisEntity": "City in Georgia, USA",
+      "whyIsThisEntityRelevantToTheArticle": "Atlanta was selected as the host city for IDWeek due to its proximity to the CDC, which is headquartered there, making it a logical location for a major public health gathering."
+    },
+    {
+      "name": "Measles",
+      "whatIsThisEntity": "A contagious viral disease",
+      "whyIsThisEntityRelevantToTheArticle": "Measles has seen a surge in the U.S., highlighting the urgent need for public health expertise and timely sharing of data, which the CDC and IDWeek are meant to support."
+    },
+    {
+      "name": "Whooping Cough",
+      "whatIsThisEntity": "A bacterial respiratory infection",
+      "whyIsThisEntityRelevantToTheArticle": "Rising cases of whooping cough show that infectious disease threats are active and require ongoing scientific collaboration, which has been disrupted by government shutdowns and funding cuts."
+    },
+    {
+      "name": "Bird Flu",
+    "whatIsThisEntity": "Avian influenza (H5N1 variant)",
+      "whyIsThisEntityRelevantToTheArticle": "Bird flu is listed among the diseases discussed at IDWeek, indicating the global and evolving nature of infectious disease threats that experts must monitor and respond to."
+    },
+    {
+      "name": "Superbugs",
+      "whatIsThisEntity": "Drug-resistant bacteria",
+      "whyIsThisEntityRelevantToTheArticle": "Superbugs represent a growing public health threat, and their discussion at IDWeek underscores the need for scientific cooperation and timely information sharing."
+    },
+    {
+      "name": "HIV",
+      "whatIsThisEntity": "Human immunodeficiency virus",
+      "whyIsThisEntityRelevantToTheArticle": "HIV is one of the many infectious diseases discussed at IDWeek, reflecting the broad scope of public health challenges that require ongoing research and expert dialogue."
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "whatIsThisEntity": "U.S. Health Secretary",
+      "whyIsThisEntityRelevantToTheArticle": "Kennedy, a former antivaccine advocate, has advocated for the CDC to focus on infectious diseases, but his leadership has been associated with policies that have strained public health research and communication."
+    },
+    {
+      "name": "Michael Osterholm",
+      "whatIsThisEntity": "Infectious disease researcher at the University of Minnesota",
+      "whyIsThisEntityRelevantToTheArticle": "Osterholm is a leading public health scientist who is stepping up to fill CDC gaps by launching new open-access research platforms and forming private-sector research partnerships."
+    },
+    {
+      "name": "Dr. Yohei Doi",
+      "whatIsThisEntity": "Researcher at the University of Pittsburgh",
+      "whyIsThisEntityRelevantToTheArticle": "Doi helped organize IDWeek and highlighted how the CDC’s reduced participation was a result of administrative and funding cuts initiated after Trump’s inauguration."
+    },
+    {
+      "name": "Dr. Debra Houry",
+      "whatIsThisEntity": "Former CDC Chief Medical Officer",
+      "whyIsThisEntityRelevantToTheArticle": "Houry resigned in August 2025 to protest changes at the CDC, signaling growing internal dissent over the administration's direction and impact on public health research."
+    },
+    {
+      "name": "Dr. Anna Yousaf",
+      "whatIsThisEntity": "CDC infectious disease doctor",
+      "whyIsThisEntityRelevantToTheArticle": "Yousaf was invited to present research on long-term outcomes of children with post-COVID inflammatory conditions but was barred from attending due to the shutdown and lack of funding."
+    },
+    {
+      "name": "HHS",
+      "whatIsThisEntity": "Department of Health and Human Services",
+      "whyIsThisEntityRelevantToTheArticle": "HHS has restricted federal collaborations with medical organizations like IDSA and has stated it wants to ensure taxpayer funds are responsibly used, which has limited scientific dissemination."
+    },
+    {
+      "name": "Trump administration",
+      "whatIsThisEntity": "U.S. federal government administration led by Donald Trump",
+      "whyIsThisEntityRelevantToTheArticle": "The Trump administration is associated with the funding cuts, layoffs, and policy changes at the CDC that have significantly weakened public health research and communication during a time of rising disease threats."
+    },
+    {
+      "name": "Public Health Alerts",
+      "whatIsThisEntity": "New open-access publication launched by Michael Osterholm",
+      "whyIsThisEntityRelevantToTheArticle": "This publication was created to replace CDC’s Morbidity and Mortality Weekly Report, ensuring critical public health information continues to be shared even when CDC operations are disrupted."
+    },
+    {
+      "name": "Foundations",
+      "whatIsThisEntity": "Private organizations funding disease research",
+      "whyIsThisEntityRelevantToTheArticle": "A coalition of foundations is pooling resources to fund disease research, addressing the gap left by the government’s reduced funding and CDC's shrinking capacity."
+    }
+  ],
+  "summaryOfNewsArticle": "Due to a government shutdown that began on October 1, 2025, the Centers for Disease Control and Prevention (CDC) has been unable to send researchers to IDWeek, the largest annual meeting of infectious disease experts in the U.S. This includes a significant number of CDC scientists who were invited to present research on diseases like measles, whooping cough, bird flu, and superbugs. The shutdown has left federal scientists unpaid and unable to attend unless funded independently. The CDC has already lost a quarter of its workforce through layoffs and resignations, and the Trump administration is attempting to lay off hundreds more. Experts such as Michael Osterholm and Dr. Anna Yousaf have expressed concern that the shutdown is blocking vital scientific communication and public health action. In response, researchers are launching open-access publications like Public Health Alerts and forming private collaborations with foundations to maintain disease research and reporting. This crisis highlights a critical breakdown in public health infrastructure and communication during a time of rising infectious disease threats.",
+  "tags": [
+    "government shutdown",
+    "CDC",
+    "public health",
+    "infectious diseases",
+    "measles",
+    "whooping cough",
+    "bird flu",
+    "superbugs",
+    "IDWeek",
+    "research funding",
+    "scientific communication",
+    "HHS",
+    "Trump administration",
+    "public health crisis",
+    "research collaboration"
+  ],
+  "timeOfPublication": "19:42:42Z",
+  "title": "CDC Researchers Skip IDWeek Conference Amid Government Shutdown"
+}

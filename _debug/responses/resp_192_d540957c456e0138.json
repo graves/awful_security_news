@@ -1,0 +1,126 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-17",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "In 2023, there were over 110,000 drug-related deaths in the US, marking the peak of the fentanyl overdose epidemic."
+    },
+    {
+      "dateMentionedInArticle": "2024-01-01",
+      "descriptionOfWhyDateIsRelevant": "In 2024, fatal overdose deaths in the US fell by about 25%, saving nearly 30,000 lives, with North Carolina reporting a 35% drop in overdose fatalities."
+    },
+    {
+      "dateMentionedInArticle": "2025-01-01",
+      "descriptionOfWhyDateIsRelevant": "In 2025, North Carolina saw continued growth in enrollment in medication-assisted treatment programs, indicating ongoing progress in harm reduction and recovery efforts."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2023",
+      "approximateTimeFrameStart": "2019",
+      "descriptionOfWhyTimeFrameIsRelevant": "The fentanyl epidemic began in the early 2000s, with a surge in deaths linked to prescription opioids and synthetic opioids, culminating in over 110,000 deaths in 2023."
+    },
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2024",
+      "descriptionOfWhyTimeFrameIsRelevant": "Between 2024 and 2025, the US has seen a significant decline in fentanyl-related deaths, attributed to expanded harm reduction strategies, increased treatment access, and public policy shifts."
+    }
+  ],
+  "keyTakeAways": [
+    "Fentanyl is 50 times more potent than heroin and is frequently present in illicit drugs without users' knowledge, leading to high risk of fatal overdose.",
+    "North Carolina has seen a 35% drop in overdose fatalities, with key strategies including law enforcement assisted diversion (LEAD) and medication-assisted treatment (MAT).",
+    "Methadone and buprenorphine are effective in reducing cravings and withdrawal symptoms, and have been central to reducing overdose deaths nationwide.",
+    "More than 30,000 people in North Carolina enrolled in MAT programs in 2024, with rising numbers in 2025.",
+    "Naloxone, an overdose reversal drug, was administered over 16,000 times in North Carolina in 2024, potentially saving 16,000 lives.",
+    "Drug testing labs like Dr Nabarun Dasgupta’s have analyzed nearly 14,000 drug samples from 43 states, helping users detect fentanyl contamination.",
+    "A $60 billion national Opioid Settlement was reached in 2023, with North Carolina receiving $1.5 billion to fund prevention, treatment, recovery, and harm reduction.",
+    "Despite progress, disparities persist: black, indigenous, and non-white populations still face higher overdose rates and less access to treatment.",
+    "Opposition exists to harm reduction policies, such as methadone treatment, citing concerns about creating new addictions; however, medical evidence supports treatment as life-saving.",
+    "Younger generations (Gen Z) are showing reduced opioid use, possibly due to awareness of fentanyl's lethality and social change."
+  ],
+  "namedEntities": [
+    {
+      "name": "Kayla",
+      "whatIsThisEntity": "A former fentanyl user from North Carolina who recovered through harm reduction and treatment programs.",
+      "whyIsThisEntityRelevantToTheArticle": "Kayla's personal story illustrates the human impact of the fentanyl epidemic and the effectiveness of harm reduction and recovery programs in saving lives."
+    },
+    {
+      "name": "North Carolina",
+      "whatIsThisEntity": "A U.S. state leading the national effort in reducing fentanyl-related deaths through harm reduction and treatment policies.",
+      "whyIsThisEntityRelevantToTheArticle": "North Carolina is at the forefront of reducing overdose fatalities by 35%, driven by LEAD programs and expanded MAT access."
+    },
+    {
+      "name": "Fentanyl",
+      "whatIsThisEntity": "A synthetic opioid 50 times more potent than heroin, commonly found in illicit drugs without users' knowledge.",
+      "whyIsThisEntityRelevantToTheArticle": "Fentanyl is the primary driver of the U.S. drug death epidemic and the focus of public health interventions aimed at reducing overdoses."
+    },
+    {
+      "name": "Law Enforcement Assisted Diversion (LEAD)",
+      "whatIsThisEntity": "A program in Fayetteville, North Carolina, that diverts substance users from criminal charges to recovery support services.",
+      "whyIsThisEntityRelevantToTheArticle": "LEAD connects law enforcement with harm reduction and recovery support, reducing crime and improving long-term outcomes for individuals with substance use disorders."
+    },
+    {
+      "name": "Morse Clinics",
+      "whatIsThisEntity": "A network of addiction treatment clinics in Raleigh, North Carolina, offering medication-assisted treatment (MAT).",
+      "whyIsThisEntityRelevantToTheArticle": "The Morse Clinics are central to North Carolina’s MAT expansion and have played a key role in reducing overdose deaths."
+    },
+    {
+      "name": "Dr Eric Morse",
+      "whatIsThisEntity": "An addiction psychiatrist and operator of nine MAT clinics in North Carolina.",
+      "whyIsThisEntityRelevantToTheArticle": "Dr Morse provides clinical insight into the effectiveness of MAT, emphasizing reduced overdose risk and improved patient outcomes."
+    },
+    {
+      "name": "Dr Nabarun Dasgupta",
+      "whatIsThisEntity": "A scientist specializing in street drugs at the University of North Carolina.",
+      "whyIsThisEntityRelevantToTheArticle": "Dr Dasgupta runs a national drug testing laboratory that analyzes fentanyl contamination, helping users avoid fatal overdoses."
+    },
+    {
+      "name": "Josh Stein",
+      "whatIsThisEntity": "Former attorney general and current governor of North Carolina, who led legal action against opioid manufacturers.",
+      "whyIsThisEntityRelevantToTheArticle": "Governor Stein helped coordinate a $60 billion national Opioid Settlement, providing critical funding for treatment and prevention programs."
+    },
+    {
+      "name": "Mark Pless",
+      "whatIsThisEntity": "A Republican member of North Carolina’s state House of Representatives and former paramedic.",
+      "whyIsThisEntityRelevantToTheArticle": "Mark Pless opposes harm reduction and medication-assisted treatment, advocating instead for abstinence-based recovery models."
+    },
+    {
+      "name": "Opioid Settlement (2023)",
+      "whatIsThisEntity": "A $60 billion national settlement between U.S. states and opioid manufacturers, funding prevention, treatment, and harm reduction.",
+      "whyIsThisEntityRelevantToTheArticle": "The settlement provides vital funding to address the fentanyl epidemic, with North Carolina receiving $1.5 billion."
+    },
+    {
+      "name": "Naloxone",
+      "whatIsThisEntity": "A nasal spray that reverses opioid overdoses and is widely used in overdose emergencies.",
+      "whyIsThisEntityRelevantToTheArticle": "Naloxone has saved potentially thousands of lives in North Carolina, with over 16,000 administrations recorded in 2024."
+    },
+    {
+      "name": "United States",
+      "whatIsThisEntity": "The country experiencing a national opioid epidemic and a recent decline in drug-related deaths.",
+      "whyIsThisEntityRelevantToTheArticle": "The U.S. is seeing a significant shift in overdose mortality trends, influenced by public health policies and treatment access."
+    }
+  ],
+  "summaryOfNewsArticle": "The article chronicles the decline in fentanyl-related deaths in the United States, particularly in North Carolina, where a 35% drop in overdose fatalities has been achieved through a combination of harm reduction strategies, medication-assisted treatment (MAT), and law enforcement assisted diversion (LEAD) programs. Personal stories like Kayla’s highlight the human cost of the epidemic and the transformative role of recovery support. Key interventions include MAT with methadone and buprenorphine, widespread use of naloxone, and a $60 billion national Opioid Settlement that funds prevention and treatment. Despite progress, challenges remain, including disparities in outcomes among racial and ethnic groups, political opposition to harm reduction, and the threat of Medicaid cuts that could undermine access to care. The article underscores how science, public policy, and individual recovery are converging to shift the national narrative on drug use and addiction.",
+  "tags": [
+    "fentanyl",
+    "drug epidemic",
+    "harm reduction",
+    "medication-assisted treatment",
+    "North Carolina",
+    "overdose deaths",
+    "public health",
+    "opiate crisis",
+    "Opioid Settlement",
+    "LEAD program",
+    "naloxone",
+    "addiction recovery",
+    "Medicaid",
+    "Gen Z",
+    "treatment access"
+  ]
+  ,
+  "timeOfPublication": "23:42:24.234+00:00"
+  ,
+  "title": "Fentanyl: How the US is emerging from its drugs death epidemic"
+}

@@ -1,0 +1,92 @@
+{
+  "category": "Economy & Business",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "1021-10-21",
+      "descriptionOfWhyDateIsRelevant": "The incident occurred on October 21, 2025, during a flight from Omaha to Los Angeles, marking a real-time aviation safety concern with immediate public and regulatory implications."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "6:59 PM",
+      "approximateTimeFrameStart": "6:41 PM",
+      "descriptionOfWhyTimeFrameIsRelevant": "The flight took off at 6:41 p.m. local time and turned around within 18 minutes, indicating a rapid emergency response due to communication failure and external noise."
+    }
+  ],
+  "keyTakeAways": [
+    "An American Airlines flight operated by SkyWest Airlines (Flight 6469) made an emergency landing in Nebraska after pilots lost contact with flight attendants and heard banging on the cockpit door.",
+    "The flight originated from Omaha’s Eppley Airfield and was bound for Los Angeles, but turned back after only 18 minutes due to communication issues.",
+    "Passengers, including Henry Gruver and his family, were unaware of the situation until police boarded the aircraft after landing.",
+    "The Federal Aviation Administration (FAA) identified a problem with the inter-phone system and flight crew mic, which prevented communication between pilots and flight attendants.",
+    "SkyWest confirmed a malfunction with a 'flight crew mic' and apologized for the inconvenience.",
+    "The flight eventually took off again nearly five hours late, causing the Gruver family to miss their connection to Japan and wait overnight at the airport.",
+    "SkyWest and American Airlines have not contacted the affected passengers since the incident."
+  ],
+  "namedEntities": [
+    {
+      "name": "American Airlines",
+      "whatIsThisEntity": "A major U.S. airline that operates the flight in question.",
+      "whyIsThisEntityRelevantToTheArticle": "American Airlines is a key player in the aviation industry and its flight operations are subject to strict safety and communication standards, making this incident a significant event for public trust and regulatory scrutiny."
+    },
+    {
+      "name": "SkyWest Airlines",
+      "whatIsThisEntity": "A regional airline that operates the flight under American Airlines' brand.",
+      "whyIsThisEntityRelevantToTheArticle": "SkyWest Airlines is responsible for the operational execution of Flight 6469, and its acknowledgment of a technical fault in the flight crew mic highlights the importance of maintenance and communication systems in regional air travel."
+    },
+    {
+      "name": "Flight 6469",
+      "whatIsThisEntity": "The flight number of the aircraft that experienced the emergency landing.",
+      "whyIsThisEntityRelevantToTheArticle": "Flight 6469 serves as a specific case study in aviation safety, demonstrating how a communication failure can lead to immediate emergency procedures and passenger distress."
+    },
+    {
+      "name": "Embriar ERJ 175",
+      "whatIsThisEntity": "The regional jet model used for Flight 6469.",
+      "whyIsThisEntityRelevantToTheArticle": "The type of aircraft used in the incident is relevant because it is a smaller regional jet, where communication and safety systems are critical due to limited crew and passenger capacity."
+    },
+    {
+      "name": "Eppley Airfield",
+      "whatIsThisEntity": "The airport in Omaha where the flight originated.",
+      "whyIsThisEntityRelevantToTheArticle": "Eppley Airfield is the departure point of the flight, and the incident occurred shortly after takeoff, highlighting operational risks in regional air travel from smaller hubs."
+    },
+    {
+      "name": "Los Angeles",
+      "whatIsThisEntity": "The destination of the flight.",
+      "whyIsThisEntityRelevantToTheArticle": "Los Angeles is a major U.S. hub, and the disruption caused by the incident affected a long-haul international connection, underscoring the ripple effects of in-flight emergencies on global travel."
+    },
+    {
+      "name": "Henry Gruver",
+      "whatIsThisEntity": "A passenger on the flight who provided a personal account of the incident.",
+      "whyIsThisEntityRelevantToTheArticle": "Henry Gruver’s testimony adds a human element to the story, illustrating passenger fear and confusion during an emergency and the psychological impact of sudden unexplained events."
+    },
+    {
+      "name": "Federal Aviation Administration (FAA)",
+      "whatIsThisEntity": "The U.S. government agency that regulates aviation safety.",
+      "whyIsThisEntityRelevantToTheArticle": "The FAA’s official statement confirms the technical nature of the issue and ensures accountability in aviation safety protocols, reinforcing public trust in regulatory oversight."
+    },
+    {
+      "name": "Omaha",
+      "whatIsThisEntity": "A city in Nebraska where the incident began.",
+      "whyIsThisEntityRelevantToTheArticle": "Omaha is a mid-sized U.S. city, and the incident at a regional airport highlights potential vulnerabilities in smaller regional airfields during high-stress events."
+    },
+    {
+      "name": "Japan",
+      "whatIsThisEntity": "The international destination the Gruver family was traveling to.",
+      "whyIsThisEntityRelevantToTheArticle": "The family’s missed connection to Japan illustrates the global impact of aviation disruptions, affecting international travel plans and business operations."
+    }
+  ],
+  "summaryOfNewsArticle": "An American Airlines flight operated by SkyWest Airlines, Flight 6469, made an emergency landing in Nebraska after pilots lost contact with flight attendants and heard banging on the cockpit door. The flight, operating an Embraer ERJ 175 regional jet from Omaha’s Eppley Airfield to Los Angeles, turned around just 18 minutes after takeoff. The FAA and SkyWest later confirmed a malfunction with the flight crew intercom system, which prevented communication between the cockpit and cabin crew. Passengers, including Henry Gruver and his family, were unaware of the situation until police boarded the aircraft. The flight eventually took off five hours late, causing the family to miss their connection to Japan and wait overnight at the airport. SkyWest and American Airlines have not reached out to affected passengers since the incident.",
+  "tags": [
+    "aviation safety",
+    "flight emergency",
+    "communication failure",
+    "interphone system malfunction",
+    "regional airline",
+    "passenger experience",
+    "FAA oversight",
+    "airline operations",
+    "international travel disruption"
+  ],
+  "timeOfPublication": "10:38:00-05:00",
+  "title": "Plane Makes Emergency Landing After Pilots Lose Contact With Flight Attendants and Hear Banging on Cockpit Door"
+}

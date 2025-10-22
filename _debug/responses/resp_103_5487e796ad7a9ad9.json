@@ -1,0 +1,76 @@
+{
+  "category": "Science & Technology",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2018-01-01",
+      "descriptionOfWhyDateIsRelevant": "First study in which ants' social responses to a lethal fungus were observed, leading to the discovery of proactive social distancing behaviors."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-21",
+      "descriptionOfWhyDateIsRelevant": "Publication date of the new study in Science that demonstrates ants modify nest architecture in response to fungal pathogens."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "6 days",
+      "approximateTimeFrameStart": "1 day",
+      "descriptionOfWhyTimeFrameIsRelevant": "Duration over which ants built nests and structural changes were observed after introducing infected individuals."
+    }
+  ],
+  "keyTakeAways": [
+    "Black garden ants (Lasius niger) modify their nest architecture in response to infection by a lethal fungus, Metarhizium brunneum.",
+    "Infected ants self-isolate, reducing interactions and preventing spread of the fungus.",
+    "Nest structures become more compartmentalized, with longer travel routes and spaced entrances, reducing transmission risks.",
+    "This behavior represents a form of 'architectural immunity' — a collective, spatial response to disease that parallels human efforts in public health design.",
+    "The study shows social insects can actively alter their physical environment to protect against epidemics, a phenomenon called social immunity."
+  ],
+  "namedEntities": [
+    {
+      "name": "Metarhizium brunneum",
+      "whatIsThisEntity": "A common and lethal fungus that infects insects, including black garden ants, and transforms the host into a sporulating cadaver covered in infectious spores."
+    ,
+    "whyIsThisEntityRelevantToTheArticle": "The fungus serves as the primary threat that triggers ants’ behavioral and architectural responses, making it central to the study of disease resistance in colonies."
+    },
+    {
+      "name": "Lasius niger",
+      "whatIsThisEntity": "The black garden ant species studied in the research, known for its widespread presence in Europe and ease of collection during mating flights.",
+      "whyIsThisEntityRelevantToTheArticle": "This ant species is the focus of the study, demonstrating how social and architectural responses to disease can be observed and measured in real colonies."
+    },
+    {
+      "name": "Nathalie Stroeymeyt",
+      "whatIsThisEntity": "A behavioral ecologist at the University of Bristol who led early research on how black garden ants respond to fungal infections through social behavior.",
+      "whyIsThisEntityRelevantToTheArticle": "She was instrumental in discovering the social distancing behaviors of ants and is a key figure in the research that led to the architectural immunity hypothesis."
+    },
+    {
+      "name": "Luke Leckie",
+      "whatIsThisEntity": "A systems biologist at Indiana University Bloomington who collaborated with Stroeymeyt to investigate how nest architecture changes in response to fungal pathogens.",
+      "whyIsThisEntityRelevantToTheArticle": "He led the structural analysis using CT scans and helped demonstrate how physical nest modifications reduce disease transmission."
+    },
+    {
+      "name": "Sarah Kocher",
+      "whatIsThisEntity": "An evolutionary biologist at Princeton University who provided expert commentary on the study's implications for social immunity and human design.",
+      "whyIsThisEntityRelevantToTheArticle": "She emphasized the potential for applying ant-inspired principles to human public space design to reduce disease spread."
+    },
+    {
+      "name": "Science (journal)",
+      "whatIsThisEntity": "A premier scientific journal that published the study on ant nest architecture and disease resistance.",
+      "whyIsThisEntityRelevantToTheArticle": "The research was peer-reviewed and published in Science, lending credibility and broad scientific recognition to the findings."
+    }
+  ],
+  "summaryOfNewsArticle": "A new study led by behavioral ecologist Nathalie Stroeymeyt and systems biologist Luke Leckie reveals that black garden ants (Lasius niger) modify their nest architecture in response to a lethal fungal pathogen, Metarhizium brunneum. When infected ants are introduced into a colony, the ants respond by building more compartmentalized, less interconnected nests with longer travel routes and spaced entrances — a form of 'architectural immunity.' This structural adaptation works in tandem with social behaviors, such as infected workers self-isolating and healthy nurses increasing their distance from foragers, to slow disease transmission. The findings represent the first documented case of a non-human social species actively altering its physical environment to combat disease. Experts like Sarah Kocher suggest these ant behaviors could inspire new approaches to human public space design, emphasizing the importance of isolating vulnerable individuals and reducing transmission hotspots in urban and communal environments.",
+  "tags": [
+    "ants",
+    "disease prevention",
+    "architectural immunity",
+    "social immunity",
+    "Metarhizium brunneum",
+    "black garden ant",
+    "colony behavior",
+    "public space design",
+    "Science journal"
+  ]
+  ,
+  "timeOfPublication": "07:13:00-04:00",
+  "title": "Ants Design Colonies to Cut Disease Risk: A Blueprint for Human Architecture?"
+}

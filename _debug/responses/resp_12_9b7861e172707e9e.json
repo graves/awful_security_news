@@ -1,0 +1,142 @@
+{
+  "category": "Health & Public Safety",
+  "dateOfPublication": "2025-10-21",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2023-03-01",
+      "descriptionOfWhyDateIsRelevant": "Angela Craig left for a trip to Utah and attended a genealogy conference with a sister, which was a shared interest and a key detail in understanding her normal routine and the timing of her final illness."
+    },
+    {
+      "dateMentionedInArticle": "2023-03-06",
+      "descriptionOfWhyDateIsRelevant": "Angela's first hospital visit occurred after consuming a protein shake made by her husband, marking the beginning of the poisoning chain and indicating a pattern of escalating symptoms."
+    },
+    {
+      "dateMentionedInArticle": "2023-03-09",
+      "descriptionOfWhyDateIsRelevant": "Angela experienced worsening symptoms and was admitted to the hospital a second time, with toxic blood levels of arsenic detected, indicating a critical escalation in poisoning."
+    },
+    {
+      "dateMentionedInArticle": "2023-03-14",
+      "descriptionOfWhyDateIsRelevant": "Angela was discharged from the hospital, shortly after which she began researching causes of her symptoms online—an action that later became a key clue in the investigation."
+    },
+    {
+      "dateMentionedInArticle": "2023-03-15",
+      "descriptionOfWhyDateIsRelevant": "Angela suffered a seizure and was placed on life support, leading to her death on March 18, marking the culmination of the poisoning."
+    },
+    {
+      "dateMentionedInArticle": "2023-03-18",
+      "descriptionOfWhyDateIsRelevant": "Angela was pronounced brain dead at 4:29 p.m., confirming the fatal outcome of the poisoning and marking the end of the timeline."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2023-03-09",
+      "approximateTimeFrameStart": "2023-02-22",
+      "descriptionOfWhyTimeFrameIsRelevant": "This period spans Craig’s meeting with Karin Cain, his creation of the 'jimandwaffles' email, and the initial poisoning-related searches and orders, signaling the beginning of a deliberate plan."
+    },
+    {
+      "approximateTimeFrameEnd": "2023-03-18",
+      "approximateTimeFrameStart": "2023-03-06",
+      "descriptionOfWhyTimeFrameIsRelevant": "This timeframe includes Angela’s hospitalizations, the progression of her poisoning, and the eventual fatal outcome, forming a clear timeline of the poisoning and its detection."
+    }
+  ],
+  "keyTakeAways": [
+    "James Craig used multiple poisons, including arsenic, potassium cyanide, and tetrahydrozoline (found in Visine eyedrops), in a deliberate and methodical plan to kill his wife.",
+    "The poisons were used in a way that mimicked natural illness, with symptoms such as dizziness, nausea, and confusion, allowing the attack to go undetected initially.",
+    "Craig created a fake medical justification for the cyanide order, claiming he was a surgeon performing craniofacial reconstruction, demonstrating an effort to conceal his actions.",
+    "A key piece of evidence was a search history on a computer at Craig’s dental office, showing searches for how to murder someone and dosage information for fatal poisons.",
+    "James Craig ordered arsenic and potassium cyanide, and later used his wife’s protein shakes as a delivery method, showing premeditation and a plan to disguise the poison as a routine food item.",
+    "Office staff, including Caitlin Romero and Dr. Ryan Redfearn, discovered the cyanide delivery and raised concerns, leading to increased scrutiny and eventual arrest.",
+    "The case highlights how digital footprints and routine behavior can reveal criminal intent, especially when combined with medical and financial records."
+  ],
+  "namedEntities": [
+    {
+      "name": "James Craig",
+      "whatIsThisEntity": "Former Colorado dentist convicted of murdering his wife Angela Craig by poisoning her protein shakes and other household items.",
+      "whyIsThisEntityRelevantToTheArticle": "James Craig is central to the case, as he is the perpetrator who orchestrated the poisoning using multiple chemicals and concealed his actions through fabricated medical justifications and digital activity."
+    },
+    {
+      "name": "Angela Craig",
+      "whatIsThisEntity": "James Craig’s wife, who died in 2023 from acute poisoning caused by cyanide, arsenic, and tetrahydrozoline.",
+      "whyIsThisEntityRelevantToTheArticle": "Her death is the central event of the article, and her medical history and symptoms provide the timeline and evidence of poisoning, which led to the investigation."
+    },
+    {
+      "name": "Karin Cain",
+      "whatIsThisEntity": "A Texas dentist and former romantic partner of James Craig, who was involved in the timeline of events leading to the poisoning.",
+      "whyIsThisEntityRelevantToTheArticle": "Karin Cain is a key witness in the timeline, as Craig met her during a dental conference and used her as a connection in planning the murder."
+    },
+    {
+      "name": "Caitlin Romero",
+      "whatIsThisEntity": "Office manager at James Craig’s dental practice who discovered the potassium cyanide delivery and raised concerns about the poisoning.",
+      "whyIsThisEntityRelevantToTheArticle": "Caitlin Romero played a critical role in the investigation by noticing the cyanide delivery and alerting other staff and medical professionals, which led to the discovery of the crime."
+    },
+    {
+      "name": "Dr. Ryan Redfearn",
+      "whatIsThisEntity": "Business partner of James Craig and a dental professional who became aware of the cyanide delivery and alerted hospital staff about potential poisoning.",
+      "whyIsThisEntityRelevantToTheArticle": "Dr. Redfearn’s decision to speak with hospital staff about the cyanide shipment helped confirm suspicions and contributed to the eventual investigation and arrest."
+    },
+    {
+      "name": "Midland Scientific",
+      "whatIsThisEntity": "A supplier that processed orders for potassium cyanide from James Craig, which were later intercepted.",
+      "whyIsThisEntityRelevantToTheArticle": "Midland Scientific is relevant because it provided a documented order path for cyanide, showing Craig’s intent and the chain of events leading to the poisoning."
+    },
+    {
+      "name": "Adooq Bioscience",
+      "whatIsThisEntity": "A company from which James Craig ordered oleandrin, a toxic compound associated with poisonings.",
+      "whyIsThisEntityRelevantToTheArticle": "The order of oleandrin, a known poison, adds to the evidence of Craig’s deliberate and premeditated plan to kill his wife."
+    },
+    {
+      "name": "NMS Laboratories",
+      "whatIsThisEntity": "The forensic toxicology lab that analyzed Angela Craig’s blood samples and identified high levels of cyanide and arsenic.",
+      "whyIsThisEntityRelevantToTheArticle": "NMS Laboratories provided the scientific confirmation of poisoning, which was critical to proving that the death was not accidental."
+    },
+    {
+      "name": "King Soopers",
+    "whatIsThisEntity": "A grocery store in Aurora where James Craig purchased multiple packages of Visine eyedrops containing tetrahydrozoline.",
+    "whyIsThisEntityRelevantToTheArticle": "The purchase of eyedrops at King Soopers shows Craig’s method of delivering a poison through a common household item, blending it into a routine activity."
+    },
+    {
+      "name": "Seeking.com",
+      "whatIsThisEntity": "A dating website where James Craig met three women, one of whom provided evidence of his prior financial and romantic behavior.",
+      "whyIsThisEntityRelevantToTheArticle": "Seeking.com is relevant because it reveals Craig’s prior romantic and financial behavior, which may indicate a pattern of manipulation or emotional control."
+    },
+    {
+      "name": "The Purge",
+      "whatIsThisEntity": "A fictional horror movie about a period of time when all violent crime is legal, which James Craig referenced in a conversation with a woman on dating site.",
+      "whyIsThisEntityRelevantToTheArticle": "The reference to 'The Purge' indicates a possible psychological motive or warped worldview that influenced Craig’s actions."
+    },
+    {
+      "name": "Visine",
+      "whatIsThisEntity": "An eyedrop medication containing tetrahydrozoline, which James Craig used to poison his wife.",
+      "whyIsThisEntityRelevantToTheArticle": "Visine was used as a vehicle for tetrahydrozoline, a known poison that can cause cardiac arrest when ingested, forming a key part of the murder method."
+    },
+    {
+      "name": "Aurora Dental Practice",
+      "whatIsThisEntity": "James Craig’s dental office where key digital evidence and suspicious activities were observed.",
+      "whyIsThisEntityRelevantToTheArticle": "The dental office served as a central location for the creation of the 'jimandwaffles' account and computer searches, linking it to Craig’s planning."
+    },
+    {
+      "name": "Exam Room 9",
+      "whatIsThisEntity": "A specific room in James Craig’s dental practice where the 'jimandwaffles' email account was accessed and used for poison-related searches.",
+      "whyIsThisEntityRelevantToTheArticle": "The search history from this room is critical forensic evidence showing Craig’s deliberate investigation into poisons and methods of murder."
+    }
+  ],
+  "summaryOfNewsArticle": "James Craig, a former Colorado dentist, was convicted of murdering his wife Angela Craig in 2023 by poisoning her protein shakes and other household items with cyanide, arsenic, and tetrahydrozoline. The case began when Angela showed recurring symptoms after consuming shakes made by her husband. Over several days, Craig used multiple poisons, including potassium cyanide, arsenic, and tetrahydrozoline from Visine eyedrops, which were purchased and stored with deceptive medical justifications. Digital evidence from a computer in his dental office showed searches for methods of murder and poison dosages, indicating premeditation. Key staff members, including Caitlin Romero and Dr. Ryan Redfearn, discovered suspicious deliveries and raised concerns, leading to the eventual investigation. Forensic toxicology confirmed lethal levels of all three poisons in Angela’s blood. The case underscores how calculated, methodical poisoning using common household items can go undetected until critical symptoms appear and staff raise alarms.",
+  "tags": [
+    "poisoning",
+    "murder",
+    "cyanide",
+    "arsenic",
+    "tetrahydrozoline",
+    "dental office",
+    "forensic investigation",
+    "premeditated crime",
+    "Colorado",
+    "domestic violence",
+    "toxicology",
+    "digital evidence",
+    "domestic murder",
+    "wife poisoning"
+  ],
+  "timeOfPublication": "15:53:00-20:53",
+  "title": "What We Learned About the Events Leading Up to a Colorado Dentist Poisoning His Wife’s Protein Shakes"
+}

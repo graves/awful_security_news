@@ -1,0 +1,105 @@
+{
+  "category": "Politics & Governance",
+  "dateOfPublication": "2025-10-18",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2025-10-18",
+      "descriptionOfWhyDateIsRelevant": "The date when the article was published, indicating the current state of the federal shutdown and the imminent risk to food stamp benefits in November."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-01",
+      "descriptionOfWhyDateIsRelevant": "The start date of the federal government shutdown, which has led to the financial crisis in food assistance programs like SNAP and WIC."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025-11-01",
+      "approximateTimeFrameStart": "2025-10-15",
+      "descriptionOfWhyTimeFrameIsRelevant": "The period during which food stamp benefits are at risk of running out, with the USDA indicating funds will be depleted in two weeks."
+    },
+    {
+      "approximateTimeFrameEnd": "2025-10-31",
+      "approximateTimeFrameStart": "2025-10-15",
+      "descriptionOfWhyTimeFrameIsRelevant": "The timeframe during which the USDA is advising states to delay issuing November benefits due to funding shortfalls."
+    }
+  ],
+  "keyTakeAways": [
+    "Approximately 42 million Americans are at risk of losing access to food stamps in November due to the federal government shutdown.",
+    "The USDA has declared that food stamp benefits will run out in two weeks if the shutdown continues.",
+    "A key reason for the funding gap is that the SNAP program’s estimated $8 billion in November benefits exceed the available $6 billion in contingency funds.",
+    "The Trump administration has not committed to covering the shortfall and has instead blamed Democrats for political obstruction.",
+    "New York Governor Kathy Hochul criticized the administration for halting food stamp payments, calling it a deliberate act that harms vulnerable families.",
+    "WIC, another nutrition program, was temporarily protected by a $300 million shift from tariff revenue, but that revenue is insufficient to cover SNAP.",
+    "17 states have stopped accepting new food stamp applications due to financial constraints in their systems.",
+    "The situation is not unprecedented—similar issues occurred during the 2018 shutdown, where a legal workaround was used to avoid benefit cuts.",
+    "Advocacy groups warn that the lack of funding during Thanksgiving poses a severe threat to food security and will strain food pantries."
+  ],
+  "namedEntities": [
+    {
+      "name": "Brooke Rollins",
+      "whatIsThisEntity": "Agriculture Secretary under the Trump administration",
+      "whyIsThisEntityRelevantToTheArticle": "She announced the food stamp program will run out of money in two weeks and blamed Democrats for the shutdown, making her a central figure in the administration’s response."
+    },
+    {
+      "name": "Kathy Hochul",
+      "whatIsThisEntity": "Governor of New York",
+      "whyIsThisEntityRelevantToTheArticle": "She publicly criticized the Trump administration for halting food stamp benefits, emphasizing the harm to vulnerable families."
+    },
+    {
+      "name": "USDA (United States Department of Agriculture)",
+      "whatIsThisEntity": "Federal agency responsible for food assistance programs",
+      "whyIsThisEntityRelevantToTheArticle": "The USDA issued warnings that SNAP benefits will run dry and advised states to delay payments, directly impacting food security."
+    },
+    {
+      "name": "Supplemental Nutrition Assistance Program (SNAP)",
+      "whatIsThisEntity": "Commonly known as food stamps",
+      "whyIsThisEntityRelevantToTheArticle": "It is the largest federal nutrition assistance program, with 42 million Americans at risk of losing benefits in November."
+    },
+    {
+      "name": "WIC (Women, Infants, and Children program)",
+      "whatIsThisEntity": "A federal nutrition program for pregnant women, new mothers, and young children",
+      "whyIsThisEntityRelevantToTheArticle": "It was temporarily protected by a $300 million tariff revenue shift, but it highlights the broader crisis in funding for all nutrition programs."
+    },
+    {
+      "name": "Trump administration",
+      "whatIsThisEntity": "Federal government leadership during the shutdown",
+      "whyIsThisEntityRelevantToTheArticle": "It is responsible for the political blame placed on Democrats and the lack of contingency funding for SNAP."
+    },
+    {
+      "name": "Democrats",
+      "whatIsThisEntity": "Political party opposing the Republican-led shutdown",
+      "whyIsThisEntityRelevantToTheArticle": "They are accused of prioritizing political agendas over food security, and are also blamed for failing to negotiate a spending deal that includes expanded Obamacare subsidies."
+    },
+    {
+      "name": "Republicans",
+      "whatIsThisEntity": "Political party that opposed the spending deal and contributed to the shutdown",
+      "whyIsThisEntityRelevantToTheArticle": "They are accused of unwillingness to compromise, leading to the funding gap that threatens SNAP and WIC."
+    },
+    {
+      "name": "Thanksgiving",
+      "whatIsThisEntity": "Major holiday occurring in November",
+      "whyIsThisEntityRelevantToTheArticle": "The timing of the benefit cutoff is especially damaging as it coincides with Thanksgiving, a time when food insecurity is most acute."
+    },
+    {
+      "name": "Tariff revenue",
+      "whatIsThisEntity": "Funds derived from tariffs",
+      "whyIsThisEntityRelevantToTheArticle": "It was used to sustain WIC, but not sufficient to cover SNAP, illustrating a funding shortfall across key nutrition programs."
+    }
+  ],
+  "summaryOfNewsArticle": "Amid a federal government shutdown that began on October 1, 2025, the U.S. Department of Agriculture warns that the Supplemental Nutrition Assistance Program (SNAP), commonly known as food stamps, will run out of funds by November, putting approximately 42 million Americans at risk of losing critical food assistance. The USDA has stated that its $6 billion contingency fund is insufficient to cover the projected $8 billion in November benefits. While the Trump administration has previously provided emergency funding for other programs, it has not committed to continuing SNAP benefits, instead blaming Democrats for political obstruction. A shift in tariff revenue helped sustain the WIC program but not SNAP. The situation has led 17 states to halt new food stamp applications, and advocacy groups warn that the lack of benefits during Thanksgiving will severely impact food security. Governor Kathy Hochul has condemned the administration's decision to suspend benefits as a deliberate act harming vulnerable families, underscoring the broader political and humanitarian consequences of the shutdown.",
+  "tags": [
+    "food stamp crisis",
+    "federal government shutdown",
+    "SNAP",
+    "nutrition assistance",
+    "political deadlock",
+    "Thanksgiving food insecurity",
+    "government funding shortfall",
+    "Trump administration",
+    "Democratic opposition",
+    "WIC program"
+  ]
+  ,
+  "timeOfPublication": "08:00:00-04:00",
+  "title": "Millions of Americans at risk of losing food stamps next month amid shutdown"
+}

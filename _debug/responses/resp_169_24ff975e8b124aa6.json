@@ -1,0 +1,153 @@
+{
+  "category": "Economy & Business",
+  "dateOfPublication": "2025-10-22",
+  "importantDates": [
+    {
+      "dateMentionedInArticle": "2020-01-01",
+      "descriptionOfWhyDateIsRelevant": "The starting point for measuring the 134% increase in orange juice prices, marking the baseline of a sharp rise in grocery prices."
+    },
+    {
+      "dateMentionedInArticle": "2023-01-01",
+      "descriptionOfWhyDateIsRelevant": "Year when grocery price inflation peaked at 17.5%, followed by a drop to 5.7% in August, then a reversal to 3.8% in 2025, indicating a cyclical trend in food inflation."
+    },
+    {
+      "dateMentionedInArticle": "2024-01-01",
+      "descriptionOfWhyDateIsRelevant": "UK eliminated tariffs on some imported fruit products, but these were outweighed by rising commodity prices and trade tensions."
+    },
+    {
+      "dateMentionedInArticle": "2025-10-22",
+      "descriptionOfWhyDateIsRelevant": "Date of article publication, when new inflation data confirms the 12th consecutive month of inflation above the Bank of England’s 2% target."
+    }
+  ],
+  "importantTimeframes": [
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2020",
+      "descriptionOfWhyTimeFrameIsRelevant": "This five-year period marks the onset of a dramatic increase in grocery prices, with orange juice rising from 76p to £1.79 per litre, indicating broader inflation in the food sector."
+    },
+    {
+      "approximateTimeFrameEnd": "2025",
+      "approximateTimeFrameStart": "2023",
+      "descriptionOfWhyTimeFrameIsRelevant": "A period of food inflation reaching 17.5% in 2023, followed by a temporary drop and subsequent rise, showing volatility in food supply chains."
+    }
+  ],
+  "keyTakeAways": [
+    "Orange juice prices in the UK have increased by 134% since 2020, with a 29% rise in just one year, reflecting broader food inflation.",
+    "The price spike is driven by a combination of crop disease (citrus greening), extreme weather, over-reliance on single suppliers (especially Brazil), and trade tensions.",
+    "Manufacturers are substituting orange juice with cheaper alternatives like mandarins, mango, and apple juice to cut costs and maintain taste.",
+    "Trade tariffs, especially those introduced by the US on Brazilian orange juice and Canadian counter-tariffs, have increased costs for consumers in the UK and US.",
+    "Extended Producer Responsibility (EPR) regulations are adding to production and packaging costs, affecting both juice producers and retailers.",
+    "Global orange demand has declined by 30% from a peak, driven by changing consumer preferences and health concerns over sugar.",
+    "The UK is highly dependent on food imports, making it vulnerable to global supply shocks due to climate change and crop disease.",
+    "The current price spike is not isolated to orange juice but reflects a wider trend of rising costs in groceries (beef, butter, chocolate, coffee, milk)."
+  ],
+  "namedEntities": [
+    {
+      "name": "UK",
+      "whatIsThisEntity": "A country where grocery prices have surged, especially for orange juice, highlighting consumer vulnerability to global supply chain shocks.",
+      "whyIsThisEntityRelevantToTheArticle": "The UK is central to the article’s focus, as it exemplifies how imported food prices have risen due to external factors like trade wars, climate change, and supply chain disruptions."
+    },
+    {
+      "name": "Brazil",
+      "whatIsThisEntity": "A major global supplier of oranges and orange juice concentrate, whose crop failures due to drought and citrus greening have driven price increases.",
+      "whyIsThisEntityRelevantToTheArticle": "Brazil's citrus production has been severely impacted by disease and weather, leading to a sharp rise in orange juice prices and a global shortage."
+    },
+    {
+      "name": "Florida",
+      "whatIsThisEntity": "A traditional exporter of oranges, whose output has declined due to hurricanes and citrus greening, reducing supply and increasing prices.",
+      "whyIsThisEntityRelevantToTheArticle": "Florida's reduced production has contributed to global orange juice scarcity, affecting both US and UK markets."
+    },
+    {
+      "name": "Maxim McDonald",
+      "whatIsThisEntity": "A key figure at Gerald McDonald and Co, who oversees the production of orange juice in Basildon, Essex, and is involved in sourcing from Brazil.",
+      "whyIsThisEntityRelevantToTheArticle": "Maxim McDonald represents a key link in the supply chain and provides firsthand insight into how rising global prices have reached UK consumers."
+    },
+    {
+      "name": "Gerald McDonald and Co",
+      "whatIsThisEntity": "A UK-based company producing orange juice and blends, named after a pioneer who imported orange concentrate from the 1940s.",
+      "whyIsThisEntityRelevantToTheArticle": "It is a major player in the UK juice supply chain and directly sells to supermarkets and restaurants, making it a key node in the price transmission chain."
+    },
+    {
+      "name": "Tropicana",
+      "whatIsThisEntity": "A major US orange juice brand that has faced financial difficulties and restructured debt due to supply issues and rising prices.",
+      "whyIsThisEntityRelevantToTheArticle": "Tropicana's struggles illustrate how global price shocks impact even large, established brands and their pricing strategies."
+    },
+    {
+      "name": "Minute Maid",
+      "whatIsThisEntity": "A US orange juice brand owned by Coca-Cola, promoted through Bing Crosby’s advertising, and now facing supply challenges.",
+      "whyIsThisEntityRelevantToTheArticle": "Minute Maid exemplifies how historical marketing and industrialization of orange juice have created a long-standing consumer expectation of low prices, now challenged by supply issues."
+    },
+    {
+      "name": "Coca-Cola",
+      "whatIsThisEntity": "A multinational beverage company that owns Minute Maid and is involved in a long-term AI-driven project to combat citrus greening.",
+      "whyIsThisEntityRelevantToTheArticle": "Coca-Cola's efforts to address citrus greening show that industry leaders are investing in long-term solutions, though their impact on consumer prices is uncertain."
+    },
+    {
+      "name": "Philip Coverdale",
+      "whatIsThisEntity": "An industry expert at GlobalData who explains the broader inflation dynamics in food supply chains.",
+      "whyIsThisEntityRelevantToTheArticle": "He provides expert insight into how food inflation is masked and how supply chain disruptions affect consumer prices."
+    },
+    {
+      "name": "Steve McCorriston",
+      "whatIsThisEntity": "A professor of agricultural economics at the University of Exeter, offering a theory on price recouping by retailers.",
+      "whyIsThisEntityRelevantToTheArticle": "He suggests retailers may have delayed passing on costs to consumers, leading to a delayed price shock as inflation returns."
+    },
+    {
+      "name": "Bank of England",
+      "whatIsThisEntity": "The UK central bank that set a 2% inflation target and recently reported that food inflation is a key driver of inflation.",
+      "whyIsThisEntityRelevantToTheArticle": "The Bank of England's inflation data shows that food price increases are now persisting above target, indicating a structural issue in the economy."
+    },
+    {
+      "name": "Extended Producer Responsibility (EPR)",
+      "whatIsThisEntity": "A policy aimed at improving recycling by charging producers based on packaging weight, which raises costs for juice producers.",
+      "whyIsThisEntityRelevantToTheArticle": "EPR regulations are cited as a contributing factor to rising food prices, especially for producers still using glass bottles."
+    },
+    {
+      "name": "Citrus greening",
+      "whatIsThisEntity": "A bacterial disease spread by insects that affects orange trees, reducing yield and sweetness, and driving up prices.",
+      "whyIsThisEntityRelevantToTheArticle": "This disease is a key driver of crop failure in both Florida and Brazil, directly causing the price surge in orange juice."
+    },
+    {
+      "name": "US-Canada trade tensions",
+      "whatIsThisEntity": "A trade conflict where Canada imposed counter-tariffs on US orange juice exports, reducing availability.",
+      "whyIsThisEntityRelevantToTheArticle": "These tariffs have disrupted supply chains and contributed to higher prices for orange juice in North America and indirectly in the UK."
+    },
+    {
+      "name": "US Tariff on Brazilian orange juice",
+      "whatIsThisEntity": "A 10% tariff introduced by the US on Brazilian orange juice, increasing costs for US supermarkets and indirectly affecting UK prices.",
+      "whyIsThisEntityRelevantToTheArticle": "This tariff has increased production costs and is a key factor in the rising cost of orange juice in the US and, through trade, in the UK."
+    },
+    {
+      "name": "India",
+      "whatIsThisEntity": "A country with a good mango harvest, making mango purée a cheaper alternative to orange juice in blends.",
+      "whyIsThisEntityRelevantToTheArticle": "India’s harvest provides a cost-effective alternative used by UK and US juice producers to reduce orange reliance and lower prices."
+    },
+    {
+      "name": "China, South Africa, India",
+      "whatIsThisEntity": "Countries where demand for fruit juice is shifting to more exotic alternatives like mango, pear, and pomegranate.",
+      "whyIsThisEntityRelevantToTheArticle": "Changing consumer preferences in these nations are shifting global demand away from traditional orange juice, reducing its market strength."
+    }
+  ],
+  "summaryOfNewsArticle": "The article examines the sharp rise in supermarket orange juice prices in the UK, which have increased by 134% since 2020, driven by a complex mix of global supply chain disruptions. Key factors include citrus greening disease reducing orange yields in Brazil and Florida, extreme weather, over-reliance on a few exporters, rising trade tariffs (especially US tariffs on Brazilian juice), and new packaging regulations. As a result, manufacturers are substituting oranges with cheaper alternatives like mandarins and mangoes. The article also highlights that this price surge is not isolated — it reflects a broader pattern of inflation in groceries (beef, butter, chocolate, milk). Experts suggest that retailers may have delayed passing on costs, and the UK’s heavy dependence on imported food makes it vulnerable to global shocks. While Brazil’s harvest has improved, global demand has fallen, and long-term solutions like AI-driven disease research are underway. The article concludes that food price volatility is likely to persist, with the UK facing ongoing exposure to climate and supply chain risks.",
+  "tags": [
+    "supermarket prices",
+    "orange juice",
+    "food inflation",
+    "supply chain disruption",
+    "citrus greening",
+    "Brazil",
+    "Florida",
+    "trade tariffs",
+    "UK food security",
+    "packaging regulations",
+    "consumer prices",
+    "global agriculture",
+    "climate change",
+    "crop disease",
+    "market substitution"
+  ]
+  ,
+  "timeOfPublication": "06:58:17.709+00:00"
+  ,
+  "title": "Why supermarket prices really became sky high in the UK"
+}
