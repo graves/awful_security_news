@@ -2,6 +2,8 @@
 
 - [**2025-10-22**](./2025-10-22.md)
     - [Morning](./2025-10-22_morning.md)
+    - [Afternoon](./2025-10-22_afternoon.md)
+    - [Evening](./2025-10-22_evening.md)
 
 - [**2025-10-21**](./2025-10-21.md)
     - [Morning](./2025-10-21_morning.md)
