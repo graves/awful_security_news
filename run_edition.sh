@@ -80,7 +80,7 @@ mkdir -p "$API_OUT"
 # ---------- Generate Daily Summary and d3 visualizations ----------
 log "Generating Daily Summary and d3 visualizations with awful_news_vibes..."
 "$AWFUL_NEWS_VIBES_BIN" --cluster-config "$AWFUL_CLUSTER_CONFIG" --vibe-config "$AWFUL_VIBES_CONFIG" -o "$VIZ_OUT"
-cp "${VIZ_OUT}/daily_summary.md" "${PROJECT_DIR}/src"
+cp ${VIZ_OUT}/*/meta_post.md "${PROJECT_DIR}/src"
 
 # ---------- Build site ----------
 log "Building mdBook..."
@@ -89,8 +89,8 @@ log "Building mdBook..."
 
 # ---------- Copy static viz pages ----
 log "Copying viz html and js files..."
-cp "${PROJECT_DIR}/daily_analysis.html" "${$SITE_BUILD}"
-cp "${PROJECT_DIR}/awful_news_vibes.js" "${$SITE_BUILD}/assets"
+cp "${PROJECT_DIR}/daily_analysis.html" "${SITE_BUILD}"
+cp "${PROJECT_DIR}/awful_news_vibes.js" "${SITE_BUILD}/assets"
 
 # robots.txt + sitemap
 log "Writing robots.txt..."
@@ -146,14 +146,14 @@ rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
 # Set proper permissions after sync
 find "${SITE_DEST}" -type d ! -path "*/api/*" ! -path "*/api" -exec chmod 775 {} + 2>/dev/null || true
 find "${SITE_DEST}" -type f ! -path "*/api/*" -exec chmod 664 {} + 2>/dev/null || true
-find "${SITE_DEST}" -type d ! -path "*/viz/*" ! -path "*/api" -exec chmod 775 {} + 2>/dev/null || true
+find "${SITE_DEST}" -type d ! -path "*/viz/*" ! -path "*/viz" -exec chmod 775 {} + 2>/dev/null || true
 find "${SITE_DEST}" -type f ! -path "*/viz/*" -exec chmod 664 {} + 2>/dev/null || true
 
 # ---------- Cleanup ----------
 log "Cleaning project API_OUT..."
 rm -rf "$API_OUT"
 log "Cleaning project VIZ_OUT..."
-rm -rf "$API_OUT"
+rm -rf "$VIZ_OUT"
 log "Cleaning project _debug..."
 rm -rf "${PROJECT_DIR}/_debug"
 
