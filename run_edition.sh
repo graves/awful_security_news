@@ -79,7 +79,7 @@ mkdir -p "$API_OUT"
 
 # ---------- Generate Daily Summary and d3 visualizations ----------
 log "Generating Daily Summary and d3 visualizations with awful_news_vibes..."
-"$AWFUL_NEWS_VIBES_BIN" --cluster-config "$AWFUL_CLUSTER_CONFIG" --vibe-config "$AWFUL_VIBES_CONFIG" --api-dir "$API_DEST" -o "$VIZ_OUT"
+"$AWFUL_NEWS_VIBES_BIN" --cluster-config "$AWFUL_CLUSTER_CONFIG" --vibe-config "$AWFUL_VIBES_CONFIG" --api-dir "$API_OUT" -o "$VIZ_OUT"
 cp "${VIZ_OUT}/"*/meta_post.md "${PROJECT_DIR}/src/daily_summary.md"
 
 # ---------- Build site ----------
