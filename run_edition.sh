@@ -2,21 +2,27 @@
 set -euo pipefail
 umask 0002
 
-# ---------- Config (edit these if your paths differ) ----------
-# Conda env providing PyTorch/LibTorch (base in your case)
+# ---------- Config ----------------------
+# Conda env providing PyTorch/LibTorch
 CONDA_PREFIX="${CONDA_PREFIX:-/home/tg/miniconda3}"
 
 # Binaries
-AWFUL_BIN="/home/tg/.cargo/bin/awful_text_news"
-MDBOOK_BIN="/home/tg/.cargo/bin/mdbook"                        # adjust if installed elsewhere
-SITEMAP_BIN="/home/tg/.cargo/bin/mdbook-sitemap-generator"    # adjust if installed elsewhere
+AWFUL_TEXT_NEWS_BIN="/home/tg/.cargo/bin/awful_text_news"
+AWFUL_NEWS_VIBES_BIN="/home/tg/.cargo/bin/awful_news_vibes"
+MDBOOK_BIN="/home/tg/.cargo/bin/mdbook"
+SITEMAP_BIN="/home/tg/.cargo/bin/mdbook-sitemap-generator"
+
+# Awful Jade Configs
+AWFUL_CLUSTER_CONFIG="/home/tg/.config/aj/awful_cluster_config.yaml"
+AWFUL_VIBES_CONFIG="/home/tg/.config/aj/awful_vibes_config.yaml"
 
 # Project & deploy paths
 PROJECT_DIR="/home/tg/awful_security_news"
 SITE_HOSTNAME="news.awfulsec.com"
 DEPLOY_ROOT="/var/www/html/${SITE_HOSTNAME}"
-API_DEST="${DEPLOY_ROOT}/api"
 SITE_DEST="${DEPLOY_ROOT}"
+API_DEST="${DEPLOY_ROOT}/api"
+VIZ_DEST="${DEPLOY_ROOT}/viz"
 
 # ---------- Minimal PATH and loader just for *this* process ----------
 export PATH="${CONDA_PREFIX}/bin:/usr/bin:/bin:/home/tg/.cargo/bin"
@@ -46,13 +52,14 @@ ROBOTS
 }
 
 # ---------- Preconditions ----------
-require_bin "$AWFUL_BIN"
+require_bin "$AWFUL_TEXT_NEWS_BIN"
+require_bin "$AWFUL_NEWS_VIBES_BIN"
 require_bin "$MDBOOK_BIN"
 require_bin "$SITEMAP_BIN"
 [[ -d "$PROJECT_DIR" ]] || die "Project dir not found: $PROJECT_DIR"
 
 # Ensure deploy roots exist (must be writable by user or its group)
-mkdir -p "$API_DEST" "$SITE_DEST"
+mkdir -p "$API_DEST" "$VIZ_DEST" "$SITE_DEST"
 
 # ---------- Staging ----------
 STAGE="$(mktemp -d --tmpdir "${SITE_HOSTNAME}.XXXXXX")"
@@ -60,19 +67,30 @@ trap 'rm -rf "$STAGE"' EXIT
 log "Using staging dir: $STAGE"
 
 # These are relative to project (mdbook expects md sources in ./src)
-API_OUT="${PROJECT_DIR}/api_out"         # kept for compatibility with project layout
+API_OUT="${PROJECT_DIR}/api_out"         # json api output
+VIZ_OUT="${PROJECT_DIR}/viz"             # d3 visualization data
 SITE_BUILD="${STAGE}/daily_news"         # final mdBook output
 
 # ---------- Generate API JSON + Markdown sources ----------
 log "Generating API JSON + Markdown with awful_text_news..."
 cd "$PROJECT_DIR"
 mkdir -p "$API_OUT"
-"$AWFUL_BIN" --json-output-dir "$API_OUT" --markdown-output-dir "src"
+"$AWFUL_TEXT_NEWS_BIN" --json-output-dir "$API_OUT" --markdown-output-dir "src"
+
+# ---------- Generate Daily Summary and d3 visualizations ----------
+log "Generating Daily Summary and d3 visualizations with awful_news_vibes..."
+"$AWFUL_NEWS_VIBES_BIN" --cluster-config "$AWFUL_CLUSTER_CONFIG" --vibe-config "$AWFUL_VIBES_CONFIG" -o "$VIZ_OUT"
+cp "${VIZ_OUT}/daily_summary.md" "${PROJECT_DIR}/src"
 
 # ---------- Build site ----------
 log "Building mdBook..."
 # -d to put the build output into staging
 "$MDBOOK_BIN" build -d "$SITE_BUILD"
+
+# ---------- Copy static viz pages ----
+log "Copying viz html and js files..."
+cp "${PROJECT_DIR}/daily_analysis.html" "${PROJECT_DIR}/src"
+cp "${PROJECT_DIR}/awful_news_vibes.js" "${PROJECT_DIR}/src/assets"
 
 # robots.txt + sitemap
 log "Writing robots.txt..."
@@ -99,6 +117,20 @@ rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
 find "${API_DEST}" -type d -exec chmod 775 {} + 2>/dev/null || true
 find "${API_DEST}" -type f -exec chmod 664 {} + 2>/dev/null || true
 
+log "Deploying VIZ to ${VIZ_DEST}..."
+# First, ensure we can delete files by fixing permissions
+if [[ -d "${VIZ_DEST}" ]]; then
+  find "${VIZ_DEST}" -type d -exec chmod u+rwx {} + 2>/dev/null || true
+  find "${VIZ_DEST}" -type f -exec chmod u+rw {} + 2>/dev/null || true
+fi
+
+rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
+  "${VIZ_OUT}/" "${VIZ_DEST}/"
+
+# Set proper permissions after sync
+find "${VIZ_DEST}" -type d -exec chmod 775 {} + 2>/dev/null || true
+find "${VIZ_DEST}" -type f -exec chmod 664 {} + 2>/dev/null || true
+
 log "Deploying site to ${SITE_DEST}..."
 # First, ensure we can delete files by fixing permissions
 if [[ -d "${SITE_DEST}" ]]; then
@@ -115,7 +147,11 @@ find "${SITE_DEST}" -type d ! -path "*/api/*" ! -path "*/api" -exec chmod 775 {}
 find "${SITE_DEST}" -type f ! -path "*/api/*" -exec chmod 664 {} + 2>/dev/null || true
 
 # ---------- Cleanup ----------
-#log "Cleaning project API_OUT..."
-#rm -rf "$API_OUT"
+log "Cleaning project API_OUT..."
+rm -rf "$API_OUT"
+log "Cleaning project VIZ_OUT..."
+rm -rf "$API_OUT"
+log "Cleaning project _debug..."
+rm -rf "${PROJECT_DIR}/_debug"
 
 log "Done."

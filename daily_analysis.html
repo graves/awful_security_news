@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Awful News Vibes — Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0f1216; --panel:#151a21; --panel-2:#0d1014; --text:#e6edf3; --muted:#aab9c9;
+    --accent:#7aa2ff; --accent-2:#3dd9c4; --border:#20262e;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;background:linear-gradient(180deg,var(--bg),#0c0f13);
+    color:var(--text); font:16px/1.7 Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:1050px;margin:0 auto;padding:28px 18px}
+  header{display:flex;gap:16px;align-items:center;justify-content:space-between;margin-bottom:18px}
+  .brand{display:flex;gap:12px;align-items:center}
+  .brand .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 8px 20px rgba(0,0,0,.35)}
+  h1{margin:0;font-size:22px;font-weight:700}
+  .subtitle{margin:2px 0 0 0;color:var(--muted);font-size:14px}
+  .controls{display:flex;gap:10px;align-items:center;background:var(--panel-2);border:1px solid var(--border);padding:10px 12px;border-radius:12px}
+  label{color:var(--muted);font-weight:600}
+  select{color:var(--text);background:var(--panel);border:1px solid var(--border);padding:8px 12px;border-radius:10px;font:14px Inter,system-ui,sans-serif;outline:none}
+  .stack{display:flex;flex-direction:column;gap:16px}
+
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+  .card h2{margin:2px 2px 12px;font-size:18px;font-weight:700;color:#dfe7ef;display:flex;align-items:center;gap:8px}
+  .card-desc{color:var(--muted);font-size:13px;margin:-8px 2px 14px;line-height:1.5}
+  .legend{display:flex;flex-wrap:wrap;gap:12px;margin:6px 2px 2px}
+  .tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+  .dot{width:12px;height:12px;border-radius:50%}
+  svg{width:100%;height:auto;display:block}
+  .list{display:grid;grid-template-columns:1fr;gap:12px}
+  .item{background:var(--panel-2);border:1px dashed var(--border);border-radius:12px;padding:12px}
+  .muted{color:var(--muted)}
+  .tooltip{
+    position:fixed;pointer-events:none;z-index:10000;opacity:0;
+    background:#0c1016;color:#e9f0f6;border:1px solid #223041;
+    padding:10px 12px;font-size:13px;border-radius:10px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.4);transition:opacity 0.15s;
+    max-width:320px;
+  }
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+  .error{background:#2a1010;border:1px solid #4b1b1b;color:#ffdede;padding:12px;border-radius:10px}
+  .footer{color:var(--muted);text-align:center;margin:20px 0 8px;font-size:13px}
+  .info-icon{display:inline-block;width:16px;height:16px;line-height:16px;text-align:center;
+    background:var(--panel-2);border:1px solid var(--border);border-radius:50%;
+    font-size:11px;color:var(--muted);cursor:help;margin-left:6px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          <h1>🌊 Awful News Vibes</h1>
+          <div class="subtitle">Daily meta-analysis & narrative visualizations</div>
+        </div>
+      </div>
+      <div class="controls">
+        <label for="date">Select date:</label>
+        <select id="date"></select>
+      </div>
+    </header>
+
+    <div id="msg"></div>
+
+    <section class="stack">
+      <!-- Momentum -->
+      <div class="card" id="card-momentum">
+        <h2>⚡ Story Momentum<span class="info-icon" title="Tracks how quickly stories gain or lose coverage">?</span></h2>
+        <div class="card-desc">Rate of change in article coverage over time. Positive = growing attention, negative = declining.</div>
+        <div class="legend" id="legend-momentum"></div>
+        <div id="viz-momentum"></div>
+      </div>
+
+      <!-- Divergence -->
+      <div class="card" id="card-divergence">
+        <h2>🗺 Narrative Divergence<span class="info-icon" title="How different outlets frame the same stories">?</span></h2>
+        <div class="card-desc">Shows how outlets frame the same events differently. Position = framing approach, size = reported certainty.</div>
+        <div class="legend" id="legend-divergence"></div>
+        <div id="viz-divergence"></div>
+      </div>
+
+      <!-- Emotion -->
+      <div class="card" id="card-emotion">
+        <h2>🌡 Emotional Temperature<span class="info-icon" title="Emotional intensity in coverage">?</span></h2>
+        <div class="card-desc">Percentage of articles exhibiting each emotion type. Darker = higher intensity.</div>
+        <div class="legend" id="legend-emotion"></div>
+        <div id="viz-emotion"></div>
+      </div>
+
+      <!-- Compass -->
+      <div class="card" id="card-compass">
+        <h2>🧭 Story Compass<span class="info-icon" title="Story framing across thematic dimensions">?</span></h2>
+        <div class="card-desc">Thematic positioning of stories. Size indicates story weight/prominence in coverage.</div>
+        <div class="legend" id="legend-compass"></div>
+        <div id="viz-compass"></div>
+      </div>
+
+      <!-- Silences -->
+      <div class="card" id="card-silences">
+        <h2>🔇 Silence Tracker<span class="info-icon" title="Notable absences in coverage">?</span></h2>
+        <div class="card-desc">Themes commonly found in similar stories but notably absent from today's coverage.</div>
+        <div class="legend" id="legend-silences"></div>
+        <div id="viz-silences"></div>
+      </div>
+
+      <!-- Fingerprints -->
+      <div class="card" id="card-fingerprints">
+        <h2>🔍 Story Fingerprints<span class="info-icon" title="Multi-dimensional story characteristics">?</span></h2>
+        <div class="card-desc">Two-axis chart. Horizontal: Blame ← → Cause. Vertical: Risk ↓ ↑ Optimism. Color intensity = certainty.</div>
+        <div class="legend" id="legend-fingerprints"></div>
+        <div id="viz-fingerprints"></div>
+      </div>
+
+      <!-- Clouds -->
+      <div class="card" id="card-clouds">
+        <h2>☁ Word Clouds<span class="info-icon" title="Most frequent terms by outlet and story">?</span></h2>
+        <div class="card-desc">Top terms by outlet (left) and by story cluster (right). Size indicates frequency.</div>
+        <div class="legend" id="legend-clouds"></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+          <div id="viz-clouds-outlet"></div>
+          <div id="viz-clouds-cluster"></div>
+        </div>
+      </div>
+
+      <!-- Lifecycles -->
+      <div class="card" id="card-lifecycles">
+        <h2>📈 Story Lifecycles<span class="info-icon" title="Coverage patterns over time">?</span></h2>
+        <div class="card-desc">Coverage volume over time. Classes: flashstorm (sudden spike), wildfire (rapid spread), slow freeze (gradual decline), resurrection (returns after gap), steady (consistent).</div>
+        <div class="legend" id="legend-lifecycles"></div>
+        <div id="viz-lifecycles"></div>
+      </div>
+    </section>
+
+    <div class="footer">Powered by Awful Security · D3 visual dashboard</div>
+  </div>
+
+  <script src="https://unpkg.com/d3@7" data-cfasync="false"></script>
+  <script data-cfasync="false">
+  (function(){
+    const rootOutDir = "viz";
+    const $ = sel => document.querySelector(sel);
+    const msg = (html,type="error") => { $('#msg').innerHTML = `<div class="${type}">${html}</div>`; };
+
+    const tip = (() => {
+      const el = document.createElement('div');
+      el.className = 'tooltip'; document.body.appendChild(el);
+      return {
+        show(html,x,y){
+          el.innerHTML=html;
+          el.style.opacity=1;
+          el.style.left = (x+12)+'px';
+          el.style.top=(y+12)+'px';
+        },
+        hide(){ el.style.opacity=0; }
+      };
+    })();
+
+    async function j(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(`${r.status} ${url}`); return r.json(); }
+    function colorHash(str){ let h=0; for(let i=0;i<str.length;i++) h=(h*31+str.charCodeAt(i))>>>0; return d3.hsl(h%360,0.56,0.58)+''; }
+    function clear(el){ d3.select(el).selectAll("*").remove(); }
+    function addTag(parent, color, label){
+      const t = document.createElement('div');
+      t.className='tag';
+      t.innerHTML = `<span class="dot" style="background:${color}"></span><span>${label}</span>`;
+      parent.appendChild(t);
+    }
+    function firstWords(s, n=6){ const w=(s||"").split(/\s+/).filter(Boolean); return w.length>n ? w.slice(0,n).join(" ") + "…" : (s||""); }
+    function truncate(s, maxLen=21){ return (s||"").length > maxLen ? s.slice(0,maxLen) + "…" : (s||""); }
+    function addLineBreak(parent){
+      const br = document.createElement('div');
+      br.style.width = '100%';
+      br.style.height = '0';
+      parent.appendChild(br);
+    }
+
+    /* ---------------- Momentum ---------------- */
+    function renderMomentum(el, legendEl, data){
+      clear(el); legendEl.innerHTML='';
+      addTag(legendEl, "#7aa2ff", "Story velocity (rate of coverage change)");
+      addLineBreak(legendEl);
+      addTag(legendEl, "#999", "Hover lines for peak intensity and trend details");
+
+      const w=1000,h=380,m={t:18,r:10,b:44,l:46};
+      const svg=d3.select(el).append("svg").attr("viewBox",`0 0 ${w} ${h}`);
+      const x=d3.scalePoint().domain(data.editions.map((_,i)=>i)).range([m.l,w-m.r]);
+      const y=d3.scaleLinear().domain([-1,1]).range([h-m.b,m.t]);
+
+      svg.append("g").attr("transform",`translate(0,${h-m.b})`)
+        .call(d3.axisBottom(x).tickFormat(i=>data.editions[i]).tickSizeOuter(0))
+        .selectAll("text").attr("fill","#95a6b9").attr("font-size",12)
+        .attr("transform","rotate(-12)").attr("text-anchor","end");
+
+      svg.append("g").attr("transform",`translate(${m.l},0)`)
+        .call(d3.axisLeft(y).ticks(5))
+        .selectAll("text").attr("fill","#95a6b9");
+
+      // Zero line
+      svg.append("line")
+        .attr("x1",m.l).attr("x2",w-m.r)
+        .attr("y1",y(0)).attr("y2",y(0))
+        .attr("stroke","#2a3544").attr("stroke-width",1).attr("stroke-dasharray","4,4");
+
+      const line=d3.line().x((d,i)=>x(i)).y(d=>y(d)).curve(d3.curveCatmullRom.alpha(0.5));
+
+      [...data.trails].sort((a,b)=>d3.descending(a.gravity,b.gravity)).slice(0,30).forEach(tr=>{
+        const c=colorHash(tr.title);
+        svg.append("path").datum(tr.velocity)
+          .attr("fill","none").attr("stroke",c).attr("stroke-width",1.8).attr("opacity",0.95)
+          .attr("d",line)
+          .on("mousemove",(ev)=>tip.show(
+            `<b>${tr.title}</b><div class="muted">Peak intensity: ${(tr.gravity*100|0)}%</div><div class="muted">Trend: ${tr.velocity[tr.velocity.length-1] > 0 ? 'Rising ↑' : 'Falling ↓'}</div>`,
+            ev.clientX,ev.clientY))
+          .on("mouseleave", tip.hide);
+      });
+    }
+
+    /* ---------------- Divergence ---------------- */
+    function renderDivergence(el, legendEl, data){
+      clear(el); legendEl.innerHTML='';
+
+      addTag(legendEl,"#999","X: Blame-focused ← → Cause-focused");
+      addLineBreak(legendEl);
+      addTag(legendEl,"#999","Y: Threat-framed ↓ ↑ Solution-framed");
+      addLineBreak(legendEl);
+      addTag(legendEl,"#999","Size = reported certainty | Hover for details");
+      addLineBreak(legendEl);
+
+      const outlets = [...new Set(data.clusters.flatMap(c=>c.points.map(p=>p.outlet)))];
+      outlets.slice(0,14).forEach(o=>addTag(legendEl, colorHash(o), o));
+
+      const w=1000,h=520,m={t:40,r:10,b:44,l:54};
+      const svg=d3.select(el).append("svg").attr("viewBox",`0 0 ${w} ${h}`);
+      const x=d3.scaleLinear().domain([-1,1]).range([m.l,w-m.r]);
+      const y=d3.scaleLinear().domain([-1,1]).range([h-m.b,m.t]);
+
+      // Axes
+      svg.append("g").attr("transform",`translate(0,${y(0)})`)
+        .call(d3.axisBottom(x).ticks(5));
+      svg.append("g").attr("transform",`translate(${x(0)},0)`)
+        .call(d3.axisLeft(y).ticks(5));
+
+      // Quadrant labels
+      const Q = [
+        {x: x(-0.65), y: y(-0.75), txt: "Blame + Threat"},
+        {x: x( 0.65), y: y(-0.75), txt: "Cause + Threat"},
+        {x: x(-0.65), y: y( 0.75), txt: "Blame + Solution"},
+        {x: x( 0.65), y: y( 0.75), txt: "Cause + Solution"},
+      ];
+      svg.selectAll("text.q").data(Q).join("text")
+        .attr("class","q").attr("x",d=>d.x).attr("y",d=>d.y)
+        .attr("fill","#7a8a9b").attr("font-size",12).attr("font-style","italic")
+        .attr("text-anchor","middle").text(d=>d.txt);
+
+      const pts = data.clusters.flatMap(c=>c.points.map(p=>({
+        title:c.title,outlet:p.outlet,x:p.x,y:p.y,certainty:(p.certainty+1)/2
+      })));
+      const col=d3.scaleOrdinal().domain(outlets).range(outlets.map(o=>colorHash(o)));
+      const r=d3.scaleSqrt().domain([0,1]).range([3,9]);
+
+      svg.selectAll("circle").data(pts).join("circle")
+        .attr("cx",d=>x(d.x)).attr("cy",d=>y(d.y)).attr("r",d=>r(d.certainty))
+        .attr("fill",d=>col(d.outlet))
+        .attr("opacity",0.88).attr("stroke","#0b0f14").attr("stroke-width",0.8)
+        .on("mousemove",(ev,d)=>tip.show(
+          `<b>${d.title}</b><div>${d.outlet}</div><div class="muted">Certainty: ${(d.certainty*100|0)}%</div>`,
+          ev.clientX,ev.clientY))
+        .on("mouseleave", tip.hide);
+    }
+
+    /* ---------------- Emotion ---------------- */
+    function renderEmotion(el, legendEl, data){
+      clear(el); legendEl.innerHTML='';
+
+      const ramp = document.createElement('div'); ramp.className='tag';
+      ramp.innerHTML = `<span>Intensity scale →</span>
+        <span style="display:inline-block;width:140px;height:12px;border-radius:6px;background:linear-gradient(90deg,#1b2331,#0f62fe);border:1px solid #1e2a3a;"></span>
+        <span>← Low | High →</span>`;
+      legendEl.appendChild(ramp);
+
+      const cell=30, m={t:52,r:10,b:34,l:190};
+      const w=1000, h=m.t+m.b+cell*data.series.length;
+      const svg=d3.select(el).append("svg").attr("viewBox",`0 0 ${w} ${h}`);
+      const emos=data.grid;
+      const x=d3.scaleBand().domain(emos.map((_,i)=>i)).range([m.l,w-m.r]).padding(0.12);
+      const y=d3.scaleBand().domain(d3.range(data.series.length)).range([m.t,h-m.b]).padding(0.12);
+      const col=d3.scaleLinear().domain([0,1]).range(["#1b2331","#0f62fe"]);
+
+      svg.append("g").selectAll("text").data(data.series).join("text")
+        .attr("x",m.l-12).attr("y",(_,i)=>y(i)+y.bandwidth()*0.7)
+        .attr("text-anchor","end").attr("fill","#cfd9e3").attr("font-size",14)
+        .text(d=>d.edition);
+
+      svg.append("g").selectAll("text").data(emos).join("text")
+        .attr("x",(_,i)=>x(i)+x.bandwidth()/2).attr("y",m.t-18)
+        .attr("text-anchor","middle").attr("fill","#cfd9e3")
+        .attr("font-size",14).attr("font-weight",700)
+        .text(d=>d);
+
+      const flat=[];
+      data.series.forEach((row,ri)=>row.scores.forEach((v,ci)=>flat.push({
+        ri,ci,v,ed:row.edition,emo:emos[ci]
+      })));
+
+      svg.selectAll("rect").data(flat).join("rect")
+        .attr("x",d=>x(d.ci)).attr("y",d=>y(d.ri))
+        .attr("width",x.bandwidth()).attr("height",y.bandwidth())
+        .attr("rx",5).attr("fill",d=>col(d.v))
+        .on("mousemove",(ev,d)=>tip.show(
+          `<b>${d.ed}</b><div>${d.emo}: ${(d.v*100|0)}%</div>`,
+          ev.clientX,ev.clientY))
+        .on("mouseleave", tip.hide);
+    }
+
+    /* ---------------- Compass ---------------- */
+    function renderCompass(el, legendEl, data){
+      clear(el); legendEl.innerHTML='';
+
+      addTag(legendEl,"#999","X: Structural/Policy ← → Human/Personal");
+      addLineBreak(legendEl);
+      addTag(legendEl,"#999","Y: Present Conflict ↓ ↑ Future Outlook");
+      addLineBreak(legendEl);
+      addTag(legendEl,"#0f62fe","Centroid (coverage center of gravity)");
+
+      const w=1000,h=540,m={t:44,r:10,b:40,l:44};
+      const svg=d3.select(el).append("svg").attr("viewBox",`0 0 ${w} ${h}`);
+      const x=d3.scaleLinear().domain([-1,1]).range([m.l,w-m.r]);
+      const y=d3.scaleLinear().domain([-1,1]).range([h-m.b,m.t]);
+      const qW=(w-m.l-m.r)/2, qH=(h-m.t-m.b)/2;
+
+      // Quadrant fills
+      svg.append("rect").attr("x",x(-1)).attr("y",y(0)).attr("width",qW).attr("height",qH).attr("fill","#121822");
+      svg.append("rect").attr("x",x(0)).attr("y",y(0)).attr("width",qW).attr("height",qH).attr("fill","#151e29");
+      svg.append("rect").attr("x",x(-1)).attr("y",y(1)).attr("width",qW).attr("height",qH).attr("fill","#101b17");
+      svg.append("rect").attr("x",x(0)).attr("y",y(1)).attr("width",qW).attr("height",qH).attr("fill","#1b1910");
+
+      // Axes
+      svg.append("g").attr("transform",`translate(0,${y(0)})`).call(d3.axisBottom(x).ticks(5));
+      svg.append("g").attr("transform",`translate(${x(0)},0)`).call(d3.axisLeft(y).ticks(5));
+
+      // Quadrant labels
+      const labels = [
+        {x:x(-0.60), y:y(-0.70), txt:"Structural + Conflict"},
+        {x:x( 0.60), y:y(-0.70), txt:"Human + Conflict"},
+        {x:x(-0.60), y:y( 0.70), txt:"Structural + Future"},
+        {x:x( 0.60), y:y( 0.70), txt:"Human + Future"},
+      ];
+      svg.selectAll("text.quad").data(labels).join("text")
+        .attr("class","quad").attr("x",d=>d.x).attr("y",d=>d.y)
+        .attr("fill","#7a8a9b").attr("font-size",12).attr("font-style","italic")
+        .attr("text-anchor","middle").text(d=>d.txt);
+
+      const r=d3.scaleSqrt().domain([0,1]).range([4,13]);
+      svg.selectAll("circle").data(data.clusters).join("circle")
+        .attr("cx",d=>x(d.vector?d.vector[0]: (d.quad==="structural"||d.quad==="conflict"?-0.6:0.6)))
+        .attr("cy",d=>y(d.vector?d.vector[1]: (d.quad==="conflict"||d.quad==="structural"?-0.6:0.6)))
+        .attr("r",d=>r(d.weight))
+        .attr("fill",d=>colorHash(d.title))
+        .attr("opacity",0.92).attr("stroke","#0b0f14").attr("stroke-width",0.8)
+        .on("mousemove",(ev,d)=>tip.show(
+          `<b>${d.title}</b><div class="muted">Quadrant: ${d.quad}</div><div class="muted">Weight: ${(d.weight*100|0)}%</div>`,
+          ev.clientX,ev.clientY))
+        .on("mouseleave", tip.hide);
+
+      if (data.centroid){
+        svg.append("circle")
+          .attr("cx",x(data.centroid[0])).attr("cy",y(data.centroid[1]))
+          .attr("r",9).attr("fill","#0f62fe")
+          .attr("stroke","#5aa3ff").attr("stroke-width",2);
+      }
+    }
+
+    /* ---------------- Silences ---------------- */
+    function renderSilences(el, legendEl, data){
+      clear(el); legendEl.innerHTML='';
+      addTag(legendEl,"#2a3344","Based on 24 hour coverage patterns");
+
+      const items = data.expectations || [];
+      if(!items.length){
+        d3.select(el).append("div").attr("class","muted")
+          .text("No notable thematic absences detected for this day.");
+        return;
+      }
+
+      const list=d3.select(el).append("div").attr("class","list");
+      list.selectAll("div.item").data(items).join("div").attr("class","item")
+        .html(d=>`<div style="font-weight:700;margin-bottom:6px">${d.theme||"Theme"}</div>
+                 <div class="muted">Missing: ${Array.isArray(d.expectedButMissing)? d.expectedButMissing.join(", ") : d.expectedButMissing}</div>`);
+    }
+
+    /* ---------------- Fingerprints (2-AXIS CLEAN REWRITE) ---------------- */
+    function renderFingerprints(el, legendEl, data){
+      clear(el); legendEl.innerHTML='';
+
+      addTag(legendEl, "#ff9f7a", "Blame");
+      addTag(legendEl, "#d97aff", "Cause");
+      addTag(legendEl, "#7aa2ff", "Risk");
+      addTag(legendEl, "#3dd9c4", "Optimism");
+      addLineBreak(legendEl);
+      addTag(legendEl, "#999", "Horizontal: Blame ← → Cause");
+      addLineBreak(legendEl);
+      addTag(legendEl, "#999", "Vertical: Risk ↓ ↑ Optimism");
+      addLineBreak(legendEl);
+      addTag(legendEl, "#999", "Color intensity = Certainty (bold = high, faded = low)");
+
+      const grid=d3.select(el).append("div")
+        .style("display","grid")
+        .style("grid-template-columns","repeat(auto-fit, minmax(300px, 1fr))")
+        .style("gap","14px");
+
+      (data.clusters||[]).slice(0,12).forEach(c=>{
+        const card=grid.append("div").attr("class","item");
+        card.append("div")
+          .style("font-weight",700)
+          .style("margin-bottom","10px")
+          .style("font-size","14px")
+          .text(c.title);
+
+        const w=300, h=260;
+        const svg=card.append("svg").attr("viewBox",`0 0 ${w} ${h}`);
+        const cx = w/2, cy = h/2;
+        const axisLen = 100;
+
+        // Get values - ONLY these 4 metrics
+        const blame = c.radial?.blame ?? 0;
+        const cause = c.radial?.cause ?? 0;
+        const risk = c.radial?.risk ?? 0;
+        const optimism = c.radial?.optimism ?? 0;
+        const certainty = c.radial?.certainty ?? 0.5;
+
+        const opacity = 0.2 + (certainty * 0.8);
+
+        // Axes
+        svg.append("line")
+          .attr("x1", cx-axisLen).attr("x2", cx+axisLen)
+          .attr("y1", cy).attr("y2", cy)
+          .attr("stroke", "#2a3544").attr("stroke-width", 2);
+
+        svg.append("line")
+          .attr("x1", cx).attr("x2", cx)
+          .attr("y1", cy-axisLen).attr("y2", cy+axisLen)
+          .attr("stroke", "#2a3544").attr("stroke-width", 2);
+
+        // Labels
+        svg.append("text")
+          .attr("x", cx-axisLen-5).attr("y", cy-8)
+          .attr("fill", "#ff9f7a").attr("font-size", 11).attr("font-weight", 600)
+          .attr("text-anchor", "end")
+          .text("Blame");
+
+        svg.append("text")
+          .attr("x", cx+axisLen+5).attr("y", cy-8)
+          .attr("fill", "#d97aff").attr("font-size", 11).attr("font-weight", 600)
+          .text("Cause");
+
+        svg.append("text")
+          .attr("x", cx+8).attr("y", cy+axisLen+12)
+          .attr("fill", "#7aa2ff").attr("font-size", 11).attr("font-weight", 600)
+          .text("Risk");
+
+        svg.append("text")
+          .attr("x", cx+8).attr("y", cy-axisLen-5)
+          .attr("fill", "#3dd9c4").attr("font-size", 11).attr("font-weight", 600)
+          .text("Optimism");
+
+        // Four points on two axes
+        const pts = [
+          {x: cx - blame*axisLen, y: cy, label: "Blame", val: blame, color: "#ff9f7a"},
+          {x: cx + cause*axisLen, y: cy, label: "Cause", val: cause, color: "#d97aff"},
+          {x: cx, y: cy + risk*axisLen, label: "Risk", val: risk, color: "#7aa2ff"},
+          {x: cx, y: cy - optimism*axisLen, label: "Optimism", val: optimism, color: "#3dd9c4"}
+        ];
+
+        const storyColor = colorHash(c.title);
+
+        // Draw connecting polygon
+        const polyPoints = [
+          [pts[0].x, pts[0].y], // Blame
+          [pts[3].x, pts[3].y], // Optimism
+          [pts[1].x, pts[1].y], // Cause
+          [pts[2].x, pts[2].y]  // Risk
+        ];
+
+        svg.append("polygon")
+          .attr("points", polyPoints.map(p => p.join(",")).join(" "))
+          .attr("fill", storyColor)
+          .attr("fill-opacity", 0.08 + (certainty * 0.22))
+          .attr("stroke", storyColor)
+          .attr("stroke-width", 2)
+          .attr("stroke-opacity", 0.3 + (certainty * 0.7));
+
+        // Draw points on top
+        pts.forEach(pt => {
+          svg.append("circle")
+            .attr("cx", pt.x).attr("cy", pt.y)
+            .attr("r", 6)
+            .attr("fill", pt.color)
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 2)
+            .attr("opacity", 0.5 + (certainty * 0.5))
+            .style("cursor", "help")
+            .on("mousemove", (ev) => tip.show(
+              `<b>${pt.label}</b>: ${(pt.val*100).toFixed(0)}%<br><b>Certainty</b>: ${(certainty*100).toFixed(0)}%`,
+              ev.clientX, ev.clientY
+            ))
+            .on("mouseleave", tip.hide);
+        });
+      });
+    }
+
+    /* ---------------- Word Clouds ---------------- */
+    function renderClouds(el1, el2, legendEl, clouds, lifecycle){
+      clear(el1); clear(el2); legendEl.innerHTML='';
+      addTag(legendEl,"#999","Left column: by outlet | Right column: by story");
+
+      // outlet cards
+      const outCards = d3.select(el1).selectAll("div.item").data((clouds.by_outlet||[]).slice(0,8)).join("div").attr("class","item");
+      outCards.append("div").style("font-weight",700).style("margin-bottom","6px").text(d=>d.outlet);
+      outCards.each(function(d){
+        const wrap=d3.select(this).append("div").style("line-height","1.7");
+        const max = d3.max(d.tokens, t=>t[1])||1;
+        wrap.selectAll("span").data(d.tokens.slice(0,40)).join("span")
+          .style("display","inline-block").style("margin","4px 7px")
+          .style("color",t=>colorHash(t[0]))
+          .style("font-weight",700)
+          .style("font-size",t=>`${Math.max(12,(t[1]/max)*30)}px`)
+          .text(t=>t[0]);
+      });
+
+      // cluster title map from lifecycles
+      const titleOf = new Map(lifecycle.clusters.map(c=>[c.id,c.title]));
+
+      const entries = Object.entries(clouds.by_cluster||{});
+      const clCards = d3.select(el2).selectAll("div.item").data(entries.slice(0,12)).join("div").attr("class","item");
+      clCards.append("div")
+        .style("font-weight",700).style("margin-bottom","6px")
+        .text(([id])=> titleOf.get(id) || `Story ${id}`);
+
+      clCards.each(function([id,tokens]){
+        const wrap=d3.select(this).append("div").style("line-height","1.7");
+        const max = d3.max(tokens, t=>t[1])||1;
+        wrap.selectAll("span").data(tokens.slice(0,40)).join("span")
+          .style("display","inline-block").style("margin","4px 7px")
+          .style("color",t=>colorHash(t[0]))
+          .style("font-weight",700)
+          .style("font-size",t=>`${Math.max(12,(t[1]/max)*30)}px`)
+          .text(t=>t[0]);
+      });
+    }
+
+    /* ---------------- Lifecycles ---------------- */
+    function renderLifecycles(el, legendEl, data){
+      clear(el); legendEl.innerHTML='';
+
+      // Filter stories by importance - stricter criteria
+      const filteredClusters = data.clusters.filter(c => {
+        const totalVolume = c.volume.reduce((sum, v) => sum + v, 0);
+        const peakVolume = Math.max(...c.volume);
+        const duration = c.volume.filter(v => v > 0).length;
+
+        // Must meet at least one of these criteria
+        return totalVolume >= 4 || peakVolume >= 3 || duration >= 3;
+      });
+
+      // Sort by category, then by total volume within category
+      const categoryOrder = ["flashstorm", "wildfire", "slow_freeze", "slow freeze", "resurrection", "steady"];
+      filteredClusters.sort((a, b) => {
+        const aIdx = categoryOrder.indexOf(a.class);
+        const bIdx = categoryOrder.indexOf(b.class);
+        if (aIdx !== bIdx) return aIdx - bIdx;
+
+        // Within same category, sort by total volume descending
+        const aVol = a.volume.reduce((sum, v) => sum + v, 0);
+        const bVol = b.volume.reduce((sum, v) => sum + v, 0);
+        return bVol - aVol;
+      });
+
+      // Enhanced legend
+      const ramp = document.createElement('div'); ramp.className='tag';
+      ramp.innerHTML = `<span>Article volume →</span>
+        <span style="display:inline-block;width:120px;height:12px;border-radius:6px;background:linear-gradient(90deg,#1a2230,#7aa2ff);border:1px solid #1e2a3a;"></span>
+        <span>← Low | High →</span>`;
+      legendEl.appendChild(ramp);
+
+      // Line break for class labels
+      const br = document.createElement('div');
+      br.style.width = '100%';
+      br.style.height = '0';
+      legendEl.appendChild(br);
+
+      const classDescs = {
+        flashstorm: "Sudden spike, quick fade",
+        wildfire: "Rapid spread, sustained",
+        "slow freeze": "Gradual decline",
+        resurrection: "Returns after gap",
+        steady: "Consistent coverage"
+      };
+
+      ["flashstorm","wildfire","slow freeze","resurrection","steady"].forEach(lbl=>{
+        const tag = document.createElement('div');
+        tag.className = 'tag';
+        tag.title = classDescs[lbl];
+        tag.innerHTML = `<span class="dot" style="background:#2a3344"></span><span>${lbl}</span>`;
+        legendEl.appendChild(tag);
+      });
+
+      // Show filtering info
+      if (filteredClusters.length < data.clusters.length) {
+        const info = document.createElement('div');
+        info.className = 'tag';
+        info.style.color = '#7a8a9b';
+        info.style.fontStyle = 'italic';
+        info.innerHTML = `<span>Showing ${filteredClusters.length} of ${data.clusters.length} stories (filtered by importance)</span>`;
+        legendEl.appendChild(info);
+      }
+
+      const w=1000, rowH=24, top=26, right=10, left=280, bottom=20;
+      const h = top+bottom+rowH*Math.max(1, filteredClusters.length);
+      const svg=d3.select(el).append("svg").attr("viewBox",`0 0 ${w} ${h}`);
+
+      const x=d3.scaleBand().domain(data.editions).range([left,w-right]).paddingInner(0.15);
+      const volMax = d3.max(filteredClusters.flatMap(c=>c.volume))||1;
+      const col=d3.scaleLinear().domain([0,volMax]).range(["#1a2230","#7aa2ff"]);
+
+      svg.append("g").attr("transform",`translate(0,${top-8})`)
+        .selectAll("text").data(data.editions).join("text")
+        .attr("x",d=>x(d)+x.bandwidth()/2).attr("text-anchor","middle")
+        .attr("fill","#cfd9e3").attr("font-size",13).text(d=>d);
+
+      const rows = svg.append("g").attr("transform",`translate(0,${top})`)
+        .selectAll("g").data(filteredClusters).join("g")
+        .attr("transform",(d,i)=>`translate(0,${i*rowH})`);
+
+      // Truncated title with hover (21 characters max)
+      rows.append("text")
+        .attr("x",12).attr("y", rowH*0.7)
+        .attr("fill","#e6edf3").attr("font-size",14)
+        .style("cursor","help")
+        .text(d=>truncate(d.title,21))
+        .on("mousemove",(ev,d)=>tip.show(
+          `<div style="max-width:380px"><b>${d.title}</b><div class="muted">Class: ${d.class.replace(/_/g, ' ')}</div></div>`,
+          ev.clientX,ev.clientY))
+        .on("mouseleave", tip.hide);
+
+      rows.append("text")
+        .attr("x", left-12).attr("y", rowH*0.7)
+        .attr("fill","#8da1b5").attr("font-size",13)
+        .attr("text-anchor","end")
+        .text(d=>d.class.replace(/_/g, ' '));
+
+      rows.selectAll("rect")
+        .data(d=>data.editions.map((ed,i)=>({ed,i,v:d.volume[i],c:d})))
+        .join("rect")
+        .attr("x",d=>x(d.ed)).attr("y",4)
+        .attr("width",x.bandwidth()).attr("height",rowH-8)
+        .attr("rx",5).attr("fill",d=>col(d.v))
+        .on("mousemove",(ev,d)=>tip.show(
+          `<b>${d.c.title}</b><div>${d.ed}</div><div class="muted">Articles: ${d.v} | Class: ${d.c.class.replace(/_/g, ' ')}</div>`,
+          ev.clientX,ev.clientY))
+        .on("mouseleave", tip.hide);
+    }
+
+    /* ---------------- Orchestrate per date ---------------- */
+    async function loadAll(date){
+      try{
+        $('#msg').innerHTML = "";
+        const base = `${rootOutDir}/${date}`;
+        const [life,mom,divg,emo,comp,sil,clouds,prints] = await Promise.all([
+          j(`${base}/viz.lifecycles.json`),
+          j(`${base}/viz.momentum.json`),
+          j(`${base}/viz.divergence.json`),
+          j(`${base}/viz.emotion.json`),
+          j(`${base}/viz.compass.json`),
+          j(`${base}/viz.silences.json`),
+          j(`${base}/viz.clouds.json`),
+          j(`${base}/viz.fingerprints.json`)
+        ]);
+        renderMomentum('#viz-momentum', $('#legend-momentum'), mom);
+        renderDivergence('#viz-divergence', $('#legend-divergence'), divg);
+        renderEmotion('#viz-emotion', $('#legend-emotion'), emo);
+        renderCompass('#viz-compass', $('#legend-compass'), comp);
+        renderSilences('#viz-silences', $('#legend-silences'), sil);
+        renderFingerprints('#viz-fingerprints', $('#legend-fingerprints'), prints);
+        renderClouds('#viz-clouds-outlet', '#viz-clouds-cluster', $('#legend-clouds'), clouds, life);
+        renderLifecycles('#viz-lifecycles', $('#legend-lifecycles'), life);
+      }catch(err){
+        console.error(err);
+        msg(`<b>Failed to load data for ${date}</b><div class="mono">${String(err)}</div>`);
+      }
+    }
+
+    // Bootstrap
+    (async()=> {
+      const idx = await j(`${rootOutDir}/index.json`).catch(()=>({dates:[]}));
+      const dates = (idx.dates||[]).map(d=>typeof d==="string"? d : (d.date || d.path || String(d)));
+      const latest = idx.latest || dates.at(-1);
+      const sel = $('#date');
+      sel.innerHTML = dates.map(d=>`<option value="${d}">${d}</option>`).join('');
+      if (latest) { sel.value = latest; await loadAll(latest); }
+      sel.addEventListener('change', () => loadAll(sel.value));
+    })();
+  })();
+  </script>
+</body>
+</html>
