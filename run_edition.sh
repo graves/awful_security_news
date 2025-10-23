@@ -140,11 +140,14 @@ fi
 
 rsync -rl --delete --omit-dir-times --no-perms --no-owner --no-group \
   --exclude '/api/' \
+  --exclude '/viz/' \
   "${SITE_BUILD}/" "${SITE_DEST}/"
 
 # Set proper permissions after sync
 find "${SITE_DEST}" -type d ! -path "*/api/*" ! -path "*/api" -exec chmod 775 {} + 2>/dev/null || true
 find "${SITE_DEST}" -type f ! -path "*/api/*" -exec chmod 664 {} + 2>/dev/null || true
+find "${SITE_DEST}" -type d ! -path "*/viz/*" ! -path "*/api" -exec chmod 775 {} + 2>/dev/null || true
+find "${SITE_DEST}" -type f ! -path "*/viz/*" -exec chmod 664 {} + 2>/dev/null || true
 
 # ---------- Cleanup ----------
 log "Cleaning project API_OUT..."
