@@ -89,8 +89,8 @@ log "Building mdBook..."
 
 # ---------- Copy static viz pages ----
 log "Copying viz html and js files..."
-cp "${PROJECT_DIR}/daily_analysis.html" "${PROJECT_DIR}/src"
-cp "${PROJECT_DIR}/awful_news_vibes.js" "${PROJECT_DIR}/src/assets"
+cp "${PROJECT_DIR}/daily_analysis.html" "${$SITE_BUILD}"
+cp "${PROJECT_DIR}/awful_news_vibes.js" "${$SITE_BUILD}/assets"
 
 # robots.txt + sitemap
 log "Writing robots.txt..."
