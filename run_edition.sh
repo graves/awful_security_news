@@ -79,6 +79,11 @@ mkdir -p "$API_OUT"
 
 # ---------- Generate Daily Summary and d3 visualizations ----------
 log "Generating Daily Summary and d3 visualizations with awful_news_vibes..."
+"$AWFUL_NEWS_VIBES_BIN" \
+  --cluster-config "$AWFUL_CLUSTER_CONFIG" \
+  --vibe-config "$AWFUL_VIBES_CONFIG" \
+  --api-dir "$API_OUT" \
+  -o "$VIZ_OUT"
 shopt -s nullglob
 mapfile -t META_POSTS < <(find "$VIZ_OUT" -mindepth 2 -maxdepth 2 -type f -name 'meta_post.md' -printf '%T@ %p\n' | sort -n | awk '{ $1=""; sub(/^ /,""); print }')
 [[ ${#META_POSTS[@]} -eq 0 ]] && die "No meta_post.md found under $VIZ_OUT"
