@@ -51,6 +51,23 @@ Sitemap: https://news.awfulsec.com/sitemap.xml
 ROBOTS
 }
 
+TZ="America/New_York"
+export TZ
+
+is_morning() {
+  # 0-padded hour in local TZ
+  local hour
+  hour=$(date +%H)
+  # morning: 05:00–11:59
+  if (( 10#$hour >= 5 && 10#$hour < 12 )); then
+    return 0
+  else
+    return 1
+  fi
+}
+
+# ----
+
 # ---------- Preconditions ----------
 require_bin "$AWFUL_TEXT_NEWS_BIN"
 require_bin "$AWFUL_NEWS_VIBES_BIN"
@@ -79,15 +96,32 @@ mkdir -p "$API_OUT"
 
 # ---------- Generate Daily Summary and d3 visualizations ----------
 log "Generating Daily Summary and d3 visualizations with awful_news_vibes..."
-"$AWFUL_NEWS_VIBES_BIN" \
-  --cluster-config "$AWFUL_CLUSTER_CONFIG" \
-  --vibe-config "$AWFUL_VIBES_CONFIG" \
-  --api-dir "$API_OUT" \
-  -o "$VIZ_OUT"
+if is_morning; then
+  log "Morning edition detected — running awful_news_vibes..."
+  "$AWFUL_NEWS_VIBES_BIN" \
+    --cluster-config "$AWFUL_CLUSTER_CONFIG" \
+    --vibe-config "$AWFUL_VIBES_CONFIG" \
+    --api-dir "$API_OUT" \
+    -o "$VIZ_OUT"
+else
+  log "Not morning — skipping awful_news_vibes and reusing existing viz output."
+fi
+
 shopt -s nullglob
 mapfile -t META_POSTS < <(find "$VIZ_OUT" -mindepth 2 -maxdepth 2 -type f -name 'meta_post.md' -printf '%T@ %p\n' | sort -n | awk '{ $1=""; sub(/^ /,""); print }')
 [[ ${#META_POSTS[@]} -eq 0 ]] && die "No meta_post.md found under $VIZ_OUT"
 LATEST_META="${META_POSTS[-1]}"
+
+# Backup existing daily_summary.md before overwriting
+if [[ -f "${PROJECT_DIR}/src/daily_summary.md" ]]; then
+  BACKUP_DIR="${PROJECT_DIR}/src/daily_summaries"
+  mkdir -p "$BACKUP_DIR"
+  TODAY_DATE=$(date +%Y-%m-%d)
+  BACKUP_FILE="${BACKUP_DIR}/${TODAY_DATE}_daily_summary.md"
+  log "Backing up existing daily_summary.md to ${BACKUP_FILE}..."
+  cp "${PROJECT_DIR}/src/daily_summary.md" "$BACKUP_FILE"
+fi
+
 cp "$LATEST_META" "${PROJECT_DIR}/src/daily_summary.md"
 
 # ---------- Build site ----------
