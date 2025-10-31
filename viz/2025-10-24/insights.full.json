@@ -1,0 +1,196 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "ad7417a9e7524c79",
+        "b12290e4edee1580",
+        "05343df9ca2492db",
+        "3702aae622698f19",
+        "98519b06a3882ff1"
+      ],
+      "theme": "White House East Wing Demolition",
+      "whyNow": "Centrally coordinated narrative across multiple outlets highlighting a major historical and symbolic transformation under Trump, with increasing detail on scale, funding, and backlash."
+    },
+    {
+      "clusters": [
+        "a945482656ae5545",
+        "97fbfcb3cc599510",
+        "904f1398ee12e168",
+        "96b07b4cd6674f9d",
+        "77a6ce3c1752fec8"
+      ],
+      "theme": "Geopolitical Tensions and Military Escalation",
+      "whyNow": "Surge in coordinated coverage of U.S.-Russia, U.S.-Iran, U.S.-Venezuela, and U.S.-North Korea conflicts, driven by direct military actions and diplomatic ruptures."
+    },
+    {
+      "clusters": [
+        "d2393e63963ad9ac",
+        "9875530734c072e6",
+        "5177fdb60786f59d",
+        "73c11b3eb746bbb1",
+        "c19dd995854f701d"
+      ],
+      "theme": "Economic and Consumer Stress",
+      "whyNow": "Growing narrative of systemic economic pressure — from rising ticket prices, inflation, energy costs, and federal shutdown impacts — with broad public resonance."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "a945482656ae5545",
+          "contrast": "Policy framing of cartels as national security threats → Political branding of cartels as 'ISIS of the Western Hemisphere' to justify military escalation."
+       ,
+        "sources": [
+          "https://www.aljazeera.com"
+        ]
+      },
+      {
+        "clusterId": "d41fbfbbdc646bba",
+        "contrast": "Economic concern over debt → Political narrative of fiscal collapse and constitutional threat due to shutdown.",
+        "sources": [
+          "https://apnews.com"
+        ]
+      },
+      {
+        "clusterId": "051c9a2f6300b765",
+        "contrast": "Military attack in Ukraine → Political framing of attacks as part of broader U.S.-Russia and U.S.-Iran standoff.",
+        "sources": [
+          "https://lite.cnn.com"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "emergency→accountability",
+    "examples": [
+      {
+        "clusterId": "051c9a2f6300b765",
+        "contrast": "Immediate emergency of civilian casualties → Long-term accountability for U.S. military actions in international waters.",
+        "sources": [
+          "https://lite.cnn.com"
+        ]
+      },
+      {
+        "clusterId": "67bf0159642490b3",
+        "contrast": "Personal feud between Wilson and Payton → Public accountability for workplace bullying in sports culture.",
+        "sources": [
+          "https://lite.cnn.com"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "blame→cause",
+    "examples": [
+      {
+        "clusterId": "9875530734c072e6",
+        "contrast": "Blame on athletes for high ticket prices → Investigation into root causes: business models, dynamic pricing, and profit structures.",
+        "sources": [
+          "https://text.npr.org"
+        ]
+      },
+      {
+        "clusterId": "d2393e63963ad9ac",
+        "contrast": "Blame on Tesla for profit drop → Focus on cause: tax credit expiry and regulatory credit loss.",
+        "sources": [
+          "https://lite.cnn.com"
+        ]
+      }
+    ]
+  }
+],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "cdd5da1f02c5db38",
+        "55dce84c8e7f28c3",
+        "eb43436444e092f9"
+      ],
+      "topic": "Crypto Pardons and Regulatory Shifts"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "d41fbfbbdc646bba",
+        "154129f35fcd4b51",
+        "a945482656ae5545"
+      ],
+      "topic": "Political and Economic Stability"
+    },
+    {
+      "direction": "flat",
+      "evidence": [
+        "1a03bec5cf0f7bd0",
+        "e591a1ec2dd9cae8",
+        "3c93c3245ba3401d"
+      ],
+      "topic": "Public Health and Cultural Narratives"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No mention of global climate adaptation strategies despite repeated reports on climate-driven disasters (e.g., melting Arctic, coral extinction, extreme weather).",
+      "theme": "Global Climate Response"
+    },
+    {
+      "expectedButMissing": "No coverage of international labor or social justice movements in the context of rising inequality and worker protections.",
+      "theme": "Global Labor and Social Equity"
+    },
+    {
+      "expectedButMissing": "No analysis of the psychological toll on children in war zones, despite multiple reports on child trauma and displacement.",
+      "theme": "Child Welfare in Conflict Zones"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-10-21",
+      "note": "The 'Reagan ad' controversy narrative faded after the Ontario government clarified the ad's content and Trump retreated from further action.",
+      "theme": "Political Ad Debates"
+    },
+    {
+      "ceasedSince": "2025-10-20",
+      "note": "The 'Bibisitters' diplomatic term lost traction after Vance's departure and lack of follow-up action in Gaza.",
+      "theme": "Diplomatic Nicknames and Rhetoric"
+    },
+    {
+      "ceasedSince": "2025-10-18",
+      "note": "The 'TikTok influencer in ICE raid' storyline was dropped after the individual's identity and role were clarified.",
+      "theme": "Viral Immigration Narratives"
+    }
+  ]
+  ,
+  "topMilestones": [
+    {
+      "clusters": [
+        "ad7417a9e7524c79",
+        "b12290e4edee1580",
+        "05343df9ca2492db",
+        "3702aae622698f19"
+      ],
+      "date": "2025-10-23",
+      "what": "White House East Wing demolition confirmed and expanded to include ballroom construction; multiple sources confirm satellite imagery and donor list."
+    },
+    {
+      "clusters": [
+        "a945482656ae5545",
+        "051c9a2f6300b765",
+        "f08f0667db9a9680",
+        "904f1398ee12e168"
+      ],
+      "date": "2025-10-22",
+      "what": "Trump declares war on cartels, launches military strikes in Caribbean and Pacific, and escalates tensions with Russia and North Korea."
+    },
+    {
+      "clusters": [
+        "cdd5da1f02c5db38",
+        "55dce84c8e7f28c3",
+        "eb43436444e092f9"
+      ],
+      "date": "2025-10-24",
+      "what": "Trump pardons Binance founder; U.S. sanctions Russia’s oil giants; and new AI tools launched in search and legal services."
+    }
+  ]
+}
