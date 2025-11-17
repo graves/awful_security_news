@@ -1,7 +1,14 @@
 # Awful News Index
 
+- [**2025-11-01**](./2025-11-01.md)
+    - [Morning](./2025-11-01_morning.md)
+    - [Afternoon](./2025-11-01_afternoon.md)
+    - [Evening](./2025-11-01_evening.md)
+
 - [**2025-10-31**](./2025-10-31.md)
     - [Morning](./2025-10-31_morning.md)
+    - [Afternoon](./2025-10-31_afternoon.md)
+    - [Evening](./2025-10-31_evening.md)
 
 - [**2025-10-30**](./2025-10-30.md)
     - [Morning](./2025-10-30_morning.md)

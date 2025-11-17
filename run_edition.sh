@@ -64,7 +64,7 @@ is_morning() {
   local hour
   hour=$(date +%H)
   # morning: 05:00–11:59
-  if (( 10#$hour >= 5 && 10#$hour < 12 )); then
+  if (( 10#$hour >= 4 && 10#$hour < 12 )); then
     return 0
   else
     return 1
