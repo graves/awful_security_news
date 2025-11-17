@@ -6,6 +6,9 @@ umask 0002
 # Conda env providing PyTorch/LibTorch
 CONDA_PREFIX="${CONDA_PREFIX:-/home/tg/miniconda3}"
 
+# Project & deploy paths
+PROJECT_DIR="/home/tg/awful_security_news"
+
 # Binaries
 AWFUL_TEXT_NEWS_BIN="/home/tg/.cargo/bin/awful_text_news"
 AWFUL_NEWS_VIBES_BIN="/home/tg/.cargo/bin/awful_news_vibes"
@@ -21,8 +24,7 @@ ELASTICSEARCH_INDEXER="${PROJECT_DIR}/index_elasticsearch.js"
 AWFUL_CLUSTER_CONFIG="/home/tg/.config/aj/awful_cluster_config.yaml"
 AWFUL_VIBES_CONFIG="/home/tg/.config/aj/awful_vibes_config.yaml"
 
-# Project & deploy paths
-PROJECT_DIR="/home/tg/awful_security_news"
+# Deploy paths
 SITE_HOSTNAME="news.awfulsec.com"
 DEPLOY_ROOT="/var/www/html/${SITE_HOSTNAME}"
 SITE_DEST="${DEPLOY_ROOT}"
