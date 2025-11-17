@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: awful_news_elasticsearch_prod
+    restart: unless-stopped
+    environment:
+      # Single-node cluster (sufficient for search-only workload)
+      - discovery.type=single-node
+
+      # Security disabled for simplicity (runs on localhost only)
+      - xpack.security.enabled=false
+
+      # Memory settings (adjust based on your server)
+      # For a server with 4GB+ RAM, these are conservative
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+
+      # Disable ML features to save memory
+      - xpack.ml.enabled=false
+
+      # Logging
+      - "logger.level=WARN"
+
+    ports:
+      # Only bind to localhost for security
+      - "127.0.0.1:9200:9200"
+
+    volumes:
+      # Persist data across restarts
+      - elasticsearch_prod_data:/usr/share/elasticsearch/data
+
+    networks:
+      - elastic
+
+    # Health check
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+    # Resource limits (adjust based on your server)
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 512M
+
+volumes:
+  elasticsearch_prod_data:
+    driver: local
+
+networks:
+  elastic:
+    driver: bridge

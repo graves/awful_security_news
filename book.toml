@@ -9,3 +9,9 @@ title = "AWFUL SECURITY NEWS"
 theme = "src/theme"
 default-theme = "ayu"
 mathjax-support = true
+no-section-label = true
+additional-js = ["elasticsearch-search.js"]
+additional-css = ["elasticsearch-search.css"]
+
+[output.html.search]
+enable = false

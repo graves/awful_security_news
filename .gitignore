@@ -3,3 +3,10 @@ daily_news/
 .vscode
 /.DS_Store
 /website.tar.gz
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Elasticsearch
+elasticsearch_data/

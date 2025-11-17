@@ -114,11 +114,10 @@
                             <li role="none"><button role="menuitem" class="theme" id="ayu">{{ theme_option "Ayu" }}</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="papier">{{ theme_option "Papier" }}</button></li>
                         </ul>
-                        {{#if search_enabled}}
+                        <!-- Always show search button for Elasticsearch -->
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
-                        {{/if}}
                     </div>
 
                     <h1 class="menu-title">{{ book_title }}</h1>
@@ -135,7 +134,7 @@
                     </div>
                 </div>
 
-                {{#if search_enabled}}
+                <!-- Always show search UI for Elasticsearch -->
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
                         <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
@@ -146,7 +145,6 @@
                         </ul>
                     </div>
                 </div>
-                {{/if}}
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">

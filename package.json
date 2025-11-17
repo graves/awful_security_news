@@ -1,0 +1,26 @@
+{
+  "name": "awful-security-news",
+  "version": "1.0.0",
+  "description": "Awful Security News - mdBook with Elasticsearch search",
+  "main": "index_elasticsearch.js",
+  "scripts": {
+    "index": "node index_elasticsearch.js",
+    "elastic:start": "docker-compose up -d",
+    "elastic:stop": "docker-compose down",
+    "elastic:logs": "docker-compose logs -f elasticsearch",
+    "build": "mdbook build && npm run index"
+  },
+  "keywords": [
+    "news",
+    "security",
+    "elasticsearch",
+    "mdbook"
+  ],
+  "author": "Thomas Graves",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^23.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {}
+}

@@ -11,6 +11,11 @@ AWFUL_TEXT_NEWS_BIN="/home/tg/.cargo/bin/awful_text_news"
 AWFUL_NEWS_VIBES_BIN="/home/tg/.cargo/bin/awful_news_vibes"
 MDBOOK_BIN="/home/tg/.cargo/bin/mdbook"
 SITEMAP_BIN="/home/tg/.cargo/bin/mdbook-sitemap-generator"
+NODE_BIN="/usr/bin/node"
+
+# Elasticsearch
+ELASTICSEARCH_URL="http://localhost:9200"
+ELASTICSEARCH_INDEXER="${PROJECT_DIR}/index_elasticsearch.js"
 
 # Awful Jade Configs
 AWFUL_CLUSTER_CONFIG="/home/tg/.config/aj/awful_cluster_config.yaml"
@@ -139,6 +144,31 @@ log "Writing robots.txt..."
 write_robots "$SITE_BUILD"
 log "Generating sitemap..."
 "$SITEMAP_BIN" -d "$SITE_HOSTNAME" -o "${SITE_BUILD}/sitemap.xml"
+
+# ---------- Index content into Elasticsearch ----------
+log "Indexing content into Elasticsearch..."
+if command -v "$NODE_BIN" >/dev/null 2>&1 && [[ -f "$ELASTICSEARCH_INDEXER" ]]; then
+  # Check if Elasticsearch is available
+  if curl -sf "$ELASTICSEARCH_URL/_cluster/health" >/dev/null 2>&1; then
+    log "Elasticsearch is available, indexing content..."
+
+    # Set environment variables for the indexer
+    export ELASTICSEARCH_URL
+
+    # Run the indexer, but don't fail the build if it errors
+    if "$NODE_BIN" "$ELASTICSEARCH_INDEXER" 2>&1 | while IFS= read -r line; do log "$line"; done; then
+      log "Elasticsearch indexing completed successfully"
+    else
+      log "WARNING: Elasticsearch indexing failed, but continuing deployment"
+    fi
+  else
+    log "WARNING: Elasticsearch is not available at $ELASTICSEARCH_URL"
+    log "Skipping search indexing. Search functionality may not work."
+  fi
+else
+  log "WARNING: Node.js or indexer script not found"
+  log "Skipping search indexing. Install Node.js and dependencies with: cd $PROJECT_DIR && npm install"
+fi
 
 # ---------- Deploy atomically ----------
 log "Deploying API to ${API_DEST}..."
