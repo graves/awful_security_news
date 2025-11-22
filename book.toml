@@ -10,8 +10,8 @@ theme = "src/theme"
 default-theme = "ayu"
 mathjax-support = true
 no-section-label = true
-additional-js = ["elasticsearch-search.js"]
-additional-css = ["elasticsearch-search.css"]
+additional-js = ["src/theme/elasticsearch-search.js"]
+additional-css = ["src/theme/elasticsearch-search.css"]
 
 [output.html.search]
 enable = false
