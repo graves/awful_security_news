@@ -10,7 +10,7 @@
 (function elasticsearchSearch() {
     // Configuration
     // Use relative URL so it goes through Caddy reverse proxy
-    const ELASTICSEARCH_URL = '/api/search';
+    const ELASTICSEARCH_URL = '/search';
     const INDEX_NAME = 'awful_news';
     const SEARCH_DEBOUNCE_MS = 300;
 
