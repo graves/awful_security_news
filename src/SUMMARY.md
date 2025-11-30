@@ -6,8 +6,6 @@
 - [Daily Summary](./daily_summary.md)
 - [Daily Analysis](./daily_analysis.html)
 - [Daily News](./daily_news.md)
-    - [2025-11-30](./2025-11-30.md)
-        - [Afternoon](./2025-11-30_afternoon.md)
     - [2025-11-22](./2025-11-22.md)
         - [Morning](./2025-11-22_morning.md)
         - [Afternoon](./2025-11-22_afternoon.md)
