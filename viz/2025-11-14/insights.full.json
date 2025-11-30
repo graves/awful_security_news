@@ -1,0 +1,143 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "659e1cc3704c29a",
+        "e555e06794fe4734",
+        "d291890081c0104b"
+      ],
+      "theme": "U.S. foreign policy and military escalation in the Caribbean",
+      "whyNow": "Concentrated coverage of 20 US strikes in international waters, ICE detentions, and regional tensions suggests a strategic pivot toward asserting dominance in the Caribbean amid Venezuela's mobilization"
+    },
+    {
+      "clusters": [
+        "1d0cd1477263a6df",
+        "6686d1f5c787c503",
+        "e5dd5c17adcd9ebc"
+      ],
+      "theme": "Epstein files and political accountability",
+      "whyNow": "The surge in Epstein-related stories—especially with 218 signatures for a vote—reflects a coordinated political effort to force transparency, now linked to Trump's vulnerability"
+    },
+    {
+      "clusters": [
+        "3258c47ffa7cf988",
+        "795a05542f8cc122",
+        "93b33971ae347706"
+      ],
+      "theme": "Government shutdown aftermath and economic aftershocks",
+      "whyNow": "Persistent reporting on flight delays, back pay, and market volatility underscores ongoing systemic instability beyond the shutdown's official end"
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "659e1cc3704c2c9a",
+          "contrast": "Blame: US is armed conflict against drug traffickers → Cause: US strikes linked to geopolitical leverage in Caribbean"
+        ,
+        "sources": [
+          "659e1cc3704c2c9a"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "risk→optimism",
+    "examples": [
+      {
+        "clusterId": "c722c934f2c1cf1a",
+        "contrast": "Risk: Solar storm → Optimism: Auroras seen globally as awe-inspiring phenomena"
+      ,
+        "sources": [
+          "c722c934f2c1cf1a"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "policy→politics",
+    "examples": [
+      {
+        "clusterId": "a43149bd523f99c1",
+        "contrast": "Policy: Vote on Epstein files → Politics: Republican-led effort to challenge White House authority"
+      ,
+        "sources": [
+          "a43149bd523f99c1"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "emergency→accountability",
+    "examples": [
+      {
+        "clusterId": "e555e06794fe4734",
+        "contrast": "Emergency: Chicago DHS shooting → Accountability: Agents targeted amid enforcement chaos"
+      ,
+        "sources": [
+          "e555e06794fe4734"
+        ]
+      }
+    ]
+  }
+],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "c722c934f2c1cf1a"
+      ],
+      "topic": "Auroral visibility"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "659e1cc3704c2c9a"
+      ],
+      "topic": "U.S. military operations in Caribbean"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Any mention of Biden administration's stance on Epstein files or foreign policy in the Caribbean"
+    ,
+      "theme": "Political neutrality"
+    },
+    {
+      "expectedButMissing": "Impact of Epstein files on public trust beyond Trump"
+   ,
+      "theme": "Public perception"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-14",
+      "note": "The 'cannibal storm' solar event narrative fades post-aurora peak",
+      "theme": "Solar storm visibility"
+    },
+    {
+      "ceasedSince": "2025-11-13",
+      "note": "The 'fake electors' case in Nevada ends after judicial validation",
+      "theme": "Electoral integrity"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "972d58d96c3a62c3",
+        "bd515b7a4f5575a2"
+      ],
+      "date": "2025-11-11",
+      "what": "Government shutdown ends after 43 days, longest in U.S. history"
+    },
+    {
+      "clusters": [
+        "15264d7a5ed7442d",
+        "3258c47ffa7cf988"
+      ],
+      "date": "2025-11-14",
+      "what": "Air travel and federal operations continue recovery despite shutdown's formal end"
+    }
+  ]
+}

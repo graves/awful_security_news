@@ -1,0 +1,136 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "18a9d8a04a92e9bc",
+        "faf291eb8624cfc7",
+        "c93f3840d52939af",
+        "807f93c46c36cb9f",
+        "300f19dad4edb622",
+        "dfbb4bd01016180c",
+        "300f19dad4edb622",
+        "ac52f61909a4bae5",
+        "300f19dad4edb622"
+      ],
+      "theme": "BBC Leadership Crisis and Trump's Legal Response",
+      "whyNow": "Convergence of resignations, legal threats, and political framing across multiple editions, indicating a narrative shift from editorial error to systemic media accountability."
+    },
+    {
+      "clusters": [
+        "ac52f61909a4bae5",
+        "d13a466bc86d0a8d",
+        "9bcafa4a64ada32e",
+        "e013850700008346",
+        "80702f3afea8253e"
+      ],
+      "theme": "SNAP Benefits and Government Shutdown",
+      "whyNow": "Escalating legal, political, and humanitarian narratives around food security and federal worker protections, with clear momentum in both policy and public discourse."
+    },
+    {
+      "clusters": [
+        "ac52f61909a4bae5",
+        "550c2769cfa34b95",
+        "a8be99f6707b97d3",
+        "16f6fcb48a2380be",
+        "93bbec66b6d44d9f",
+        "5747d7924552f2c7"
+      ],
+      "theme": "Public Trust and Media Integrity",
+      "whyNow": "Recurrent themes of misinformation, political bias, and institutional accountability, with multiple clusters showing a cross-cutting narrative of erosion in public trust in governance and media."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "18a9d8a04a92e9bc",
+          "contrast": "Blames BBC leadership for editorial bias; sources shift to Trump's legal threat as 'cause' of crisis, not just editorial decisions."
+       ,
+        "sources": [
+          "18a9d8a04a92e9bc",
+          "300f19dad4edb622"
+        ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "722b8306b0cfac0e",
+          "contrast": "Risk of increased cardiovascular risks → Optimism of long-term benefits in early hormone therapy."
+        ,
+        "sources": [
+          "722b8306b0cfac0e",
+          "300f19dad4edb622"
+        ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "c93f3840d52939af",
+          "contrast": "Policy-level edit dispute → Political framing of BBC as biased against Trump."
+        ,
+        "sources": [
+          "c93f3840d52939af",
+          "300f19dad4edb622"
+        ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "18a9d8a04a92e9bc",
+        "ac52f61909a4bae5"
+      ],
+      "topic": "BBC's Editorial Conduct"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "ac52f61909a4bae5"
+      ],
+      "topic": "Trump's Legal Strategy"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "722b8306b0cfac0e"
+      ],
+      "topic": "FDA's Hormone Therapy Stance"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Independent verification of the authenticity of the memo or the actual content of the edited Trump speech."
+    ,
+    "theme": "Media Accountability"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-10",
+      "note": "The narrative on the 'Lone Fed Governor' has faded with no new developments on the Trump administration's financial policy."
+    ,
+    "theme": "Federal Reserve and Monetary Policy"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "300f19dad4edb622",
+        "ac52f61909a4bae5",
+        "80702f3afea8253e"
+      ],
+      "date": "2025-11-10",
+      "what": "Bipartisan Senate deal ends the longest government shutdown in U.S. history, reversing Trump-era policies and restoring federal worker protections."
+    }
+  ]
+}

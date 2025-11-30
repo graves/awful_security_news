@@ -1,0 +1,200 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "ccb832dff7c363e6",
+        "a7c85eb7e7386d69",
+        "46ef40828df75efc",
+        "ea78b4db384bc519"
+      ],
+      "theme": "Trump-Epstein-Emails Narrative",
+      "whyNow": "Convergence of new Epstein email releases, political fallout, and legal scrutiny surrounding Trump's ties to Epstein"
+    },
+    {
+      "clusters": [
+        "a4cb0f8ff290ea9d",
+        "e0e917e3999579f0",
+        "39a6fc9c26ecc54a",
+        "340806ca1f46e2d6"
+      ],
+      "theme": "Government Shutdown & Federal Funding Crisis",
+      "whyNow": "Prolonged shutdown, bipartisan funding deals, and SNAP benefit disruptions trigger widespread public and political attention"
+    },
+    {
+      "clusters": [
+        "2c3e2423aa22f766",
+        "55a18899af6f9595",
+        "734baba16c8f46ed",
+        "c00d4734bed233e1"
+      ],
+      "theme": "Climate and Environmental Governance",
+      "whyNow": "COP30 focus, climate accountability, and international policy coordination drive high public engagement"
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "a4cb0f8ff290ea9d",
+          "contrast": "Shifting from blaming Democrats for shutdown to highlighting Trump's role in prolonged gridlock",
+          "sources": [
+            "Al Jazeera",
+            "Al Jazeera"
+          ]
+        },
+        {
+          "clusterId": "74c98ae7dadcf837",
+          "contrast": "Reframing from political opposition to climate leadership to Biden/Newsom as moral authority",
+          "sources": [
+            "Al Jazeera",
+            "Al Jazeera"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "836fdd6907e4c5e9",
+          "contrast": "From youth drug crisis to public health warning to resilience narrative",
+          "sources": [
+            "CNN",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "157aef23c16a2ef1",
+          "contrast": "From oil peak forecast to long-term growth narrative",
+          "sources": [
+            "CNN",
+            "CNN"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "e5e5ee617fa8fc0d",
+          "contrast": "Redistricting shifts from technical map changes to political power play",
+          "sources": [
+            "CNN",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "340806ca1f46e2d6",
+          "contrast": "From ceasefire violation to geopolitical instability",
+          "sources": [
+            "Al Jazeera",
+            "Al Jazeera"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "c49c70a5d32287d2",
+          "contrast": "From police raid to press freedom and institutional accountability",
+          "sources": [
+            "AP News",
+            "AP News"
+          ]
+        },
+        {
+          "clusterId": "15e9af47b9a6f6a7",
+          "contrast": "From media editing to legal accountability and defamation claims",
+          "sources": [
+            "BBC",
+            "Telegraph"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "a4cb0f8ff290ea9d",
+        "340806ca1f46e2d6",
+        "52ff080e821a7b5c"
+      ],
+      "topic": "Government Shutdown & Public Accountability"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "f7c859c4631fdd0f",
+        "52ff080e821a7b5c",
+        "a7c85eb7e7386d69"
+      ],
+      "topic": "Media & Political Narratives on Epstein-Trump Links"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Analysis of post-shutdown economic recovery and long-term workforce impacts in public reporting",
+      "theme": "Economic Aftermath of Government Shutdown"
+    },
+    {
+      "expectedButMissing": "Detailed public health data on long-term impacts of botulism outbreaks",
+      "theme": "Public Health Crisis Follow-Up"
+    },
+    {
+      "expectedButMissing": "Comprehensive data on AI’s impact on employment beyond stock market shifts",
+      "theme": "Technological Disruption & Labor Market"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-14",
+      "note": "The 'cannibal storm' solar event has faded from headlines despite ongoing space weather monitoring",
+      "theme": "Solar Storm Event"
+    },
+    {
+      "ceasedSince": "2025-11-15",
+      "note": "The Epstein-Emails story has shifted from daily updates to procedural legal updates",
+      "theme": "Epstein-Related Political Scandal"
+    },
+    {
+      "ceasedSince": "2025-11-13",
+      "note": "The 'Toy Story 5' teaser has moved from viral buzz to speculative commentary",
+      "theme": "Pop Culture Launch Narrative"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "a4cb0f8ff290ea9d",
+        "340806ca1f46e2d6",
+        "a7c85eb7e7386d69"
+      ],
+      "date": "2025-11-13",
+      "what": "House votes to end 43-day government shutdown; Trump signs funding bill; Epstein emails trigger new hearings"
+    },
+    {
+      "clusters": [
+        "340806ca1f46e2d6",
+        "157aef23c16a2ef1",
+        "39a6fc9c26ecc54a"
+      ],
+      "date": "2025-11-12",
+      "what": "Supreme Court extends SNAP withholding; MLB announces new gambling rules; oil demand forecast revised"
+    },
+    {
+      "clusters": [
+        "2c3e2423aa22f766",
+        "55a18899af6f9555",
+        "390ddf42985fb3a6"
+      ],
+      "date": "2025-11-10",
+      "what": "COP30 opens; Epstein files released; Trump defends H-1B visas"
+    }
+  ]
+}

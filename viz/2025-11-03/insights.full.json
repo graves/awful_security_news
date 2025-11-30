@@ -1,0 +1,252 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "99098a0c7beda750",
+        "9bd0195221316af5"
+      ],
+      "theme": "Gaza humanitarian crisis",
+      "whyNow": "Intensified aid blockade and reconstruction halt after 2025-11-02 update"
+    },
+    {
+      "clusters": [
+        "184bb674d56c3e52",
+        "0a30ca0a006e9f57",
+        "ae191f3553b97878"
+      ],
+      "theme": "U.S. nuclear testing and global alarm",
+      "whyNow": "Concurrent announcements of testing resumption and global diplomatic tension"
+    },
+    {
+      "clusters": [
+        "f7046431dd851ff0",
+        "ff9f815201e42fde"
+      ],
+      "theme": "Harvard medical building explosion",
+      "whyNow": "New details on intent and surveillance link to national security"
+    },
+    {
+      "clusters": [
+        "978ba80886528d63",
+        "784c4f557fb9ef07",
+        "1b545a0bf5bbcafd"
+      ],
+      "theme": "SNAP benefits and government shutdown",
+      "whyNow": "Legal rulings and emergency fund debates make hunger a central political issue"
+    },
+    {
+      "clusters": [
+        "3d812b2d230c5da4",
+        "378a3f49a2e0701b"
+      ],
+      "theme": "US-led foreign policy crises",
+      "whyNow": "Colombia, Sudan, and Venezuela all feature US intervention or backlash"
+    },
+    {
+      "clusters": [
+        "60bb71b3f565182f",
+        "5b188806f13b7a2a"
+      ],
+      "theme": "Public violence and terrorism fears",
+      "whyNow": "Mass stabbing and bomb threats escalate across UK and US"
+    },
+    {
+      "clusters": [
+        "1977d4e9e325ed17",
+        "3ce2b826943bbae6"
+      ],
+      "theme": "Climate and health crisis",
+      "whyNow": "Mosquito expansion, HPV vaccine, and cancer risks converge"
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "99098a0c7beda750",
+          "contrast": "Blame: Israel's blockade is framed as intentional. Cause: Humanitarian crisis caused by external policy, not internal conflict.",
+          "sources": [
+            "Al Jazeera",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "a86bb49c22473eea",
+          "contrast": "Blame: China's role in denuclearization. Cause: China's non-cooperation enables North Korea talks.",
+          "sources": [
+            "AP News"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "46e3ab7809e27d9b",
+          "contrast": "Risk: mRNA vaccines may worsen cancer. Optimism: They may enhance immune response.",
+          "sources": [
+            "Al Jazeera"
+          ]
+        },
+        {
+          "clusterId": "c330763be8b43701",
+          "contrast": "Risk: Cultural appropriation. Optimism: Cultural connection.",
+          "sources": [
+            "NYT"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "7e492c67cbaa31df",
+          "contrast": "Policy: Climate change adaptation. Politics: Climate change framed as political issue.",
+          "sources": [
+            "BBC"
+          ]
+        },
+        {
+          "clusterId": "90f11e4e0b564b89",
+          "contrast": "Policy: Avalanche prevention. Politics: Tragedies politicized.",
+          "sources": [
+            "CNN"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "784c4f557fb9ef07",
+          "contrast": "Emergency: SNAP delay. Accountability: Federal courts force action.",
+          "sources": [
+            "NPR"
+          ]
+        },
+        {
+          "clusterId": "5b188806f13b7a2a",
+          "contrast": "Emergency: Train stabbing. Accountability: Suspects arrested, no terrorism link.",
+          "sources": [
+            "BBC"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "99098a0c7beda750",
+        "9bd0195221316af5",
+        "f7046431dd851ff0"
+      ],
+      "topic": "Gaza humanitarian crisis"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "184bb674d56c3e52",
+        "0a30ca0a006e9f57",
+        "ae191f3553b97878"
+      ],
+      "topic": "U.S. nuclear testing"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "978ba80886528d63",
+        "784c4f557fb9ef07",
+        "1b545a0bf5bbcafd"
+      ],
+      "topic": "SNAP benefits"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "32012b5b23268d7e",
+        "a86bb49c22473eea"
+      ],
+      "topic": "Iran and China's role in weapons"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "99098a0c7beda750",
+        "f7046431dd851ff0"
+      ],
+      "topic": "Harvard explosion"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No mention of climate change impact on U.S. elections",
+      "theme": "Climate and elections"
+    },
+    {
+      "expectedButMissing": "No discussion of AI's impact on labor markets",
+      "theme": "AI and economy"
+    },
+    {
+      "expectedButMissing": "No reference to refugee mental health in humanitarian crises",
+      "theme": "Refugee well-being"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-02",
+      "note": "The narrative of a single 'storm of the century' was replaced by evolving, fragmented reports",
+      "theme": "Hurricane Melissa"
+    },
+    {
+      "ceasedSince": "2025-11-01",
+      "note": "The idea of a single, unifying cause for the Gaza conflict disappeared amid multiple competing narratives",
+      "theme": "Gaza conflict"
+    },
+    {
+      "ceasedSince": "2025-11-01",
+      "note": "The claim of a 'safe cities' initiative lost credibility due to contradictory data",
+      "theme": "Trump's crime crackdown"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "184bb674d56c3e52",
+        "0a30ca0a006e9f57",
+        "ae191f3553b97878"
+      ],
+      "date": "2025-11-02",
+      "what": "Trump announces resumption of nuclear testing after a 33-year pause"
+    },
+    {
+      "clusters": [
+        "99098a0c7beda750",
+        "9bd0195221316af5"
+      ],
+      "date": "2025-11-02",
+      "what": "Gaza faces worsening humanitarian crisis due to Israel's aid blockade"
+    },
+    {
+      "clusters": [
+        "f7046431dd851ff0",
+        "ff9f815201e42fde"
+      ],
+      "date": "2025-11-01",
+      "what": "Harvard medical building explosion is confirmed as intentional"
+    },
+    {
+      "clusters": [
+        "978ba80886528d63",
+        "784c4f557fb9ef07"
+      ],
+      "date": "2025-11-01",
+      "what": "Government shutdown delays SNAP benefits"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+          "8fab72083bc434b5",
+          "d1d3cbcb55ee59cd",
+          "f89c26b4e594d01d",
+          "12f9b0d2d036c8d4",
+          "a6c8a75e8ebf6d45",
+          "25c0637cb1afcf59",
+          "b336e194fa9df275",
+          "71cbc7e17cfb0daf",
+          "8d399c670544c841",
+          "b321553f03b657ea",
+          "96d0ef44410c0737"
+        ],
+        "theme": "SNAP benefits and government shutdown",
+        "whyNow": "Surge in public alarm and systemic disruption across multiple platforms"
+    },
+    {
+        "clusters": [
+            "86112954fee9ace7",
+            "5134cb50f3524c8f",
+            "a07edb6eacf92538",
+            "7492d4a224ac3b64",
+            "08ccf7e62bc74d12",
+            "3b4990670d08982b",
+            "4e7ec46a8ad5d4e9",
+            "c0e24c50bfc8288c",
+            "89d5f2a40717519f"
+        ],
+        "theme": "Geopolitical instability and humanitarian crises",
+        "whyNow": "Escalation of conflicts in Gaza, Sudan, Ukraine, and Sudan with high casualty counts and systemic failures"
+    },
+    {
+        "clusters": [
+            "31124b9ca832a48f",
+            "64223657ff1dc18a",
+            "467fffd7cf8f363d",
+            "c649613f9936a4a6"
+        ],
+        "theme": "Technology, ethics, and systemic risks",
+        "whyNow": "Cross-industry convergence on AI, biotech, and surveillance ethics with public skepticism"
+    }
+  ],
+  "narrativeDrift": [
+    {
+        "axis": "blame→cause",
+        "examples": [
+            {
+                "clusterId": "4440dc67c3a169db",
+                "contrast": "BBC leadership resignations were initially framed as 'blame' for editorial bias, later reframed as evidence of systemic 'cause' in press ethics"
+            ,
+            "sources": [
+                "4440dc67c3a169db",
+                "c2aa2d2d13408dfa"
+            ]
+        },
+        {
+            "clusterId": "8fab72083bc434b5",
+            "contrast": "Consumer sentiment drops due to shutdown was initially portrayed as 'blame' on leadership, later contextualized as 'cause' of systemic economic anxiety"
+        ,
+            "sources": [
+                "8fab72083bc434b5",
+                "c2aa2d2d13408dfa"
+            ]
+        },
+        {
+            "clusterId": "64223657ff1dc18a",
+            "contrast": "Facebook's gender discrimination was initially portrayed as 'blame' on platform, later analyzed as 'cause' of algorithmic bias in tech governance"
+        ,
+            "sources": [
+                "64223657ff1dc18a",
+                "c2aa2d2d13408dfa"
+            ]
+        }
+    ]
+    },
+    {
+        "axis": "risk→optimism",
+        "examples": [
+            {
+                "clusterId": "5134cb50f3524c8f",
+                "contrast": "Hamas returning body was initially framed as 'risk' of conflict escalation, later cited as 'optimism' of negotiation progress"
+            ,
+            "sources": [
+                "5134cb50f3524c8f",
+                "b336e194fa9df275"
+            ]
+        },
+        {
+            "clusterId": "3d7c3bd848d0275b",
+            "contrast": "Biden's tech investment rules were initially viewed as 'risk' to global supply chains, later reframed as 'optimism' for national security innovation"
+        ,
+            "sources": [
+                "3d7c3bd848d0275b",
+                "c2aa2d2d13408dfa"
+            ]
+        },
+        {
+            "clusterId": "08ccf7e62bc74d12",
+            "contrast": "Coastal home collapses were first seen as 'risk' from climate change, later framed as 'optimism' in resilience via solar power"
+       ,
+            "sources": [
+                "08ccf7e62bc74d12",
+                "b336e194fa9df275"
+            ]
+        }
+    ]
+    },
+    {
+        "axis": "policy→politics",
+        "examples": [
+            {
+            "clusterId": "7087619f05a47247",
+            "contrast": "Pelosi's retirement was framed as 'policy' shift in leadership, later interpreted as 'politics' of generational turnover"
+            ,
+            "sources": [
+                "7087619f05a47247",
+                "c2aa2d2d13408dfa"
+            ]
+        },
+        {
+            "clusterId": "646f623599d6efa5",
+            "contrast": "Mamdani's humor was initially 'policy' of relatable messaging, later politicized as 'politics' of ideological realignment"
+        ,
+            "sources": [
+                "646f623559d6efa5",
+                "c2aa2d2d13408dfa"
+            ]
+        },
+        {
+            "clusterId": "37d9c82089da7879",
+            "contrast": "CRISPR therapy was first 'policy' of medical innovation, later politicized as 'politics' of genetic access equity"
+        ,
+            "sources": [
+                "37d9c82088da7879",
+                "c2aa2d2d13408dfa"
+            ]
+        }
+    ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+        "direction": "up",
+        "evidence": [
+            "37d9c82088da7879",
+            "3d7c3bd848d0275b",
+            "08ccf7e62bc74d12"
+        ],
+        "topic": "Medical innovation and climate resilience"
+    },
+    {
+        "direction": "down",
+        "evidence": [
+            "8fab72083bc434b5",
+            "b336e194fa9df275",
+            "4440dc67c3a169db"
+        ],
+        "topic": "Government accountability and public trust"
+    },
+    {
+        "direction": "flat",
+        "evidence": [
+            "467fffd7cf8f363d",
+            "64223657ff1dc18a",
+            "5134cb50f3524c8f"
+        ],
+        "topic": "Technology ethics and surveillance"
+    }
+  ],
+  "silences": [
+    {
+        "expectedButMissing": "Explicit analysis of how public sentiment in low-income communities correlates with SNAP delay patterns"
+    ,
+        "theme": "Economic inequality"
+    },
+    {
+        "expectedButMissing": "In-depth discussion on how racial disparities influence access to AI-driven healthcare"
+    ,
+        "theme": "Health equity"
+    },
+    {
+        "expectedButMissing": "Direct comparison of refugee policies in Europe versus U.S. in response to the Sudan crisis"
+    ,
+        "theme": "Migration governance"
+    }
+  ],
+  "storyMortality": [
+    {
+        "ceasedSince": "2025-11-09",
+        "note": "The narrative of the 'Fed's role in the shutdown' is no longer covered after the Senate deal",
+        "theme": "Monetary policy influence"
+    },
+    {
+        "ceasedSince": "2025-11-07",
+        "note": "The 'CRISPR cholesterol trial' has stopped appearing in morning editions after initial breakthrough reports",
+        "theme": "Genetic therapies"
+    },
+    {
+        "ceasedSince": "2025-11-08",
+        "note": "The 'Trump's affordability campaign' has been replaced by broader economic analysis",
+        "theme": "Economic messaging"
+    }
+  ],
+  "topMilestones": [
+    {
+        "clusters": [
+            "5b29c6c43eefeac2",
+            "c2aa2d2d13408dfa",
+            "34264aa28dca18f0",
+            "a07edb6eacf92538"
+        ],
+        "date": "2025-11-10",
+        "what": "Senate passes bipartisan deal to end 40-day U.S. government shutdown, restoring SNAP benefits and federal pay"
+    },
+    {
+        "clusters": [
+            "ae184859a715e223",
+            "46fafaad31b10ad6",
+            "e500cc33987bf645"
+        ],
+        "date": "2025-11-08",
+        "what": "Super typhoon Fung-wong strikes Philippines, causing over 1.4 million evacuations and 142 deaths"
+    },
+    {
+        "clusters": [
+            "31124b9ca832a48f",
+            "64223657ff1dc18a",
+            "974657d2be37e8a0"
+        ],
+        "date": "2025-11-07",
+        "what": "MD-11 plane crash triggers FAA grounding of all MD-11 cargo planes"
+    }
+  ]
+}

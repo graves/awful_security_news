@@ -1,0 +1,166 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "7608fa895606c3f9",
+        "ec51484cc439e5aa",
+        "cf42540ed93b9dfc",
+        "270c244982f00e5d",
+        "d8e48d3b399a1d5f"
+      ],
+      "theme": "Historic Political Representation in NYC",
+      "whyNow": "Multiple clusters converge on Zohran Mamdani's groundbreaking victory as NYC's first Muslim and South Asian mayor, with cross-cluster emphasis on identity, youth, and democratic breakthroughs."
+    },
+    {
+      "clusters": [
+        "55a7d93aeecd5bef",
+        "9b856c7c1e09c034",
+        "628d227241a7a509",
+        "af01d01555031f48"
+      ],
+      "theme": "Redistricting and Democratic Gains",
+      "whyNow": "California's Prop 50 and other state-level redistricting shifts are repeatedly framed as strategic Democratic counters to GOP gerrymandering, signaling a pivotal moment in electoral fairness."
+    },
+    {
+      "clusters": [
+        "d604d82f3f68baee",
+        "a55726c354ec016d",
+        "bb9a270758abe0e0",
+        "36d43852450b602c"
+      ],
+      "theme": "Executive Power and Tariff Authority",
+      "whyNow": "Supreme Court review of Trump's emergency tariffs, with cross-source focus on 'regulate' and 'IEEPA', reveals a high-stakes legal battleground over presidential power."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "7608fa895606c3f9",
+          "contrast": "Initial focus on anti-Muslim backlash shifts to Mamdani as cause of a new political narrative"
+        ,
+          "sources": [
+            "7608fa895606c3f9"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "496d44a573f172a9",
+          "contrast": "Chicago immigration detention site testimony moves from human rights risk to systemic reform optimism"
+        ,
+          "sources": [
+            "496d44a573f172a9",
+            "971d51e09baa148e"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "e4433f4251d7efb0",
+          "contrast": "UN resolution for Gaza security force shifts from policy mechanism to political bargaining chip"
+        ,
+          "sources": [
+            "e4433f4251d7efb0"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "0c8ee3044865d3e7",
+          "contrast": "Avalanche disaster narrative moves from natural emergency to systemic climate risk"
+        ,
+          "sources": [
+            "0c8ee3044865d3e7"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "7608fa895606c3f9",
+        "ec51484cc439e5aa",
+        "d8e48d3b399a1d5f",
+        "270c244982f00e5d"
+      ],
+      "topic": "Historic Political Representation"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "55a7d93aeecd5bef",
+        "9b856c7c1e09c034",
+        "628d227241a7a509",
+        "af01d01555031f48"
+      ],
+      "topic": "Redistricting and Democratic Gains"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "69e395d317319753",
+        "3d5560a768aa29b4",
+        "a3e541e03b618c13"
+      ],
+      "topic": "Trump’s Policy Legitimacy"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Any discussion of long-term governance plans from Mamdani despite repeated coverage of policy ideas"
+    ,
+      "theme": "Post-Event Governance"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-05",
+      "note": "The 36-day government shutdown, once a dominant narrative, fades as bipartisan talks emerge, signaling a narrative shift toward resolution."
+    ,
+      "theme": "U.S. Government Shutdown"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "7608fa895606c3f9"
+      ],
+      "date": "2025-11-05",
+      "what": "Zohran Mamdani becomes NYC’s first Muslim and South Asian mayor"
+    },
+    {
+      "clusters": [
+        "55a7d93aeecd5bef"
+      ],
+      "date": "2025-11-05",
+      "what": "Gavin Newsom wins Prop 50, shifting California's congressional balance"
+    },
+    {
+      "clusters": [
+        "d604d82f3f68baee"
+      ],
+      "date": "2025-11-05",
+      "what": "Supreme Court hears case on Trump’s emergency tariff powers"
+    },
+    {
+      "clusters": [
+        "791e65e8612ede89"
+      ],
+      "date": "2025-11-05",
+      "what": "Abby Zwerner sues over school gun incident"
+    }
+  ]
+}

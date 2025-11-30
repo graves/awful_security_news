@@ -1,0 +1,253 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "c3c0d75f6cf507ad",
+        "ad4fbd03ff974642",
+        "e7f13882046b3f25",
+        "c8ff6b885a283dfa"
+      ],
+      "theme": "Art market records",
+      "whyNow": "Consecutive high-profile auctions of female artists and rare collectibles set new benchmarks, signaling cultural and economic shifts in valuation of art and memorabilia."
+    },
+    {
+      "clusters": [
+        "c2ef76aa2cc99c93",
+        "20dc5b944e09d75d",
+        "190a4359d13f6bfd"
+      ],
+      "theme": "Gaza-Israel violence",
+      "whyNow": "Escalation in airstrikes, civilian casualties, and regional implications have intensified global media focus and diplomatic concern."
+    },
+    {
+      "clusters": [
+        "351f1bd3ef165487",
+        "3042b399e2704390",
+        "0adfae1b457b7dba"
+      ],
+      "theme": "Government accountability",
+      "whyNow": "High-profile cases involving tax compliance, data integrity, and public health risks have drawn intense public and media scrutiny."
+    },
+    {
+      "clusters": [
+        "5ff3d9f025897295",
+        "c3e1dec01c250a09",
+        "a399ad61329084aa",
+        "7ecdf4980a28af51"
+      ],
+      "theme": "Epstein files and political fallout",
+      "whyNow": "Bipartisan legislative action on Epstein-related records, judicial rulings, and public revelations have triggered a surge in transparency debates."
+    },
+    {
+      "clusters": [
+        "b460b4cacc586a1b",
+        "2a988269ca8c7c83",
+        "79284bf7eeae886f"
+      ],
+      "theme": "Political procedural shifts",
+      "whyNow": "Bipartisan reforms, discharge petitions, and leadership turnover reflect growing internal party tension and reform efforts."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "c2ef76aa2cc99c93",
+          "contrast": "Blame shifted from Hamas to Israel’s actions as a cause of regional instability."
+        ,
+        "sources": [
+          "Al Jazeera",
+          "Al Jazeera"
+        ]
+      },
+      {
+        "clusterId": "c3c0d75f6cf507ad",
+        "contrast": "The Superman comic's value is now framed by its cultural significance rather than just rarity."
+      ,
+        "sources": [
+          "CNN",
+          "CNN"
+        ]
+      },
+      {
+        "clusterId": "e6f002ac07617c86",
+        "contrast": "Misuse of funds is no longer just a financial crime but a symbolic breach of public trust."
+      ,
+        "sources": [
+          "CNN",
+          "Reuters"
+        ]
+      }
+    ]
+  },
+  			   {
+    "axis": "policy→politics",
+    "examples": [
+      {
+        "clusterId": "c3e1dec01c250a09",
+        "contrast": "Epstein file disclosure is now a political tool rather than a legal mandate."
+      ,
+        "sources": [
+          "CNN",
+          "CNN"
+        ]
+      },
+      {
+        "clusterId": "07a4c4f78a8a6bbf",
+        "contrast": "Diplomatic release is framed as political leverage, not humanitarian intervention."
+      ,
+        "sources": [
+          "CNN",
+          "Reuters"
+        ]
+      },
+      {
+        "clusterId": "2e73b7753d195207",
+        "contrast": "White House meeting with Mamdani is a political spectacle, not a policy meeting."
+      ,
+        "sources": [
+          "NPR",
+          "NPR"
+        ]
+      }
+    ]
+  },
+  			   {
+    "axis": "risk→optimism",
+    "examples": [
+      {
+        "clusterId": "b8ba5d47701eb2e6",
+        "contrast": "Social media ban for minors is now seen as a child protection measure, not a restriction."
+      ,
+        "sources": [
+          "BBC",
+          "Al Jazeera"
+        ]
+      },
+      {
+        "clusterId": "3a03559342c8adeb",
+        "contrast": "AI-generated music is shifting from a disruption risk to an innovation frontier."
+      ,
+        "sources": [
+          "Al Jazeera",
+          "Al Jazeera"
+        ]
+      }
+    ]
+  },
+  			   {
+    "axis": "emergency→accountability",
+    "examples": [
+      {
+        "clusterId": "0adfae1b457b7dba",
+        "contrast": "Botulism outbreak leads to systemic scrutiny of FDA and manufacturer accountability."
+      ,
+        "sources": [
+          "NPR",
+          "NPR"
+        ]
+      },
+      {
+        "clusterId": "5e11253199229727",
+        "contrast": "Formula recall reveals long-standing regulatory gaps in child safety."
+      ,
+        "sources": [
+          "CNN",
+          "Health agency"
+        ]
+      }
+    ]
+  }
+],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "c3c0d75f6cf507ad",
+        "ad4fbd03ff974642",
+        "e7f13882046b3f25",
+        "c8ff6b885a283dfa"
+      ],
+      "topic": "Art market records"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "351f1bd3ef165487",
+        "c53e3eee8de6d6cd",
+        "7e33988cf094ec50"
+      ],
+      "topic": "Public trust in institutions"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "65375edfb53e2029",
+        "a4dcf00983ac045a",
+        "b8ba5d47701eb2e6"
+      ],
+      "topic": "International cooperation on climate and tech"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No coverage of public health responses to the measles outbreak despite its 95% concentration in North America.",
+      "theme": "Public health coordination"
+    },
+    {
+      "expectedButMissing": "No analysis of how Trump’s rhetoric impacts voter trust in election integrity.",
+      "theme": "Election integrity and public trust"
+    },
+    {
+      "expectedButMissing": "No discussion on how AI-generated content affects digital literacy and misinformation.",
+      "theme": "Digital media and information quality"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-21",
+      "note": "The narrative around Epstein files transitioned from scandal to legislative action, with new bills passed and judicial rulings issued.",
+      "theme": "Epstein-related investigations"
+    },
+    {
+      "ceasedSince": "2025-11-19",
+      "note": "The initial wave of media on the Marimar Martinez case ended after the federal charges were dropped.",
+      "theme": "Federal prosecution in Chicago"
+    },
+    {
+      "ceasedSince": "2025-11-20",
+      "note": "The discussion around the federal government’s role in the California attic Superman comic sale concluded with market record confirmation.",
+      "theme": "Cultural artifact valuation"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "351f1bd3ef165487",
+        "0adfae1b457b7dba",
+        "7ecdf4980a28af51"
+      ],
+      "date": "2025-11-20",
+      "what": "Bipartisan legislation passes, public health crisis escalates, and Epstein file transparency is enacted"
+    },
+    {
+      "clusters": [
+        "c3c0d75f6cf507ad",
+        "ad4fbd03ff974642",
+        "c8ff6b885a283dfa"
+      ],
+      "date": "2025-11-21",
+      "what": "Art market records shattered, public health data released, and major climate summit events"
+    },
+    {
+      "clusters": [
+        "390d702318ae3d8c",
+        "959e25dc9adcf3f8",
+        "f2100d6c89e55e51"
+      ],
+      "date": "2025-11-18",
+      "what": "Execution of a long-sentenced inmate, war crimes allegations, and global economic layoffs"
+    }
+  ]
+}

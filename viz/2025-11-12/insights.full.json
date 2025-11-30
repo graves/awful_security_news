@@ -1,0 +1,213 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "c82286f06863a92f",
+        "6843f3d60b6ec179",
+        "beb1e2c55af0d83a",
+        "deece0cb1b1a78f2",
+        "df92db5a36ef44df",
+        "8634347975197233",
+        "c3e40fc2c6764cd7",
+        "c6b95c7c8e8f483a",
+        "181d6b30109b0951"
+      ],
+      "theme": "BBC and Trump's legal and credibility crisis"
+    ,
+    "whyNow": "A cascade of stories across media sources confirms escalating tensions: a BBC editorial error, a $1 billion lawsuit threat from Trump, internal resignations, and a credibility crisis. The BBC's editorial misconduct, allegedly influenced by political bias, is now a major narrative, with multiple sources reinforcing the same axis of 'editorial bias → legal threat → institutional crisis'."
+    },
+    {
+      "clusters": [
+        "9278ec916b38c83e",
+        "0aff5941024fcbc2",
+        "d9ab34c71f7bdf49",
+        "c36b60f383127d0a",
+        "59eb7079acea9bc2",
+        "36ecf3f011bd9984",
+        "0fa3afa0cb146b15"
+      ],
+      "theme": "Government shutdown and SNAP benefits"
+    ,
+      "whyNow": "The government shutdown has become a dominant political and economic narrative. Multiple clusters highlight the crisis: a 41-day shutdown, delays in SNAP payments, court interventions, and legislative compromises. The focus on SNAP is not just about food aid but about political leverage, with Democrats using it as a bargaining chip, and Republicans using it as a tool to pressure for policy concessions, making it a central issue in federal policy debates."
+    },
+    {
+      "clusters": [
+        "7876653aba8a9b0b",
+        "a14424959cf07956",
+        "5e20543fce30ddf3",
+        "55ed6aedcab4547a",
+        "c36b60f383127d0a",
+        "9261444b54eaf098"
+      ],
+      "theme": "International tensions and foreign policy"
+    ,
+      "whyNow": "A growing cluster of stories focuses on foreign policy crises: U.S.-China relations, U.S.-Russia tensions, Middle East conflicts, and climate diplomacy. These stories are not isolated but interconnected through themes of military posturing, regional instability, and diplomatic negotiations, suggesting a broader narrative of global power shifts and conflict escalation."
+    },
+    {
+      "clusters": [
+        "c82286f06863a92f",
+        "6843f3d60b6ec179",
+        "beb1e2c55af0d83a",
+        "deece0cb1b1a78f2",
+        "df92db5a36ef44df",
+        "181d6b30109b0951"
+      ],
+      "theme": "Media trust and credibility"
+    ,
+      "whyNow": "A recurring pattern across multiple clusters shows a crisis of confidence in mainstream media. This includes the BBC's editing controversy, a lawsuit against a major outlet, and claims of political bias. This reflects a meta-narrative that media credibility is under sustained attack, not just from political actors but from a broader public sentiment about media integrity."
+    },
+    {
+      "clusters": [
+        "73e983f29d59e27c",
+        "5e20543fce30ddf3",
+        "59eb7079acea9bc2",
+        "4b5b7ce1b8deb41a",
+        "36ecf3f011bd9984"
+      ],
+      "theme": "Criminal justice and political accountability"
+    ,
+      "whyNow": "Stories involving justice systems, from prison violence to political corruption, are rising. This suggests a heightened public interest in accountability, especially when the justice system appears to favor political elites or powerful institutions, and a growing public skepticism of official narratives. The trend reflects broader societal concerns about fairness and the rule of law."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "e31499611a75cbc5e",
+          "contrast": "Bookstores as food banks are a symptom of economic failure, not a cause. The focus shifts from individual acts to systemic issues like inflation and benefit suspension.",
+          "sources": [
+            "e3149611a75cbc5e"
+          ]
+        },
+        {
+          "clusterId": "027a522b7bbcfac9",
+          "contrast": "Trump's economic claims are not just policy; they're framed as a cause of inflation. The narrative moves from blaming Trump to viewing his denial as a cause of public confusion and policy failure.",
+          "sources": [
+            "027a522b7bbcfac9"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "506bdbcfd3047055",
+          "contrast": "Despite risks of AI overvaluation, optimism is driving investment. The market reacts positively to AI narratives, even when risks are evident.",
+          "sources": [
+            "506bdbcfd3047055"
+          ]
+        },
+        {
+          "clusterId": "4b5b7ce1b8deb41a",
+          "contrast": "Protests at Berkeley are initially seen as risk, but the narrative shifts to a cause of campus safety reform and political change.",
+          "sources": [
+            "4b5b7ce1b8deb41a"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "9278ec916b38c83e",
+          "contrast": "Expanded surveillance is framed not as a policy solution but as a political tool to control dissent.",
+          "sources": [
+            "9278ec916b38c83e"
+          ]
+        },
+        {
+          "clusterId": "55ed6aedcab4547a",
+          "contrast": "Newsom’s climate criticism is less policy-focused and more political, targeting Trump’s absence as a symbol of U.S. climate inaction.",
+          "sources": [
+            "55ed6aedcab4547a"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "9278ec916bb38c83e",
+        "0aff5941024fcbc2",
+        "9261444b54eaf098"
+      ],
+      "topic": "government shutdown and economic policy"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "4b5b7ce1b8deb41a",
+        "5e20543fce30ddf3",
+        "36ecf3f011bd9984"
+      ],
+      "topic": "foreign policy and global tensions"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "e3149611a75cbc5e",
+        "f518e80682788498",
+        "c36b60f383127d0a"
+      ],
+      "topic": "media credibility and trust"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No cluster discusses how the U.S. government's actions align with international law in drone strikes or military interventions. The lack of legal justification narratives, despite multiple strikes, suggests a narrative silence on legality."
+    ,
+       "theme": "international law and legality"
+    },
+    {
+      "expectedButMissing": "There is no discussion of the humanitarian impact of the government shutdown beyond food insecurity. The silence suggests a narrative gap on broader societal costs of political gridlock."
+    ,
+    "theme": "humanitarian consequences of policy gridlock"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-10",
+      "note": "The narrative around the government shutdown was dominant until a bipartisan deal was reached. After the deal passed, the issue lost traction as the focus shifted to ACA subsidies and the next legislative hurdle.",
+      "theme": "government shutdown"
+    },
+    {
+      "ceasedSince": "2025-11-11",
+      "note": "The story of the 38-day shutdown was replaced by new narratives around the Supreme Court's decision on SNAP benefits and the continuation of the crisis through legislative delays.",
+      "theme": "shutdown legislative impact"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "74ab6471b63c758c",
+        "36ecf3f011bd9984",
+        "0fa3afa0cb146b15"
+      ],
+      "date": "2025-11-10",
+      "what": "Bipartisan Senate deal to end the 38-day government shutdown, extending funding to January 30, 2026, with the exclusion of ACA subsidy extensions."
+      },
+    {
+      "clusters": [
+        "c82286f06863a92f",
+        "6843f3d60b6ec179",
+        "beb1e2c55af0d83a"
+      ],
+      "date": "2025-11-11",
+      "what": "The BBC faces a credibility crisis after admitting to editorial bias in a Trump speech documentary, leading to resignations and a $1 billion lawsuit threat."
+      },
+    {
+      "clusters": [
+        "d007cba87d5da977",
+        "c49c70a5d32287d2",
+        "7876653aba8a9b0b"
+      ],
+      "date": "2025-11-11",
+      "what": "Marion County agrees to pay over $3 million and apologize after raiding a local newspaper, sparking national debate on press freedom and law enforcement overreach."
+      }
+  ]
+}

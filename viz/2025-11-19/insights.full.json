@@ -1,0 +1,219 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "2fc778b778ddd443",
+        "5349317faa442042",
+        "0b838a1b2312b2b7",
+        "7f4474d624bcbc14",
+        "b6a09b2780f094e3",
+        "93d6d9d7b151764a"
+      ],
+      "theme": "Epstein Files Transparency and Political Fallout",
+      "whyNow": "Bipartisan congressional passage of Epstein files legislation, Trump's reversal, and the emergence of new emails linking him to Epstein have created a high-stakes political moment, revealing fractures within MAGA and exposing systemic failures in transparency."
+    },
+    {
+      "clusters": [
+        "7335980fc0cbda9f",
+        "84337aacfe6fa0ee",
+        "4dac0bab6615c987",
+        "fba89fd9d06428b2"
+      ],
+      "theme": "U.S.-Saudi Diplomacy and Soft Power",
+      "whyNow": "High-profile White House visit by Saudi Crown Prince, F-35 deal, and Ronaldo’s attendance signal a strategic realignment, despite lingering Khashoggi controversies, emphasizing sports and economic diplomacy."
+    },
+    {
+      "clusters": [
+        "e8b3e43ac57f109e",
+        "e2f97bbe136a9eab"
+      ],
+      "theme": "Underdog Triumphs in Global Sports",
+      "whyNow": "Curaçao's historic World Cup qualification and Scotland's breakthrough mark rare achievements by small nations, highlighting resilience and national pride amid global competition."
+    },
+    {
+      "clusters": [
+        "fe66c2504f12457c",
+        "82e29fa5b12f0c8f"
+      ],
+      "theme": "Public Health Threats and Pandemic Preparedness",
+      "whyNow": "Emergence of a new H3N2 flu variant with reduced vaccine efficacy and early surges in multiple countries signal a potential severe season, raising alarms about global readiness."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "0fb4d9d75dcf729f",
+          "contrast": "Blame for civilian deaths in Lebanon refugee camp shifted from 'Hamas training site' to broader regional instability and military patterns.",
+          "sources": [
+            "0fb4d9d75dcf729f",
+            "a0d8869fb83ecdbd"
+          ]
+        },
+        {
+          "clusterId": "e8aafe01d2107f77",
+          "contrast": "Blame for Baltimore bridge collapse shifted from 'accident' to systemic cost inflation and design standard failures, revealing governance issues.",
+          "sources": [
+            "e8aafe01d2107f77",
+            "cd741620fbbf4493"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "337aacb59e4d68e7",
+          "contrast": "Risk of federal overreach in education reform replaced by optimism about deregulation and agency reassignment as 'efficiency' gains.",
+          "sources": [
+            "337aacb59e4d68e7",
+            "c19c93ce29b68b92"
+          ]
+        },
+        {
+          "clusterId": "72a6852d7a3fcac0",
+          "contrast": "Risk of nuclear stalemate replaced by optimism about resuming talks with mutual respect and equal footing.",
+          "sources": [
+            "72a6852d7a3fcac0",
+            "671f7d6e5159e285"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "b6a09b2780f094e3",
+          "contrast": "Policy-driven transparency in Epstein files replaced by political maneuvering, with Trump’s reversal signaling realignment over ideology.",
+          "sources": [
+            "b6a09b2780f094e3",
+            "93d6d9d7b151764a"
+          ]
+        },
+        {
+          "clusterId": "37d1c0c4bfcdec3c",
+          "contrast": "MAGA’s policy unity fractured into political infighting over Epstein, antisemitism, and Trump’s conduct, revealing internal divisions.",
+          "sources": [
+            "37d1c0c4bfcdec3c",
+            "b6def8904850c85d"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "59e246c459bd2a93",
+          "contrast": "Emergency deportation action replaced by accountability for violating asylum protections and torture risks.",
+          "sources": [
+            "59e246c459bd2a93",
+            "6c9633c1985f48b7"
+          ]
+        },
+        {
+          "clusterId": "325cbeab3684fceb",
+          "contrast": "Emergency on-field sports conduct replaced by accountability for long-term disciplinary and ethical violations.",
+          "sources": [
+            "325cbeab3684fceb",
+            "27208b27c6dfb233"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "2fc778b778ddd443",
+        "5ab68969719927a7",
+        "8dbbf10265dc702c",
+        "5349317faa442042"
+      ],
+      "topic": "Political Accountability"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "25d47f31ebfbb91d",
+        "c19c93ce29b68b92",
+        "93d6d9d7b151764a",
+        "815668a7e772ebdc"
+      ],
+      "topic": "Trump's Political Legitimacy"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "e8b3e43ac57f109e",
+        "e2f97bbe136a9eab",
+        "7398fc5daca91169"
+      ],
+      "topic": "Sports Triumphs and Market Resilience"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No mention of long-term climate adaptation plans in the U.S. despite rising risks from extreme weather and floods.",
+      "theme": "Climate Policy Response"
+    },
+    {
+      "expectedButMissing": "No analysis of how AI-driven job displacement affects labor markets, despite increasing automation in education and public services.",
+      "theme": "AI and Labor Market Impact"
+    },
+    {
+      "expectedButMissing": "No discussion of international cooperation to address the spread of new flu variants beyond vaccine challenges.",
+      "theme": "Global Health Coordination"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-18",
+      "note": "The focus on the 'superrich fleeing the UK' has faded, replaced by more concrete data on tax policy and migration trends.",
+      "theme": "Perceived Wealth Flight from UK"
+    },
+    {
+      "ceasedSince": "2025-11-19",
+      "note": "The narrative around the 'FBI's past conspiracy promotion' has been overshadowed by new Epstein file revelations and legislative action.",
+      "theme": "FBI Conspiracy Theory Legacy"
+    },
+    {
+      "ceasedSince": "2025-11-17",
+      "note": "Initial focus on the 'dual threat' of climate and war in Taiwan has shifted toward military readiness and diplomatic alignment.",
+      "theme": "Taiwan's Dual Threat Narrative"
+    }
+  ]
+  ,
+  "topMilestones": [
+    {
+      "clusters": [
+        "5349317faa442042",
+        "b6a09b2780f094e3",
+        "93d6d9d7b151764a"
+      ],
+      "date": "2025-11-18",
+      "what": "Bipartisan approval of the Epstein files bill and Trump’s reversal, marking a major political turning point."
+    },
+    {
+      "clusters": [
+        "4372d27e195de7b9",
+        "84337aacfe6fa0ee",
+        "7335980fc0cbda9f"
+      ],
+      "date": "2025-11-18",
+      "what": "High-profile U.S.-Saudi diplomatic visit with F-35 deal, signaling major strategic alignment."
+    },
+    {
+      "clusters": [
+        "e8b3e43ac57f109e",
+        "e2f97bbe136a9eab"
+      ],
+      "date": "2025-11-18",
+      "what": "Curaçao and Scotland qualify for World Cup, marking rare underdog successes."
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "b1aef6d376753981",
+        "bca2a8ceb85466f8",
+        "d6b0cd516f9b233c",
+        "0335aa07c61870d6",
+        "1772c2a2e36b41e0",
+        "79b7a8cec28b7787",
+        "537102b34ec3d20a"
+      ],
+      "theme": "Global crises and systemic risks",
+      "whyNow": "Simultaneous emergence of high-impact scientific, environmental, and public health events creates a convergence of urgency across domains."
+    },
+    {
+      "clusters": [
+        "bbf30006636ac42d",
+        "aff613254d3c7733",
+        "007a769f0422ceb8",
+        "3d451c8e4b795f97",
+        "93c6361f6d087a8b"
+      ],
+      "theme": "Epstein files and political accountability",
+      "whyNow": "A sudden legislative wave and bipartisan consensus around Epstein disclosure has shifted public and political attention to legacy issues of power, transparency, and justice."
+    },
+    {
+      "clusters": [
+        "d6246b8529115b96",
+        "d154bf8dfd1000b2",
+        "c7d070d35cd7be03",
+        "1bb438fcbb928d86"
+      ],
+      "theme": "Institutional trust and civil resistance",
+      "whyNow": "Rising institutional failures (pandemic response, immigration enforcement) have catalyzed localized, community-led resistance movements."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "d6246b8529115b96",
+          "contrast": "From blaming political leadership for pandemic failures to emphasizing internal scientific and bureaucratic friction"
+       ,
+          "sources": [
+            "bbc.com"
+          ]
+        },
+        {
+          "clusterId": "6c24e460331da651",
+          "contrast": "From blaming India's foreign policy to highlighting domestic public sentiment shifts toward China"
+       ,
+          "sources": [
+            "bbc.com"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "858c358c672c2fc1",
+          "contrast": "From financial speculation around art market volatility to celebration of cultural achievement"
+       ,
+          "sources": [
+            "aljazeera.com"
+          ]
+        },
+        {
+          "clusterId": "1772c2a2e36b41e0",
+          "contrast": "From public health crisis to confirmed nationwide recall and recovery"
+       ,
+          "sources": [
+            "cnn.com"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "c82030e5bbc9aaec",
+          "contrast": "From implementation of SNAP work requirements to political debate over federal welfare reform"
+       ,
+          "sources": [
+            "apnews.com"
+          ]
+        },
+        {
+          "clusterId": "864f68e1968cd21b",
+          "contrast": "From ecological protection to economic development prioritization in environmental policy"
+       ,
+          "sources": [
+            "cnn.com"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "eb682913d7fe91d7",
+          "contrast": "From public health emergency to congressional investigation into organ procurement ethics"
+       ,
+          "sources": [
+            "cnn.com"
+          ]
+        },
+        {
+          "clusterId": "537102b34ec3d20a",
+          "contrast": "From civilian casualties to analysis of international legal responsibility in war"
+       ,
+          "sources": [
+            "aljazeera.com"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "792cd80343e3da66",
+        "858c358c672c2fc1",
+        "0335aa07c61870d6",
+        "1b17e0a3557a8c98",
+        "155c24f5546fd863"
+      ],
+      "topic": "Achievement and innovation"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "1772c2a2e36b41e0",
+        "578d93003cd2afa7",
+        "3d451c8e4b795f97",
+        "f112b95e51e3f6f9",
+        "4d16eaa56ae83f5e"
+      ],
+      "topic": "Institutional trust and political transparency"
+    },
+    {
+      "direction": "flat",
+      "evidence": [
+        "8b59fead23840101",
+        "3b14cf5105a3b0f8",
+        "79b7a8cec28b7787",
+        "593a3c6146ae3380"
+      ],
+      "topic": "Global conflict and sports"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Systematic analysis of how AI-driven content moderation impacts free expression and misinformation."
+    ,
+      "theme": "Digital governance"
+    },
+    {
+      "expectedButMissing": "Narratives on climate adaptation funding disparities between Global North and South."
+    ,
+      "theme": "Climate finance"
+    },
+    {
+      "expectedButMissing": "Analysis of how rural communities are adapting to AI in agriculture and food systems."
+    ,
+      "theme": "Technology in rural development"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-19",
+      "note": "The 2024 global infant botulism outbreak linked to ByHeart formula entered a new phase with confirmed nationwide recall, shifting from crisis to managed response.",
+      "theme": "Public health crisis"
+    },
+    {
+      "ceasedSince": "2025-11-18",
+      "note": "The Epstein files legislative debate concluded with a bipartisan vote, reducing the urgency of ongoing media coverage.",
+      "theme": "Political scandal"
+    },
+    {
+      "ceasedSince": "2025-11-17",
+      "note": "The early-stage discussion of AI ethics in toys faded after the Kumma bear controversy was resolved with product suspension.",
+      "theme": "Technology safety"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "3d451c8e4b795f97",
+        "bbf30006636ac42d",
+        "aff613254d3c7733"
+      ],
+      "date": "2025-11-19",
+      "what": "Bipartisan U.S. House vote of 427-1 for Epstein file release marks a political turning point in transparency and accountability."
+    },
+    {
+      "clusters": [
+        "a946e1c77cbbbbd8",
+        "33d9e5fd5f3834fb"
+      ],
+      "date": "2025-11-20",
+      "what": "U.S.-Russia peace plan for Ukraine and EU rejection of territorial concessions signal a major shift in diplomatic expectations."
+    },
+    {
+      "clusters": [
+        "0335aa07c61870d6",
+        "211489aad887048e",
+        "20a75adcef95d44f"
+      ],
+      "date": "2025-11-20",
+      "what": "Nvidia reports record AI chip profits and earnings beat, marking a milestone in AI market sustainability and investor confidence."
+    }
+  ]
+}

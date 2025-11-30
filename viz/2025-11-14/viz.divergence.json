@@ -1,0 +1,2401 @@
+{
+  "axes": [
+    "blame→cause",
+    "risk→optimism",
+    "certain→speculative"
+  ],
+  "clusters": [
+    {
+      "id": "599a4310c5ca73c9",
+      "title": "Flying Will Stay Rough After the Shutdown. Why? Spirit Airlines",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "659e1cc3704c2c9a",
+      "title": "A timeline of US strikes on boats that have killed 80",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.17,
+          "y": -0.12142858,
+          "certainty": 0.18888889,
+          "certainty01": 0.59444445
+        }
+      ]
+    },
+    {
+      "id": "637a7d15519bbfe0",
+      "title": "BBC Signals It Will Fight, Not Fold Under Trump’s Political Pressure",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": -0.425,
+          "certainty": 0.36428574,
+          "certainty01": 0.68214285
+        }
+      ]
+    },
+    {
+      "id": "d291890081c0104b",
+      "title": "British Journalist Says ICE Detention Was ‘Attack on Freedoms’ After 18-Day Ordeal in US",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.17,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "2d059bd3ee7c0e2e",
+      "title": "Dozens of Israeli settlers launch arson attack in West Bank as attacks against Palestinians surge",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.28333336,
+          "y": 0.0,
+          "certainty": 0.17,
+          "certainty01": 0.585
+        }
+      ]
+    },
+    {
+      "id": "c722c934f2c1cf1a",
+      "title": "Millions saw unexpected northern lights, as a wild solar storm unfolded across the world",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.7083333,
+          "y": 0.0,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "e555e06794fe4734",
+      "title": "DHS says agents were shot at amid chaotic day of immigration enforcement operations in Chicago area",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.38636366,
+          "y": -0.28333336,
+          "certainty": 0.47222227,
+          "certainty01": 0.73611116
+        }
+      ]
+    },
+    {
+      "id": "de7d56e78bc23136",
+      "title": "BBC apologizes for edit of Trump speech but says it won't provide legal compensation",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.425,
+          "y": -0.425,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "ef6daa220f11d396",
+      "title": "Aid still woefully short of Gaza needs as heavy rains, winter approach",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.34,
+          "y": -0.17,
+          "certainty": -0.12142858,
+          "certainty01": 0.4392857
+        }
+      ]
+    },
+    {
+      "id": "15264d7a5ed7442d",
+      "title": "Government Reopens, But Air Travel Recovery Faces Uncertainty Amid Staffing Shortages and Back Pay Delays",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.63750005,
+          "y": 0.425,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "0541954470e0e002",
+      "title": "Person ransacks New Jersey federal prosecutor’s office after being denied meeting with US Attorney Alina Habba",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "c5e8f1cc8e949f00",
+      "title": "The Political Danger of the Epstein Files for Trump",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.094444446,
+          "y": -0.5666667,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "0d64a2a26d7839bc",
+      "title": "Is Venezuela prepared for a US attack, as Washington ramps up forces?",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.68,
+          "y": -0.12142858,
+          "certainty": 0.7083333,
+          "certainty01": 0.8541666
+        }
+      ]
+    },
+    {
+      "id": "1d0cd1477263a6df",
+      "title": "Trump, Congress and the Epstein files: What happens next?",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.28333336,
+          "y": 0.425,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "5160630a63e63e7b",
+      "title": "Wicked: Man who grabbed Ariana Grande in Singapore charged in court",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": -0.28333336,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "972d58d96c3a62c3",
+      "title": "What’s in the bill to reopen the federal government?",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.28333336,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "911a89f64d80feeb",
+      "title": "The affordability crisis is forcing Trump to radically reshape his economic plan on the fly",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.51000005,
+          "y": 0.28333336,
+          "certainty": 0.7083333,
+          "certainty01": 0.8541666
+        }
+      ]
+    },
+    {
+      "id": "60efd906a6990ec9",
+      "title": "Economic Promises Helped Trump Get Elected. Now He Has an Affordability Problem",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": -0.28333336,
+          "y": 0.36428574,
+          "certainty": -0.425,
+          "certainty01": 0.2875
+        }
+      ]
+    },
+    {
+      "id": "63506a27e181e02a",
+      "title": "BBC News quiz of the week: Who did Alan Carr give his Celebrity Traitors prize to?",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "bc15f1e6e79936d9",
+      "title": "Family of Fisherman Killed in U.S. Military Strike Says It Wants Justice",
+      "points": [
+        {
+          "outlet": "nytimes.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.47222227,
+          "certainty01": 0.73611116
+        }
+      ]
+    },
+    {
+      "id": "60f9213861fd8dac",
+      "title": "Swiss Gruyère crowned the world’s best cheese",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.28333336,
+          "certainty": 0.6611111,
+          "certainty01": 0.83055556
+        }
+      ]
+    },
+    {
+      "id": "11f15928838b94d5",
+      "title": "Russian attacks on Ukraine kill 6 in Kyiv, 2 in Chornomorsk",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "93b33971ae347506",
+      "title": "Tracking US flight delays and cancellations in charts",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b7db0a5145efca00",
+      "title": "Ukraine faces ‘exhausting battles’ against Russia in Zaporizhia, Donetsk",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.51000005,
+          "y": 0.60714287,
+          "certainty": 0.6611111,
+          "certainty01": 0.83055556
+        }
+      ]
+    },
+    {
+      "id": "a43149bd523f99c1",
+      "title": "Johnson says House will vote next week on push to compel DOJ to release all of its Epstein files",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.17,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "79f91cd207b20501",
+      "title": "Conflicting advice on Covid shots likely to ding already low vaccine rates, experts warn",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.68,
+          "y": -0.51000005,
+          "certainty": 0.6611111,
+          "certainty01": 0.83055556
+        }
+      ]
+    },
+    {
+      "id": "7cba56fe159157fe",
+      "title": "Takeaways from the new Epstein emails mentioning Trump",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.17,
+          "y": -0.28333336,
+          "certainty": 0.6282609,
+          "certainty01": 0.8141304
+        }
+      ]
+    },
+    {
+      "id": "e5dd5c17adcd9ebc",
+      "title": "Exclusive: Trump administration holds Situation Room meeting over House effort to force release of all of DOJ’s Epstein files",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.17,
+          "y": -0.425,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "26b36e4938aa5d68",
+      "title": "Cleveland Pitcher Emmanuel Clase Pleads Not Guilty to Federal Charges Alleging He Rigged Pitches",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.51000005,
+          "y": -0.28333336,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "6efbf43dde1888a4",
+      "title": "Judge Rejects Motion to Dismiss Charges Against Rep. LaMonica McIver Over Alleged Assault at Detention Center",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "a85d6b45b8570749",
+      "title": "Republicans scramble for health care plan, as Democrats eye midterm battle",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.51000005,
+          "y": -0.28333336,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "ded95853cca0f5b7",
+      "title": "Bill Pulte refers Rep. Eric Swalwell to Justice Department over mortgage fraud allegations",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.28333336,
+          "y": 0.0,
+          "certainty": -0.425,
+          "certainty01": 0.2875
+        }
+      ]
+    },
+    {
+      "id": "795a05542f8cc122",
+      "title": "President Trump signs bill to reopen government, ending longest shutdown in US history",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.12142858,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "74b3dffca9b02812",
+      "title": "James Van Der Beek Auctioning Off ‘Dawson’s Creek’ and ‘Varsity Blues’ Memorabilia Amid Life’s ‘Twists and Turns’",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "950610a334acecb3",
+      "title": "'A death sentence for my son': Israel plans to deport sick Palestinians back to Gaza, patients and doctors say",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.425,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "3973d787f7b69f06",
+      "title": "NPR's News Roundup: Live Visual Broadcast Available on Smart Speakers",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "d685e200a0728fe5",
+      "title": "Nevada Supreme Court Rules Case Against Pro-Trump 'Fake Electors' Can Proceed in Las Vegas",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.17,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "1265096c8298aac7",
+      "title": "Blue Origin Launches Mars Orbiters on New Glenn Rocket in Historic Space Mission",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.425,
+          "y": 0.36428574,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "eebbe5fd5e874251",
+      "title": "New Jersey man is first known death from meat allergy triggered by tick bites",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.5666667,
+          "y": -0.51000005,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "3a342e537f496e30",
+      "title": "Israeli settlers torch mosque and spray graffiti in latest West Bank attack",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "c6e6171680e48a5a",
+      "title": "California’s Gavin Newsom slams Trump absence at COP30 climate conference",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.425,
+          "y": 0.28333336,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "df217c53373f92b8",
+      "title": "Chinese astronauts arrive home after suspected debris strike delays return to Earth",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.63750005,
+          "y": 0.425,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "77a2ce2a71fa2c41",
+      "title": "UK judge finds BHP Group liable in Brazil’s worst environmental disaster",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": -0.28333336,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "12176fca4f3d23f7",
+      "title": "John Beam, Former Football Coach Featured in 'Last Chance U,' Shot on Oakland College Campus",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b03e6d83eb2529bd",
+      "title": "OpenAI and Microsoft team up with state law enforcers on AI safety task force",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": -0.36428574,
+          "certainty": 0.17,
+          "certainty01": 0.585
+        }
+      ]
+    },
+    {
+      "id": "15034c3cae98fce2",
+      "title": "BBC apologises to Trump over Panorama edit but refuses to pay compensation",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.28333336,
+          "y": -0.51000005,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "0ee8d3c5254b1bcf",
+      "title": "Ammonia Gas Leak from a Tanker Truck in Oklahoma Sickens Dozens and Forces Evacuations",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.5666667,
+          "y": -0.425,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "bd515b7a4f5575a2",
+      "title": "The longest government shutdown in U.S. history comes to a close",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.36428574,
+          "y": 0.60714287,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "c7ec555a7063f4be",
+      "title": "Researchers Say They Have Verified and Sequenced Hitler’s DNA: A Documentary Reveals Findings",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.5666667,
+          "y": -0.34,
+          "certainty": 0.3269231,
+          "certainty01": 0.66346157
+        }
+      ]
+    },
+    {
+      "id": "74e424688d8c2b58",
+      "title": "Advancing Rural Education in China: Challenges and Opportunities",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.17,
+          "y": 0.6611111,
+          "certainty": 0.776087,
+          "certainty01": 0.8880435
+        }
+      ]
+    },
+    {
+      "id": "74b9c1f4cd95faaa",
+      "title": "Parents of Babies Sickened by ByHeart Formula File Lawsuits in Nationwide Outbreak",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.5666667,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "019e156a0d76b8ce",
+      "title": "John Beam, US football coach featured in Netflix series, shot at Laney College",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.28333336,
+          "y": -0.28333336,
+          "certainty": -0.28333336,
+          "certainty01": 0.35833332
+        }
+      ]
+    },
+    {
+      "id": "e47bdb3d57b1ff77",
+      "title": "Flood, mudslide risk surges across Southern California as multi-day storm gets underway",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.51000005,
+          "y": -0.63750005,
+          "certainty": 0.63750005,
+          "certainty01": 0.81875
+        }
+      ]
+    },
+    {
+      "id": "6ed6898fe6e02f6b",
+      "title": "Dodgers’ Shohei Ohtani unanimously voted MVP for fourth time; Yankees’ Aaron Judge named AL’s back-to-back winner",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "584ec477e8acc8af",
+      "title": "Israel identifies deceased hostage returned by Hamas as Manny Godard",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "6bdcb29fbde7f3ab",
+      "title": "Solar storms to hit Earth, triggering northern lights: What we know",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.68,
+          "y": 0.0,
+          "certainty": 0.63750005,
+          "certainty01": 0.81875
+        }
+      ]
+    },
+    {
+      "id": "3258c47ffa7cf988",
+      "title": "The government shutdown is over, but things are not back to normal",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": -0.425,
+          "certainty": 0.65000004,
+          "certainty01": 0.82500005
+        }
+      ]
+    },
+    {
+      "id": "d0ec4065e1222114",
+      "title": "Texas A&M Professors Need Approval for Race and Gender Topics",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "0258a85b7b18be0b",
+      "title": "We need to get out of here: Trump's immigration crackdown is quietly reshaping where immigrants live in America",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.63750005,
+          "certainty01": 0.81875
+        }
+      ]
+    },
+    {
+      "id": "6686d1f5c787c503",
+      "title": "Epstein Files Petition Now Has Its 218th Signature. What Happens Next?",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": 0.28333336,
+          "certainty": 0.17,
+          "certainty01": 0.585
+        }
+      ]
+    },
+    {
+      "id": "26aa30af0e334836",
+      "title": "Things are pretty crappy: 1 in 4 US households are living paycheck to paycheck",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": -0.12142858,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "e4a2ecf11c9bf1cd",
+      "title": "‘Massive enemy attack’: Russia pounds Ukraine’s Kyiv, killing six",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.17,
+          "y": -0.28333336,
+          "certainty": -0.425,
+          "certainty01": 0.2875
+        }
+      ]
+    },
+    {
+      "id": "1eca9c3b133511bd",
+      "title": "Invest in crypto? Here’s what to know about your 2025 taxes",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.69545454,
+          "certainty": 0.68,
+          "certainty01": 0.84000003
+        }
+      ]
+    },
+    {
+      "id": "060feb0746808ad2",
+      "title": "Pointed questions and gasps in courtroom: Takeaways from hearing on fate of Trump’s handpicked prosecutor Lindsey Halligan",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b80e4bb2581bb89d",
+      "title": "The government shutdown is over, but not everything is back to normal",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.36428574,
+          "y": -0.36428574,
+          "certainty": 0.6880953,
+          "certainty01": 0.84404767
+        }
+      ]
+    },
+    {
+      "id": "9f83711acfdd58d9",
+      "title": "After quitting antidepressants, some people suffer surprising, lingering symptoms",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.63750005,
+          "y": -0.34,
+          "certainty": 0.6710527,
+          "certainty01": 0.83552635
+        }
+      ]
+    },
+    {
+      "id": "c35084466f01abc4",
+      "title": "Russian attacks on Ukraine kill 6 in Kyiv, 2 in Chornomorsk",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "488d2e269542cd81",
+      "title": "Screens are the enemy in new ‘Toy Story 5’ teaser trailer",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "adf4cbef33c56c0c",
+      "title": "Oklahoma spares death row inmate hours before planned execution",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": -0.17,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "e0d81b052b402775",
+      "title": "How Venezuela’s aging Soviet-era military stacks up against US forces in the Caribbean",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.63750005,
+          "y": 0.17,
+          "certainty": 0.47222227,
+          "certainty01": 0.73611116
+        }
+      ]
+    },
+    {
+      "id": "e6b198406d7778a9",
+      "title": "Prosecutors turn over 130,000 pages of evidence in the killing of a Minnesota lawmaker",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.17,
+          "y": 0.0,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "e0f0178bbf988b78",
+      "title": "News | Today's latest from Al Jazeera",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": -0.28333336,
+          "y": -0.425,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "c727c697bd4739f2",
+      "title": "Rights groups decry Tunisia’s ‘injustice’, crackdown on activists",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "3a40995adb900c1e",
+      "title": "New photo for King Charles's 77th birthday",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "c314f91d3a629cad",
+      "title": "Violence in Bangladesh as toppled Hasina’s party protests crackdown trial",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "5c86e6af4af887c1",
+      "title": "Trump administration designates four European Antifa groups as terrorists",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.17,
+          "y": -0.28333336,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "beb8b906e492a5d6",
+      "title": "Man takes bus for joyride in Canada, turns down passenger with expired pass",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.51000005,
+          "y": -0.28333336,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "cce66685c770a27a",
+      "title": "Venezuelans voice uncertainty, fear and skepticism after arrival of US aircraft carrier in region",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": -0.425,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "5e311872e28e988f",
+      "title": "Civil rights leader Jesse Jackson, 84, hospitalized",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": -0.28333336,
+          "certainty01": 0.35833332
+        }
+      ]
+    },
+    {
+      "id": "ac90e8fc6b9d7fe7",
+      "title": "Ingrassia Serving in New Role in Trump Administration After Withdrawing Nomination for Whistleblower Office",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": -0.094444446,
+          "certainty01": 0.45277777
+        }
+      ]
+    },
+    {
+      "id": "2c1dd7776e28466d",
+      "title": "How will ‘limited’ US nuclear tests avoid any explosions?",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.425,
+          "y": 0.0,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "60ebb3fb5475fa62",
+      "title": "Prince Andrew Stripped of Title Amid New Emails and Allegations of Sexual Misconduct",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "de0459f713e5709b",
+      "title": "Sean 'Diddy' Combs’ prison release date set for 2028",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.425,
+          "certainty": 0.38636366,
+          "certainty01": 0.6931818
+        }
+      ]
+    },
+    {
+      "id": "8c1f3943f720fff2",
+      "title": "Latin Grammys 2025: See who won",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b9ec76bdefb20360",
+      "title": "Swiss deploy charm offensive in bid to slash crippling Trump tariffs",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.28333336,
+          "y": 0.28333336,
+          "certainty": 0.3269231,
+          "certainty01": 0.66346157
+        }
+      ]
+    },
+    {
+      "id": "ac9f0b4427178803",
+      "title": "Germany agrees new military service plan to boost troop numbers",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.5666667,
+          "y": -0.28333336,
+          "certainty": 0.7083333,
+          "certainty01": 0.8541666
+        }
+      ]
+    },
+    {
+      "id": "969ba2f38cc136da",
+      "title": "Andrew Mountbatten-Windsor Tells Epstein: 'I Can’t Take Any More of This' in Newly Released Emails",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.28333336,
+          "y": -0.28333336,
+          "certainty": 0.6181818,
+          "certainty01": 0.8090909
+        }
+      ]
+    },
+    {
+      "id": "875b6e28995a748c",
+      "title": "What’s inside the thousands of Epstein estate documents released by House committee",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.36428574,
+          "y": -0.425,
+          "certainty": 0.6880953,
+          "certainty01": 0.84404767
+        }
+      ]
+    },
+    {
+      "id": "b23d160f0d08a643",
+      "title": "BBC Apologizes to Trump over Editing Blunder, Rejects Defamation Claim",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.17,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "f7015c3e023dd37a",
+      "title": "Home Page Tiny Desk Carousel",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "23f8781e8cc0eb24",
+      "title": "All 14 victims identified from fiery UPS cargo plane crash in Louisville",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "1a5a18fa50f416e9",
+      "title": "South Korea Bans Flights as 500,000 Take Crucial University Admission Test",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "7a886120f4cff836",
+      "title": "Pennsylvania Sen. John Fetterman hospitalized after fall but ‘doing well,’ spokesperson says",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": -0.28333336,
+          "certainty01": 0.35833332
+        }
+      ]
+    },
+    {
+      "id": "498ec115fafd3df8",
+      "title": "House Democrat Accuses Fellow Democrat of Attempting to ‘Anoint an Heir’ in Surprise Floor Move",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "d32e581dacb600e7",
+      "title": "Examining Brown v. Board, race and ‘equal protection’ through the eyes of the modern Supreme Court",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.63750005,
+          "y": 0.17,
+          "certainty": 0.6611111,
+          "certainty01": 0.83055556
+        }
+      ]
+    },
+    {
+      "id": "526a6a7c43df8601",
+      "title": "Taylor Swift drops ‘Eras Tour’ doc trailer, with ‘mysterious forces at play’",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "cf0d2b186712be48",
+      "title": "RFK Jr walks back Trump administration’s claims linking Tylenol and autism",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.28333336,
+          "y": -0.28333336,
+          "certainty": 0.34,
+          "certainty01": 0.67
+        }
+      ]
+    },
+    {
+      "id": "8d96657de81b8d8f",
+      "title": "Amputees from Israel’s Gaza war use homemade prosthetics to re-enter life",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.51000005,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "67370c3cf7323321",
+      "title": "Trump’s Thailand-Cambodia peace agreement is falling apart after Cambodian villager killed in fresh clashes",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.36428574,
+          "y": 0.0,
+          "certainty": 0.17,
+          "certainty01": 0.585
+        }
+      ]
+    },
+    {
+      "id": "0c401ca22ba772ce",
+      "title": "Indigenous activists storm COP30 climate summit in Brazil, demanding action",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.425,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "e98677e3717c74ce",
+      "title": "Can you ace this week's test? Unlike the government, the quiz never stopped.",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b20ba746e6124720",
+      "title": "Why has Canada lost its measles-free status – and could the US be next?",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.65000004,
+          "y": -0.12142858,
+          "certainty": -0.07727273,
+          "certainty01": 0.46136364
+        }
+      ]
+    },
+    {
+      "id": "56c9debe8be35f32",
+      "title": "Business jet that crashed in Michigan was flown after pilots chose not to wait for a test pilot, NTSB says",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "a84b60a39bb75977",
+      "title": "Justice Gorsuch to co-author children’s book about the Declaration of Independence",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "cc88fdf8f71b0241",
+      "title": "Energy Scandal Spells Trouble for Zelensky as Ukrainians Face Another Winter of Power Cuts",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.12142858,
+          "certainty": 0.7083333,
+          "certainty01": 0.8541666
+        }
+      ]
+    },
+    {
+      "id": "0a9bcc19f0738af9",
+      "title": "Canadian boycott of US travel shows no sign of slowing",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.425,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "16422d31ac2eda91",
+      "title": "Phone notes reveal alleged plan to bait Kim Jong Un with drones",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.51000005,
+          "y": -0.36428574,
+          "certainty": 0.53518516,
+          "certainty01": 0.76759255
+        }
+      ]
+    },
+    {
+      "id": "1fd2114a1425ae9e",
+      "title": "Epstein emails with author Wolff raise journalism ethics questions: Experts",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": 0.425,
+          "certainty": 0.69545454,
+          "certainty01": 0.8477273
+        }
+      ]
+    },
+    {
+      "id": "ce191e0b3c7810d6",
+      "title": "Australia adds Reddit, Kick to social media ban for children under 16",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.17,
+          "y": -0.36428574,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "63763a203947ddee",
+      "title": "Self-styled miracle worker whose followers claimed could multiply gnocchi charged with fraud",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.48571432,
+          "certainty01": 0.74285716
+        }
+      ]
+    },
+    {
+      "id": "176959ea88d0b6d4",
+      "title": "U.S. Stock Market Tumbles on AI Stock Worries and Interest Rate Hesitation",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.5666667,
+          "y": 0.12142858,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "2b411c78af872e34",
+      "title": "5 Things to Watch in the NFL’s Week 11: Spain Debut, Revenge, and MVP Dreams",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "d97715c34cbc85d5",
+      "title": "How to Help Those Facing Food Insecurity",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "846c507171018bff",
+      "title": "California revokes 17,000 commercial driver’s licenses for immigrants",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.75555557,
+          "y": -0.5666667,
+          "certainty": -0.28333336,
+          "certainty01": 0.35833332
+        }
+      ]
+    },
+    {
+      "id": "8269898526190d7e",
+      "title": "Johnson shifts strategy on Epstein files vote – as GOP leaders brace for mass defections",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": -0.28333336,
+          "certainty": -0.17,
+          "certainty01": 0.415
+        }
+      ]
+    },
+    {
+      "id": "d82a74b77396464b",
+      "title": "Scientists watch flare with 10 trillion suns’ light from massive black hole",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.5666667,
+          "y": 0.28333336,
+          "certainty": -0.28333336,
+          "certainty01": 0.35833332
+        }
+      ]
+    },
+    {
+      "id": "8ef8b52983d8661d",
+      "title": "Why are scientists rushing to study a comet from deep space?",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": -0.28333336,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "c389fbd1f30d1d1d",
+      "title": "What do we know about the Jeffrey Epstein files?",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.51000005,
+          "y": 0.0,
+          "certainty": 0.47222227,
+          "certainty01": 0.73611116
+        }
+      ]
+    },
+    {
+      "id": "4997999e117ed2de",
+      "title": "Judge orders release of hundreds arrested in Illinois immigration crackdown",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": -0.63750005,
+          "certainty": 0.12142858,
+          "certainty01": 0.5607143
+        }
+      ]
+    },
+    {
+      "id": "e4c98649c8910b4d",
+      "title": "Could COVID-19 mRNA vaccines also fight cancer?",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.5666667,
+          "y": 0.28333336,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "874b97bd38eb0469",
+      "title": "China and Japan in escalating spat over Taiwan: What to know",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": -0.28333336,
+          "y": -0.69545454,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "5f1dbefa77cedc95",
+      "title": "Israel confirms identity of hostage body returned by Hamas as Manny Godard",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": -0.28333336,
+          "y": 0.51000005,
+          "certainty": -0.425,
+          "certainty01": 0.2875
+        }
+      ]
+    },
+    {
+      "id": "a73547a3a3727fc2",
+      "title": "Why some people lose their hair when they’re on GLP-1s",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.7690476,
+          "y": 0.0,
+          "certainty": 0.7605263,
+          "certainty01": 0.88026315
+        }
+      ]
+    },
+    {
+      "id": "14fbd67a8e510a3b",
+      "title": "Clock is ticking ahead of NCAA’s decision on proposed gambling rule",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "e3f83b4f0670ed5c",
+      "title": "Typhoon Fung-wong leaves Philippines with 10 dead, 1.4 million displaced",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.6611111,
+          "y": -0.425,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "709f64191b765cf1",
+      "title": "Black Soldiers in WWII Removed from U.S. Military Cemetery in Netherlands Spark Controversy",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": 0.28333336,
+          "certainty": -0.28333336,
+          "certainty01": 0.35833332
+        }
+      ]
+    },
+    {
+      "id": "069b0bb736a67f8c",
+      "title": "Russia's Massive Attack on Kyiv Kills at Least 4 People, Injures Dozens of Others",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.51000005,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "e739bfadd9d1cc16",
+      "title": "As social media grows more toxic, college athletes ask themselves: Is it worth it?",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.425,
+          "y": -0.60714287,
+          "certainty": 0.63750005,
+          "certainty01": 0.81875
+        }
+      ]
+    },
+    {
+      "id": "67e6d6c15f94839b",
+      "title": "Science and Technology | Today's latest from Al Jazeera",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.17,
+          "certainty01": 0.585
+        }
+      ]
+    },
+    {
+      "id": "2bbe8a8c3343e703",
+      "title": "How Each House Member Voted on Ending the Government Shutdown",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "b470b6299052fde2",
+      "title": "Fannie Mae Data Leak Raises Ethical and Political Concerns Over Bill Pulte’s Role in Housing Regulation",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.51000005,
+          "y": -0.17,
+          "certainty": 0.6611111,
+          "certainty01": 0.83055556
+        }
+      ]
+    },
+    {
+      "id": "4c28ce9e20145e1e",
+      "title": "As the dams feeding Tehran run dry, Iran struggles with a dire water crisis",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.425,
+          "y": -0.28333336,
+          "certainty": 0.68,
+          "certainty01": 0.84000003
+        }
+      ]
+    },
+    {
+      "id": "5391a1e1642a248d",
+      "title": "George Conway, a prominent Trump critic, may jump into New York congressional race, source tells CNN",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "ae96382a57944cd0",
+      "title": "Tracking states’ unprecedented redistricting efforts",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.425,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "79390aee66df41c5",
+      "title": "Ancient eggshells shed new light on crocodiles that hunted prey from trees",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.51000005,
+          "y": 0.0,
+          "certainty": 0.69545454,
+          "certainty01": 0.8477273
+        }
+      ]
+    },
+    {
+      "id": "40d9921c24ac174b",
+      "title": "The government shutdown is over. Here’s what travelers need to know about Thanksgiving flights",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.69545454,
+          "y": 0.0,
+          "certainty": 0.7192308,
+          "certainty01": 0.8596154
+        }
+      ]
+    },
+    {
+      "id": "ee9a19454743f31e",
+      "title": "Russia claims to have thwarted Ukrainian assassination plot as deadly overnight strikes pound Kyiv",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.31875002,
+          "certainty01": 0.659375
+        }
+      ]
+    },
+    {
+      "id": "8c5a1df9d0e32e2e",
+      "title": "House Committee Releases Epstein Emails Linked to Trump, Prince Andrew, and Clinton",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": -0.47222227,
+          "y": 0.0,
+          "certainty": -0.12142858,
+          "certainty01": 0.4392857
+        }
+      ]
+    },
+    {
+      "id": "cee5307b67583092",
+      "title": "We were gone far too long: House members reflect on longest shutdown",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": -0.28333336,
+          "y": 0.0,
+          "certainty": 0.2125,
+          "certainty01": 0.60625
+        }
+      ]
+    },
+    {
+      "id": "3218964f2ecd4c5f",
+      "title": "Wall Street has its worst day in a month as traders dial back expectations for Fed rate cuts",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": -0.63750005,
+          "certainty": 0.36428574,
+          "certainty01": 0.68214285
+        }
+      ]
+    },
+    {
+      "id": "69ef0d37a083dddd",
+      "title": "This oil-producing country is moving away from oil. Here's how it's going",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.51000005,
+          "y": 0.17,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "9eee32bb6bba9bdf",
+      "title": "US senator John Fetterman jokes from hospital after fall",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.425,
+          "y": 0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "4ebaa2f1beb16cde",
+      "title": "Korean Workers Detained in Georgia Immigration Raid Return to Hyundai Jobs",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": -0.425,
+          "certainty01": 0.2875
+        }
+      ]
+    },
+    {
+      "id": "5f11b7aa2a2974de",
+      "title": "Judge Denies Rep. LaMonica McIver’s Request to Dismiss Charges Around Immigration Detention Center Incident",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "c0af904c4f6e10dd",
+      "title": "Gregory Bovino and CBP Headed to Charlotte, North Carolina: Local Officials Caught Off Guard Amid Immigration Crackdown",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.5666667,
+          "y": -0.36428574,
+          "certainty": 0.13421053,
+          "certainty01": 0.5671053
+        }
+      ]
+    },
+    {
+      "id": "6129362d9d6719a1",
+      "title": "401(k), IRA contribution limits get a bump up",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.68,
+          "certainty01": 0.84000003
+        }
+      ]
+    },
+    {
+      "id": "b1dbe1b7bcb3e41b",
+      "title": "‘Enemy KIA’: Trump revives playbook from Afghanistan for campaign targeting alleged drug boats",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.51000005,
+          "y": -0.28333336,
+          "certainty": 0.53125,
+          "certainty01": 0.765625
+        }
+      ]
+    },
+    {
+      "id": "c1f14b854fdd9478",
+      "title": "Escaramuza: The Poetics of Home",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "c8e97c8ef27f6320",
+      "title": "I could hardly walk - the issue that affects 1 in 5 mums",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.51000005,
+          "y": 0.12142858,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "afc6145dbd286719",
+      "title": "US, South Korea to ‘move forward’ on building nuclear-powered submarines",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": -0.28333336,
+          "y": -0.28333336,
+          "certainty": -0.28333336,
+          "certainty01": 0.35833332
+        }
+      ]
+    },
+    {
+      "id": "3e584ba7e1c5692f",
+      "title": "Doctors say they’re ‘measurably closer’ to making pig kidneys work for humans",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.39666668,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "936f6381068808a6",
+      "title": "Bad Bunny wins five Latin Grammys ahead of Super Bowl",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.0,
+          "y": -0.425,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "f08f06652ebf5ee6",
+      "title": "James Watson, who co-discovered DNA double helix, dies at 97",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "fae7ac1dfe2c5b95",
+      "title": "Trump Briefed This Week on Options for Military Operations in Venezuela",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": -0.5666667,
+          "certainty": 0.36428574,
+          "certainty01": 0.68214285
+        }
+      ]
+    },
+    {
+      "id": "8301db262d8ad0b8",
+      "title": "Bad Bunny wins album of the year at 2025 Latin Grammys",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "cf88cc360e513541",
+      "title": "Bad Bunny Dominates 2026 Latin Grammy Awards with Historic Wins",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "828b568ba0c278fe",
+      "title": "Oklahoma governor spares the life of inmate just before he was to be executed",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.51000005,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "fefc560dbacaa4cd",
+      "title": "CNN exclusive: Maduro tells people in the US to unite with Venezuela for peace of the Americas",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": -0.51000005,
+          "certainty": 0.69545454,
+          "certainty01": 0.8477273
+        }
+      ]
+    },
+    {
+      "id": "6f3431cf8b9aa156",
+      "title": "Ammonia Gas Leak from Tanker Truck in Oklahoma Forces Evacuations and Injures Dozens",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.60714287,
+          "y": -0.425,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "84894b2e3e27a033",
+      "title": "Pakistan Parliament Approves More Powers for Army Chief, Curb Top Court",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "c605fcd22a6984ce",
+      "title": "Dear Life Kit: How to handle unwanted comments about height, marriage timing, and judgmental family comments",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.63750005,
+          "certainty01": 0.81875
+        }
+      ]
+    },
+    {
+      "id": "5c46e04786171105",
+      "title": "Trump is getting pulled deeper and deeper into the Epstein drama",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.094444446,
+          "y": 0.0,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "dac1495929f128fc",
+      "title": "At least 2 dead, 21 missing in landslides in Indonesia’s Java island",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.5666667,
+          "y": 0.0,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "60bf0af48b6590ff",
+      "title": "Bihar 2025 election result: Who won, who lost in crucial Indian state",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.51000005,
+          "y": 0.0,
+          "certainty": -0.17,
+          "certainty01": 0.415
+        }
+      ]
+    },
+    {
+      "id": "4f7587899a7fffd6",
+      "title": "COP30 opens in Brazil with calls for unity to tackle climate crisis",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "5aa7a4166733df40",
+      "title": "Comey and James seek case dismissal, arguing prosecutor was illegally appointed",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.0,
+          "y": -0.425,
+          "certainty": 0.425,
+          "certainty01": 0.7125
+        }
+      ]
+    },
+    {
+      "id": "fb8c03da764ff283",
+      "title": "Cameroon Protest Death Toll Disputed by Rights Groups After Election Results",
+      "points": [
+        {
+          "outlet": "apnews.com",
+          "x": 0.0,
+          "y": -0.28333336,
+          "certainty": -0.36428574,
+          "certainty01": 0.31785715
+        }
+      ]
+    },
+    {
+      "id": "83b34ca281824d38",
+      "title": "World’s ‘fossil fuel obsession’ threatens billions of lives: Amnesty",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.28333336,
+          "y": -0.425,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "dee8739cae9272fd",
+      "title": "The Trump administration is ‘actively evaluating’ portable mortgages. What you need to know",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.7083333,
+          "certainty01": 0.8541666
+        }
+      ]
+    },
+    {
+      "id": "ae25a306eb3ba445",
+      "title": "Judge Orders Release of Hundreds Arrested in Chicago’s Immigration Crackdown",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.60714287,
+          "y": -0.63750005,
+          "certainty": 0.51000005,
+          "certainty01": 0.755
+        }
+      ]
+    },
+    {
+      "id": "daba98223394c01f",
+      "title": "Trump administration sues to stop California from redistricting to give Democrats more House seats",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.425,
+          "y": 0.0,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "ffc59b437a1132f7",
+      "title": "Judge Hears Arguments Thursday in Bid by James Comey and Letitia James to Disqualify Lindsey Halligan",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": -0.425,
+          "y": 0.0,
+          "certainty": 0.34,
+          "certainty01": 0.67
+        }
+      ]
+    },
+    {
+      "id": "d053fe86fa03f741",
+      "title": "US military carried out 20th strike on alleged drug boats, killing 4, official says",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": -0.07727273,
+          "certainty01": 0.46136364
+        }
+      ]
+    },
+    {
+      "id": "bc2b3ce4af275609",
+      "title": "The delightfully analog art of letter-writing",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.0,
+          "y": 0.0,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "27c6fb35ec8c2327",
+      "title": "Give Yourself the Gift of Playing Holiday Movie Bingo",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "6b09be8c25b87e01",
+      "title": "US tariffs on coffee and bananas to ease under new trade deals",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "95111d2cd8f7a3e3",
+      "title": "US justice department sues California after redistricting",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": -0.5666667,
+          "y": 0.28333336,
+          "certainty": 0.0,
+          "certainty01": 0.5
+        }
+      ]
+    },
+    {
+      "id": "57a8caae34bca407",
+      "title": "Russian drone slams into block of flats killing four in strikes across Kyiv",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.0,
+          "y": 0.28333336,
+          "certainty": 0.28333336,
+          "certainty01": 0.64166665
+        }
+      ]
+    },
+    {
+      "id": "d45bb17f95e99bb0",
+      "title": "Will AI mean better adverts or 'creepy slop'?",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.28333336,
+          "y": 0.0,
+          "certainty": 0.60714287,
+          "certainty01": 0.80357146
+        }
+      ]
+    },
+    {
+      "id": "94f3d2e1c02de805",
+      "title": "Legal Proceedings in the Plaintiff vs. Defendant Case, April 15 to May 20, 2024",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.7892857,
+          "y": -0.20238096,
+          "certainty": 0.8173077,
+          "certainty01": 0.90865386
+        }
+      ]
+    },
+    {
+      "id": "368219ad94adbaf3",
+      "title": "US pushes Security Council to back Gaza plan as Russia offers counter text",
+      "points": [
+        {
+          "outlet": "aljazeera.com",
+          "x": 0.28333336,
+          "y": 0.425,
+          "certainty": 0.36428574,
+          "certainty01": 0.68214285
+        }
+      ]
+    },
+    {
+      "id": "c3fae39a7054a439",
+      "title": "Our dogs' diversity can be traced back to the Stone Age",
+      "points": [
+        {
+          "outlet": "bbc.com",
+          "x": 0.60714287,
+          "y": 0.0,
+          "certainty": 0.5666667,
+          "certainty01": 0.78333336
+        }
+      ]
+    },
+    {
+      "id": "f60daa79646b15cc",
+      "title": "Breakthrough in Quantum AI Integration: Hybrid Models Achieve First Successful Demonstration",
+      "points": [
+        {
+          "outlet": "text.npr.org",
+          "x": 0.28333336,
+          "y": 0.5666667,
+          "certainty": 0.75,
+          "certainty01": 0.875
+        }
+      ]
+    },
+    {
+      "id": "161ec477ea12661b",
+      "title": "US Lawmakers Demand Answers from Trump Administration Over Chinese Chemical Shipments to Iran",
+      "points": [
+        {
+          "outlet": "lite.cnn.com",
+          "x": 0.28333336,
+          "y": -0.51000005,
+          "certainty": 0.69545454,
+          "certainty01": 0.8477273
+        }
+      ]
+    }
+  ]
+}

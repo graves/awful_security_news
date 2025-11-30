@@ -1,0 +1,199 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "fec3c741ceee4803",
+        "8a9e461d346275a0",
+        "8325a0d947cbd425",
+        "8b190908a19115d0",
+        "780cc3297e22d35d",
+        "05933bdbc406c7bc"
+      ],
+      "theme": "Geopolitical and Humanitarian Crises",
+      "whyNow": "Convergence of military escalation in Venezuela, climate disasters in Southeast Asia, and international legal actions against state actors reflects a global pivot toward high-impact, high-visibility events that blend security, humanitarian, and legal dimensions."
+    },
+    {
+      "clusters": [
+        "4ea9914fab5a4176",
+        "bcf4ef88fd184aa7",
+        "9e62380618866c37",
+        "86bf58b6a67f1d66",
+        "d2143c8ba8290198",
+        "ec828d25668fc2f7"
+      ],
+      "theme": "Conflict, Aid, and Accountability in Gaza",
+      "whyNow": "Recurrent reporting on ceasefire violations, humanitarian aid obstruction, environmental collapse, and unresolved deaths highlights a narrative arc of systemic failure in conflict management, where international law is circumvented and accountability remains illusory."
+    },
+    {
+      "clusters": [
+        "952dc680468b1c98",
+        "808e49b1400df63c",
+        "808b9ff19aef1725",
+        "699f1674d83f927e",
+        "02d1bb2a85f6bccc"
+      ],
+      "theme": "Political Messaging and Narrative Control",
+      "whyNow": "The rise of coordinated, multi-platform narratives on issues ranging from redistricting to AI ethics reflects a strategic effort to reframe public discourse around values like fairness, authenticity, and national identity, often tied to specific political or cultural figures."
+    },
+    {
+      "clusters": [
+        "9f2cc8080cd246f9",
+        "c36670a77b7d290a",
+        "8a689596837236d1",
+        "780cc3297e22d35d"
+      ],
+      "theme": "Institutional and Cultural Resilience",
+      "whyNow": "The emphasis on resilience amid crisis—whether in oil refineries, cultural icons, or natural disasters—reflects a meta-narrative of continuity and adaptation, suggesting that while institutions may be under threat, they are also evolving in response to systemic pressures."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "fec3c741ceee4803",
+          "contrast": "U.S. claims 'narcoterrorist' vessels vs. AP's exposure of low-level workers, fishermen",
+          "sources": [
+            "AP",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "8325a0d947cbd425",
+          "contrast": "Turkey's 'genocide' arrest warrant vs. Israel's 'political silencing' narrative",
+          "sources": [
+            "CNN",
+            "Al Jazeera"
+          ]
+        },
+        {
+          "clusterId": "3f02d2a778c58a9e",
+          "contrast": "Mistaken identity as criminal vs. legitimate self-defense under castle doctrine",
+          "sources": [
+            "CNN",
+            "Local News"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "9e62380618866c37",
+          "contrast": "Supreme Court halts SNAP vs. state-led efforts to disburse benefits",
+          "sources": [
+            "AP",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "c4eedb3ce5cc2728",
+          "contrast": "Solar as crisis response vs. solar as resilience solution",
+          "sources": [
+            "NYTimes",
+            "CNN"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "952dc680468b1c98",
+          "contrast": "Constitutional redistricting vs. partisan manipulation",
+          "sources": [
+            "NYTimes",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "3fe0a00eb0c2e387",
+          "contrast": "Shutdown-induced travel chaos vs. political theater over funding bills",
+          "sources": [
+            "CNN",
+            "AP"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "fec3c741ceee4803",
+        "8a9e461d346275a0",
+        "8325a0d947cbd425",
+        "780cc3297e22d35d"
+      ],
+      "topic": "International Conflict and Humanitarian Response"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "c36670a77b7d290a",
+        "b7e364be880f0880",
+        "4ea9914fab5a4176"
+      ],
+      "topic": "Cultural and Institutional Stability"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Explicit discussion of public health outcomes from CRISPR or mRNA therapies beyond trial data",
+      "theme": "Medical Innovation and Public Trust"
+    },
+    {
+      "expectedButMissing": "Analysis of how AI-driven algorithmic bias affects marginalized groups in hiring or loan practices",
+      "theme": "Technological Ethics and Equity"
+    },
+    {
+      "expectedButMissing": "Debate on climate migration, specifically cross-border displacement due to rising seas or drought",
+      "theme": "Environmental Migration and Global Governance"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-07",
+      "note": "The Farmers’ Almanac’s closure after 208 years marks a symbolic end to print-based forecasting in a data-driven world, reflecting broader cultural shifts.",
+      "theme": "Decline of Traditional Institutions"
+    },
+    {
+      "ceasedSince": "2025-11-07",
+      "note": "The end of the 'Tiny Desk' series as a feature—replaced by AI-curated playlists—signals a shift from curated human artistry to algorithmic content in digital culture.",
+      "theme": "Cultural Production and Platformization"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "c36670a77b7d290a",
+        "fec3c741ceee4803",
+        "8a9e461d346275a0",
+        "9e62380618866c37"
+      ],
+      "date": "2025-11-08",
+      "what": "Convergence of geopolitical escalation: U.S. strikes in Venezuela, typhoons in Philippines, and humanitarian crises in Gaza"
+    },
+    {
+      "clusters": [
+        "6495a065a6325b85",
+        "808b9ff19aef1725",
+        "7e8412b13269e662"
+      ],
+      "date": "2025-11-07",
+      "what": "Judicial and political milestones: Supreme Court review of SNAP funding, LGBTQ+ rights, and executive clemency in a high-profile trial"
+    },
+    {
+      "clusters": [
+        "b2932088b21f90d3",
+        "699f1674d83f927e",
+        "7e4b60db7c8907e7"
+      ],
+      "date": "2025-11-06",
+      "what": "Shift in public discourse: from presidential demeanor (Trump’s eyes) to cultural apology (Harry’s cap) to digital ethics (donation transparency)"
+    }
+  ]
+}

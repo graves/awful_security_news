@@ -1,0 +1,241 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "b93385c0e3db8157",
+        "027823f387ae2da6",
+        "2237b3681f640197",
+        "d79ae98009681dfd",
+        "cda000977e1f6bdf",
+        "058458c058be7ca1"
+      ],
+      "theme": "Epstein files and political accountability",
+      "whyNow": "A surge in political and media attention around the Jeffrey Epstein files, with Trump's reversal, House votes, and bipartisan pressure, marking a high-stakes moment in political transparency."
+    },
+    {
+      "clusters": [
+        "f35fd8d543ecc52f",
+        "889da0b472835f45",
+        "7987272d18e0f9cf",
+        "babd2559fd9339d7",
+        "e70cd9fd11015a7e",
+        "96fbba50e67d131f"
+      ],
+      "theme": "U.S.-led Gaza governance plan",
+      "whyNow": "The U.N. Security Council’s approval of Trump’s Gaza stabilization plan, despite Hamas and Palestinian rejection, has intensified global scrutiny on the geopolitical and humanitarian implications."
+    },
+    {
+      "clusters": [
+        "1906d14b7d78b396",
+        "791ed6f9b32c3a7a",
+        "6b5185578878c6ec",
+        "4f77bf105658e196",
+        "99641c22fe2b173d"
+      ],
+      "theme": "Immigration enforcement and civil liberties",
+      "whyNow": "The 'Operation Charlotte’s Web' raid in Charlotte, NC, sparked backlash over targeting non-border cities, civil rights concerns, and the misuse of a children's book title, exposing tensions between enforcement and constitutional rights."
+    },
+    {
+      "clusters": [
+        "b6c62d5c7f274274",
+        "e3cf7ba6a9f464a8",
+        "0399f1acd72b18a0"
+      ],
+      "theme": "U.S.-China and U.S.-Latin America tensions",
+      "whyNow": "Escalating diplomatic friction between China and Japan over Taiwan, alongside U.S. moves against Venezuela and cartel designations, reflect a broader strategic realignment with rising global geopolitical risk."
+    },
+    {
+      "clusters": [
+        "f8f6d67f456c6b97",
+        "1f01dc380ef18aff",
+        "636f3e37732e962a"
+      ],
+      "theme": "Military escalation and regional instability",
+      "whyNow": "Sabotage in Poland, Russian advances in Ukraine, and Israeli settler violence in the West Bank signal ongoing regional instability, with U.S. and allied military responses amplifying tensions."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "791ed6f9b32c3a7a",
+          "contrast": "DHS justifies raids via 'high foreign-born population' (blame), but data shows most arrested lack criminal records (cause: systemic enforcement flaws)."
+       ,
+        "sources": [
+          "cnn",
+          "dhs"
+        ]
+      },
+      {
+        "clusterId": "3c4df68881fc002e",
+        "contrast": "U.S.-allied operations cited as stabilizing (blame), but escalate regional conflict (cause: unintended consequences of foreign involvement)."
+        ,
+        "sources": [
+          "npr",
+          "npr"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "risk→optimism",
+    "examples": [
+      {
+        "clusterId": "e594759ca7460404",
+        "contrast": "Bitcoin drops into bear market (risk), but government-backed strategic investments outperform S&P (optimism)."
+        ,
+        "sources": [
+          "cnn",
+          "cnn"
+        ]
+      },
+      {
+        "clusterId": "1f951127d5f6b6e6",
+        "contrast": "Winter rains in Gaza raise disease fears (risk), but U.N. stabilization plan introduces hope for governance (optimism)."
+        ,
+        "sources": [
+          "bbc",
+          "nrc"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "policy→politics",
+    "examples": [
+      {
+        "clusterId": "b93385c0e3db8157",
+        "contrast": "Epstein file release framed as policy transparency (policy), but became a partisan battleground (politics)."
+        ,
+        "sources": [
+          "aljazeera",
+          "aljazeera"
+        ]
+      },
+      {
+        "clusterId": "cda000977e1f6bdf",
+        "contrast": "House vote on Epstein files portrayed as democratic process (policy), but driven by Trump’s political survival (politics)."
+        ,
+        "sources": [
+          "nytimes",
+          "nytimes"
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "emergency→accountability",
+    "examples": [
+      {
+        "clusterId": "4f77bf105658e196",
+        "contrast": "Immigration raids in Charlotte were emergency enforcement (emergency), but exposed accountability failures in targeting non-criminals (accountability)."
+        ,
+        "sources": [
+          "apnews",
+          "cnn"
+        ]
+      },
+      {
+        "clusterId": "636f3e37732e962a",
+        "contrast": "Settler violence spikes (emergency), but political leaders offer limited accountability (accountability)."
+        ,
+        "sources": [
+          "apnews",
+          "apnews"
+        ]
+      }
+    ]
+  }
+],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "1906d14b7d78b396",
+        "791ed6f9b32c3a7a",
+        "6b5185578878c6ec"
+      ],
+      "topic": "Immigration enforcement"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "f35fd8d543ecc52f",
+        "889da0b472835f45",
+        "7987272d18e0f9cf"
+      ],
+      "topic": "Gaza governance plan"
+    },
+    {
+      "direction": "flat",
+      "evidence": [
+        "e8aae16f883c2585",
+        "845cb8c3462ce893",
+        "55596b0f35ab1ecb"
+      ],
+      "topic": "Systemic bias and global risks"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No discussion of U.S. climate policy progress despite COP30 and climate protests in Brazil.",
+      "theme": "Global climate governance"
+    },
+    {
+      "expectedButMissing": "No mention of AI-driven job displacement despite AI investment boom and automation trends.",
+      "theme": "Labor market transformation"
+    },
+    {
+      "expectedButMissing": "No analysis of mental health crisis in youth despite social media bans and phubbing narratives.",
+      "theme": "Youth mental health"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-17",
+      "note": "The 'Operation Charlotte’s Web' raid narrative lost momentum after backlash and evidence of non-criminal arrests.",
+      "theme": "Immigration enforcement"
+    },
+    {
+      "ceasedSince": "2025-11-18",
+      "note": "The 'Arctic Frost' funding provision lost traction after GOP resistance and lack of consensus.",
+      "theme": "Senate legislative strategy"
+    },
+    {
+      "ceasedSince": "2025-11-15",
+      "note": "The 'Halo' TikTok account was discontinued within days, ending its short-lived public debate on gender representation.",
+      "theme": "Digital content and gender"
+    }
+  ]
+  ,
+  "topMilestones": [
+    {
+      "clusters": [
+        "f35fd8d543ecc52f",
+        "889da0b472835f45",
+        "e70cd9fd11015a7e"
+      ],
+      "date": "2025-11-18",
+      "what": "U.N. Security Council unanimously approves Trump’s Gaza stabilization plan with a 13-0 vote, marking a major diplomatic breakthrough."
+    },
+    {
+      "clusters": [
+        "b93385c0e3db8157",
+        "027823f387ae2da6",
+        "2237b3681f640197",
+        "d79ae98009681dfd"
+      ],
+      "date": "2025-11-18",
+      "what": "U.S. House votes on Epstein file release, following Trump’s reversal and bipartisan pressure, signaling a political turning point."
+    },
+    {
+      "clusters": [
+        "750a2c5b1a4aaf37",
+        "d92e1becd5d39040"
+      ],
+      "date": "2025-11-17",
+      "what": "Ukraine’s purchase of 100 French Rafale jets and the F-35 sale to Saudi Arabia signal major shifts in Western defense alliances."
+    }
+  ]
+}

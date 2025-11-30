@@ -1,0 +1,142 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "38a2e28b076e1e6f",
+        "cf7c1920a02a8d94",
+        "1a37a249cbd9120e",
+        "867785f79663a252"
+      ],
+      "theme": "Epstein case as political theater",
+      "whyNow": "Interlinked Epstein narratives (Trump's demand for DOJ probe, House vote on files, Bannon emails, and Sackler settlement) converge, shifting focus from criminality to political leverage, with media and judicial actors as central players."
+    },
+    {
+      "clusters": [
+        "9886bfe97ebae08e",
+        "38a2e28b076e1e6f",
+        "19a78c36391a8c08",
+        "de09ecda41595817",
+        "e8a6566ab0eafa1d"
+      ],
+      "theme": "Media integrity and political accountability",
+      "whyNow": "Multiple episodes (BBC apology, Trump's lawsuit, Epstein links, and misinformation) highlight escalating conflict between public trust, editorial independence, and political retaliation, intensifying scrutiny on media accountability."
+    },
+    {
+      "clusters": [
+        "474926dd6682b3dc",
+        "867785f79663a252",
+        "ea279595edad850e"
+      ],
+      "theme": "Government shutdown aftermath",
+      "whyNow": "Economic data gaps, flight recovery, and political compromise underscore lasting impact of 43-day shutdown, making it a cross-cutting narrative across markets, infrastructure, and policy."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "9886bfe97ebae08e",
+          "contrast": "RFK Jr. initially blamed autism link on Tylenol; now cites lack of evidence",
+          "sources": [
+            "Al Jazeera",
+            "WHO"
+          ]
+        },
+        {
+          "clusterId": "474926dd6682b3dc",
+          "contrast": "Shutdown initially framed as partisan drama; now repositioned as systemic failure with real-world consequences",
+          "sources": [
+            "CNN",
+            "FAA"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "1a37a249cbd9120e",
+          "contrast": "Epstein files vote initially seen as political risk; now framed as bipartisan transparency signal",
+          "sources": [
+            "CNN",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "0e4f72af78fb4d5a",
+          "contrast": "Opioid settlement once labeled as controversial; now celebrated as landmark justice",
+          "sources": [
+            "NPR",
+            "Reuters"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "0e4f72af78fb445a",
+        "38a2e28b076e1e6f",
+        "1a37a249cbd9120e",
+        "9886bfe97ebae08e"
+      ],
+      "topic": "Epstein-related claims"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "38a2e28b076e1e6f",
+        "19a78c36391a8c08"
+      ],
+      "topic": "Media integrity"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Consequences of Epstein's wealth or power networks beyond political claims.",
+      "theme": "Systemic accountability"
+    },
+    {
+      "expectedButMissing": "Public engagement on long-term economic data gaps post-shutdown.",
+      "theme": "Economic transparency"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-15",
+      "note": "Epstein's death remains unresolved as new emails and political demands revive interest, shifting focus from the individual to his network.",
+      "theme": "Epstein case"
+    },
+    {
+      "ceasedSince": "2025-11-14",
+      "note": "Debate over Trump's tax returns and campaign finance is no longer central, despite early focus.",
+      "theme": "Campaign finance"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "9886bfe97ebae08e",
+        "38a2e28b076e1e6f",
+        "19a78c36391a8c08",
+        "de09ecda41595817",
+        "e8a6566ab0eafa1d"
+      ],
+      "date": "2025-11-15",
+      "what": "Epstein media and political fallout peaks with BBC apology, Trump's lawsuit, and retracted health claims."
+    },
+    {
+      "clusters": [
+        "474926dd6682b3dc",
+        "867785f79663a252",
+        "ea279595edad850e"
+      ],
+      "date": "2025-11-14",
+      "what": "43-day government shutdown ends, triggering recovery and data recalibration."
+    }
+  ]
+}

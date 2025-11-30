@@ -1,5 +1,72 @@
 # Awful News Index
 
+- [**2025-11-30**](./2025-11-30.md)
+    - [Morning](./2025-11-30_morning.md)
+    - [Afternoon](./2025-11-30_afternoon.md)
+
+- [**2025-11-29**](./2025-11-29.md)
+    - [Morning](./2025-11-29_morning.md)
+    - [Afternoon](./2025-11-29_afternoon.md)
+    - [Evening](./2025-11-29_evening.md)
+
+- [**2025-11-28**](./2025-11-28.md)
+    - [Morning](./2025-11-28_morning.md)
+    - [Afternoon](./2025-11-28_afternoon.md)
+    - [Evening](./2025-11-28_evening.md)
+
+- [**2025-11-27**](./2025-11-27.md)
+    - [Morning](./2025-11-27_morning.md)
+    - [Afternoon](./2025-11-27_afternoon.md)
+    - [Evening](./2025-11-27_evening.md)
+
+- [**2025-11-26**](./2025-11-26.md)
+    - [Morning](./2025-11-26_morning.md)
+    - [Afternoon](./2025-11-26_afternoon.md)
+    - [Evening](./2025-11-26_evening.md)
+
+- [**2025-11-25**](./2025-11-25.md)
+    - [Morning](./2025-11-25_morning.md)
+    - [Afternoon](./2025-11-25_afternoon.md)
+    - [Evening](./2025-11-25_evening.md)
+
+- [**2025-11-24**](./2025-11-24.md)
+    - [Morning](./2025-11-24_morning.md)
+    - [Afternoon](./2025-11-24_afternoon.md)
+    - [Evening](./2025-11-24_evening.md)
+
+- [**2025-11-23**](./2025-11-23.md)
+    - [Morning](./2025-11-23_morning.md)
+    - [Afternoon](./2025-11-23_afternoon.md)
+    - [Evening](./2025-11-23_evening.md)
+
+- [**2025-11-22**](./2025-11-22.md)
+    - [Morning](./2025-11-22_morning.md)
+    - [Afternoon](./2025-11-22_afternoon.md)
+    - [Evening](./2025-11-22_evening.md)
+
+- [**2025-11-21**](./2025-11-21.md)
+    - [Morning](./2025-11-21_morning.md)
+    - [Afternoon](./2025-11-21_afternoon.md)
+    - [Evening](./2025-11-21_evening.md)
+
+- [**2025-11-20**](./2025-11-20.md)
+    - [Morning](./2025-11-20_morning.md)
+    - [Afternoon](./2025-11-20_afternoon.md)
+    - [Evening](./2025-11-20_evening.md)
+
+- [**2025-11-19**](./2025-11-19.md)
+    - [Morning](./2025-11-19_morning.md)
+    - [Afternoon](./2025-11-19_afternoon.md)
+    - [Evening](./2025-11-19_evening.md)
+
+- [**2025-11-18**](./2025-11-18.md)
+    - [Morning](./2025-11-18_morning.md)
+    - [Afternoon](./2025-11-18_afternoon.md)
+    - [Evening](./2025-11-18_evening.md)
+
+- [**2025-11-17**](./2025-11-17.md)
+    - [Evening](./2025-11-17_evening.md)
+
 - [**2025-11-01**](./2025-11-01.md)
     - [Morning](./2025-11-01_morning.md)
     - [Afternoon](./2025-11-01_afternoon.md)

@@ -1,0 +1,354 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "14c0d37f6fa66b50",
+        "9540eeccb5599fe1",
+        "e53a707a4de5f7a5"
+      ],
+      "theme": "Zohran Mamdani's election as NYC's first Muslim and South Asian mayor",
+      "whyNow": "Historic milestone in U.S. politics, reflecting broader shifts in urban demographics, progressive politics, and anti-Trump sentiment; amplified by symbolic resonance across diasporic communities."
+    },
+    {
+      "clusters": [
+        "2708df183325f750",
+        "7eb3fb0996f28f70",
+        "098e72e49e9b455e"
+      ],
+      "theme": "Government shutdown exceeding 36 days, breaking historical records",
+      "whyNow": "Culmination of partisan gridlock over ACA subsidies and border wall funding, now extended into a full shutdown with cascading economic and social costs, including SNAP delays and airspace closures."
+    },
+    {
+      "clusters": [
+        "e3c05472d8cf7844",
+        "42b37df94eff50f7",
+        "db98c6b5ea3665b6"
+      ],
+      "theme": "Trump's tariffs and Supreme Court challenge over IEEPA authority",
+      "whyNow": "Reaches legal climax with SCOTUS hearing; stakes involve constitutional separation of powers and the future of executive power in trade policy."
+    },
+    {
+      "clusters": [
+        "4890a3fbdbc00ac41",
+        "0fdb158268f3d978"
+      ],
+      "theme": "Shein's suspension in France over 'childlike' sex dolls",
+      "whyNow": "Intersection of consumer ethics, cultural norms, and children's rights, with strong public backlash and legal action from French authorities."
+    },
+    {
+      "clusters": [
+        "82b3ab0352e83fb1",
+        "8572308b7addf629",
+        "fec6191b5b450282"
+      ],
+      "theme": "Political instability and FBI agent firings linked to Arctic Frost probe",
+      "whyNow": "High-stakes clash between political appointees and federal bureau leadership, with implications for oversight, judicial independence, and national security."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "6fc230bd86a83532",
+          "contrast": "Criticism shifts from the show's content to its cultural context (e.g., 'campy, cliché-ridden, stereotypical')",
+          "sources": [
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "63ca5c756ace73d2",
+          "contrast": "FBI's focus shifts from ISIS inspiration to tactical planning and weapon procurement (AR-15s, laser sights)",
+          "sources": [
+            "CNN"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "14c0d37f6fa66b50",
+          "contrast": "From 'historic first' to 'progressive shift' in Democratic politics, reframing Mamdani's win as a sign of inclusive governance",
+          "sources": [
+          "CNN",
+          "Al Jazeera"
+        ]
+      },
+      {
+        "clusterId": "3e7314db2e54aea2",
+        "contrast": "From 'hostage remains transfer' to 'humanitarian progress under ceasefire'",
+        "sources": [
+          "BBC"
+        ]
+      }
+    ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "b0378da9a66ac4ba",
+          "contrast": "From climate policy to political narrative of Amazon protection via private-sector revenue",
+          "sources": [
+          "AP"
+        ]
+      },
+      {
+        "clusterId": "27b2419ef55fff37",
+        "contrast": "From public health to political campaign against obesity drug prices",
+        "sources": [
+          "CNN"
+        ]
+      }
+    ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "e27b4d1ef90713c7",
+          "contrast": "From 'deliberate ramming' to 'motive unknown' — shifts focus from act to uncertainty",
+          "sources": [
+          "BBC"
+        ]
+      },
+      {
+        "clusterId": "0676956d658bf76c",
+        "contrast": "From media bias to 'grassroots reality' — redefining public narrative around Mamdani's win",
+        "sources": [
+          "CNN"
+        ]
+      }
+    ]
+  },
+  				    {
+  "axis": "policy→politics",
+  "examples": [
+    {
+      "clusterId": "b0378da9a66ac4ba",
+      "contrast": "From climate policy to political narrative of Amazon protection via private-sector revenue",
+      "sources": [
+      "AP"
+    ]
+    },
+    {
+      "clusterId": "27b2419ef55fff37",
+      "contrast": "From public health to political campaign against obesity drug prices",
+      "sources": [
+      "CNN"
+    ]
+    }
+  ]
+  },
+  				    {
+  "axis": "emergency→accountability",
+  "examples": [
+    {
+      "clusterId": "e27b4d1ef90773c7",
+      "contrast": "From 'deliberate ramming' to 'motive unknown' — shifts focus from act to uncertainty",
+      "sources": [
+      "BBC"
+    ]
+    },
+    {
+      "clusterId": "0676956d658bf76c",
+      "contrast": "From media bias to 'grassroots reality' — redefining public narrative around Mamdani's win",
+      "sources": [
+      "CNN"
+    ]
+    }
+  ]
+  },
+  				    {
+  "axis": "risk→optimism",
+  "examples": [
+    {
+      "clusterId": "14c0d37f6fa66b50",
+      "contrast": "From 'historic first' to 'progressive shift' in Democratic politics, reframing Mamdani's win as a sign of inclusive governance",
+      "sources": [
+      "CNN",
+      "Al Jazeera"
+    ]
+    },
+    {
+      "clusterId": "3e7314db2e54aea2",
+      "contrast": "From 'hostage remains transfer' to 'humanitarian progress under ceasefire'",
+      "sources": [
+      "BBC"
+    ]
+    }
+  ]
+  },
+  				    {
+  "axis": "blame→cause",
+  "examples": [
+    {
+      "clusterId": "6fc230bd86a83532",
+      "contrast": "Criticism shifts from the show's content to its cultural context (e.g., 'campy, cliché-ridden, stereotypical')",
+      "sources": [
+      "CNN"
+      ]
+    },
+    {
+      "clusterId": "63ca5c756ace73d2",
+      "contrast": "FBI's focus shifts from ISIS inspiration to tactical planning and weapon procurement (AR-15s, laser sights)",
+      "sources": [
+      "CNN"
+      ]
+    }
+  ]
+  }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "14c0d37f6fa66b50",
+      "9540eeccb5599fe1"
+      ],
+      "topic": "Zohran Mamdani's election as NYC mayor"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "2708df183325f750",
+        "7eb3fb0996f28f70",
+        "098e72e49e9b455e"
+      ],
+      "topic": "Government shutdown (36+ days)"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "e3c05472d8cf7844",
+        "42b37df94eff50f7",
+        "db98c6b5ea3665b6"
+      ],
+      "topic": "Trump's tariffs and executive power"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "4890a3fbdbc00ac41",
+        "0fdb158268f3d978"
+      ],
+      "topic": "Shein's suspension in France over 'childlike' sex dolls"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "6fc230bd86a83532"
+      ],
+      "topic": "TV show 'All’s Fair' reception"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "4eaa4cab52ccc26d"
+      ],
+      "topic": "Mali’s stability and JNIM threat"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "e95643fcfb46cbc8"
+      ],
+      "topic": "FIFA's peace prize speculation"
+    },
+    {
+      "direction": "flat",
+      "evidence": [
+        "82b3ab0352e83fb1"
+      ],
+      "topic": "Israeli violence in West Bank"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No discussion of the actual legal basis for IEEPA or the constitutional precedent on executive power, despite SCOTUS hearing.",
+      "theme": "Judicial review of executive authority"
+    },
+    {
+      "expectedButMissing": "No mention of the long-term consequences of the government shutdown beyond SNAP and air traffic, such as delayed research, stalled contracts, or international relations strain.",
+      "theme": "Broader economic and diplomatic impacts of shutdown"
+    },
+    {
+      "expectedButMissing": "No analysis of the potential for similar protests or movements in response to the new redistricting laws, despite their historical significance.",
+      "theme": "Political reaction to new redistricting laws"
+    },
+    {
+      "expectedButMissing": "No exploration of the role of social media or tech platforms in amplifying or suppressing narratives around the Mamdani victory.",
+      "theme": "Digital amplification of political narratives"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'All's Fair' series was dropped from major headlines after a few days, as it was overtaken by more pressing political and international stories.",
+      "theme": "TV series 'All’s Fair'"
+    },
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'Arctic Frost probe' narrative faded after the reversal of FBI agent firings was followed by a re-firing, reducing public interest.",
+      "theme": "Arctic Frost probe"
+    },
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'Shein childlike dolls' story lost momentum after French authorities acted and other markets responded.",
+      "theme": "Shein's 'childlike' sex dolls scandal"
+    },
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'Rise of the Mummy 4' narrative faded after no official announcement of a reboot or production timeline.",
+      "theme": "The Mummy 4 reunion"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+      "14c0d37f6fa66b50",
+      "9540eeccb5599fe1",
+      "e53a707a4de5f7a5"
+    ],
+    "date": "2025-11-04",
+    "what": "Zohran Mamdani elected NYC’s first Muslim and South Asian mayor, marking a historic shift in U.S. urban politics."
+    },
+    {
+      "clusters": [
+        "2708df183325f750",
+        "7eb3fb0996f28f70",
+               "098e72e49e9b455e"
+    ],
+    "date": "2025-11-05",
+    "what": "U.S. government shutdown reaches record 36 days, breaking all prior records and becoming the longest in U.S. history."
+    },
+    {
+      "clusters": [
+        "60d9b0a3063b1fb5",
+        "efbc191f2d8bde76",
+               "4b876b6091a55795"
+    ],
+    "date": "2025-11-05",
+    "what": "U.S. Supreme Court hears arguments on the legality of Trump’s use of IEEPA for global tariffs, a case with far-reaching implications for executive power."
+    },
+    {
+      "clusters": [
+        "4890a3fbdbc0ac41",
+        "0fdb158268f3d978"
+    ],
+    "date": "2025-11-04",
+    "what": "French authorities suspend Shein’s online access after backlash over 'childlike' sex doll sales, signaling a shift in consumer ethics and child protection."
+    },
+    {
+      "clusters": [
+        "82b3ab0352e83fb1",
+        "8572308b7addf629",
+        "fec6191b5b450282"
+    ],
+    "date": "2025-11-04",
+    "what": "FBI agent firings linked to Arctic Frost probe reversed and re-fired, indicating political instability and tension between federal leadership and bureau independence."
+    }
+  ]
+}

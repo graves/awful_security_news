@@ -1,0 +1,189 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "9a8fc578abd4cf99",
+        "42f45ec4eb048500",
+        "847222f67207611f"
+      ],
+      "theme": "Strategic Naval and Economic Rivalry",
+      "whyNow": "China's Fujian carrier, Qantas' ultra-long-range jet, and Hungary's sanctions exemption collectively signal a global power shift, with technological and economic leverage becoming central to geopolitical strategy."
+    },
+    {
+      "clusters": [
+        "9f142ffd3b73dd98",
+        "eca1eb46c7d194be",
+        "922b8f7cc5acaf95",
+        "dbde768679b42be9"
+      ],
+      "theme": "Government Shutdown Impact on Infrastructure",
+      "whyNow": "Recurring and expanding flight cuts, flight delays, and SNAP benefit disruptions underscore a systemic vulnerability in critical infrastructure, driven by political paralysis and public service strain."
+    },
+    {
+      "clusters": [
+        "34726295a0872c35",
+        "8e5a28d0485cb4c0",
+        "c54e3807646f706e"
+      ],
+      "theme": "Political and Social Accountability",
+      "whyNow": "Demands for testimony, legal actions, and public scrutiny over ties to Epstein, mental health, and systemic racism reflect a broader cultural shift toward holding power to account, especially in elite institutions."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "9a8fc578abd4cf99",
+          "contrast": "China's Fujian carrier is framed as a result of indigenous innovation (blame for naval weakness) rather than a threat (cause of conflict).",
+          "sources": [
+            "AP News → China → advancing indigenous naval tech",
+            "AP News → China → expanding power projection in Pacific"
+          ]
+        },
+        {
+          "clusterId": "9f142ffd3b73dd98",
+          "contrast": "Flight cuts are attributed to FAA safety orders (blame) rather than economic inefficiency (cause).",
+          "sources": [
+            "NPR → government shutdown disrupting air travel",
+            "NPR → FAA mandates flight cuts for 40+ airports"
+          ]
+        },
+        {
+          "clusterId": "922b8f7cc5acaf95",
+          "contrast": "Flight reductions are seen as safety measures (blame) rather than political strategy (cause).",
+          "sources": [
+            "AP News → government shutdown driving flight cuts",
+            "AP News → FAA mandates flight reductions"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "42f45ec4eb048500",
+          "contrast": "Qantas' A350-1000ULR is framed as a breakthrough in travel technology (risk of long flights) rather than a financial or technical gamble (optimism).",
+          "sources": [
+            "CNN → technological breakthrough in ultra-long-range aviation",
+            "CNN → reducing jetlag for long-haul travelers"
+          ]
+        },
+        {
+          "clusterId": "b0d1c2de30350a4d",
+          "contrast": "Germany's East-West divide is described through historical memory (risk) rather than reconciliation potential (optimism).",
+          "sources": [
+            "NYTimes → historical memory fuels East German sympathy for Russia",
+            "NYTimes → economic hardship sustains Soviet nostalgia"
+          ]
+        },
+        {
+          "clusterId": "49247c899e84f72f",
+          "contrast": "First Amendment violation is re-framed as a constitutional protection (risk) rather than a political controversy (optimism).",
+          "sources": [
+            "CNN → political accountability via constitutional rights",
+            "Federal judiciary → First Amendment protection for employee speech"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "d385ba24f4a40b02",
+          "contrast": "SNAP policy is politicized through claims of 'incidental' revenue (policy) versus political leverage (politics).",
+          "sources": [
+            "NPR → political action undermines vulnerable populations",
+            "USDA → Benefit reduction driven by shutdown policy"
+          ]
+        },
+        {
+          "clusterId": "8e5a28d0485cb4c0",
+          "contrast": "Prince Andrew’s testimony is a political demand (policy) rather than a legal necessity (politics).",
+          "sources": [
+            "Al Jazeera → US lawmakers demand testimony on Epstein ties",
+            "Al Jazeera → Royal title revoked due to public pressure"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "34726295a0872c35",
+        "8e5a28d0485cb4c0",
+        "c54e3807646f706e"
+      ],
+      "topic": "Political and Social Accountability"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "9f142ffd3b73dd98",
+        "eca1eb46c7d194be",
+        "922b8f7cc5acaf95"
+      ],
+      "topic": "Government Shutdown Impact on Infrastructure"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "A major shift in U.S. foreign policy toward de-escalation in the Middle East, especially in Gaza and Sudan, despite the presence of multiple war and ceasefire narratives."
+   ,
+    "theme": "Diplomatic De-escalation"
+  },
+  {
+    "expectedButMissing": "Detailed analysis of public sentiment on AI and automation, beyond the general fear of job displacement, including youth and rural perspectives.",
+    "theme": "Public Perception of AI"
+  },
+  {
+    "expectedButMissing": "Economic analysis of the long-term impact of the government shutdown beyond SNAP and air travel, including effects on small businesses and local economies.",
+    "theme": "Broader Economic Consequences"
+  }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-09-20",
+      "note": "The focus on the 2025-2026 presidential election cycle appears to have receded in favor of immediate infrastructure and policy crises.",
+      "theme": "Election Cycle Momentum"
+    },
+    {
+      "ceasedSince": "2025-10-05",
+      "note": "The narrative around the U.S.-China tech rivalry has been overshadowed by domestic infrastructure and political instability.",
+      "theme": "U.S.-China Tech Rivalry"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "9a8fc578abd4cf99",
+        "42f45ec4eb048500",
+        "847222f67207611f"
+      ],
+      "date": "2025-11-08",
+      "what": "China's Fujian carrier, Qantas' A350-1000ULR, and Hungary's sanctions exemption mark pivotal shifts in strategic and economic power."
+    },
+    {
+      "clusters": [
+        "9f142ffd3b73dd98",
+        "eca1eb46c7d194be",
+        "922b8f7cc5acaf95"
+      ],
+      "date": "2025-11-07",
+      "what": "Flight cuts and SNAP disruptions highlight a systemic failure in critical infrastructure due to political paralysis."
+    },
+    {
+      "clusters": [
+        "34726295a0872c35",
+        "8e5a28d0485cb4c0",
+        "c54e3807646f706e"
+      ],
+      "date": "2025-11-06",
+      "what": "Demands for testimony, legal actions, and public scrutiny reflect a cultural turning point in accountability for elite institutions."
+    }
+  ]
+}

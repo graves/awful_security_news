@@ -1,0 +1,195 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "24ba9508a783faa3",
+        "67e64c80f908483b",
+        "e51d15e7330a7c67",
+        "ef3bcd00897a3ee1",
+        "cdcbe199f9854207",
+        "669cf4c748e89dbd"
+      ],
+      "theme": "Ukraine-Russia conflict and U.S. peace proposals",
+      "whyNow": "Multiple high-impact developments converge: a leaked 28-point peace plan from the Trump administration, reactions from Zelenskyy and Putin, and international scrutiny at G20, signaling a pivotal moment in diplomatic strategy."
+    },
+    {
+      "clusters": [
+        "71f5075c13c28741",
+        "d93b7b284cfa662e",
+        "6e523dec208e753f",
+        "d675b35be74bf1a1",
+        "505fbe53fe6fdd57"
+      ],
+      "theme": "Marjorie Taylor Greene’s political downfall",
+      "whyNow": "A sudden and dramatic reversal from loyalist to resigning in January 2026, framed by ideological rifts with Trump over Epstein files, signals a seismic shift in MAGA politics and internal party dynamics."
+    },
+    {
+      "clusters": [
+        "b66bc373fb4a429a",
+        "96f18252e46a21db",
+        "83afbeb75c945af7"
+      ],
+      "theme": "Public health misinformation and vaccine policy",
+      "whyNow": "Converging attacks on CDC credibility—from false autism claims to Tylenol misstatements—trigger widespread concern about the politicization of health science and eroded public trust."
+    },
+    {
+      "clusters": [
+        "25aa5b11f9fc3f62",
+        "f338b9b919ce166c",
+        "04ec6e1b4f018a73"
+      ],
+      "theme": "Global climate diplomacy and G20 summit dynamics",
+      "whyNow": "South Africa hosts first African G20, amid U.S. absence and internal climate policy contradictions, highlighting a shifting power balance and global South agency in climate negotiations."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "83afbeb75c945af7",
+          "contrast": "Initially framed as scientific caution, RFK Jr.'s Tylenol-autism claim later linked to political agenda, shifting focus from medical concern to political manipulation."
+       ,
+        "sources": [
+          "Al Jazeera"
+        ]
+      }
+    ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "7a1ce4b86644299f",
+          "contrast": "Nvidia’s AI dominance once triggered bubble fears; now, it’s seen as resilient, signaling broader optimism in AI’s economic future despite volatility."
+       ,
+        "sources": [
+          "CNN",
+          "Wall Street"
+        ]
+      }
+    ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "cd9b80bf3dd686d5",
+          "contrast": "DEI and migration labeling as human rights violations was initially a policy shift, now framed as political weaponization against global institutions and allies."
+       ,
+        "sources": [
+          "CNN",
+          "AP"
+        ]
+      }
+    ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "d675b35be74bf1a1",
+          "contrast": "Marjorie Taylor Greene's resignation was initially framed as political fallout; now it’s tied to accountability for refusing to release Epstein files, shifting focus to institutional integrity."
+       ,
+        "sources": [
+          "NPR"
+        ]
+      }
+    ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "24ba9508a783faa3",
+        "28c4b2df0dbce8e7",
+        "c2893099930d2915"
+      ],
+      "topic": "Institutional accountability and public trust"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "67e64c80f908483b",
+        "e51d15e7330a7c67",
+        "ef3bcd00897a3ee1"
+      ],
+      "topic": "U.S. foreign policy and sovereignty"
+    },
+    {
+      "direction": "flat",
+      "evidence": [
+        "83afbeb75c945af7",
+        "96f18252e46a21db",
+        "3f6d2f3d093e3f68"
+      ],
+      "topic": "Science and public discourse"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "No mention of international legal mechanisms or multilateral responses to mass abductions in Nigeria, despite scale of the attacks (clusters 57994d78dea93490, dd72d43d09a19363)."
+    ,
+    "theme": "Global accountability for cross-border violence"
+    },
+    {
+      "expectedButMissing": "No discussion of potential diplomatic consequences of the U.S. withdrawal from COP30 leadership or climate negotiations despite major policy shifts (clusters 70c383479058546a, 369989e54df306a2)."
+    ,
+    "theme": "Climate diplomacy and multilateral leadership"
+    },
+    {
+      "expectedButMissing": "Minimal coverage of the broader implications of the FBI’s involvement in the Melodee Buzzard case beyond the mother’s behavior, despite national attention (clusters 301140828c0ff616, e9821ebaff9f053a)."
+    ,
+    "theme": "Child safety and federal investigative coordination"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-20",
+      "note": "The 'epidemic of misinformation' narrative around Tylenol-autism claims appears to have faded after RFK Jr. retracted the statement and faced backlash, with no follow-up developments.",
+      "theme": "Health misinformation narratives"
+    },
+    {
+      "ceasedSince": "2025-11-21",
+      "note": "The narrative around Marjorie Taylor Greene’s 'savior' status within the GOP has dissolved post-resignation announcement, with no new public appearances or endorsements noted.",
+      "theme": "Political loyalty narratives"
+    },
+    {
+      "ceasedSince": "2025-11-22",
+      "note": "The initial wave of outrage over the U.S. Coast Guard’s policy reversal on hate symbols has subsided, with no follow-up legislative or enforcement actions reported.",
+      "theme": "Symbolic policy reversals"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "67e64c80f908483b",
+        "ef3bcd00897a3ee1",
+        "d96523cf38572588",
+        "7224fe82c0b5deee"
+      ],
+      "date": "2025-11-21",
+      "what": "Trump administration formally presents and promotes a 28-point Ukraine peace plan aligned with Kremlin demands, with global allies and Ukrainian leadership reacting with alarm."
+    },
+    {
+      "clusters": [
+        "71f5075c13c28741",
+        "d93b7b284cfa662e",
+        "6e523dec208e753f",
+        "d675b35be74bf1a1"
+      ],
+      "date": "2025-11-22",
+      "what": "Marjorie Taylor Greene confirms resignation from Congress effective January 2026, marking a major rupture with Trump and signaling a shift in conservative political alliances."
+    },
+    {
+      "clusters": [
+        "f338b9b919ce166c",
+        "04ec6e1b4f018a73",
+        "369989e54df306a2"
+      ],
+      "date": "2025-11-20",
+      "what": "South Africa hosts the G20 summit, marking the first African-hosted summit, with U.S. absence and climate agenda shifts drawing global attention to emerging global South leadership."
+    }
+  ]
+}

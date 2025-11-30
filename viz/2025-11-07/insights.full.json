@@ -1,0 +1,454 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "6f8928808015d0e3",
+        "1e93fe4456cfee89",
+        "ea569441b699225c",
+        "9be18b14366d14b7",
+        "2d29013a85569fe3",
+        "b56ccf302981f784",
+        "3800faba8fa61408",
+        "4f044f7f37a26629",
+        "4b10417496b116ce",
+        "6de0f0d2e5809200",
+        "f461b823fdd943fa",
+        "679c243be5cb4540",
+        "44ebed78f7222eff",
+        "40b1e7c899e93604",
+        "86a30e2cd579b645",
+        "3280422202f9b11f",
+        "2b64c4893e42b9c9",
+        "71304395eaa7cc2c",
+        "d666ba8434057a7d",
+        "2337e73e9a1f26b5",
+        "750c997ef5134601",
+        "c2ef526bfd452f27",
+        "ae608ec2771258cb",
+        "8daa2cb0eb1d2d0c",
+        "2a2d3ac9579ead90",
+        "8f3c433fe037263d",
+        "1740bc5a27a3f360"
+      ],
+      "theme": "Political and Institutional Disruption",
+      "whyNow": "A high concentration of stories reflects a systemic crisis in democratic institutions, marked by a record government shutdown, contested elections, judicial challenges to executive power, and widespread public accountability demands. These narratives signal a pivotal moment in political legitimacy, with emerging power shifts in climate policy, redistricting, and civil rights enforcement."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "8f3c433fe037263d",
+          "contrast": "Shifts from blaming external actors (e.g., ISIS) to systemic failure (e.g., aging aircraft maintenance).",
+          "sources": [
+            "Al Jazeera"
+          ]
+        },
+        {
+          "clusterId": "937a11a817c1f476",
+          "contrast": "Reframes 'air traffic reduction' as a safety measure to 'causal factor' of economic disruption and flight cancellations.",
+          "sources": [
+            "NPR",
+            "AP"
+          ]
+        },
+        {
+          "clusterId": "6f8928808015d0e3",
+          "contrast": "Transforms Mamdani's progressive platform from 'symbolic reform' to 'policy engine' driving real citywide change.",
+          "sources": [
+            "CNN",
+            "Reuters"
+          ]
+        },
+        {
+          "clusterId": "9be18b14366d14b7",
+          "contrast": "Shifts from Musk's 'visionary leader' image to 'market-driven' risk-taker with $1T pay.",
+          "sources": [
+            "CNN",
+            "Wall Street Journal"
+          ]
+        },
+        {
+          "clusterId": "37060814733a4173",
+          "contrast": "Moves from 'policy reversal' to 'moral imperative' in gender identity rights.",
+          "sources": [
+            "BBC",
+            "NPR"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "387a7556680e5d3d",
+          "contrast": "Shifts from 'flight cuts' as crisis to 'public demand' for safety and accountability.",
+          "sources": [
+            "AP News",
+            "FAA"
+          ]
+        },
+        {
+          "clusterId": "d95e4eef9049d8c8",
+          "contrast": "Moves from 'partisan threat' to 'democratic resilience' in judicial retention.",
+          "sources": [
+            "CNN",
+            "Democrat-led court"
+          ]
+        },
+        {
+          "clusterId": "c3cc70121fe81ccb",
+          "contrast": "Transforms 'protest' from 'disorder' to 'civil resistance' in immigration discourse.",
+          "sources": [
+            "BBC",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "d5e96a9df125234c",
+          "contrast": "Reframes 'tariff legality' from 'executive overreach' to 'constitutional negotiation'.",
+          "sources": [
+            "CNN",
+            "AP"
+          ]
+        },
+        {
+          "clusterId": "6de0f0d2e5809200",
+          "contrast": "Shifts from 'climate emergency' to 'regional innovation' in Amazon wetlands.",
+          "sources": [
+            "CNN",
+            "Scientific report"
+          ]
+        },
+        {
+          "clusterId": "4ef41c61d723051f",
+          "contrast": "Transforms 'election fraud' claims into 'democratic integrity' debates.",
+          "sources": [
+            "Al Jazeera",
+            "NY Times"
+          ]
+        },
+        {
+          "clusterId": "f974e7c6e7a4f4e1",
+          "contrast": "Shifts from 'progressive policy' to 'economic promise' in NYC's affordability agenda.",
+          "sources": [
+            "CNN",
+            "Local voices"
+          ]
+        },
+        {
+          "clusterId": "f296e18adba391ef",
+          "contrast": "Transforms 'corporate scandal' to 'innovation' in Tesla's pay package.",
+          "sources": [
+            "CNN",
+            "Reuters"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "29ccec82b4391f77",
+          "contrast": "Shifts from 'personal lifestyle' to 'symbolic diplomacy' in Trump's travel patterns.",
+          "sources": [
+            "CNN",
+            "cnn"
+          ]
+        },
+        {
+          "clusterId": "2d29013a85569fe3",
+          "contrast": "Transforms 'legal appeal' from 'criminal defense' to 'constitutional battle'.",
+          "sources": [
+            "CNN",
+            "AP"
+          ]
+        },
+        {
+          "clusterId": "937a11a817c1f476",
+          "contrast": "Moves from 'policy debate' to 'public safety crisis' in flight operations.",
+          "sources": [
+            "NPR",
+            "AP"
+          ]
+        },
+        {
+          "clusterId": "2337e73e9a1f26b5",
+          "contrast": "Shifts from 'economic' to 'political' messaging on flight cuts.",
+          "sources": [
+            "cnn",
+            "cnn"
+          ]
+        },
+        {
+          "clusterId": "7670e7c0c75f9f3d",
+          "contrast": "Reframes 'cultural festival' as 'democratic engagement' in urban policy.",
+          "sources": [
+            "CNN",
+            "NPR"
+          ]
+        },
+        {
+          "clusterId": "c2e49c297bdf65d5",
+          "contrast": "Shifts from 'diplomatic loss' to 'climate failure' in COP30.",
+          "sources": [
+            "BBC",
+            "Al Jazeera"
+          ]
+        },
+        {
+          "clusterId": "9a97093e6c34b9df",
+          "contrast": "Transforms 'supply chain' into 'strategic conflict' in rare earth minerals.",
+          "sources": [
+            "NY Times",
+            "BBC"
+          ]
+        },
+        {
+          "clusterId": "8a0b2ab16063c5d6",
+          "contrast": "Moves from 'geopolitical rivalry' to 'economic leverage' in Central Asia.",
+          "sources": [
+            "Al Jazeera",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "f9904bdebedbe1a5",
+          "contrast": "Shifts 'travel disruption' from 'policy failure' to 'consumer rights' in passenger entitlement.",
+          "sources": [
+            "CNN",
+            "CNN"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "e3a8d938f0a3f440",
+          "contrast": "Shifts from 'surveillance' to 'democratic oversight' in Venezuela's app.",
+          "sources": [
+            "CNN",
+            "Amnesty International"
+          ]
+        },
+        {
+          "clusterId": "f763c2f046c40a77",
+          "contrast": "Transforms 'economic' to 'political' messaging in inflation discourse.",
+          "sources": [
+            "AP",
+            "AP"
+          ]
+        },
+        {
+          "clusterId": "38890683132c42a9",
+          "contrast": "Moves from 'nuclear deterrence' to 'global accountability' in testing debates.",
+          "sources": [
+            "CNN",
+            "Al Jazeera"
+          ]
+        },
+        {
+          "clusterId": "58d49e6c35437227",
+          "contrast": "Shifts from 'military action' to 'international law' in Lebanon strikes.",
+          "sources": [
+            "CNN",
+            "UNIFIL"
+          ]
+        },
+        {
+          "clusterId": "1a5c42ceaffcb0d9",
+          "contrast": "Transforms 'air traffic cut' from 'emergency response' to 'systemic failure'.",
+          "sources": [
+            "BBC",
+            "BBC"
+          ]
+        },
+        {
+          "clusterId": "d5e96a9df125234c",
+          "contrast": "Moves from 'tariff revenue' to 'constitutional challenge' in Supreme Court deliberations.",
+          "sources": [
+            "CNN",
+            "AP"
+          ]
+        },
+        {
+          "clusterId": "4e78f7eb4c0acf97",
+          "contrast": "Shifts from 'political targeting' to 'constitutional' accountability in ADL's monitoring.",
+          "sources": [
+            "NY Times",
+            "ADL"
+          ]
+        },
+        {
+          "clusterId": "86a30e2cd579b645",
+          "contrast": "Moves from 'policy shift' to 'human rights crisis' in immigration.",
+          "sources": [
+            "NPR",
+            "International community"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "37060814733a4173",
+        "709ab7c32aedea0f",
+        "4f044f7f37a26629",
+        "3800faba8fa61408",
+        "937a11a817c1f476",
+        "c2e49c297bdf65d5",
+        "1e93fe4456cfee89",
+        "4b10417496b116ce",
+        "2d29013a85569fe3",
+        "6f8928808015d0e3"
+      ],
+      "topic": "Democratic Momentum and Progressive Policy"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "8f3c433fe037263d",
+        "937a11a817c1f476",
+        "387a7556680e5d3d",
+        "1740bc5a27a3f360",
+        "9be18b14366d14b7",
+        "2337e73e9a1f26b5"
+      ],
+      "topic": "Systemic Flight Disruptions and Public Safety"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "937a11a817c1f476",
+        "387a7556680e5d3d",
+        "2337e73e9a1f26b5",
+        "f461b823fdd943fa"
+      ],
+      "topic": "Economic Anxiety and Market Volatility"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "4b10417496b116ce",
+        "1e93fe4456cfee89",
+        "2d29013a85569fe3",
+        "6f8928808015d0e3"
+      ],
+      "topic": "Executive Overreach and Judicial Challenges"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "29ccec82b4391f77",
+        "1e93fe4456cfee89",
+        "2337e73e9a1f26b5"
+      ],
+      "topic": "Climate and Geopolitical Tensions"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "aea8d938f0a3f440",
+        "c2e49c297bdf65d5",
+        "4b10417496b116ce",
+        "2d29013a85569fe3"
+      ],
+      "topic": "International Conflict and National Security"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "d2eb1ebda30e3cf4",
+        "4b10417496b116ce",
+        "2d29013a85569fe3"
+      ],
+      "topic": "Executive Power and Legal Challenges"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "8f3c433fe037263d",
+        "387a7556680e5d3d",
+        "1740bc5a27a3f360"
+      ],
+      "topic": "Aviation and Safety Infrastructure"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Narratives around corporate transparency in AI-driven financial models (e.g., algorithmic bias in credit scoring) despite widespread reports of systemic discrimination.",
+      "theme": "Corporate Accountability in AI"
+    },
+    {
+      "expectedButMissing": "In-depth analysis on mental health impacts of prolonged isolation during shutdowns beyond physical health risks.",
+      "theme": "Mental Health and Public Policy"
+    },
+    {
+      "expectedButMissing": "Coverage of Indigenous-led climate adaptation strategies in the Amazon beyond media narratives of deforestation.",
+      "theme": "Indigenous Environmental Leadership"
+    },
+    {
+      "expectedButMissing": "Systemic analysis of how misinformation campaigns are funded and amplified by state and non-state actors.",
+      "theme": "Information Warfare"
+    },
+    {
+      "expectedButMissing": "Reports on international cooperation in combating cybercrime and data sovereignty beyond single-country narratives.",
+      "theme": "Global Cybersecurity"
+    },
+    {
+      "expectedButMissing": "Analysis of how small and medium enterprises (SMEs) are adapting to AI-driven market shifts beyond anecdotal evidence.",
+      "theme": "Small Business and Digital Innovation"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The narrative around 'Trump's grocery ID claim' has faded from front-page headlines to a background detail, indicating a shift in political discourse.",
+      "theme": "Political Rhetoric and Media Attention"
+    },
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'D-Day watches' product launch has transitioned from a cultural phenomenon to a niche collectible, with reduced media coverage.",
+      "theme": "Consumer Culture"
+    },
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'supermoon' and 'beaver moon' phenomena lost relevance post-peak coverage, signaling a short-lived astronomical event focus.",
+      "theme": "Astrological and Cultural Events"
+    },
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'Tinder date' scandal narrative has been overtaken by more serious cases of digital exploitation and AI harm.",
+      "theme": "Digital Exploitation"
+    },
+    {
+      "ceasedSince": "2025-11-06",
+      "note": "The 'Judy Garland lucky jacket' story, once a viral cultural artifact, has seen declining media interest as it transitions to a museum exhibit.",
+      "theme": "Cultural Heritage"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "1e93fe4456cfee89",
+        "2d29013a85569fe3",
+        "8f3c433fe037263d",
+        "6f8928808015d0e3",
+        "9be18b14366d14b7",
+        "37060814733a4173",
+        "6de0f0d2e5809200",
+        "679c243be5cb4540"
+      ],
+      "date": "2025-11-06",
+      "what": "A confluence of judicial, political, and economic milestones, including Supreme Court decisions on tariffs and gender, the conclusion of the longest government shutdown, and historic leadership wins in NYC and New Jersey."
+    }
+  ]
+}

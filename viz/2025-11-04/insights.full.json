@@ -1,0 +1,274 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "1c1e0368216316a4",
+        "38d6426a158fac80",
+        "b005da468c2bf4a5"
+      ],
+      "theme": "Global Diplomacy and Humanitarian Crises",
+      "whyNow": "Concentrated reporting on Turkey's summit, the Netherlands' restitution of a stolen artifact, and drone surveillance in Belgium suggest heightened international focus on justice, accountability, and geopolitical tensions."
+    },
+    {
+      "clusters": [
+        "850c60d57d4a7ec7",
+        "07658ec6d78e43b6",
+        "0bd15e6b11824183",
+        "fa03e1195064fe21"
+      ],
+      "theme": "Royal and Political Accountability",
+      "whyNow": "A surge in stories about King Charles III’s ties to Epstein, Prince Andrew’s removal from royal duties, and Trump’s political maneuvering reflects a broader public demand for accountability among elite institutions."
+    },
+    {
+      "clusters": [
+        "f3373fb3aafb070f",
+        "4562096001b30813",
+        "01c63c41dd605d32"
+      ],
+      "theme": "Economic and Social Inequality",
+      "whyNow": "Recurring coverage of income disparities, voting rights, and public health access indicates growing public concern over systemic inequities."
+    },
+    {
+      "clusters": [
+        "03d8b3afe1528efa",
+        "e8a21f812a360578",
+        "6e413b4bdb87f2e8"
+      ],
+      "theme": "Executive Power and Judicial Oversight",
+      "whyNow": "The U.S. Supreme Court’s evaluation of presidential authority, particularly around tariffs and the filibuster, underscores a pivotal moment in defining the balance between executive action and judicial check."
+    },
+    {
+      "clusters": [
+        "7d6e5d02547cccb3",
+        "ce7431eb0081e27b",
+        "3fe1bb34448f1829"
+      ],
+      "theme": "Technology and Security",
+      "whyNow": "Surging reports on AI infrastructure, cyberattacks, and drone surveillance highlight the rapid evolution of digital threats and technological regulation."
+    },
+    {
+      "clusters": [
+        "e72dd96f672054f4",
+        "d09be47964f688ef",
+        "e26a21c47a666153"
+      ],
+      "theme": "Public Health and Lifestyle",
+      "whyNow": "Emerging narratives around mental health, circadian rhythms, and dietary practices reflect a growing societal interest in holistic well-being."
+    },
+    {
+      "clusters": [
+        "f8235e87e455f221",
+        "855df607d679dfb3",
+        "91ddb1938bc0204b"
+      ],
+      "theme": "Sports and Cultural Identity",
+      "whyNow": "The Dodgers' World Series win, marathon events, and athlete stories underscore a cultural fascination with athletic excellence and personal narrative."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "07658ec6d78e43b6",
+          "contrast": "Kim Kardashian's role shifted from being portrayed as a legal novice to a committed advocate, framing her career move as driven by personal mission rather than fame-seeking.",
+          "sources": [
+            "07658ec6d78e43b6",
+            "131f8947f93f349d"
+          ]
+        },
+        {
+          "clusterId": "850c60d57d4a7ec7",
+          "contrast": "Sky Roberts' call for transparency on Epstein has evolved from personal grief to systemic accountability, reframing the narrative from victim to advocate.",
+          "sources": [
+            "850c60d57d4a7ec7",
+            "3b85602bdf4af25a"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "23187019bde20cd3",
+          "contrast": "Education is increasingly framed not as a divisive issue but as a bridge to empathy and understanding, fostering global cooperation.",
+          "sources": [
+            "23187019bde20cd3",
+            "14fdea32561d7334"
+          ]
+        },
+        {
+          "clusterId": "773ca36aeee3ddfb",
+          "contrast": "The controversy over the sandwich-throwing incident is reframed from a legal absurdity to a symbol of public skepticism toward overreach.",
+          "sources": [
+            "773ca36aeee3ddfb",
+            "20b6759bc92fd35b"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "850c60d57d4a7ec7",
+          "contrast": "Sky Roberts' appeal has shifted from a call for justice to a political demand for royal transparency, turning a personal plea into a political rallying cry.",
+          "sources": [
+            "850c60d57d4a7ec7",
+            "23187019bde20cd3"
+          ]
+        },
+        {
+          "clusterId": "1c1e0368216316a4",
+          "contrast": "Turkey’s summit on Gaza is reframed from humanitarian aid to a geopolitical maneuver involving Gulf states and Pakistan.",
+          "sources": [
+            "1c1e0368216316a4",
+            "131f8947f93f349d"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "7d6e5d02547cccb3",
+          "contrast": "China’s space missions are now linked to national strategy, not just scientific progress, indicating growing scrutiny of state-led technological ambition.",
+          "sources": [
+            "7d6e5d02547cccb3",
+            "2003e7a196151386"
+          ]
+        },
+        {
+          "clusterId": "23187019bde20cd3",
+          "contrast": "The focus has shifted from the mechanics of education to its role in building democratic empathy.",
+          "sources": [
+            "23187019bde20cd3",
+            "14fdea32561d7334"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "850c60d57d4a7ec7",
+        "0bd15e6b11824183",
+        "e72dd96f672054f4"
+      ],
+      "topic": "Public Advocacy and Political Pressure"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "b0d8624a96b2ab70",
+        "a75abb407c2ad9ab",
+        "c26bdb20e60c949a"
+      ],
+      "topic": "Climate and Governance"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "38d6426a158fac80",
+        "03d8b3afe1528efa",
+        "f3373fb3aafb070f"
+      ],
+      "topic": "Environmental and Humanitarian Crises"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "1c1e0368216316a4",
+        "b0d8624a96b2ab70",
+        "91ddb1938bc0204b"
+      ],
+      "topic": "Climate and Geopolitical Tensions"
+    },
+    {
+      "direction": "flat",
+      "evidence": [
+        "1d5d71ecfda13af8",
+        "01c63c41dd605d32",
+        "3e0744aa5aef3807"
+      ],
+      "topic": "Corporate and Business Trends"
+    },
+    {
+      "direction": "down",
+      "evidence": [
+        "e72dd96f672054f4",
+        "38d6426a158fac80",
+        "03d8b3afe1528efa"
+      ],
+      "topic": "Consumer and Environmental Responsibility"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Comprehensive analysis of the long-term impact of climate change on global food systems despite recurring weather disasters.",
+      "theme": "Climate Change and Agriculture"
+    },
+    {
+      "expectedButMissing": "In-depth reporting on the role of artificial intelligence in shaping future labor markets beyond automation.",
+      "theme": "AI and Labor Market Transformation"
+    },
+    {
+      "expectedButMissing": "Systematic examination of digital privacy and data security in the context of AI and surveillance.",
+      "theme": "Digital Privacy and Surveillance"
+    },
+    {
+      "expectedButMissing": "Exploration of alternative political models to democracy in regions facing systemic governance failure.",
+      "theme": "Political Alternatives and Governance"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-01",
+      "note": "The narrative on the 'moral responsibility' of royal families has diminished in favor of more overt political accountability.",
+      "theme": "Royal Family Accountability"
+    },
+    {
+      "ceasedSince": "2025-10-31",
+      "note": "The focus has shifted from individual royal scandals to broader institutional failures, such as Epstein ties.",
+      "theme": "Royal Scandals"
+    },
+    {
+      "ceasedSince": "2025-11-02",
+      "note": "The debate on the effectiveness of the filibuster has been eclipsed by the broader executive power question.",
+      "theme": "Senate Filibuster"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "f3373fb3aafb070f",
+        "1c1e0368216316a4",
+        "850c60d57d4a7ec7"
+      ],
+      "date": "2025-11-03",
+      "what": "A surge in reports on voting rights, climate policy, and royal accountability marks a turning point in public discourse on governance and ethics."
+    },
+    {
+      "clusters": [
+        "e8a21f812a360578",
+        "03d8b3afe1528efa",
+        "6e413b4bdb87f2e8"
+      ],
+      "date": "2025-11-04",
+      "what": "Supreme Court and legal battles over executive power, tariffs, and government shutdowns signal a pivotal moment in constitutional interpretation and political stability."
+    },
+    {
+      "clusters": [
+        "c26bdb20e60c949a",
+        "4562096001b30813",
+        "17f22697ba1d1494"
+      ],
+      "date": "2025-11-05",
+      "what": "The convergence of economic, health, and political crises underscores a global moment of systemic stress."
+    }
+  ]
+}

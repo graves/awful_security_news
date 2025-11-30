@@ -1,0 +1,2958 @@
+{
+  "quadrants": [
+    "structural",
+    "conflict",
+    "human",
+    "future"
+  ],
+  "clusters": [
+    {
+      "id": "9917780fc358d5bc",
+      "title": "Text messages and a moved SUV: How the government’s case against a Chicago woman shot by a Border Patrol agent fell apart",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.31832796,
+        "structural": 0.6730975,
+        "human": 0.0,
+        "future": 0.00857449
+      },
+      "vector": [
+        -0.6730975,
+        -0.30975348
+      ]
+    },
+    {
+      "id": "c2ef76aa2cc99c93",
+      "title": "Israel keeps bombing Gaza, kills two in occupied East Jerusalem",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "future": 0.0,
+        "human": 0.78625953,
+        "conflict": 0.21374045
+      },
+      "vector": [
+        0.78625953,
+        -0.21374045
+      ]
+    },
+    {
+      "id": "f5527e9401e5d4bc",
+      "title": "Cuter and closer: Raccoons may be on their way to becoming America's next pet",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.33333334,
+        "future": 0.5217391,
+        "structural": 0.0,
+        "human": 0.14492755
+      },
+      "vector": [
+        0.14492755,
+        0.1884058
+      ]
+    },
+    {
+      "id": "612039c02e0afca0",
+      "title": "Laos methanol poisoning: Victim's brother pushes for answers",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.31304348,
+        "conflict": 0.06521739,
+        "human": 0.5869565,
+        "future": 0.03478261
+      },
+      "vector": [
+        0.27391306,
+        -0.030434782
+      ]
+    },
+    {
+      "id": "c3c0d75f6cf507ad",
+      "title": "Superman #1 copy found in attic becomes most expensive comic ever sold",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "human": 0.6,
+        "future": 0.0,
+        "conflict": 0.4
+      },
+      "vector": [
+        0.6,
+        -0.4
+      ]
+    },
+    {
+      "id": "be220254fa022b00",
+      "title": "Trump accuses Democratic lawmakers who urged military to disobey illegal orders of ‘seditious behavior, punishable by death’",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.46361747,
+        "conflict": 0.34303534,
+        "human": 0.1933472,
+        "future": 0.0
+      },
+      "vector": [
+        -0.27027026,
+        -0.34303534
+      ]
+    },
+    {
+      "id": "491d211ecd848f25",
+      "title": "Trump opens parts of Florida, California waters up to offshore oil drilling, breaking decades of precedent",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.069327734,
+        "future": 0.3739496,
+        "structural": 0.55672264,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.48739496,
+        0.3739496
+      ]
+    },
+    {
+      "id": "351f1bd3ef165487",
+      "title": "Invest in crypto? Here’s what to know about your 2025 taxes",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.26415095,
+        "human": 0.0,
+        "structural": 0.7358491,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.7358491,
+        0.26415095
+      ]
+    },
+    {
+      "id": "c53e3eee8de6d6cd",
+      "title": "Where are US warships stationed near Venezuela and why are they there?",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.16923076,
+        "future": 0.046153843,
+        "structural": 0.23550293,
+        "conflict": 0.5491124
+      },
+      "vector": [
+        -0.06627218,
+        -0.50295854
+      ]
+    },
+    {
+      "id": "5ff3d9f025897295",
+      "title": "The latest Epstein emails reveal the powerful people who sought his counsel",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.3361345,
+        "structural": 0.4789916,
+        "future": 0.022408966,
+        "conflict": 0.162465
+      },
+      "vector": [
+        -0.14285712,
+        -0.14005603
+      ]
+    },
+    {
+      "id": "89cc87c72344efb1",
+      "title": "Polar Vortex Disruption on the Way in November: One of the Earliest and Most Significant Since Satellite Era Began",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.36893204,
+        "human": 0.0,
+        "conflict": 0.0,
+        "future": 0.63106793
+      },
+      "vector": [
+        -0.36893204,
+        0.63106793
+      ]
+    },
+    {
+      "id": "9b7e342414dcdff0",
+      "title": "Child Missing After Cross-Country Trip; Mother's Uncooperative Stance Sparks Investigation",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.33536586,
+        "future": 0.06504065,
+        "structural": 0.32520324,
+        "conflict": 0.27439025
+      },
+      "vector": [
+        0.010162601,
+        -0.20934959
+      ]
+    },
+    {
+      "id": "3d46b2f04d180488",
+      "title": "Miss Universe: Mexico's Fatima Bosch, who walked out on organisers, wins pageant",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.028901735,
+        "structural": 0.0,
+        "future": 0.124277465,
+        "human": 0.84682083
+      },
+      "vector": [
+        0.84682083,
+        0.09537573
+      ]
+    },
+    {
+      "id": "07446e061431896c",
+      "title": "U.S. Economy Adds 119,000 Jobs in September, Unemployment Rises to Four-Year High",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.33070868,
+        "conflict": 0.0,
+        "structural": 0.60104996,
+        "future": 0.06824147
+      },
+      "vector": [
+        -0.27034125,
+        0.06824147
+      ]
+    },
+    {
+      "id": "cbee2b387adfd946",
+      "title": "News | Today's latest from Al Jazeera",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.3125,
+        "conflict": 0.453125,
+        "future": 0.0,
+        "human": 0.234375
+      },
+      "vector": [
+        -0.078125,
+        -0.453125
+      ]
+    },
+    {
+      "id": "d1a71bebc4d999c6",
+      "title": "Nigerian Officials Meet US Officials Amid Trump’s Threats of Military Action Over Violence Against Christians",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.4556962,
+        "human": 0.15822785,
+        "conflict": 0.33544305,
+        "future": 0.050632913
+      },
+      "vector": [
+        -0.29746833,
+        -0.28481013
+      ]
+    },
+    {
+      "id": "3a03559342c8adeb",
+      "title": "Science and Technology | Today's latest from Al Jazeera",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.048148148,
+        "future": 0.6259259,
+        "conflict": 0.11111111,
+        "human": 0.21481483
+      },
+      "vector": [
+        0.16666667,
+        0.5148148
+      ]
+    },
+    {
+      "id": "75eb6e1c725d4d32",
+      "title": "Bengaluru: Men posing as Reserve Bank of India officials pull off $800,000 heist",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "conflict": 0.0,
+        "structural": 1.0,
+        "human": 0.0
+      },
+      "vector": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "489f31ac6bde9fb6",
+      "title": "Trump Set to Host Mamdani at the White House",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.24855493,
+        "conflict": 0.3815029,
+        "structural": 0.3121387,
+        "human": 0.05780347
+      },
+      "vector": [
+        -0.25433525,
+        -0.13294797
+      ]
+    },
+    {
+      "id": "e029779a778ab855",
+      "title": "Travelers without a REAL ID could be charged $18 by TSA under proposed rule",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.13777778,
+        "structural": 0.5733333,
+        "conflict": 0.06666667,
+        "human": 0.22222222
+      },
+      "vector": [
+        -0.35111108,
+        0.071111105
+      ]
+    },
+    {
+      "id": "65375edfb53e2029",
+      "title": "How Trump’s absence marks leadership opportunity for China at G20",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.5375722,
+        "human": 0.0,
+        "structural": 0.41811174,
+        "conflict": 0.04431599
+      },
+      "vector": [
+        -0.41811174,
+        0.49325624
+      ]
+    },
+    {
+      "id": "de2bce597a0d2a5d",
+      "title": "Cambodia night bus plunges off a bridge, killing 16 passengers",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "structural": 0.09375,
+        "future": 0.0,
+        "human": 0.90625
+      },
+      "vector": [
+        0.8125,
+        0.0
+      ]
+    },
+    {
+      "id": "09f11dbd003b50d9",
+      "title": "China warns there is ‘no market’ for Japanese seafood exports as spat over Taiwan comments escalates",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.09803922,
+        "structural": 0.62745094,
+        "future": 0.0,
+        "conflict": 0.27450982
+      },
+      "vector": [
+        -0.52941173,
+        -0.27450982
+      ]
+    },
+    {
+      "id": "edd203b56f1c42cb",
+      "title": "Zelensky ready to work with US on 'their vision' for ending Ukraine war",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.43243244,
+        "future": 0.33169532,
+        "structural": 0.16216217,
+        "human": 0.07371007
+      },
+      "vector": [
+        -0.08845209,
+        -0.10073711
+      ]
+    },
+    {
+      "id": "08829cd2bf8297af",
+      "title": "New Orleans to Host Federal Immigration Crackdown Amid Sanctuary Policy Tensions",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.7376147,
+        "conflict": 0.14587155,
+        "human": 0.09724771,
+        "future": 0.019266054
+      },
+      "vector": [
+        -0.640367,
+        -0.1266055
+      ]
+    },
+    {
+      "id": "552a2e078eaa4379",
+      "title": "Jonathan Hay's Allegations Push New Investigation Into Diddy's Alleged Sexual Misconduct",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "structural": 0.59701496,
+        "conflict": 0.21641792,
+        "human": 0.18656717
+      },
+      "vector": [
+        -0.41044778,
+        -0.21641792
+      ]
+    },
+    {
+      "id": "07a4c4f78a8a6bbf",
+      "title": "Son of US citizen held in Saudi Arabia says Trump administration secured his father’s return home",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.12707183,
+        "future": 0.0,
+        "structural": 0.8729282,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.74585634,
+        0.0
+      ]
+    },
+    {
+      "id": "5afd8d5d10711fdf",
+      "title": "Former Harvard President Larry Summers Steps Aside from Teaching as University Probes Jeffrey Epstein Documents",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.573487,
+        "conflict": 0.12968299,
+        "human": 0.12968299,
+        "future": 0.16714698
+      },
+      "vector": [
+        -0.44380403,
+        0.03746398
+      ]
+    },
+    {
+      "id": "77ceb9c3094e8caa",
+      "title": "Jets, chips and a clean slate: Saudi Arabia’s crown prince got almost everything he wanted from Trump",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.3747178,
+        "structural": 0.43566588,
+        "future": 0.18961625,
+        "human": 0.0
+      },
+      "vector": [
+        -0.43566588,
+        -0.18510157
+      ]
+    },
+    {
+      "id": "e3c0b93c902942ec",
+      "title": "She Cares for Her Aging Parents Full Time. That Requires Taking Care of Herself, Too",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.8172414,
+        "future": 0.08965516,
+        "conflict": 0.0,
+        "structural": 0.09310344
+      },
+      "vector": [
+        0.7241379,
+        0.08965516
+      ]
+    },
+    {
+      "id": "774c85ece8bfb8c8",
+      "title": "House Refers Nancy Mace’s Censure Complaint Against Cory Mills to Ethics Committee",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.7089947,
+        "conflict": 0.13227513,
+        "future": 0.0,
+        "human": 0.15873016
+      },
+      "vector": [
+        -0.55026454,
+        -0.13227513
+      ]
+    },
+    {
+      "id": "e6f002ac07617c86",
+      "title": "Rep. Sheila Cherfilus-McCormick Indicted on Charges of Stealing $5M in Disaster Funds",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.09615385,
+        "future": 0.0,
+        "human": 0.30128205,
+        "structural": 0.6025641
+      },
+      "vector": [
+        -0.30128205,
+        -0.09615385
+      ]
+    },
+    {
+      "id": "7e33988cf094ec50",
+      "title": "Federal Judge Orders Trump Administration to End National Guard Deployment in Washington, D.C.",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.71217716,
+        "human": 0.03690037,
+        "conflict": 0.23616238,
+        "future": 0.014760149
+      },
+      "vector": [
+        -0.67527676,
+        -0.22140223
+      ]
+    },
+    {
+      "id": "390d702318ae3d8c",
+      "title": "Florida Executes Man Convicted of 1988 Rape and Murder of Convenience Store Manager",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.42239687,
+        "future": 0.031434186,
+        "structural": 0.44204324,
+        "conflict": 0.104125746
+      },
+      "vector": [
+        -0.019646367,
+        -0.07269156
+      ]
+    },
+    {
+      "id": "6921fc85b548e3a2",
+      "title": "White House unaware that US ambassador to Israel met with convicted spy",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "structural": 0.82035923,
+        "future": 0.0,
+        "conflict": 0.17964071
+      },
+      "vector": [
+        -0.82035923,
+        -0.17964071
+      ]
+    },
+    {
+      "id": "864c9ced4b4879fa",
+      "title": "Venezuela says opposition leader will become fugitive if she collects Nobel",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.37634405,
+        "future": 0.12544802,
+        "human": 0.15412186,
+        "conflict": 0.34408602
+      },
+      "vector": [
+        -0.22222221,
+        -0.21863799
+      ]
+    },
+    {
+      "id": "918a609d9309c54e",
+      "title": "These families' health care costs will balloon if Congress doesn't act on the ACA",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.17700987,
+        "human": 0.58744705,
+        "structural": 0.235543,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.35190406,
+        0.17700987
+      ]
+    },
+    {
+      "id": "43670b7829401f98",
+      "title": "Alabama Board Votes to Remove Books About Being Transgender from Public Library Youth Sections",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "conflict": 0.16393442,
+        "future": 0.0,
+        "human": 0.8360656
+      },
+      "vector": [
+        0.8360656,
+        -0.16393442
+      ]
+    },
+    {
+      "id": "b6c818bb6cf1230d",
+      "title": "At least five killed as magnitude 5.5 earthquake hits Bangladesh",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "structural": 0.29059827,
+        "human": 0.70940167,
+        "future": 0.0
+      },
+      "vector": [
+        0.4188034,
+        0.0
+      ]
+    },
+    {
+      "id": "2a988269ca8c7c83",
+      "title": "Speaker Johnson’s narrow majority gets a bit more breathing room after Sherrill’s resignation",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.14778325,
+        "conflict": 0.0,
+        "structural": 0.7931034,
+        "future": 0.059113305
+      },
+      "vector": [
+        -0.6453201,
+        0.059113305
+      ]
+    },
+    {
+      "id": "48045557caac7356",
+      "title": "Building a modern metropolis using a centuries-old technique",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.41534984,
+        "human": 0.4446953,
+        "future": 0.13995485,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.029345442,
+        0.13995485
+      ]
+    },
+    {
+      "id": "f2100d6c89e55e51",
+      "title": "Widespread Corporate Layoffs and Economic Uncertainty in 2025",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.43261233,
+        "conflict": 0.024958404,
+        "human": 0.1830283,
+        "future": 0.35940102
+      },
+      "vector": [
+        -0.24958403,
+        0.33444262
+      ]
+    },
+    {
+      "id": "3f156ac27385eee5",
+      "title": "New Environmental Protection Law Enacted, Effective April 5, 2024",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.082152985,
+        "human": 0.58852696,
+        "future": 0.063031174,
+        "conflict": 0.26628897
+      },
+      "vector": [
+        0.506374,
+        -0.2032578
+      ]
+    },
+    {
+      "id": "848c581c86bd4806",
+      "title": "What former ally did Trump call a 'ranting lunatic' this week? Find out in the quiz",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "conflict": 0.0,
+        "future": 1.0,
+        "human": 0.0
+      },
+      "vector": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "a4dcf00983ac045a",
+      "title": "More details of US plan for Ukraine emerge, sees territory ceded to Russia",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0742942,
+        "structural": 0.2243685,
+        "conflict": 0.2808321,
+        "future": 0.42050517
+      },
+      "vector": [
+        -0.15007429,
+        0.13967307
+      ]
+    },
+    {
+      "id": "7431caf90c049516",
+      "title": "RFK Jr walks back Trump administration’s claims linking Tylenol and autism",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.63517916,
+        "structural": 0.29641694,
+        "future": 0.06840391
+      },
+      "vector": [
+        0.3387622,
+        0.06840391
+      ]
+    },
+    {
+      "id": "cb987240d8e52937",
+      "title": "The real reason behind China’s fury toward Japan’s Takaichi",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.2994186,
+        "conflict": 0.43023255,
+        "human": 0.18895347,
+        "future": 0.08139534
+      },
+      "vector": [
+        -0.11046512,
+        -0.3488372
+      ]
+    },
+    {
+      "id": "ad4fbd03ff974642",
+      "title": "Frida Kahlo painting sells for $54.7m, breaking record for female artists",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.09090909,
+        "structural": 0.17045455,
+        "conflict": 0.3409091,
+        "human": 0.39772725
+      },
+      "vector": [
+        0.22727272,
+        -0.25
+      ]
+    },
+    {
+      "id": "1383c43ae92a0cad",
+      "title": "Flood threat for soaked Dallas and Texas Hill Country persists overnight as storms keep firing",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "human": 0.6666667,
+        "future": 0.0,
+        "conflict": 0.33333334
+      },
+      "vector": [
+        0.6666667,
+        -0.33333334
+      ]
+    },
+    {
+      "id": "c5e3d5d5a442fa55",
+      "title": "Fugees rapper Pras Michel sentenced to 14 years in prison in illegal foreign lobbying case",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "conflict": 0.33898303,
+        "human": 0.0,
+        "structural": 0.6610169
+      },
+      "vector": [
+        -0.6610169,
+        -0.33898303
+      ]
+    },
+    {
+      "id": "844a2611fe287fa9",
+      "title": "Artists Speak Out Across the Country in Fall of Freedom Campaign",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.11811023,
+        "structural": 0.54330707,
+        "human": 0.18897638,
+        "conflict": 0.14960629
+      },
+      "vector": [
+        -0.3543307,
+        -0.03149606
+      ]
+    },
+    {
+      "id": "1ca6fcab04825a54",
+      "title": "North Korean operatives running fake job portal targeting US AI firms",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.099137925,
+        "conflict": 0.12068965,
+        "human": 0.16810344,
+        "future": 0.61206895
+      },
+      "vector": [
+        0.06896551,
+        0.4913793
+      ]
+    },
+    {
+      "id": "d40e4cdf5c12a048",
+      "title": "US Navy Trying to Pull Crashed Aircraft from Bottom of South China Sea",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.2251309,
+        "conflict": 0.57591623,
+        "human": 0.12041885,
+        "future": 0.07853403
+      },
+      "vector": [
+        -0.104712054,
+        -0.4973822
+      ]
+    },
+    {
+      "id": "948b1f8e2cb91ee0",
+      "title": "India wants COP30 to focus on climate adaptation, but dries up own fund",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.22998872,
+        "future": 0.59357387,
+        "human": 0.17643744,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.053551298,
+        0.59357387
+      ]
+    },
+    {
+      "id": "c3e1dec01c250a09",
+      "title": "Trump Reverses Course on the Epstein Files as Administration Faces Lingering Suspicion About Release",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.08411216,
+        "structural": 0.66822433,
+        "conflict": 0.14252338,
+        "human": 0.1051402
+      },
+      "vector": [
+        -0.5630841,
+        -0.058411222
+      ]
+    },
+    {
+      "id": "0adfae1b457b7dba",
+      "title": "Recalled baby formula linked to a botulism outbreak may still be in some stores",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.32558143,
+        "future": 0.13289037,
+        "conflict": 0.0,
+        "human": 0.5415282
+      },
+      "vector": [
+        0.21594682,
+        0.13289037
+      ]
+    },
+    {
+      "id": "b49cb13903b71274",
+      "title": "Philippines jails former mayor - who officials say faked her nationality to get the job – for human trafficking",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.55972695,
+        "human": 0.21843003,
+        "future": 0.0,
+        "conflict": 0.221843
+      },
+      "vector": [
+        -0.34129694,
+        -0.221843
+      ]
+    },
+    {
+      "id": "3042b399e2704390",
+      "title": "FAA Bonuses for Air Traffic Controllers During Shutdown Spark Union and Political Pushback",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.054744527,
+        "structural": 0.5912409,
+        "human": 0.3248175,
+        "future": 0.029197082
+      },
+      "vector": [
+        -0.2664234,
+        -0.025547445
+      ]
+    },
+    {
+      "id": "2e73b7753d195207",
+      "title": "After calling him a 'communist,' Trump will meet Mamdani in the Oval Office Friday",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "human": 0.4,
+        "structural": 0.0,
+        "conflict": 0.6
+      },
+      "vector": [
+        0.4,
+        -0.6
+      ]
+    },
+    {
+      "id": "b460b4cacc586a1b",
+      "title": "Bipartisan Push to Reform Censure Process Emerges in Congress After Flurry of Complaints Against Lawmakers",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.22321428,
+        "human": 0.0,
+        "structural": 0.70535713,
+        "future": 0.071428575
+      },
+      "vector": [
+        -0.70535713,
+        -0.15178572
+      ]
+    },
+    {
+      "id": "4231e66e360a0834",
+      "title": "Fugees Rapper Pras Michel Sentenced to 14 Years in Prison Over Illegal Donations to Obama Campaign",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.3968254,
+        "structural": 0.48148152,
+        "human": 0.0,
+        "future": 0.12169312
+      },
+      "vector": [
+        -0.48148152,
+        -0.27513227
+      ]
+    },
+    {
+      "id": "2d21a2a386154964",
+      "title": "Our first look at ‘The Hunger Games: Sunrise on the Reaping’ is already a wild ride",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 1.0,
+        "structural": 0.0,
+        "conflict": 0.0,
+        "future": 0.0
+      },
+      "vector": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "a4a1a2df8dea2b36",
+      "title": "US cancer registries, constrained by Trump policies, to recognize only ‘male’ or ‘female’ patients",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.4758698,
+        "human": 0.4253647,
+        "conflict": 0.0,
+        "future": 0.09876542
+      },
+      "vector": [
+        -0.05050509,
+        0.09876542
+      ]
+    },
+    {
+      "id": "07324ee0bd3b3183",
+      "title": "Vance pleads for ‘patience’ on the economy in sharp departure from Trump’s rhetoric",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "future": 0.09713376,
+        "structural": 0.8136943,
+        "human": 0.089171976
+      },
+      "vector": [
+        -0.72452235,
+        0.09713376
+      ]
+    },
+    {
+      "id": "d0d4e54344c86b42",
+      "title": "Federal judge dismisses charges against Chicago woman shot after being accused of ramming car at law enforcement vehicle",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.042857144,
+        "future": 0.06,
+        "conflict": 0.34285715,
+        "structural": 0.5542857
+      },
+      "vector": [
+        -0.51142853,
+        -0.28285712
+      ]
+    },
+    {
+      "id": "6bb3f8ce0b6c7965",
+      "title": "Nigerian Court Convicts Separatist Leader Kanu for Terrorism",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "human": 0.060362175,
+        "structural": 0.32796782,
+        "conflict": 0.6116701
+      },
+      "vector": [
+        -0.26760563,
+        -0.6116701
+      ]
+    },
+    {
+      "id": "44a5c27cf52848e4",
+      "title": "Trump's growing impatience to end Ukraine war is a concern for Kyiv",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.7330509,
+        "structural": 0.07627119,
+        "human": 0.0,
+        "future": 0.19067799
+      },
+      "vector": [
+        -0.07627119,
+        -0.5423729
+      ]
+    },
+    {
+      "id": "b8ba5d47701eb2e6",
+      "title": "Australia's social media ban for kids under 16 - how will it work?",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.014285714,
+        "future": 0.20285714,
+        "human": 0.45047617,
+        "structural": 0.33238098
+      },
+      "vector": [
+        0.11809522,
+        0.18857142
+      ]
+    },
+    {
+      "id": "7ecdf4980a28af51",
+      "title": "Washington on tenterhooks for next steps in Epstein saga",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.20137934,
+        "future": 0.06482759,
+        "conflict": 0.06344828,
+        "structural": 0.6703449
+      },
+      "vector": [
+        -0.46896556,
+        0.0013793092
+      ]
+    },
+    {
+      "id": "2043f8a34321f522",
+      "title": "Trump Signed the Epstein Files Bill. Will He Actually Release Them All?",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.91618824,
+        "future": 0.0,
+        "conflict": 0.026406428,
+        "human": 0.057405278
+      },
+      "vector": [
+        -0.858783,
+        -0.026406428
+      ]
+    },
+    {
+      "id": "b7ca2741936c8733",
+      "title": "State Department to Focus on Freedom of Speech in Next Human Rights Report, Likely Targeting European Governments",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.34806627,
+        "conflict": 0.13812155,
+        "structural": 0.42541435,
+        "future": 0.088397786
+      },
+      "vector": [
+        -0.07734807,
+        -0.049723756
+      ]
+    },
+    {
+      "id": "f386f16328ff9b38",
+      "title": "Ro Khanna explains how he helped engineer the vote that 'ripped MAGA apart'",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.061588332,
+        "structural": 0.3273906,
+        "conflict": 0.14748786,
+        "human": 0.46353322
+      },
+      "vector": [
+        0.13614263,
+        -0.085899524
+      ]
+    },
+    {
+      "id": "ac8e59d2bdf81a55",
+      "title": "Surf's Down! Munich Loses Its Biggest Wave",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.1509434,
+        "structural": 0.0,
+        "conflict": 0.0,
+        "human": 0.8490566
+      },
+      "vector": [
+        0.8490566,
+        0.1509434
+      ]
+    },
+    {
+      "id": "312c0c03a9204f0e",
+      "title": "Ukraine doubts Russia’s desire for peace amid reports of US-drafted plan",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.055841923,
+        "structural": 0.035223365,
+        "future": 0.10996564,
+        "conflict": 0.7989691
+      },
+      "vector": [
+        0.020618558,
+        -0.6890034
+      ]
+    },
+    {
+      "id": "69e78c4dd515eed0",
+      "title": "Texas man indicted on murder charge in shooting of 'King of the Hill' voice actor Jonathan Joss",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.6363636,
+        "human": 0.13636364,
+        "structural": 0.22727273,
+        "future": 0.0
+      },
+      "vector": [
+        -0.09090909,
+        -0.6363636
+      ]
+    },
+    {
+      "id": "dc79d22ef474a8a0",
+      "title": "At least 41 dead as heavy rain, flooding and landslides hit central Vietnam",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.36159602,
+        "future": 0.23192021,
+        "structural": 0.4064838
+      },
+      "vector": [
+        -0.044887763,
+        0.23192021
+      ]
+    },
+    {
+      "id": "071d071a004eeb22",
+      "title": "How long can a Thanksgiving buffet sit out? A doctor explains",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "structural": 0.425,
+        "future": 0.05,
+        "human": 0.525
+      },
+      "vector": [
+        0.099999964,
+        0.05
+      ]
+    },
+    {
+      "id": "60b10b6446f142ae",
+      "title": "The White House wants to eliminate ‘gender ideology’ and ‘trans ideology.’ What does that mean?",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.420999,
+        "human": 0.44138634,
+        "future": 0.046890926,
+        "conflict": 0.090723746
+      },
+      "vector": [
+        0.02038736,
+        -0.04383282
+      ]
+    },
+    {
+      "id": "45f0f91bb8b77497",
+      "title": "Pras Michel of the Fugees Sentenced to 14 Years Over Illegal Campaign Donations",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "structural": 0.48148152,
+        "conflict": 0.3968254,
+        "future": 0.12169312
+      },
+      "vector": [
+        -0.48148152,
+        -0.27513227
+      ]
+    },
+    {
+      "id": "2431011f66817bfa",
+      "title": "Global Markets Plunge Amid AI Stock Bubble Fears and Geopolitical Tensions",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.6619718,
+        "future": 0.26760563,
+        "conflict": 0.07042254,
+        "human": 0.0
+      },
+      "vector": [
+        -0.6619718,
+        0.1971831
+      ]
+    },
+    {
+      "id": "b21ba8199fa1d1cb",
+      "title": "Students Kidnapped from Nigerian Catholic School Amid Outrage Over Violence Against Christians",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.16628176,
+        "human": 0.13856813,
+        "conflict": 0.69515014,
+        "future": 0.0
+      },
+      "vector": [
+        -0.027713621,
+        -0.69515014
+      ]
+    },
+    {
+      "id": "dea5a9ac67ef2d50",
+      "title": "Why Democrats Are Warning About Trump Giving Illegal Orders",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.10623947,
+        "structural": 0.45362562,
+        "future": 0.0,
+        "conflict": 0.4401349
+      },
+      "vector": [
+        -0.34738615,
+        -0.4401349
+      ]
+    },
+    {
+      "id": "5e11253199229727",
+      "title": "ByHeart Baby Formula Recall: Infant Botulism Cases Climb to 31, Product Still on Shelves",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.63611865,
+        "conflict": 0.0,
+        "human": 0.3638814,
+        "future": 0.0
+      },
+      "vector": [
+        -0.2722372,
+        0.0
+      ]
+    },
+    {
+      "id": "b761a6da0e39676b",
+      "title": "Scientists watch flare with 10 trillion suns’ light from massive black hole",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "future": 1.0,
+        "human": 0.0,
+        "conflict": 0.0,
+        "structural": 0.0
+      },
+      "vector": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "e68e0b259921d7c7",
+      "title": "Fire Prompts Evacuations at U.N. Climate Talks in Brazil; 13 Suffer Smoke Inhalation",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.21698111,
+        "structural": 0.0,
+        "future": 0.7830189,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.21698111,
+        0.7830189
+      ]
+    },
+    {
+      "id": "5f10e0c579643a20",
+      "title": "Wieambilla ambush: Australian police murder not an act of religious terrorism, coroner finds",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.22891566,
+        "conflict": 0.33433735,
+        "human": 0.43674698,
+        "future": 0.0
+      },
+      "vector": [
+        0.20783132,
+        -0.33433735
+      ]
+    },
+    {
+      "id": "bf1afd40a7546940",
+      "title": "Nathan Gill: How WhatsApp messages revealed ex-Reform politician's pro-Russian bribes",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.7625,
+        "future": 0.053571433,
+        "human": 0.035714287,
+        "conflict": 0.1482143
+      },
+      "vector": [
+        -0.7267857,
+        -0.09464287
+      ]
+    },
+    {
+      "id": "442d28bfe8de2a63",
+      "title": "NCAA Currently Falling Short to Rescind Rule That Would Allow College Athletes to Gamble on Professional Sports, Source Says",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.07978724,
+        "future": 0.0,
+        "structural": 0.92021275,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.84042555,
+        0.0
+      ]
+    },
+    {
+      "id": "b9f1586891ac0abd",
+      "title": "Public Outcry Over New Immigration Policy Sparks Human Rights Debate in 2024",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.056275122,
+        "future": 0.16971862,
+        "conflict": 0.036176864,
+        "structural": 0.7378293
+      },
+      "vector": [
+        -0.6815542,
+        0.13354175
+      ]
+    },
+    {
+      "id": "f0dc606605cd127c",
+      "title": "CDC Website Changed to Include False Claims Linking Autism and Vaccines",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.21858864,
+        "human": 0.6213425,
+        "future": 0.16006885,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.40275383,
+        0.16006885
+      ]
+    },
+    {
+      "id": "28faa0e4c78f8414",
+      "title": "Charlotte Officials Say Border Patrol Operation Has Ended, But DHS Insists Immigration Enforcement Will Continue",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.23305087,
+        "human": 0.45762715,
+        "structural": 0.26483053,
+        "future": 0.044491526
+      },
+      "vector": [
+        0.19279663,
+        -0.18855932
+      ]
+    },
+    {
+      "id": "190a4359d13f6bfd",
+      "title": "Israeli strikes across Gaza kill at least 32 Palestinians, as Hamas warns of ‘dangerous escalation’",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.36914062,
+        "conflict": 0.5052084,
+        "future": 0.027994795,
+        "structural": 0.09765626
+      },
+      "vector": [
+        0.27148438,
+        -0.47721353
+      ]
+    },
+    {
+      "id": "8a04deda43b7b4a2",
+      "title": "Australia adds Reddit, Kick to social media ban for children under 16",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.58524173,
+        "future": 0.15776081,
+        "structural": 0.25699747
+      },
+      "vector": [
+        0.32824427,
+        0.15776081
+      ]
+    },
+    {
+      "id": "49021c0b67c240e4",
+      "title": "James Watson, who co-discovered DNA double helix, dies at 97",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.16556291,
+        "structural": 0.16556291,
+        "future": 0.08609271,
+        "human": 0.58278143
+      },
+      "vector": [
+        0.41721854,
+        -0.0794702
+      ]
+    },
+    {
+      "id": "f4cc306b200de60f",
+      "title": "Trump officials prepare for potential cabinet shakeup after one-year mark",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.03816794,
+        "structural": 0.7888041,
+        "conflict": 0.03816794,
+        "future": 0.13486005
+      },
+      "vector": [
+        -0.75063616,
+        0.096692115
+      ]
+    },
+    {
+      "id": "bc331461a9d483a0",
+      "title": "Colombia recovers first treasures from 300-year-old ‘holy grail of shipwrecks’",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.4160839,
+        "future": 0.17832167,
+        "human": 0.13986014,
+        "conflict": 0.26573426
+      },
+      "vector": [
+        -0.27622375,
+        -0.08741259
+      ]
+    },
+    {
+      "id": "a55ce1b2083a9e2e",
+      "title": "Polls show Trump’s happy talk on inflation is falling flat",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.09771987,
+        "structural": 0.84364825,
+        "conflict": 0.0,
+        "human": 0.058631923
+      },
+      "vector": [
+        -0.78501636,
+        0.09771987
+      ]
+    },
+    {
+      "id": "320cb634f5d67edc",
+      "title": "Trump Administration Quietly Attempting to Hammer Out New Peace Plan with Russia",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.35144308,
+        "human": 0.033955857,
+        "future": 0.16808148,
+        "conflict": 0.4465195
+      },
+      "vector": [
+        -0.31748724,
+        -0.27843803
+      ]
+    },
+    {
+      "id": "d0ce6a1ae2999871",
+      "title": "House Moves to Repeal Controversial 'Arctic Frost' Provision That Allows GOP Senators to Seek $500,000 Payouts",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "future": 0.06768559,
+        "structural": 0.8820961,
+        "conflict": 0.05021834
+      },
+      "vector": [
+        -0.8820961,
+        0.017467247
+      ]
+    },
+    {
+      "id": "224ec90f4c9fb20f",
+      "title": "Russian hacking suspect wanted by the FBI arrested on Thai resort island",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "structural": 0.64044946,
+        "conflict": 0.252809,
+        "future": 0.10674158
+      },
+      "vector": [
+        -0.64044946,
+        -0.14606741
+      ]
+    },
+    {
+      "id": "fdfbd7e38fa91222",
+      "title": "Walmart just proved it’s America’s solution to the affordability crisis",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 1.0,
+        "conflict": 0.0,
+        "human": 0.0,
+        "future": 0.0
+      },
+      "vector": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "845c4273e1931379",
+      "title": "CeeDee Lamb Says Casino Visit Led to Curfew Violation with Fellow Dallas Cowboys Receiver George Pickens",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.43478262,
+        "future": 0.0,
+        "structural": 0.5652174
+      },
+      "vector": [
+        -0.13043477,
+        0.0
+      ]
+    },
+    {
+      "id": "f3eac32c22f4f590",
+      "title": "Former Hill staffer charged for allegedly staging her own violent assault",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.5872093,
+        "future": 0.0,
+        "human": 0.048449613,
+        "conflict": 0.36434108
+      },
+      "vector": [
+        -0.5387597,
+        -0.36434108
+      ]
+    },
+    {
+      "id": "faeef36a44aff7a4",
+      "title": "Democratic Rep. Eric Swalwell Joins Race for California Governor",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.25454545,
+        "future": 0.4181818,
+        "human": 0.16363636,
+        "structural": 0.16363636
+      },
+      "vector": [
+        0.0,
+        0.16363636
+      ]
+    },
+    {
+      "id": "79284bf7eeae886f",
+      "title": "The success of the forced Epstein files vote is emboldening some Republicans to go it alone",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.22866894,
+        "structural": 0.62457335,
+        "future": 0.14675769
+      },
+      "vector": [
+        -0.39590442,
+        0.14675769
+      ]
+    },
+    {
+      "id": "452d1a4c677bbd1e",
+      "title": "Trump administration rushes to emulate Gaza plan in new push for Ukraine Deal",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "conflict": 0.4680851,
+        "structural": 0.30638295,
+        "future": 0.2255319
+      },
+      "vector": [
+        -0.30638295,
+        -0.2425532
+      ]
+    },
+    {
+      "id": "afe9eee2082ad63f",
+      "title": "A prosecutor reveals new details about the capture of one of America’s most notorious serial killers",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.26169264,
+        "human": 0.513363,
+        "future": 0.08129176,
+        "conflict": 0.14365256
+      },
+      "vector": [
+        0.25167036,
+        -0.062360793
+      ]
+    },
+    {
+      "id": "a399ad61329084aa",
+      "title": "Trump Signs Bill to Release Epstein Case Files; Public Access to Records Sparks Political and Legal Scrutiny",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.2830189,
+        "human": 0.4316038,
+        "future": 0.018867927,
+        "structural": 0.26650944
+      },
+      "vector": [
+        0.16509433,
+        -0.26415095
+      ]
+    },
+    {
+      "id": "8f8f1844ec87d130",
+      "title": "After high-profile missteps, Trump seizes on a new feud and a new potential adversary",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.3973105,
+        "future": 0.10757946,
+        "conflict": 0.41442543,
+        "human": 0.080684595
+      },
+      "vector": [
+        -0.3166259,
+        -0.306846
+      ]
+    },
+    {
+      "id": "50325ba3a477a6c1",
+      "title": "White House Condemns Democratic Lawmakers' Video but Backs Off Trump's Posts",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.27650726,
+        "conflict": 0.37006235,
+        "future": 0.0,
+        "human": 0.35343036
+      },
+      "vector": [
+        0.076923095,
+        -0.37006235
+      ]
+    },
+    {
+      "id": "23afb183fbfb5313",
+      "title": "Landslides kill dozens as heavy rains lash Southeast Asia",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.7241379,
+        "future": 0.057471264,
+        "structural": 0.21839081,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.50574714,
+        0.057471264
+      ]
+    },
+    {
+      "id": "b4f05eeb84418be0",
+      "title": "BBC News quiz of the week: Why was KPop Demon Hunters banned by a school?",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "structural": 0.0,
+        "human": 1.0,
+        "conflict": 0.0
+      },
+      "vector": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "1bc16e4f4f78376b",
+      "title": "Anti-Hamas armed groups seek future role under Gaza peace plan",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.26215643,
+        "human": 0.12684989,
+        "conflict": 0.513742,
+        "structural": 0.09725158
+      },
+      "vector": [
+        0.029598309,
+        -0.2515856
+      ]
+    },
+    {
+      "id": "a21f24f0cc66d593",
+      "title": "UK expected to approve plans for Chinese mega embassy",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.0,
+        "future": 0.056930695,
+        "structural": 0.94306934
+      },
+      "vector": [
+        -0.94306934,
+        0.056930695
+      ]
+    },
+    {
+      "id": "c8ff6b885a283dfa",
+      "title": "Frida Kahlo self-portrait sells for $55m, setting auction record for a female artist",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.6910569,
+        "future": 0.0,
+        "structural": 0.0,
+        "conflict": 0.3089431
+      },
+      "vector": [
+        0.6910569,
+        -0.3089431
+      ]
+    },
+    {
+      "id": "98da89b6fa058082",
+      "title": "Baylor AD Mack Rhoades Resigns, a Week After Taking Leave for Personal Reasons",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.23255813,
+        "future": 0.18604651,
+        "human": 0.0,
+        "conflict": 0.5813953
+      },
+      "vector": [
+        -0.23255813,
+        -0.39534882
+      ]
+    },
+    {
+      "id": "9383dc32ee321105",
+      "title": "How will ‘limited’ US nuclear tests avoid any explosions?",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.020325202,
+        "conflict": 0.3577236,
+        "structural": 0.39430895,
+        "future": 0.22764227
+      },
+      "vector": [
+        -0.37398377,
+        -0.13008131
+      ]
+    },
+    {
+      "id": "cf216a1741bfbfa6",
+      "title": "Spain’s Supreme Court Bans Attorney General Over Leaked Personal Information",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.125,
+        "conflict": 0.125,
+        "future": 0.0,
+        "structural": 0.75
+      },
+      "vector": [
+        -0.625,
+        -0.125
+      ]
+    },
+    {
+      "id": "1c4841b35c37dc39",
+      "title": "Vietnam: At least 41 dead as relentless rains flood central region",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.75630254,
+        "future": 0.10504202,
+        "structural": 0.13865547,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.61764705,
+        0.10504202
+      ]
+    },
+    {
+      "id": "55c8efd3a3309939",
+      "title": "‘We have power together’: For Epstein survivors, a day of emotion and triumph",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.6862442,
+        "structural": 0.1561051,
+        "conflict": 0.10973724,
+        "future": 0.047913443
+      },
+      "vector": [
+        0.5301391,
+        -0.061823796
+      ]
+    },
+    {
+      "id": "874dbcbb0e7fc205",
+      "title": "The Nerd's Will Finally Go to the College Football Playoffs",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.625,
+        "human": 0.0,
+        "structural": 0.37499997,
+        "future": 0.0
+      },
+      "vector": [
+        -0.37499997,
+        -0.625
+      ]
+    },
+    {
+      "id": "8c361b163f5dc3d6",
+      "title": "Are astronomers wrong about dark energy? New study casts doubt on universe’s accelerating expansion",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.30927837,
+        "structural": 0.0,
+        "future": 0.69072163
+      },
+      "vector": [
+        0.30927837,
+        0.69072163
+      ]
+    },
+    {
+      "id": "1f8ac89e3d17dc0b",
+      "title": "How could Trump interfere in the midterms? Here's what voting officials are watching",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.03875969,
+        "conflict": 0.1007752,
+        "future": 0.11757106,
+        "structural": 0.74289405
+      },
+      "vector": [
+        -0.70413435,
+        0.016795868
+      ]
+    },
+    {
+      "id": "6ab79201c07c82c7",
+      "title": "Federal officials unveil more charges against the former Olympic snowboarder accused of running international drug ring",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "structural": 0.40789476,
+        "conflict": 0.46052632,
+        "human": 0.13157895
+      },
+      "vector": [
+        -0.2763158,
+        -0.46052632
+      ]
+    },
+    {
+      "id": "58d4376a5c1fc5cc",
+      "title": "Judge orders an end to Trump's troop deployment in D.C., calling it 'unlawful'",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.45704466,
+        "future": 0.0,
+        "structural": 0.54295534,
+        "human": 0.0
+      },
+      "vector": [
+        -0.54295534,
+        -0.45704466
+      ]
+    },
+    {
+      "id": "c436db6c14b532a1",
+      "title": "JD Vance Expresses Hope His Hindu Wife Will Become a Christian; Sparks Backlash in India",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.1402299,
+        "structural": 0.31264368,
+        "conflict": 0.31724137,
+        "human": 0.22988506
+      },
+      "vector": [
+        -0.08275863,
+        -0.17701149
+      ]
+    },
+    {
+      "id": "eb9412757fac4e5c",
+      "title": "Fugees rapper sentenced to 14 years in prison over illegal Obama donations",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "conflict": 0.22900763,
+        "structural": 0.7709924,
+        "future": 0.0
+      },
+      "vector": [
+        -0.7709924,
+        -0.22900763
+      ]
+    },
+    {
+      "id": "e270a0977c30ab62",
+      "title": "Kevin Spacey Says He Doesn’t Have a Home After Allegations of Sexual Assault",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "conflict": 0.6666667,
+        "structural": 0.33333334,
+        "human": 0.0
+      },
+      "vector": [
+        -0.33333334,
+        -0.6666667
+      ]
+    },
+    {
+      "id": "46b6939c0a8ae458",
+      "title": "A timeline of 9-year-old Melodee Buzzard’s disappearance and her mother’s arrest",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.21008404,
+        "future": 0.033613447,
+        "structural": 0.39915967,
+        "conflict": 0.35714287
+      },
+      "vector": [
+        -0.18907563,
+        -0.32352942
+      ]
+    },
+    {
+      "id": "d9e62fd8dcde05c9",
+      "title": "CAIR sues Texas governor over ‘unconstitutional’ terror designation",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.48618785,
+        "conflict": 0.16574587,
+        "future": 0.0,
+        "structural": 0.34806633
+      },
+      "vector": [
+        0.1381215,
+        -0.16574587
+      ]
+    },
+    {
+      "id": "238e32b2ce6d0ae1",
+      "title": "Senior citizens will pay a lot more for Medicare in 2026",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.14938489,
+        "human": 0.4745167,
+        "structural": 0.3760984,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.09841828,
+        0.14938489
+      ]
+    },
+    {
+      "id": "8a92a1d736379f8d",
+      "title": "President Trump ‘doesn’t even know what he’s looking at’ on NFL kickoffs, says Chiefs assistant",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "human": 1.0,
+        "future": 0.0,
+        "conflict": 0.0
+      },
+      "vector": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ca1ae83d1afe46fa",
+      "title": "Chadwick Boseman honored with posthumous star on Hollywood Walk of Fame: 'He was an incredible leader'",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "conflict": 0.43396223,
+        "structural": 0.0,
+        "human": 0.5660377
+      },
+      "vector": [
+        0.5660377,
+        -0.43396223
+      ]
+    },
+    {
+      "id": "02f034e450f412b0",
+      "title": "Mexico’s Fatima Bosch crowned Miss Universe winner in glittering finale of scandal-hit pageant",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.11494253,
+        "structural": 0.0,
+        "human": 0.7931034,
+        "future": 0.09195403
+      },
+      "vector": [
+        0.7931034,
+        -0.022988506
+      ]
+    },
+    {
+      "id": "de08061787897abd",
+      "title": "Trump’s 28-point peace proposal for Ukraine would require land concessions and military reduction",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.05376344,
+        "future": 0.42242706,
+        "structural": 0.20276497,
+        "conflict": 0.32104453
+      },
+      "vector": [
+        -0.14900154,
+        0.101382494
+      ]
+    },
+    {
+      "id": "fac43a73bb79db74",
+      "title": "New Cultural Heritage Policy and Community Festival Highlight Commitment to Tradition and Preservation",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.20545976,
+        "future": 0.06896552,
+        "human": 0.466954,
+        "conflict": 0.25862068
+      },
+      "vector": [
+        0.26149425,
+        -0.18965515
+      ]
+    },
+    {
+      "id": "2b13697cf3558c5e",
+      "title": "Brian Walshe Pleads Guilty to Body Disposal, Faces Murder Trial",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.1890625,
+        "future": 0.0703125,
+        "structural": 0.2625,
+        "conflict": 0.478125
+      },
+      "vector": [
+        -0.07343748,
+        -0.4078125
+      ]
+    },
+    {
+      "id": "1ae6a2e0e2892b0e",
+      "title": "Volunteer Patrols and the PTA at School Entrances: How Some Charlotte Residents Are Mobilizing Amid the Immigration Crackdown",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.53061223,
+        "future": 0.040816322,
+        "structural": 0.20553935,
+        "conflict": 0.22303206
+      },
+      "vector": [
+        0.32507288,
+        -0.18221572
+      ]
+    },
+    {
+      "id": "803ee7838b7ab487",
+      "title": "Changed your Thanksgiving plans? We want to hear from you",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "future": 0.23076923,
+        "structural": 0.7692308,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.7692308,
+        0.23076923
+      ]
+    },
+    {
+      "id": "afa784cce5770807",
+      "title": "Brazil’s Lula faces obstacles in push for agreement at climate summit",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "conflict": 0.0,
+        "human": 0.0,
+        "future": 1.0
+      },
+      "vector": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": "9cdd19e968c645d9",
+      "title": "Explosion at glue factory in eastern Pakistan kills at least 16",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 1.0,
+        "conflict": 0.0,
+        "future": 0.0,
+        "structural": 0.0
+      },
+      "vector": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "208ae2df47290681",
+      "title": "Israeli settlers torch scrapyard in West Bank arson attack as Netanyahu calls meeting on rising extremist violence",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.033039648,
+        "conflict": 0.8237885,
+        "future": 0.0,
+        "human": 0.1431718
+      },
+      "vector": [
+        0.11013216,
+        -0.8237885
+      ]
+    },
+    {
+      "id": "dd0c2ed34f158099",
+      "title": "NTSB Releases Frame-by-Frame Images of Engine Separating During Deadly UPS Crash in Louisville",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "human": 0.43352604,
+        "structural": 0.566474,
+        "future": 0.0
+      },
+      "vector": [
+        -0.132948,
+        0.0
+      ]
+    },
+    {
+      "id": "72dd80ef5dd4926c",
+      "title": "A collection of featured Tiny Desk Concerts",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "conflict": 0.0,
+        "human": 0.0,
+        "future": 0.0
+      },
+      "vector": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "18a31b2b0f134ff1",
+      "title": "COP30 attendees in Brazil forced to evacuate pavilion following fire",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.3617021,
+        "human": 0.28368795,
+        "future": 0.3546099,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.07801417,
+        0.3546099
+      ]
+    },
+    {
+      "id": "e3f41e997b4703a9",
+      "title": "Larry Summers leaves OpenAI board, Harvard instructor role as scrutiny over Epstein emails intensifies",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.2992126,
+        "human": 0.0,
+        "future": 0.70078737,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.2992126,
+        0.70078737
+      ]
+    },
+    {
+      "id": "20dc5b944e09d75d",
+      "title": "Israel keeps bombing Gaza, kills two in occupied East Jerusalem",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.21374045,
+        "structural": 0.0,
+        "human": 0.78625953,
+        "future": 0.0
+      },
+      "vector": [
+        0.78625953,
+        -0.21374045
+      ]
+    },
+    {
+      "id": "bcaa209ed86610ae",
+      "title": "The CDC revives debunked 'link' between childhood vaccines and autism",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.34270835,
+        "human": 0.4458333,
+        "conflict": 0.104166664,
+        "future": 0.10729167
+      },
+      "vector": [
+        0.10312494,
+        0.003125002
+      ]
+    },
+    {
+      "id": "959e25dc9adcf3f8",
+      "title": "Israel’s Forced Expulsion of Palestinians from West Bank Refugee Camps Amounts to War Crimes, HRW Alleges",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.13530926,
+        "future": 0.016752575,
+        "human": 0.5180412,
+        "conflict": 0.3298969
+      },
+      "vector": [
+        0.38273194,
+        -0.31314433
+      ]
+    },
+    {
+      "id": "5a40a9053fe12d6a",
+      "title": "Trump’s latest policy 180 on the war in Ukraine could strike deep into Russian territory",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.60142857,
+        "structural": 0.2657143,
+        "human": 0.057142857,
+        "future": 0.07571429
+      },
+      "vector": [
+        -0.20857143,
+        -0.5257143
+      ]
+    },
+    {
+      "id": "601ebd96e80694a3",
+      "title": "In Miami Beach, the New York City mayoral election is an opportunity",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.1497006,
+        "human": 0.19760478,
+        "structural": 0.50299394,
+        "future": 0.1497006
+      },
+      "vector": [
+        -0.30538917,
+        0.0
+      ]
+    },
+    {
+      "id": "66390de3aeaf5a21",
+      "title": "Trump Accuses Democratic Lawmakers of Sedition Over Call for Military to Refuse Illegal Orders",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.48141596,
+        "future": 0.014159292,
+        "conflict": 0.44247788,
+        "human": 0.061946902
+      },
+      "vector": [
+        -0.41946903,
+        -0.4283186
+      ]
+    },
+    {
+      "id": "745637a7c92ab545",
+      "title": "Solar storms to hit Earth, triggering northern lights: What we know",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.7152318,
+        "conflict": 0.1986755,
+        "human": 0.0,
+        "future": 0.08609271
+      },
+      "vector": [
+        -0.7152318,
+        -0.11258278
+      ]
+    },
+    {
+      "id": "c641944322d99f76",
+      "title": "Judge halts Trump’s deployment of national guard in Washington, DC",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "human": 0.14285715,
+        "structural": 0.6948052,
+        "conflict": 0.16233768
+      },
+      "vector": [
+        -0.5519481,
+        -0.16233768
+      ]
+    },
+    {
+      "id": "37fd01b7c71883d2",
+      "title": "Students taken from Catholic school in central Nigeria in latest abduction",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.5,
+        "human": 0.16467065,
+        "future": 0.0,
+        "conflict": 0.33532932
+      },
+      "vector": [
+        -0.33532935,
+        -0.33532932
+      ]
+    },
+    {
+      "id": "b6a85b1eafc3cc44",
+      "title": "Why are scientists rushing to study a comet from deep space?",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.0,
+        "structural": 0.54545456,
+        "human": 0.0,
+        "future": 0.45454547
+      },
+      "vector": [
+        -0.54545456,
+        0.45454547
+      ]
+    },
+    {
+      "id": "a6f3636a6e67e2ce",
+      "title": "Ukraine Identifies Russian Commander Accused of Mass Murder in Bucha",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.07086614,
+        "conflict": 0.45275587,
+        "human": 0.4173228,
+        "future": 0.059055116
+      },
+      "vector": [
+        0.34645668,
+        -0.39370078
+      ]
+    },
+    {
+      "id": "12fcc36b632d7bf1",
+      "title": "Turkey to host COP31 climate summit after Australia concedes bid",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.0,
+        "structural": 0.27755103,
+        "future": 0.722449,
+        "conflict": 0.0
+      },
+      "vector": [
+        -0.27755103,
+        0.722449
+      ]
+    },
+    {
+      "id": "392d1b5b47add5cc",
+      "title": "Lebanese army arrests country’s ‘most wanted’ drug trafficking suspect",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.6396181,
+        "future": 0.0,
+        "structural": 0.21718377,
+        "human": 0.14319809
+      },
+      "vector": [
+        -0.07398569,
+        -0.6396181
+      ]
+    },
+    {
+      "id": "4965ab8cf9d7f2ff",
+      "title": "UK’s Covid response was ‘too little, too late’ and cost thousands of lives, inquiry says",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.28753993,
+        "future": 0.19169329,
+        "conflict": 0.0,
+        "human": 0.52076674
+      },
+      "vector": [
+        0.23322682,
+        0.19169329
+      ]
+    },
+    {
+      "id": "af6e1ddb392229d6",
+      "title": "Transportation Department Endorses Crash Test Dummy That More Closely Resembles Women",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.45859873,
+        "conflict": 0.0,
+        "future": 0.0,
+        "human": 0.54140127
+      },
+      "vector": [
+        0.082802564,
+        0.0
+      ]
+    },
+    {
+      "id": "3f179d1df598f90d",
+      "title": "Scientists reveal what triggered Santorini 'earthquake swarm'",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "conflict": 0.0,
+        "human": 0.17857143,
+        "future": 0.8214286
+      },
+      "vector": [
+        0.17857143,
+        0.8214286
+      ]
+    },
+    {
+      "id": "5906bc375cff1aca",
+      "title": "St Mary's School in Niger state: Pupils abducted from Nigerian Catholic school",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.3222222,
+        "conflict": 0.6222222,
+        "future": 0.0,
+        "human": 0.055555556
+      },
+      "vector": [
+        -0.26666665,
+        -0.6222222
+      ]
+    },
+    {
+      "id": "b78eda99138a8f83",
+      "title": "Bush, Biden and former vice presidents honor Dick Cheney, while Trump, Vance snubbed for funeral invitation",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.2481203,
+        "future": 0.0,
+        "conflict": 0.22556391,
+        "human": 0.5263158
+      },
+      "vector": [
+        0.2781955,
+        -0.22556391
+      ]
+    },
+    {
+      "id": "e5e93f297ee51e6a",
+      "title": "Trump says he’ll meet with NYC Mayor-elect Mamdani on Friday in the Oval Office",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.6785714,
+        "human": 0.17857142,
+        "conflict": 0.0,
+        "future": 0.14285713
+      },
+      "vector": [
+        -0.49999997,
+        0.14285713
+      ]
+    },
+    {
+      "id": "4e7d8ebb51643df3",
+      "title": "Rare earths: Federal backing and tech advances aim to help the U.S. catch up to China",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.5180241,
+        "conflict": 0.10680909,
+        "human": 0.064085454,
+        "structural": 0.31108147
+      },
+      "vector": [
+        -0.24699602,
+        0.41121498
+      ]
+    },
+    {
+      "id": "dea26007a7d6b1bc",
+      "title": "Trump renews effort to block states from regulating AI, raising alarms about safety",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.5330634,
+        "conflict": 0.033738192,
+        "human": 0.13090418,
+        "structural": 0.3022942
+      },
+      "vector": [
+        -0.17139001,
+        0.49932525
+      ]
+    },
+    {
+      "id": "fdabd263af66bea7",
+      "title": "Countries sharply split on fossil fuels on COP30 climate summit final day",
+      "quad": "future",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.021929825,
+        "future": 0.9013158,
+        "human": 0.07675439,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.054824565,
+        0.9013158
+      ]
+    },
+    {
+      "id": "e7f13882046b3f25",
+      "title": "Frida Kahlo self-portrait sells for $54.7 million, setting new record for female artists",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "structural": 0.0,
+        "conflict": 0.0,
+        "human": 1.0
+      },
+      "vector": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "id": "dbb638a9fce6fa7a",
+      "title": "In your head, you count every day: Ex-October 7 hostage describes 2 years in captivity",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.5364583,
+        "future": 0.0,
+        "structural": 0.09374999,
+        "human": 0.3697917
+      },
+      "vector": [
+        0.27604166,
+        -0.5364583
+      ]
+    },
+    {
+      "id": "e130cfabfaf0c5c3",
+      "title": "Russia-Ukraine war: List of key events, day 1,366",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 1.0,
+        "future": 0.0,
+        "human": 0.0,
+        "structural": 0.0
+      },
+      "vector": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "id": "ce798314bf06504e",
+      "title": "US judge orders end to Trump’s deployment of troops in Washington, DC",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.07964602,
+        "structural": 0.8628319,
+        "human": 0.057522126,
+        "future": 0.0
+      },
+      "vector": [
+        -0.80530983,
+        -0.07964602
+      ]
+    },
+    {
+      "id": "74d9ae178eb3bbd7",
+      "title": "Canadian man loses legal battle to keep his secret million-dollar stash",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.23333335,
+        "future": 0.0,
+        "human": 0.0,
+        "structural": 0.76666665
+      },
+      "vector": [
+        -0.76666665,
+        -0.23333335
+      ]
+    },
+    {
+      "id": "365696a174766bea",
+      "title": "U.S. Reaches Milestone in Vehicle Safety with New Female Crash Test Dummy",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "human": 0.51839465,
+        "structural": 0.48160535,
+        "future": 0.0,
+        "conflict": 0.0
+      },
+      "vector": [
+        0.03678931,
+        0.0
+      ]
+    },
+    {
+      "id": "b60832e2e0021ba2",
+      "title": "Justice Department Investigating Alleged Impersonation of Federal Agents in Mortgage Fraud Probes of Democrats",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.052208833,
+        "structural": 0.7269077,
+        "conflict": 0.18072289,
+        "human": 0.040160645
+      },
+      "vector": [
+        -0.686747,
+        -0.12851407
+      ]
+    },
+    {
+      "id": "2e683bd128c7d036",
+      "title": "Israel plans to seize major Roman-era historical site in occupied West Bank",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.032581456,
+        "human": 0.3157895,
+        "conflict": 0.4411028,
+        "structural": 0.21052632
+      },
+      "vector": [
+        0.10526318,
+        -0.40852135
+      ]
+    },
+    {
+      "id": "955dd014470b42c7",
+      "title": "Russian envoy Kirill Dmitriev: Putin propagandist or key to peace with Ukraine?",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.2447059,
+        "future": 0.11294119,
+        "human": 0.023529414,
+        "structural": 0.6188236
+      },
+      "vector": [
+        -0.5952942,
+        -0.13176471
+      ]
+    },
+    {
+      "id": "30e6e97c2f3f9625",
+      "title": "Appeals Court Blocks Release of Hundreds of Migrants Arrested in Illinois Just a Day Before They Could Have Left Detention",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.5787292,
+        "conflict": 0.28867403,
+        "human": 0.12154695,
+        "future": 0.011049722
+      },
+      "vector": [
+        -0.4571823,
+        -0.2776243
+      ]
+    },
+    {
+      "id": "dea9f7ba35939523",
+      "title": "Brain Scientists Seek Weight-Loss Drugs Without Nausea",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.0,
+        "conflict": 0.0,
+        "human": 0.0,
+        "future": 0.0
+      },
+      "vector": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "a34900739f6f53e2",
+      "title": "Women’s college soccer team wins conference championship just 3 days after its beloved goalie died",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.17829457,
+        "human": 0.6976744,
+        "structural": 0.0,
+        "future": 0.12403101
+      },
+      "vector": [
+        0.6976744,
+        -0.05426356
+      ]
+    },
+    {
+      "id": "8a90cda5b1520e0a",
+      "title": "Shedeur starts, the Chiefs need a win and the Bengals can’t catch a break: 5 things to know about NFL Week 12",
+      "quad": "structural",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.0,
+        "structural": 0.0,
+        "conflict": 0.0,
+        "human": 0.0
+      },
+      "vector": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "569d6fb852d5ef60",
+      "title": "Democrats Debate How to Approach Marjorie Taylor Greene After Public Apology",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "conflict": 0.29263565,
+        "structural": 0.17054263,
+        "human": 0.42248058,
+        "future": 0.11434108
+      },
+      "vector": [
+        0.25193796,
+        -0.17829458
+      ]
+    },
+    {
+      "id": "e8a2d89534d54d41",
+      "title": "Rescuers continue to recover bodies from rubble, days after deadly Russian attack on western Ukraine",
+      "quad": "conflict",
+      "weight": 0.1,
+      "scores": {
+        "future": 0.041144904,
+        "conflict": 0.8515206,
+        "human": 0.0805009,
+        "structural": 0.026833633
+      },
+      "vector": [
+        0.053667266,
+        -0.8103757
+      ]
+    },
+    {
+      "id": "649e34e94275dafe",
+      "title": "Why has Canada lost its measles-free status – and could the US be next?",
+      "quad": "human",
+      "weight": 0.1,
+      "scores": {
+        "structural": 0.14726508,
+        "conflict": 0.0,
+        "future": 0.011220196,
+        "human": 0.8415147
+      },
+      "vector": [
+        0.69424963,
+        0.011220196
+      ]
+    }
+  ],
+  "centroid": [
+    -0.09606758,
+    -0.070155166
+  ]
+}

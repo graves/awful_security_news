@@ -1,0 +1,76 @@
+{
+  "grid": [
+    "anxiety",
+    "optimism",
+    "panic",
+    "ambiguity"
+  ],
+  "series": [
+    {
+      "edition": "2025-11-18-morning",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "edition": "2025-11-18-afternoon",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "edition": "2025-11-18-evening",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "edition": "2025-11-19-morning",
+      "scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "top_examples": {
+    "panic": [
+      "cd741620fbbf4493",
+      "6911b41d87b7ce4a",
+      "e2402c6b0238648a",
+      "12a055a5b5897b93",
+      "8958f3cbaf6d5488"
+    ],
+    "anxiety": [
+      "cff10cab36377e13",
+      "783bff436d7f416e",
+      "88e0894a449848b7",
+      "59e246c459bd2a93",
+      "bff4a8b5d1fc2da8"
+    ],
+    "ambiguity": [
+      "671f7d6e5159e285",
+      "e89b65d62db50902",
+      "1e4a37800efaa331",
+      "d3013591b3077956",
+      "7398fc5daca91169"
+    ],
+    "optimism": [
+      "4dac0bab6615c987",
+      "213a1ace329070a3",
+      "75c7f5b6cf98aa99",
+      "783bff436d7f416e",
+      "5a639df5e402b0ed"
+    ]
+  }
+}

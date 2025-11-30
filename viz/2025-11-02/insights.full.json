@@ -1,0 +1,154 @@
+{
+  "attentionPeaks": [
+    {
+      "clusters": [
+        "faec93a5861c6132",
+        "8d94f38c1c64a03b",
+        "43d97ef0e3b472f6",
+        "24008d4050ab8b29",
+        "194bd45a66145cc2",
+        "2034ac977ab4ba18",
+        "b700f20b920a0210",
+        "227599b68bbb5115",
+        "d588a67f994e7662",
+        "6ffd875e7dc50ab9",
+        "77b404ca25a6b2d7",
+        "9fbea2324adab3b3",
+        "7d5792a0bbd4db9f",
+        "9cbb730b0ce499e2",
+        "b3e27ce006818f6d",
+        "a473ff2e70d876c9"
+      ],
+      "theme": "Royal Scandal and Health Crisis",
+      "whyNow": "Convergence of high-profile royal and health stories creates intense public interest, with King Charles' royal decision and Prince Andrew's fallout dominating narratives."
+    }
+  ],
+  "narrativeDrift": [
+    {
+      "axis": "blame→cause",
+      "examples": [
+        {
+          "clusterId": "8d94f38c1c64a03b",
+          "contrast": "Blame for Prince Andrew's misconduct shifted to systemic royal accountability",
+          "sources": [
+            "AP News",
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "7d5792a0bbd4db9f",
+          "contrast": "AI art shift from novelty to mainstream music inclusion",
+          "sources": [
+            "CNN"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "risk→optimism",
+      "examples": [
+        {
+          "clusterId": "663a616e7907743a",
+          "contrast": "Billie Eilish's call for billionaire wealth redistribution shifted from criticism to moral urgency",
+          "sources": [
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "9cbb730b0ce499e2",
+          "contrast": "Aluminum in vaccines shifted from scientific concern to political distrust",
+          "sources": [
+            "NPR"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "policy→politics",
+      "examples": [
+        {
+          "clusterId": "4a21c90ca13e6e91",
+          "contrast": "Redistricting moves from neutral map adjustment to partisan political weaponization",
+          "sources": [
+            "CNN"
+          ]
+        },
+        {
+          "clusterId": "773ee5cac0114fa3",
+          "contrast": "Immigration judge's medical emergency decision framed as humanitarian act vs. political leverage",
+          "sources": [
+            "CNN",
+            "AP"
+          ]
+        }
+      ]
+    },
+    {
+      "axis": "emergency→accountability",
+      "examples": [
+        {
+          "clusterId": "6a92f56650c756a6",
+          "contrast": "Train stabbing emergency response shifted to terrorism framing",
+          "sources": [
+            "NPR"
+          ]
+        },
+        {
+          "clusterId": "608e10daf832f609",
+          "contrast": "Halloween terror plot shifted from youth behavior to national security threat",
+          "sources": [
+            "CNN"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentimentSwing": [
+    {
+      "direction": "up",
+      "evidence": [
+        "b700f20b920a0210",
+        "227599b68bbb5115",
+        "d588a67f994e7662"
+      ],
+      "topic": "Government Oversight"
+    },
+    {
+      "direction": "up",
+      "evidence": [
+        "24008d4050ab8b29",
+        "27b9dc158c79fd8d",
+        "8d94f38c1c64a03b"
+      ],
+      "topic": "Political Accountability"
+    }
+  ],
+  "silences": [
+    {
+      "expectedButMissing": "Climate change's role in health crises, particularly in the U.S.",
+      "theme": "Environmental Health"
+    },
+    {
+      "expectedButMissing": "Economic data from major tech firms beyond Apple and Amazon",
+      "theme": "Tech Industry Performance"
+    }
+  ],
+  "storyMortality": [
+    {
+      "ceasedSince": "2025-11-02",
+      "note": "The '6-7' meme lost traction after peak viral phase",
+      "theme": "Internet Culture"
+    }
+  ],
+  "topMilestones": [
+    {
+      "clusters": [
+        "8d94f38c1c64a03b",
+        "43d97ef0e3b472f6",
+        "faec93a5861c6132"
+      ],
+      "date": "2025-11-01",
+      "what": "Major shifts in royal family structure and health policy"
+    }
+  ]
+}
