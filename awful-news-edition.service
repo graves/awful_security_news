@@ -1,0 +1,29 @@
+[Unit]
+Description=Awful Security News Edition Builder
+Requires=docker.service
+After=docker.service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/tg/awful_security_news
+
+# Run the edition using Just with Nushell
+ExecStart=/home/tg/.cargo/bin/just run-edition
+
+# Security settings
+User=tg
+Group=tg
+
+# Environment
+Environment="HOME=/home/tg"
+Environment="PATH=/home/tg/.cargo/bin:/home/tg/miniconda3/bin:/usr/local/bin:/usr/bin:/bin"
+Environment="CONDA_PREFIX=/home/tg/miniconda3"
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

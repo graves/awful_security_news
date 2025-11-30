@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Awful Security News Edition 3 times daily
+
+[Timer]
+# Run at 6am, 12pm, and 6pm Eastern
+OnCalendar=*-*-* 06:00:00 America/New_York
+OnCalendar=*-*-* 12:00:00 America/New_York
+OnCalendar=*-*-* 18:00:00 America/New_York
+Persistent=true
+
+[Install]
+WantedBy=timers.target

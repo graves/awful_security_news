@@ -1,0 +1,27 @@
+[Unit]
+Description=Awful Security News Docker Stack (Caddy + Elasticsearch)
+Requires=docker.service
+After=docker.service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/home/tg/awful_security_news
+
+# Start the Docker stack
+ExecStart=/usr/bin/docker compose -f /home/tg/awful_security_news/docker-compose.prod.yml up -d
+
+# Stop the Docker stack
+ExecStop=/usr/bin/docker compose -f /home/tg/awful_security_news/docker-compose.prod.yml down
+
+# Security settings
+User=tg
+Group=tg
+
+# Environment
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+
+[Install]
+WantedBy=multi-user.target

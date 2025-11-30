@@ -10,3 +10,6 @@ package-lock.json
 
 # Elasticsearch
 elasticsearch_data/
+
+# Docker output directories
+output/

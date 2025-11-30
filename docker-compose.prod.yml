@@ -1,47 +1,30 @@
 version: '3.8'
 
 services:
+  # Elasticsearch for search
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
-    container_name: awful_news_elasticsearch_prod
+    container_name: awful_news_elasticsearch
     restart: unless-stopped
     environment:
-      # Single-node cluster (sufficient for search-only workload)
       - discovery.type=single-node
-
-      # Security disabled for simplicity (runs on localhost only)
       - xpack.security.enabled=false
-
-      # Memory settings (adjust based on your server)
-      # For a server with 4GB+ RAM, these are conservative
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-
-      # Disable ML features to save memory
       - xpack.ml.enabled=false
-
-      # Logging
-      - "logger.level=WARN"
-
+      - logger.level=WARN
     ports:
-      # Only bind to localhost for security
+      # Expose to localhost only for host Caddy to proxy
       - "127.0.0.1:9200:9200"
-
     volumes:
-      # Persist data across restarts
-      - elasticsearch_prod_data:/usr/share/elasticsearch/data
-
+      - elasticsearch_data:/usr/share/elasticsearch/data
     networks:
-      - elastic
-
-    # Health check
+      - awful_news
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
-
-    # Resource limits (adjust based on your server)
     deploy:
       resources:
         limits:
@@ -49,10 +32,90 @@ services:
         reservations:
           memory: 512M
 
+  # Builder service - runs on-demand to generate content
+  builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awful_news_builder
+    volumes:
+      # Source files (read-only for safety)
+      - ./src:/app/src:ro
+      - ./book.toml:/app/book.toml:ro
+      - ./index_elasticsearch.js:/app/index_elasticsearch.js:ro
+      - ./daily_analysis.html:/app/daily_analysis.html:ro
+      - ./awful_news_vibes.js:/app/awful_news_vibes.js:ro
+      # Output directories (writable, bind-mounted to host)
+      - ./output/site:/app/output/site
+      - ./output/api:/app/output/api
+      - ./output/viz:/app/output/viz
+      # API input from external tools
+      - ./api_out:/app/api_out:ro
+      - ./viz:/app/viz_in:ro
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - SITE_HOSTNAME=news.awfulsec.com
+    networks:
+      - awful_news
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    # Don't start automatically - run via `docker compose run builder`
+    profiles:
+      - tools
+    command: >
+      bash -c "
+        echo 'Building mdBook site...'
+        mdbook build -d /app/output/site
+
+        echo 'Copying static assets...'
+        cp /app/daily_analysis.html /app/output/site/
+        mkdir -p /app/output/site/assets
+        cp /app/awful_news_vibes.js /app/output/site/assets/
+
+        echo 'Writing robots.txt...'
+        cat > /app/output/site/robots.txt << 'EOF'
+      User-agent: *
+      Disallow:
+      Disallow: /assets
+      Disallow: /theme
+      Sitemap: https://news.awfulsec.com/sitemap.xml
+      EOF
+
+        echo 'Generating sitemap...'
+        mdbook-sitemap-generator -d news.awfulsec.com -o /app/output/site/sitemap.xml
+
+        echo 'Indexing content into Elasticsearch...'
+        BOOK_DIR=/app/output/site node /app/index_elasticsearch.js
+
+        echo 'Build complete!'
+      "
+
+  # Indexer service - just runs the Elasticsearch indexer
+  indexer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: awful_news_indexer
+    volumes:
+      - ./output/site:/app/output/site:ro
+      - ./index_elasticsearch.js:/app/index_elasticsearch.js:ro
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - BOOK_DIR=/app/output/site
+    networks:
+      - awful_news
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    profiles:
+      - tools
+    command: node /app/index_elasticsearch.js
+
 volumes:
-  elasticsearch_prod_data:
+  elasticsearch_data:
     driver: local
 
 networks:
-  elastic:
+  awful_news:
     driver: bridge
