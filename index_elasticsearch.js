@@ -15,7 +15,7 @@ const fetch = require('node-fetch');
 // Configuration
 const ELASTICSEARCH_URL = process.env.ELASTICSEARCH_URL || 'http://localhost:9200';
 const INDEX_NAME = 'awful_news';
-const BOOK_DIR = path.join(__dirname, 'book');
+const BOOK_DIR = process.env.BOOK_DIR || '/var/www/html/news.awfulsec.com';
 
 /**
  * Create or update the Elasticsearch index with proper mappings
