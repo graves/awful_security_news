@@ -32,66 +32,7 @@ services:
         reservations:
           memory: 512M
 
-  # Builder service - runs on-demand to generate content
-  builder:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: awful_news_builder
-    volumes:
-      # Source files (read-only for safety)
-      - ./src:/app/src:ro
-      - ./book.toml:/app/book.toml:ro
-      - ./index_elasticsearch.js:/app/index_elasticsearch.js:ro
-      - ./daily_analysis.html:/app/daily_analysis.html:ro
-      - ./awful_news_vibes.js:/app/awful_news_vibes.js:ro
-      # Output directories (writable, bind-mounted to host)
-      - ./output/site:/app/output/site
-      - ./output/api:/app/output/api
-      - ./output/viz:/app/output/viz
-      # API input from external tools
-      - ./api_out:/app/api_out:ro
-      - ./viz:/app/viz_in:ro
-    environment:
-      - ELASTICSEARCH_URL=http://elasticsearch:9200
-      - SITE_HOSTNAME=news.awfulsec.com
-    networks:
-      - awful_news
-    depends_on:
-      elasticsearch:
-        condition: service_healthy
-    # Don't start automatically - run via `docker compose run builder`
-    profiles:
-      - tools
-    command: >
-      bash -c "
-        echo 'Building mdBook site...'
-        mdbook build -d /app/output/site
-
-        echo 'Copying static assets...'
-        cp /app/daily_analysis.html /app/output/site/
-        mkdir -p /app/output/site/assets
-        cp /app/awful_news_vibes.js /app/output/site/assets/
-
-        echo 'Writing robots.txt...'
-        cat > /app/output/site/robots.txt << 'EOF'
-      User-agent: *
-      Disallow:
-      Disallow: /assets
-      Disallow: /theme
-      Sitemap: https://news.awfulsec.com/sitemap.xml
-      EOF
-
-        echo 'Generating sitemap...'
-        mdbook-sitemap-generator -d news.awfulsec.com -o /app/output/site/sitemap.xml
-
-        echo 'Indexing content into Elasticsearch...'
-        BOOK_DIR=/app/output/site node /app/index_elasticsearch.js
-
-        echo 'Build complete!'
-      "
-
-  # Indexer service - just runs the Elasticsearch indexer
+  # Indexer service - indexes content into Elasticsearch
   indexer:
     build:
       context: .
@@ -100,6 +41,8 @@ services:
     volumes:
       - ./output/site:/app/output/site:ro
       - ./index_elasticsearch.js:/app/index_elasticsearch.js:ro
+      - ./package.json:/app/package.json:ro
+      - ./node_modules:/app/node_modules:ro
     environment:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
       - BOOK_DIR=/app/output/site

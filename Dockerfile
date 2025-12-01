@@ -1,25 +1,14 @@
-# Multi-stage Dockerfile for Awful Security News
-# Stage 1: Build environment with Rust tools
-FROM rust:1.75-bookworm AS rust-builder
+# Dockerfile for Awful Security News
+# Only needs Node.js for Elasticsearch indexing
+# mdbook/sitemap tools are bind-mounted from host
 
-# Install mdbook and sitemap generator
-RUN cargo install mdbook mdbook-sitemap-generator
-
-# Stage 2: Runtime with all necessary tools
-FROM debian:bookworm-slim AS runtime
+FROM node:18-slim
 
 # Install runtime dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
     curl \
-    rsync \
-    nodejs \
-    npm \
     && rm -rf /var/lib/apt/lists/*
-
-# Copy Rust binaries from builder
-COPY --from=rust-builder /usr/local/cargo/bin/mdbook /usr/local/bin/
-COPY --from=rust-builder /usr/local/cargo/bin/mdbook-sitemap-generator /usr/local/bin/
 
 # Create app user
 RUN useradd -m -s /bin/bash appuser

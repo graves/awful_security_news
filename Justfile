@@ -7,9 +7,11 @@ set shell := ["nu", "-c"]
 PROJECT_DIR := "/home/tg/awful_security_news"
 CONDA_PREFIX := env_var_or_default("CONDA_PREFIX", "/home/tg/miniconda3")
 
-# Binaries (host-side, for content generation)
+# Binaries (host-side)
 AWFUL_TEXT_NEWS_BIN := "/home/tg/.cargo/bin/awful_text_news"
 AWFUL_NEWS_VIBES_BIN := "/home/tg/.cargo/bin/awful_news_vibes"
+MDBOOK_BIN := "/home/tg/.cargo/bin/mdbook"
+SITEMAP_BIN := "/home/tg/.cargo/bin/mdbook-sitemap-generator"
 
 # Awful Jade Configs
 AWFUL_CLUSTER_CONFIG := "/home/tg/.config/aj/awful_cluster_config.yaml"
@@ -167,12 +169,34 @@ copy-meta-post:
     cp $latest $summary_path
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Copied ($latest) to daily_summary.md"
 
-# Build the mdBook site using Docker
+# Build the mdBook site on host
 build-site:
     #!/usr/bin/env nu
-    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Building mdBook site via Docker..."
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Building mdBook site..."
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml run --rm builder
+
+    # Build mdbook to output directory
+    ^"{{MDBOOK_BIN}}" build -d "{{SITE_OUT}}"
+
+    # Copy static assets
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Copying static assets..."
+    cp "{{PROJECT_DIR}}/daily_analysis.html" "{{SITE_OUT}}/"
+    mkdir "{{SITE_OUT}}/assets"
+    cp "{{PROJECT_DIR}}/awful_news_vibes.js" "{{SITE_OUT}}/assets/"
+
+    # Write robots.txt
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Writing robots.txt..."
+    "User-agent: *
+Disallow:
+Disallow: /assets
+Disallow: /theme
+Sitemap: https://news.awfulsec.com/sitemap.xml" | save -f "{{SITE_OUT}}/robots.txt"
+
+    # Generate sitemap
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Generating sitemap..."
+    ^"{{SITEMAP_BIN}}" -d "news.awfulsec.com" -o "{{SITE_OUT}}/sitemap.xml"
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Build complete."
 
 # Copy API and VIZ outputs to Docker-mounted directories
 copy-outputs:
