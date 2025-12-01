@@ -186,15 +186,12 @@ build-site:
 
     # Write robots.txt
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Writing robots.txt..."
-    "User-agent: *
-Disallow:
-Disallow: /assets
-Disallow: /theme
-Sitemap: https://news.awfulsec.com/sitemap.xml" | save -f "{{SITE_OUT}}/robots.txt"
+    let robots = "User-agent: *\nDisallow:\nDisallow: /assets\nDisallow: /theme\nSitemap: https://news.awfulsec.com/sitemap.xml"
+    $robots | save -f $"{{SITE_OUT}}/robots.txt"
 
     # Generate sitemap
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Generating sitemap..."
-    ^"{{SITEMAP_BIN}}" -d "news.awfulsec.com" -o "{{SITE_OUT}}/sitemap.xml"
+    ^"{{SITEMAP_BIN}}" -d "news.awfulsec.com" -o $"{{SITE_OUT}}/sitemap.xml"
 
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Build complete."
 
