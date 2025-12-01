@@ -144,7 +144,7 @@ copy-meta-post:
     cd "{{PROJECT_DIR}}"
 
     # Find all meta_post.md files and get the latest by modification time
-    let meta_posts = (glob "{{SRC_VIZ_OUT}}/**/meta_post.md" | each { |f| { path: $f, mtime: ($f | path expand | metadata | get modified) } } | sort-by mtime)
+    let meta_posts = (glob "{{SRC_VIZ_OUT}}/**/meta_post.md" | each { |f| { path: $f, mtime: (ls -l $f | get 0.modified) } } | sort-by mtime)
 
     if ($meta_posts | is-empty) {
         print $"ERROR: No meta_post.md found under {{SRC_VIZ_OUT}}"
