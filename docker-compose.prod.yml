@@ -39,13 +39,13 @@ services:
       dockerfile: Dockerfile
     container_name: awful_news_indexer
     volumes:
-      - ./output/site:/app/output/site:ro
+      - ./output/site:/app/site:ro
       - ./index_elasticsearch.js:/app/index_elasticsearch.js:ro
       - ./package.json:/app/package.json:ro
       - ./node_modules:/app/node_modules:ro
     environment:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
-      - BOOK_DIR=/app/output/site
+      - BOOK_DIR=/app/site
     networks:
       - awful_news
     depends_on:

@@ -17,7 +17,7 @@ SITEMAP_BIN := "/home/tg/.cargo/bin/mdbook-sitemap-generator"
 AWFUL_CLUSTER_CONFIG := "/home/tg/.config/aj/awful_cluster_config.yaml"
 AWFUL_VIBES_CONFIG := "/home/tg/.config/aj/awful_vibes_config.yaml"
 
-# Output directories (bind-mounted to Docker)
+# Output directories (served by Caddy from home directory)
 OUTPUT_DIR := PROJECT_DIR + "/output"
 SITE_OUT := OUTPUT_DIR + "/site"
 API_OUT := OUTPUT_DIR + "/api"
