@@ -196,7 +196,7 @@ build-site:
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Build complete."
 
 # Copy API and VIZ outputs to Docker-mounted directories
-copy-outputs:
+copy-outputs: update-viz-index
     #!/usr/bin/env nu
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Copying API and VIZ to output directories..."
 
@@ -282,3 +282,36 @@ shell service:
 # Full reset: stop, clean, rebuild, start
 reset: down clean rebuild up
     @echo $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Full reset complete."
+
+# Regenerate viz/index.json from existing viz date directories
+update-viz-index:
+    #!/usr/bin/env nu
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Updating viz index.json..."
+    cd "{{PROJECT_DIR}}"
+
+    # Find all date directories in viz/ that have viz.lifecycles.json
+    let dates = (glob "{{SRC_VIZ_OUT}}/2025-*/viz.lifecycles.json"
+        | each { |f| $f | path dirname | path basename }
+        | sort)
+
+    if ($dates | is-empty) {
+        print "ERROR: No viz data found in {{SRC_VIZ_OUT}}"
+        exit 1
+    }
+
+    let latest = ($dates | last)
+    let index = { dates: $dates, latest: $latest, version: 1 }
+
+    $index | to json | save -f "{{SRC_VIZ_OUT}}/index.json"
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Updated index.json with ($dates | length) dates, latest: ($latest)"
+
+# Force regenerate vibes (ignore time restriction)
+force-vibes:
+    #!/usr/bin/env nu
+    $env.PATH = $"{{CONDA_PREFIX}}/bin:/usr/bin:/bin:/home/tg/.cargo/bin"
+    $env.LD_LIBRARY_PATH = $"{{CONDA_PREFIX}}/lib:{{CONDA_PREFIX}}/lib/python3.11/site-packages/torch/lib"
+    $env.TORCH_USE_CUDA = "0"
+    $env.TORCH_CUDA_VERSION = "cpu"
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Force running awful_news_vibes..."
+    ^"{{AWFUL_NEWS_VIBES_BIN}}" --cluster-config "{{AWFUL_CLUSTER_CONFIG}}" --vibe-config "{{AWFUL_VIBES_CONFIG}}" --api-dir "{{SRC_API_OUT}}" -o "{{SRC_VIZ_OUT}}"
