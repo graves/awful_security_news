@@ -39,7 +39,7 @@ up:
     #!/usr/bin/env nu
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Starting Docker services..."
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml up -d
+    docker compose -f docker/docker-compose.prod.yml up -d
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Services started. Site available at http://localhost"
 
 # Stop all services
@@ -47,32 +47,32 @@ down:
     #!/usr/bin/env nu
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Stopping Docker services..."
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml down
+    docker compose -f docker/docker-compose.prod.yml down
 
 # View logs from all services
 logs:
     #!/usr/bin/env nu
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml logs -f
+    docker compose -f docker/docker-compose.prod.yml logs -f
 
 # View logs from specific service
 logs-service service:
     #!/usr/bin/env nu
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml logs -f {{service}}
+    docker compose -f docker/docker-compose.prod.yml logs -f {{service}}
 
 # Restart services
 restart:
     #!/usr/bin/env nu
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml restart
+    docker compose -f docker/docker-compose.prod.yml restart
 
 # Rebuild Docker images
 rebuild:
     #!/usr/bin/env nu
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Rebuilding Docker images..."
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml build --no-cache
+    docker compose -f docker/docker-compose.prod.yml build --no-cache
 
 # ============================================================================
 # EDITION BUILD (runs on host, outputs to Docker-mounted dirs)
@@ -180,9 +180,9 @@ build-site:
 
     # Copy static assets
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Copying static assets..."
-    cp "{{PROJECT_DIR}}/daily_analysis.html" "{{SITE_OUT}}/"
+    cp "{{PROJECT_DIR}}/assets/daily_analysis.html" "{{SITE_OUT}}/"
     mkdir "{{SITE_OUT}}/assets"
-    cp "{{PROJECT_DIR}}/awful_news_vibes.js" "{{SITE_OUT}}/assets/"
+    cp "{{PROJECT_DIR}}/assets/awful_news_vibes.js" "{{SITE_OUT}}/assets/"
 
     # Write robots.txt
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Writing robots.txt..."
@@ -215,14 +215,14 @@ index-elasticsearch:
     cd "{{PROJECT_DIR}}"
 
     # Check if Elasticsearch is healthy
-    let es_health = (do { docker compose -f docker-compose.prod.yml exec -T elasticsearch curl -sf http://localhost:9200/_cluster/health } | complete)
+    let es_health = (do { docker compose -f docker/docker-compose.prod.yml exec -T elasticsearch curl -sf http://localhost:9200/_cluster/health } | complete)
     if $es_health.exit_code != 0 {
         print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] WARNING: Elasticsearch is not available"
         print "Skipping search indexing. Run 'just up' to start services."
         exit 0
     }
 
-    let result = (do { docker compose -f docker-compose.prod.yml run --rm indexer } | complete)
+    let result = (do { docker compose -f docker/docker-compose.prod.yml run --rm indexer } | complete)
     if $result.exit_code == 0 {
         print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Elasticsearch indexing completed successfully"
     } else {
@@ -239,10 +239,10 @@ es-status:
     #!/usr/bin/env nu
     print "Checking Elasticsearch cluster health..."
     cd "{{PROJECT_DIR}}"
-    let health = (docker compose -f docker-compose.prod.yml exec -T elasticsearch curl -s http://localhost:9200/_cluster/health | from json)
+    let health = (docker compose -f docker/docker-compose.prod.yml exec -T elasticsearch curl -s http://localhost:9200/_cluster/health | from json)
     print $health
     print "\nIndex stats:"
-    let stats = (docker compose -f docker-compose.prod.yml exec -T elasticsearch curl -s http://localhost:9200/awful_news/_stats | from json)
+    let stats = (docker compose -f docker/docker-compose.prod.yml exec -T elasticsearch curl -s http://localhost:9200/awful_news/_stats | from json)
     if ($stats | get -i _all?.primaries? | is-not-empty) {
         print ($stats | get _all.primaries)
     } else {
@@ -253,7 +253,7 @@ es-status:
 index-only:
     #!/usr/bin/env nu
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml run --rm indexer
+    docker compose -f docker/docker-compose.prod.yml run --rm indexer
 
 # Build only (no indexing) - useful for testing
 build-only: check-binaries ensure-output-dirs generate-content generate-vibes copy-meta-post build-site copy-outputs
@@ -271,13 +271,13 @@ clean:
 status:
     #!/usr/bin/env nu
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml ps
+    docker compose -f docker/docker-compose.prod.yml ps
 
 # Shell into a running container
 shell service:
     #!/usr/bin/env nu
     cd "{{PROJECT_DIR}}"
-    docker compose -f docker-compose.prod.yml exec {{service}} sh
+    docker compose -f docker/docker-compose.prod.yml exec {{service}} sh
 
 # Full reset: stop, clean, rebuild, start
 reset: down clean rebuild up

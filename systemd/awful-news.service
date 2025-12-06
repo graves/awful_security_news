@@ -11,10 +11,10 @@ RemainAfterExit=yes
 WorkingDirectory=/home/tg/awful_security_news
 
 # Start the Docker stack
-ExecStart=/usr/bin/docker compose -f /home/tg/awful_security_news/docker-compose.prod.yml up -d
+ExecStart=/usr/bin/docker compose -f /home/tg/awful_security_news/docker/docker-compose.prod.yml up -d
 
 # Stop the Docker stack
-ExecStop=/usr/bin/docker compose -f /home/tg/awful_security_news/docker-compose.prod.yml down
+ExecStop=/usr/bin/docker compose -f /home/tg/awful_security_news/docker/docker-compose.prod.yml down
 
 # Security settings
 User=tg
