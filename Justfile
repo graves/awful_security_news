@@ -5,7 +5,6 @@ set shell := ["nu", "-c"]
 
 # Configuration
 PROJECT_DIR := "/home/tg/awful_security_news"
-CONDA_PREFIX := env_var_or_default("CONDA_PREFIX", "/home/tg/miniconda3")
 
 # Binaries (host-side)
 AWFUL_TEXT_NEWS_BIN := "/home/tg/.cargo/bin/awful_text_news"
@@ -116,22 +115,11 @@ generate-content:
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Generating API JSON + Markdown with awful_text_news..."
     cd "{{PROJECT_DIR}}"
 
-    # Set up environment for LibTorch
-    $env.PATH = $"{{CONDA_PREFIX}}/bin:/usr/bin:/bin:/home/tg/.cargo/bin"
-    $env.LD_LIBRARY_PATH = $"{{CONDA_PREFIX}}/lib:{{CONDA_PREFIX}}/lib/python3.11/site-packages/torch/lib"
-    $env.TORCH_USE_CUDA = "0"
-    $env.TORCH_CUDA_VERSION = "cpu"
-
     ^"{{AWFUL_TEXT_NEWS_BIN}}" --json-output-dir "{{SRC_API_OUT}}" --markdown-output-dir src
 
 # Generate daily summary and d3 visualizations (morning only)
 generate-vibes:
     #!/usr/bin/env nu
-    $env.PATH = $"{{CONDA_PREFIX}}/bin:/usr/bin:/bin:/home/tg/.cargo/bin"
-    $env.LD_LIBRARY_PATH = $"{{CONDA_PREFIX}}/lib:{{CONDA_PREFIX}}/lib/python3.11/site-packages/torch/lib"
-    $env.TORCH_USE_CUDA = "0"
-    $env.TORCH_CUDA_VERSION = "cpu"
-
     let hour = (date now | date to-timezone "America/New_York" | format date "%H" | into int)
     if $hour >= 4 and $hour < 12 {
         print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Morning edition detected — running awful_news_vibes..."
@@ -308,10 +296,77 @@ update-viz-index:
 # Force regenerate vibes (ignore time restriction)
 force-vibes:
     #!/usr/bin/env nu
-    $env.PATH = $"{{CONDA_PREFIX}}/bin:/usr/bin:/bin:/home/tg/.cargo/bin"
-    $env.LD_LIBRARY_PATH = $"{{CONDA_PREFIX}}/lib:{{CONDA_PREFIX}}/lib/python3.11/site-packages/torch/lib"
-    $env.TORCH_USE_CUDA = "0"
-    $env.TORCH_CUDA_VERSION = "cpu"
-
     print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Force running awful_news_vibes..."
     ^"{{AWFUL_NEWS_VIBES_BIN}}" --cluster-config "{{AWFUL_CLUSTER_CONFIG}}" --vibe-config "{{AWFUL_VIBES_CONFIG}}" --api-dir "{{SRC_API_OUT}}" -o "{{SRC_VIZ_OUT}}"
+
+# ============================================================================
+# DEPLOYMENT COMMANDS (requires sudo)
+# ============================================================================
+
+# Install systemd service files to /etc/systemd/system/
+install-services:
+    #!/usr/bin/env nu
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Installing systemd service files..."
+
+    sudo cp "{{PROJECT_DIR}}/systemd/awful-news.service" /etc/systemd/system/
+    sudo cp "{{PROJECT_DIR}}/systemd/awful-news-edition.service" /etc/systemd/system/
+    sudo cp "{{PROJECT_DIR}}/systemd/awful-news-edition.timer" /etc/systemd/system/
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Reloading systemd daemon..."
+    sudo systemctl daemon-reload
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Systemd services installed. Enable with:"
+    print "  sudo systemctl enable --now awful-news.service"
+    print "  sudo systemctl enable --now awful-news-edition.timer"
+
+# Enable and start all services
+enable-services:
+    #!/usr/bin/env nu
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Enabling and starting services..."
+
+    sudo systemctl enable --now awful-news.service
+    sudo systemctl enable --now awful-news-edition.timer
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Services enabled and started."
+    sudo systemctl status awful-news.service --no-pager
+    sudo systemctl status awful-news-edition.timer --no-pager
+
+# Disable and stop all services
+disable-services:
+    #!/usr/bin/env nu
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Disabling and stopping services..."
+
+    sudo systemctl disable --now awful-news-edition.timer
+    sudo systemctl disable --now awful-news.service
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Services disabled and stopped."
+
+# Full deployment: install services, rebuild Docker images, enable services
+deploy: install-services rebuild enable-services
+    @echo $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Deployment complete."
+
+# Update deployment: pull latest, rebuild images, restart services
+update:
+    #!/usr/bin/env nu
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Updating deployment..."
+    cd "{{PROJECT_DIR}}"
+
+    git pull
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Rebuilding Docker images..."
+    docker compose -f docker/docker-compose.prod.yml build
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Restarting services..."
+    sudo systemctl restart awful-news.service
+
+    print $"[(date now | format date '%Y-%m-%dT%H:%M:%S%z')] Update complete."
+
+# Show status of all services
+service-status:
+    #!/usr/bin/env nu
+    print "=== Docker Stack Status ==="
+    sudo systemctl status awful-news.service --no-pager
+    print "\n=== Edition Timer Status ==="
+    sudo systemctl status awful-news-edition.timer --no-pager
+    print "\n=== Next Timer Trigger ==="
+    systemctl list-timers awful-news-edition.timer --no-pager

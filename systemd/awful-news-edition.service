@@ -18,8 +18,7 @@ Group=tg
 
 # Environment
 Environment="HOME=/home/tg"
-Environment="PATH=/home/tg/.cargo/bin:/home/tg/miniconda3/bin:/usr/local/bin:/usr/bin:/bin"
-Environment="CONDA_PREFIX=/home/tg/miniconda3"
+Environment="PATH=/home/tg/.cargo/bin:/usr/local/bin:/usr/bin:/bin"
 
 # Logging
 StandardOutput=journal

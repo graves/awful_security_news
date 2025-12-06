@@ -3,9 +3,6 @@ set -euo pipefail
 umask 0002
 
 # ---------- Config ----------------------
-# Conda env providing PyTorch/LibTorch
-CONDA_PREFIX="${CONDA_PREFIX:-/home/tg/miniconda3}"
-
 # Project & deploy paths
 PROJECT_DIR="/home/tg/awful_security_news"
 
@@ -31,14 +28,8 @@ SITE_DEST="${DEPLOY_ROOT}"
 API_DEST="${DEPLOY_ROOT}/api"
 VIZ_DEST="${DEPLOY_ROOT}/viz"
 
-# ---------- Minimal PATH and loader just for *this* process ----------
-export PATH="${CONDA_PREFIX}/bin:/usr/bin:/bin:/home/tg/.cargo/bin"
-# Add only the lib dirs your binary needs (LibTorch + MKL)
-export LD_LIBRARY_PATH="${CONDA_PREFIX}/lib:${CONDA_PREFIX}/lib/python3.11/site-packages/torch/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
-
-# If your build accidentally tries CUDA, keep it on CPU:
-export TORCH_USE_CUDA=0
-export TORCH_CUDA_VERSION=cpu
+# ---------- Minimal PATH for *this* process ----------
+export PATH="/usr/bin:/bin:/home/tg/.cargo/bin"
 
 # ---------- Helpers ----------
 log() { printf '[%(%Y-%m-%dT%H:%M:%S%z)T] %s\n' -1 "$*"; }

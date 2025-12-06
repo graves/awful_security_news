@@ -11,10 +11,10 @@ RemainAfterExit=yes
 WorkingDirectory=/home/tg/awful_security_news
 
 # Start the container
-ExecStart=/usr/bin/docker compose -f /home/tg/awful_security_news/docker-compose.prod.yml up -d
+ExecStart=/usr/bin/docker compose -f /home/tg/awful_security_news/docker/docker-compose.prod.yml up -d
 
 # Stop the container
-ExecStop=/usr/bin/docker compose -f /home/tg/awful_security_news/docker-compose.prod.yml down
+ExecStop=/usr/bin/docker compose -f /home/tg/awful_security_news/docker/docker-compose.prod.yml down
 
 # Restart policy
 Restart=on-failure
