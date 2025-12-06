@@ -171,8 +171,8 @@ just update
 
 ## Related Projects
 
-- [awful_text_news](https://github.com/graves/awful_text_news) - News fetching and LLM summarization
-- [awful_news_vibes](https://github.com/graves/awful_news_vibes) - Narrative analysis and visualization
+- [awful_text_news](https://github.com/Awful-Security/awful_text_news) - News fetching and LLM summarization
+- [awful_news_vibes](https://github.com/Awful-Security/awful_news_vibes) - Narrative analysis and visualization
 
 ## License
 
